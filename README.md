@@ -31,3 +31,7 @@ Rule-based encoder: To replicate the result of rule-based encoder, you need to f
 LSTM encoder: We use the allennlp tools, you need to download the [GloVe](https://nlp.stanford.edu/projects/glove/) embedding files and [ELMo](https://allennlp.org/elmo) weights, replace the locations in [jsonnet](https://github.com/haonan-li/neural-factoid-geoqa/src/lstm_tagger.jsonnet) file, and run `bash lstm_tagger_train.sh`.
 
 BERT encoder: We use the [huggingface/transformers](https://github.com/huggingface/transformers) token-level encoder, simply run `bash bert_tagger_train_pred.sh` to use the BERT encoder.
+
+## Graph Generation
+
+Use [am-parser](https://github.com/coli-saar/am-parser) to generate DM graph representation, then use `graph_build_and_eval.ipynb` to generate the graph use the tagging results and DM graph.

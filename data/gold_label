@@ -1,0 +1,400 @@
+How	many	hospitals	are	there	in	Oxford	?
+5	-	t	,	,	r	n	,
+How	many	pharmacies	are	in	200	meter	radius	of	High	Street	in	Oxford	?
+5	-	t	,	r	d	-	,	r	n	-	r	n	,
+Which	is	the	closest	airport	to	London	?
+3	,	,	q	t	r	n	,
+How	many	underground	lines	does	London	have	?
+5	-	t	-	,	n	s	,
+Which	restaurants	are	near	Edinburgh	Castle	?
+3	t	,	r	n	-	,
+Which	hotels	are	near	Big	Ben	?
+3	t	,	r	n	-	,
+How	many	counties	does	England	have	?
+5	-	t	,	n	s	,
+Does	England	have	more	counties	than	Ireland	?
+8	n	s	q	t	q	n	,
+Which	airports	are	in	Ireland	?
+3	t	,	r	n	,
+Which	restaurants	are	close	to	London	Bridge	?
+3	t	,	r	-	n	-	,
+Is	the	Castle	of	Edinburgh	less	than	2	km	away	from	Calton	Hill	?
+8	,	n	-	-	q	-	d	-	,	r	n	-	,
+Which	hospitals	are	close	to	Stirling	Castle	?
+3	t	,	r	-	n	-	,
+Is	there	any	hospital	in	a	range	of	1	km	from	Jubilee	Gardens	in	London	?
+8	,	,	t	r	,	,	,	d	-	r	n	-	r	n	,
+Where	is	the	closest	market	to	Elephant	and	Castle	underground	station	?
+1	,	,	q	t	r	n	-	-	-	-	,
+Which	is	the	highest	point	in	Cheshire	?
+3	,	,	q	t	r	n	,
+Which	counties	border	county	Lincolnshire	?
+3	t	r	n	-	,
+Which	is	the	largest	lake	in	England	?
+3	,	,	q	t	r	n	,
+Which	is	the	highest	building	in	London	?
+3	,	,	q	t	r	n	,
+Where	is	Loch	Goil	located	?
+1	,	n	-	s	,
+Which	theaters	are	near	Trafalgar	Square	?
+3	t	,	r	n	-	,
+Which	airports	are	in	London	?
+3	t	,	r	n	,
+Which	bridges	cross	River	Thames	?
+3	t	r	n	-	,
+Through	which	cities	does	River	Thames	flow	?
+r	3	t	,	n	-	s	,
+Which	universities	are	in	England	?
+3	t	,	r	n	,
+Which	is	the	highest	mountain	in	Ireland	?
+3	,	,	q	t	r	n	,
+Which	rivers	are	in	Great	Britain	?
+3	t	,	r	n	-	,
+Which	mountains	are	in	Scotland	?
+3	t	,	r	n	,
+What	is	the	name	of	Britain	's	longest	river	?
+2	,	,	o	,	n	r	q	t	,
+Which	airports	are	in	the	city	of	Salford	?
+3	t	,	r	,	n	-	-	,
+Where	is	Elizabeth	Tower	located	?
+1	,	n	-	s	,
+What	is	the	number	of	universities	in	London	?
+2	,	,	o	,	t	r	n	,
+Where	is	a	car	park	near	Big	Ben	?
+1	,	,	t	-	r	n	-	,
+Which	pubs	in	Manchester	are	near	the	Old	Trafford	stadium	?
+3	t	r	n	,	r	,	n	-	-	,
+Which	rivers	are	in	Wales	?
+3	t	,	r	n	,
+Is	there	a	river	that	crosses	Manchester	?
+8	,	,	t	,	r	n	,
+Which	rivers	cross	Derry	?
+3	t	r	n	,
+Which	counties	of	Scotland	border	England	?
+3	t	r	n	r	n	,
+Which	Scottish	counties	border	England	?
+3	q	t	r	n	,
+Which	is	the	total	area	of	Northern	Ireland	?
+3	,	,	,	o	,	n	-	,
+Where	is	Nelson	's	Column	located	?
+1	,	n	-	-	s	,
+Is	there	a	car	park	at	most	1	km	from	Waterloo	Bridge	?
+8	,	,	t	-	q	-	d	-	r	n	-	,
+Is	the	county	of	Antrim	bigger	than	the	county	of	Armagh	?
+8	,	n	-	-	q	-	,	n	-	-	,
+Does	the	county	of	Durham	border	Essex	?
+8	,	n	-	-	r	n	,
+Where	is	Trafalgar	square	located	?
+1	,	n	-	s	,
+Where	is	Emirates	Stadium	located	?
+1	,	n	-	s	,
+Which	cities	in	England	have	at	least	2	castles	?
+3	t	r	n	s	q	-	d	t	,
+Are	the	cities	that	River	Thames	crosses	more	than	10	?
+8	,	t	,	n	-	r	q	-	d	,
+Which	castles	are	in	the	Highland	council	area	of	Scotland	?
+3	t	,	r	,	n	-	-	r	n	,
+Which	restaurants	are	at	most	1	km	away	from	Big	Ben	?
+3	t	,	q	-	d	-	,	r	n	-	,
+Are	there	any	rivers	that	cross	both	England	and	Wales	?
+8	,	,	t	,	r	,	n	x	n	,
+How	many	are	the	counties	of	England	?
+5	-	,	,	t	r	n	,
+Which	is	the	biggest	county	council	in	the	Republic	of	Ireland	?
+3	,	,	q	t	-	r	,	n	-	-	,
+Which	county	of	England	occupies	the	largest	area	?
+3	t	r	n	s	,	q	o	,
+Which	is	the	smallest	lake	in	Scotland	?
+3	,	,	q	t	r	n	,
+Is	county	Oxfordshire	east	of	the	county	Essex	?
+8	n	-	r	-	,	n	-	,
+What	is	the	longest	bridge	in	Scotland	?
+2	,	,	q	t	r	n	,
+Is	there	a	national	park	near	York	?
+8	,	,	t	-	r	n	,
+Which	pubs	in	Dublin	are	near	Guinness	Brewery	?
+3	t	r	n	,	r	n	-	,
+Which	hospital	is	nearest	to	Calton	Hill	in	Edinburgh	?
+3	t	,	q	r	n	-	r	n	,
+Which	cafes	in	Manchester	are	near	Piccadilly	Gardens	?
+3	t	r	n	,	r	n	-	,
+Which	hospitals	in	Liverpool	are	near	Abercromby	Square	?
+3	t	r	n	,	r	n	-	,
+Which	pubs	in	Liverpool	are	at	most	2	km	from	Anfield	stadium	?
+3	t	r	n	,	q	-	d	-	r	n	-	,
+Which	hotels	in	Manchester	are	near	Wharfside	Way	?
+3	t	r	n	,	r	n	-	,
+Which	cafes	in	London	are	at	most	3	km	from	St.	Anthony	the	Great	and	St.	John	the	Baptist	church	?
+3	t	r	n	,	q	-	d	-	r	n	-	-	-	x	n	-	-	-	t	,
+Which	pubs	in	Liverpool	are	near	Anfield	stadium	?
+3	t	r	n	,	r	n	-	,
+Which	county	is	west	of	South	Yorkshire	?
+3	t	,	r	-	n	-	,
+Which	department	stores	are	at	most	2	km	from	Central	Park	hotel	in	London	?
+3	t	-	,	q	-	d	-	r	n	-	-	r	n	,
+Which	hotels	are	in	England	's	capital	?
+3	t	,	r	n	r	t	,
+Where	can	I	find	a	car	park	in	Bristol	?
+1	,	,	,	,	t	-	r	n	,
+Which	football	stadium	has	the	biggest	capacity	in	Ireland	?
+3	t	-	s	,	q	o	r	n	,
+Which	city	of	England	is	nearest	to	London	?
+3	t	r	n	,	q	r	n	,
+Which	hotel	is	the	nearest	to	Old	Trafford	Stadium	in	Manchester	?
+3	t	,	,	q	r	n	-	-	r	n	,
+Which	universities	are	in	county	Essex	?
+3	t	,	r	n	-	,
+Is	there	a	forest	in	Lancashire	north	of	Burnley	?
+8	,	,	t	r	n	r	-	n	,
+Which	villages	are	in	Herefordshire	?
+3	t	,	r	n	,
+Is	there	a	church	at	most	2	km	from	the	University	of	Westminster	?
+8	,	,	t	q	-	d	-	r	,	n	-	-	,
+Is	there	a	county	of	England	that	borders	the	Isle	of	Wight	?
+8	,	,	t	r	n	,	r	,	n	-	-	,
+How	many	mountains	are	there	in	Scotland	?
+5	-	t	,	,	r	n	,
+Which	site	of	Manchester	is	the	most	popular	?
+3	t	r	n	,	,	q	-	,
+Is	there	a	church	in	the	county	of	Greater	Manchester	dedicated	to	St.	Patrick	?
+8	,	,	t	r	,	t	-	-	-	s	,	n	-	,
+Which	city	is	southeast	of	Salford	?
+3	t	,	r	-	n	,
+Is	there	a	mountain	in	the	county	of	Greater	Manchester	taller	than	1300	meters	above	sea	level	?
+8	,	,	t	r	,	n	-	-	-	q	-	d	-	r	o	-	,
+Is	there	a	river	in	Ireland	that	crosses	more	than	3	cities	?
+8	,	,	t	r	n	,	r	q	-	d	t	,
+Which	university	colleges	are	in	Scotland	?
+3	t	-	,	r	n	,
+Which	mountains	in	Scotland	have	height	more	than	1000	meters	?
+3	t	r	n	s	o	q	-	d	-	,
+Which	villages	in	Scotland	have	a	population	of	less	than	500	people	?
+3	t	r	n	s	,	o	,	q	-	d	-	,
+In	which	city	is	Big	Ben	located	?
+r	3	t	,	n	-	s	,
+What	's	the	name	of	the	river	that	runs	through	London	?
+2	,	,	o	,	,	t	,	a	r	n	,
+Is	there	a	Modern	Art	Museum	in	London	?
+8	,	,	t	-	-	r	n	,
+Which	county	of	England	has	the	biggest	population	?
+3	t	r	n	s	,	q	o	,
+How	many	cities	does	Thames	river	crosses	?
+5	-	t	,	n	-	r	,
+Through	which	cities	does	River	Thames	flow	?
+r	3	t	,	n	-	a	,
+Does	the	distric	of	Coleraine	border	Belfast	?
+8	,	n	-	-	r	n	,
+Which	districts	border	London	?
+3	t	r	n	,
+Is	there	a	train	station	in	Dublin	?
+8	,	,	t	-	r	n	,
+Which	forests	are	in	Northern	Ireland	?
+3	t	,	r	n	-	,
+Which	are	the	metropolitan	counties	of	England	?
+3	,	,	q	t	r	n	,
+Which	is	the	largest	royal	borough	of	London	?
+3	,	,	q	t	-	r	n	,
+Which	Welsh	district	has	the	most	adjacent	Welsh	districts	?
+3	n	t	s	,	q	r	n	t	,
+What	is	the	name	of	the	river	that	flows	under	the	Queensway	Bridge	in	Liverpool	?
+2	,	,	o	,	,	t	,	r	r	,	n	-	r	n	,
+Is	there	a	castle	in	London	near	Trafalgar	Square	?
+8	,	,	t	r	n	r	n	-	,
+Is	there	a	park	in	Dublin	near	Grafton	Street	?
+8	,	,	t	r	n	r	n	-	,
+Is	Hampshire	north	of	Berkshire	?
+8	n	r	-	n	,
+Which	counties	of	England	border	country	Scotland	?
+3	t	r	n	r	n	-	,
+Is	Trafalgar	square	located	in	London	?
+8	n	-	s	r	n	,
+Which	is	the	oldest	bridge	of	London	?
+3	,	,	q	t	r	n	,
+Is	there	any	airfield	in	Wellesbourne	village	in	England	?
+8	,	,	t	r	n	-	r	n	,
+How	many	parks	are	there	in	Northampton	?
+5	-	t	,	,	r	n	,
+Is	there	any	stadium	in	Cardiff	?
+8	,	,	t	r	n	,
+Is	there	an	aerodrome	in	Essex	?
+8	,	,	t	r	n	,
+Which	aerodrome	is	in	Essex	?
+3	t	,	r	n	,
+Which	aerodromes	are	at	most	50	km	from	London	?
+3	t	,	q	-	d	-	r	n	,
+Is	Somerset	west	of	Westmorland	?
+8	n	r	-	n	,
+Is	Edinburgh	west	of	Glasgow	?
+8	n	r	-	n	,
+How	many	rivers	cross	the	county	West	Yorkshire	?
+5	-	t	r	,	n	-	-	,
+How	many	cities	does	Merseyside	have	?
+5	-	t	,	n	s	,
+Is	there	an	airport	in	Dublin	?
+8	,	,	t	r	n	,
+Which	are	the	counties	of	Northern	Ireland	?
+3	,	,	t	r	n	-	,
+What	historic	buildings	are	in	Buckinghamshire	?
+2	q	t	,	r	n	,
+Which	Greek	restaurants	in	London	are	near	Wembley	stadium	?
+3	q	t	r	n	,	r	n	-	,
+Is	there	a	National	Park	in	England	?
+8	,	,	t	-	r	n	,
+Is	there	a	mountain	in	Merseyside	?
+8	,	,	t	r	n	,
+Which	town	has	the	biggest	population	in	Scotland	?
+3	t	s	,	q	o	r	n	,
+Where	is	the	nearest	gas	station	to	St.	Peter	's	Square	in	Manchester	?
+1	,	,	q	t	-	r	n	-	-	-	r	n	,
+Does	county	Suffolk	border	county	Durham	?
+8	n	-	r	n	-	,
+Which	counties	of	Ireland	does	River	Shannon	cross	?
+3	t	r	n	,	n	-	r	,
+Is	Cavan	a	county	of	Ireland	?
+8	n	,	t	r	n	,
+Which	restaurants	are	at	most	500	m	from	the	University	of	Liverpool	?
+3	t	,	q	-	d	-	r	,	n	-	-	,
+Which	restaurants	are	near	Baker	Street	in	London	?
+3	t	,	r	n	-	r	n	,
+Which	lakes	are	in	Ireland	?
+3	t	,	r	n	,
+Which	parks	are	near	Trafalgar	Square	?
+3	t	,	r	n	-	,
+Which	countries	border	Wales	?
+3	t	r	n	,
+Are	there	cities	that	are	at	most	2	km	away	from	St.	David	's	in	Wales	?
+8	,	t	,	,	q	-	d	-	,	r	n	-	-	r	n	,
+Which	river	crosses	the	most	cities	in	England	?
+3	t	r	,	q	t	r	n	,
+Which	is	the	longest	river	in	Scotland	?
+3	,	,	q	t	r	n	,
+Which	city	in	Scotland	has	the	largest	population	?
+3	t	r	n	s	,	q	o	,
+Which	is	the	largest	lake	by	area	in	Great	Britain	?
+3	,	,	q	t	,	o	r	n	-	,
+Is	England	part	of	the	United	Kingdom	?
+8	n	r	-	,	n	-	,
+Which	cities	or	towns	of	the	United	Kingdom	have	a	university	?
+3	t	x	t	r	,	n	-	s	,	t	,
+Does	Everton	FC	plays	in	Liverpool	?
+8	o	-	a	,	n	,
+Which	towns	of	England	have	at	least	two	hospitals	?
+3	t	r	n	s	q	-	d	t	,
+Is	Alnwick	Castle	in	Scotland	?
+8	n	-	r	n	,
+Which	is	the	largest	city	of	Ireland	?
+3	,	,	q	t	r	n	,
+How	many	country	councils	are	there	in	Ireland	?
+5	-	t	-	,	,	r	n	,
+Which	colleges	are	in	London	?
+3	t	,	r	n	,
+Which	city	council	includes	Dublin	?
+3	t	-	s	n	,
+Which	restaurants	are	near	Stonehenge	?
+3	t	,	r	n	,
+How	many	districts	does	Northern	Ireland	have	?
+5	-	t	,	n	-	s	,
+Which	are	the	non	-	metropolitan	counties	of	England	?
+3	,	,	no	,	q	t	r	n	,
+What	tourist	attractions	are	there	in	Belfast	,	Northern	Ireland	?
+2	t	-	,	,	r	n	-	-	-	,
+Which	pubs	are	near	Mercure	Hotel	in	Glasgow	,	Scotland	?
+3	t	,	r	n	-	r	n	-	-	,
+Which	are	the	main	railway	stations	in	Glasgow	,	Scotland	?
+3	,	,	q	t	-	r	n	-	-	,
+Are	there	more	than	10	districts	in	Hampshire	,	England	?
+8	,	q	-	d	t	r	n	-	-	,
+Is	there	a	mountain	within	20	km	of	Cheshire	?
+8	,	,	t	r	d	-	r	n	,
+What	historical	monuments	are	there	in	London	?
+2	q	t	,	,	r	n	,
+Which	rivers	in	Scotland	have	more	than	100	km	length	?
+3	t	r	n	s	q	-	d	-	o	,
+What	is	the	elevation	of	the	most	elevated	spot	in	county	Down	?
+2	,	,	o	,	,	q	-	t	r	n	-	,
+What	is	the	area	of	county	Chesire	?
+2	,	,	o	,	n	-	,
+Which	are	the	districts	of	county	Chesire	?
+3	,	,	t	r	n	-	,
+Which	is	the	largest	county	of	England	?
+3	,	,	q	t	r	n	,
+What	is	the	length	of	river	Thames	?
+2	,	,	o	,	n	-	,
+Where	is	Tower	Bridge	located	?
+1	,	n	-	s	,
+Does	London	have	a	mountain	?
+8	n	s	,	t	,
+How	many	rivers	cross	England	's	cities	?
+5	-	t	r	n	r	t	,
+Is	London	south	of	Manchester	?
+8	n	r	-	n	,
+Is	Islington	near	Angel	?
+8	n	r	n	,
+Is	the	City	of	London	north	of	the	Thames	river	?
+8	,	n	-	-	r	-	,	n	-	,
+Are	there	any	lakes	in	Scotland	?
+8	,	,	t	r	n	,
+Is	there	a	car	park	near	a	bridge	on	river	Exe	?
+8	,	,	t	-	r	,	t	r	n	-	,
+Which	car	park	is	closest	to	a	bridge	on	river	Exe	?
+3	t	-	,	q	r	,	t	r	n	-	,
+Which	counties	border	county	Donegal	to	the	south	?
+3	t	r	n	-	r	-	-	,
+What	is	the	longest	river	in	England	and	Wales	?
+2	,	,	q	t	r	n	x	n	,
+Which	restaurants	in	London	are	near	Kensington	Palace	?
+3	t	r	n	,	r	n	-	,
+Is	there	a	forest	near	Manchester	?
+8	,	,	t	r	n	,
+Which	medieval	castles	are	in	Scotland	?
+3	q	t	,	r	n	,
+Which	provinces	of	Ireland	have	population	over	2	million	?
+3	t	r	n	s	o	q	d	-	,
+What	London	underground	stations	are	closest	to	the	British	Museum	?
+2	n	t	-	,	q	r	,	n	-	,
+What	is	the	most	populated	city	in	the	United	Kingdom	except	London	?
+2	,	,	q	-	t	r	,	n	-	no	n	,
+Is	the	monument	of	the	Great	Fire	of	London	east	of	King	WIlliam	Street	?
+8	,	t	,	,	o	-	-	-	r	-	n	-	-	,
+Is	the	Tower	of	London	near	river	Thames	?
+8	,	n	-	-	r	n	-	,
+Which	bars	are	near	Prince	's	street	in	Edinburgh	?
+3	t	,	r	t	-	-	r	n	,
+What	is	the	most	densely	populated	city	in	Ireland	?
+2	,	,	q	-	q	t	r	n	,
+Does	Hammersmith	Bridge	connect	Hammersmith	with	Barnes	?
+8	n	-	a	n	x	n	,
+Which	hotels	are	near	Loch	Ness	?
+3	t	,	r	n	-	,
+Is	there	a	museum	at	most	1	km	from	Liverpool	?
+8	,	,	t	q	-	d	-	r	n	,
+In	which	part	of	England	is	Liverpool	located	?
+r	3	t	r	n	,	n	s	,
+Which	city	in	Scotland	has	the	largest	population	?
+3	t	r	n	s	,	q	o	,
+Is	Glasgow	the	largest	city	of	Scotland	in	terms	of	population	?
+8	n	,	q	t	r	n	,	,	,	o	,
+What	is	the	distance	between	Liverpool	and	Glasgow	?
+2	,	,	o	r	n	,	n	,
+Is	Liverpool	part	of	Scotland	?
+8	n	r	-	n	,
+In	what	county	is	Stonehenge	located	?
+r	2	t	,	n	s	,
+Which	rivers	discharge	into	the	Solway	Firth	?
+3	t	a	-	,	n	-	,
+Which	museums	are	within	3	km	of	Saint	George	's	hotel	in	London	?
+3	t	,	r	d	-	r	n	-	-	-	r	n	,
+Is	there	a	forest	in	county	Cheshire	?
+8	,	,	t	r	n	-	,
+Which	art	museums	are	at	most	1	km	from	Charlotte	Square	in	Edinburgh	?
+3	t	-	,	q	-	d	-	r	n	-	r	n	,
+How	many	rivers	cross	Edinburgh	?
+5	-	t	r	n	,
+How	many	counties	does	the	river	Thames	cross	?
+5	-	t	,	,	n	-	r	,
+Which	rivers	cross	county	Cheshire	?
+3	t	r	n	-	,
+Which	county	is	east	of	county	Dorset	?
+3	t	,	r	-	n	-	,
+Is	there	a	river	that	crosses	county	Greater	Manchester	?
+8	,	,	t	,	r	n	-	-	,

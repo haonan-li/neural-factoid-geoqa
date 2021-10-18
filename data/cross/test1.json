@@ -1,0 +1,40 @@
+{"tokens": ["Is", "there", "a", "car", "park", "at", "most", "1", "km", "from", "Waterloo", "Bridge", "?"], "labels": [14, 1, 1, 5, 13, 2, 13, 10, 13, 0, 8, 13, 1]}
+{"tokens": ["Is", "the", "county", "of", "Antrim", "bigger", "than", "the", "county", "of", "Armagh", "?"], "labels": [14, 1, 8, 13, 13, 2, 13, 1, 8, 13, 13, 1]}
+{"tokens": ["Does", "the", "county", "of", "Durham", "border", "Essex", "?"], "labels": [14, 1, 8, 13, 13, 0, 8, 1]}
+{"tokens": ["Where", "is", "Trafalgar", "square", "located", "?"], "labels": [3, 1, 8, 13, 12, 1]}
+{"tokens": ["Where", "is", "Emirates", "Stadium", "located", "?"], "labels": [3, 1, 8, 13, 12, 1]}
+{"tokens": ["Which", "cities", "in", "England", "have", "at", "least", "2", "castles", "?"], "labels": [9, 5, 0, 8, 12, 2, 13, 10, 5, 1]}
+{"tokens": ["Are", "the", "cities", "that", "River", "Thames", "crosses", "more", "than", "10", "?"], "labels": [14, 1, 5, 1, 8, 13, 0, 2, 13, 10, 1]}
+{"tokens": ["Which", "castles", "are", "in", "the", "Highland", "council", "area", "of", "Scotland", "?"], "labels": [9, 5, 1, 0, 1, 8, 13, 13, 0, 8, 1]}
+{"tokens": ["Which", "restaurants", "are", "at", "most", "1", "km", "away", "from", "Big", "Ben", "?"], "labels": [9, 5, 1, 2, 13, 10, 13, 1, 0, 8, 13, 1]}
+{"tokens": ["Are", "there", "any", "rivers", "that", "cross", "both", "England", "and", "Wales", "?"], "labels": [14, 1, 1, 5, 1, 0, 1, 8, 6, 8, 1]}
+{"tokens": ["How", "many", "are", "the", "counties", "of", "England", "?"], "labels": [15, 13, 1, 1, 5, 0, 8, 1]}
+{"tokens": ["Which", "is", "the", "biggest", "county", "council", "in", "the", "Republic", "of", "Ireland", "?"], "labels": [9, 1, 1, 2, 5, 13, 0, 1, 8, 13, 13, 1]}
+{"tokens": ["Which", "county", "of", "England", "occupies", "the", "largest", "area", "?"], "labels": [9, 5, 0, 8, 12, 1, 2, 4, 1]}
+{"tokens": ["Which", "is", "the", "smallest", "lake", "in", "Scotland", "?"], "labels": [9, 1, 1, 2, 5, 0, 8, 1]}
+{"tokens": ["Is", "county", "Oxfordshire", "east", "of", "the", "county", "Essex", "?"], "labels": [14, 8, 13, 0, 13, 1, 8, 13, 1]}
+{"tokens": ["What", "is", "the", "longest", "bridge", "in", "Scotland", "?"], "labels": [11, 1, 1, 2, 5, 0, 8, 1]}
+{"tokens": ["Is", "there", "a", "national", "park", "near", "York", "?"], "labels": [14, 1, 1, 5, 13, 0, 8, 1]}
+{"tokens": ["Which", "pubs", "in", "Dublin", "are", "near", "Guinness", "Brewery", "?"], "labels": [9, 5, 0, 8, 1, 0, 8, 13, 1]}
+{"tokens": ["Which", "hospital", "is", "nearest", "to", "Calton", "Hill", "in", "Edinburgh", "?"], "labels": [9, 5, 1, 2, 0, 8, 13, 0, 8, 1]}
+{"tokens": ["Which", "cafes", "in", "Manchester", "are", "near", "Piccadilly", "Gardens", "?"], "labels": [9, 5, 0, 8, 1, 0, 8, 13, 1]}
+{"tokens": ["Which", "hospitals", "in", "Liverpool", "are", "near", "Abercromby", "Square", "?"], "labels": [9, 5, 0, 8, 1, 0, 8, 13, 1]}
+{"tokens": ["Which", "pubs", "in", "Liverpool", "are", "at", "most", "2", "km", "from", "Anfield", "stadium", "?"], "labels": [9, 5, 0, 8, 1, 2, 13, 10, 13, 0, 8, 13, 1]}
+{"tokens": ["Which", "hotels", "in", "Manchester", "are", "near", "Wharfside", "Way", "?"], "labels": [9, 5, 0, 8, 1, 0, 8, 13, 1]}
+{"tokens": ["Which", "cafes", "in", "London", "are", "at", "most", "3", "km", "from", "St.", "Anthony", "the", "Great", "and", "St.", "John", "the", "Baptist", "church", "?"], "labels": [9, 5, 0, 8, 1, 2, 13, 10, 13, 0, 8, 13, 13, 13, 6, 8, 13, 13, 13, 5, 1]}
+{"tokens": ["Which", "pubs", "in", "Liverpool", "are", "near", "Anfield", "stadium", "?"], "labels": [9, 5, 0, 8, 1, 0, 8, 13, 1]}
+{"tokens": ["Which", "county", "is", "west", "of", "South", "Yorkshire", "?"], "labels": [9, 5, 1, 0, 13, 8, 13, 1]}
+{"tokens": ["Which", "department", "stores", "are", "at", "most", "2", "km", "from", "Central", "Park", "hotel", "in", "London", "?"], "labels": [9, 5, 13, 1, 2, 13, 10, 13, 0, 8, 13, 13, 0, 8, 1]}
+{"tokens": ["Which", "hotels", "are", "in", "England", "'s", "capital", "?"], "labels": [9, 5, 1, 0, 8, 0, 5, 1]}
+{"tokens": ["Where", "can", "I", "find", "a", "car", "park", "in", "Bristol", "?"], "labels": [3, 1, 1, 1, 1, 5, 13, 0, 8, 1]}
+{"tokens": ["Which", "football", "stadium", "has", "the", "biggest", "capacity", "in", "Ireland", "?"], "labels": [9, 5, 13, 12, 1, 2, 4, 0, 8, 1]}
+{"tokens": ["Which", "city", "of", "England", "is", "nearest", "to", "London", "?"], "labels": [9, 5, 0, 8, 1, 2, 0, 8, 1]}
+{"tokens": ["Which", "hotel", "is", "the", "nearest", "to", "Old", "Trafford", "Stadium", "in", "Manchester", "?"], "labels": [9, 5, 1, 1, 2, 0, 8, 13, 13, 0, 8, 1]}
+{"tokens": ["Which", "universities", "are", "in", "county", "Essex", "?"], "labels": [9, 5, 1, 0, 8, 13, 1]}
+{"tokens": ["Is", "there", "a", "forest", "in", "Lancashire", "north", "of", "Burnley", "?"], "labels": [14, 1, 1, 5, 0, 8, 0, 13, 8, 1]}
+{"tokens": ["Which", "villages", "are", "in", "Herefordshire", "?"], "labels": [9, 5, 1, 0, 8, 1]}
+{"tokens": ["Is", "there", "a", "church", "at", "most", "2", "km", "from", "the", "University", "of", "Westminster", "?"], "labels": [14, 1, 1, 5, 2, 13, 10, 13, 0, 1, 8, 13, 13, 1]}
+{"tokens": ["Is", "there", "a", "county", "of", "England", "that", "borders", "the", "Isle", "of", "Wight", "?"], "labels": [14, 1, 1, 5, 0, 8, 1, 0, 1, 8, 13, 13, 1]}
+{"tokens": ["How", "many", "mountains", "are", "there", "in", "Scotland", "?"], "labels": [15, 13, 5, 1, 1, 0, 8, 1]}
+{"tokens": ["Which", "site", "of", "Manchester", "is", "the", "most", "popular", "?"], "labels": [9, 5, 0, 8, 1, 1, 2, 13, 1]}
+{"tokens": ["Is", "there", "a", "church", "in", "the", "county", "of", "Greater", "Manchester", "dedicated", "to", "St.", "Patrick", "?"], "labels": [14, 1, 1, 5, 0, 1, 5, 13, 13, 13, 12, 1, 8, 13, 1]}

@@ -1,0 +1,2203 @@
+#SDP 2015
+#NO-ID
+1	How	how	WRB	-	+	abstr_deg:i	_	_	_
+2	many	many	JJ	-	+	much-many_a:e-p	measure	_	_
+3	hospitals	hospital	NNS	-	-	n:x	_	ARG1	ARG1
+4	are	be	VBP	-	-	_	_	_	_
+5	there	there	RB	-	-	place_n:x	_	_	_
+6	in	in	IN	-	+	p:e-u-i	_	_	_
+7	Oxford	Oxford	NNP	-	-	named:x-c	_	_	ARG2
+8	?	?	.	-	-	_	_	_	_
+
+#NO-ID
+1	How	how	WRB	-	+	abstr_deg:i	_	_	_	_	_	_	_	_
+2	many	many	JJ	-	+	much-many_a:e-p	measure	_	_	_	_	_	_	_
+3	pharmacies	pharmacy	NNS	-	-	n:x	_	ARG1	ARG1	_	_	_	_	_
+4	are	be	VBP	-	-	_	_	_	_	_	_	_	_	_
+5	in	in	IN	+	+	p:e-u-i	_	_	_	_	_	_	_	_
+6	200	200	CD	-	+	card:i-i-c	_	_	_	_	_	_	_	_
+7	meter	meter	NN	-	+	n:x	_	_	_	ARG1	_	_	_	_
+8	radius	radius	NN	-	+	n_of:x-i	_	_	ARG2	_	compound	_	_	_
+9	of	of	IN	-	-	_	_	_	_	_	_	_	_	_
+10	High	High	NNP	-	+	named:x-c	_	_	_	_	_	_	_	_
+11	Street	Street	NNP	-	-	named:x-c	_	_	_	_	_	ARG1	compound	ARG1
+12	in	in	IN	-	+	p:e-u-i	_	_	_	_	_	_	_	_
+13	Oxford	Oxford	NNP	-	-	named:x-c	_	_	_	_	_	_	_	ARG2
+14	?	?	.	-	-	_	_	_	_	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	-	q:i-h-h	ARG2	_	_	_
+2	is	be	VBZ	+	+	v_id:e-p-i	_	_	_	_
+3	the	the	DT	-	+	q:i-h-h	_	_	_	_
+4	closest	close	JJS	-	+	a_to:e-i	_	_	_	_
+5	airport	airport	NN	-	-	n:x	ARG1	BV	ARG1	ARG1
+6	to	to	IN	-	+	p:e-u-i	_	_	_	_
+7	London	London	NNP	-	-	named:x-c	_	_	_	ARG2
+8	?	?	.	-	-	_	_	_	_	_
+
+#NO-ID
+1	How	how	WRB	-	+	abstr_deg:i	_	_	_	_
+2	many	many	JJ	-	+	much-many_a:e-p	measure	_	_	_
+3	underground	underground	JJ	-	+	named:x-c	_	_	_	_
+4	lines	line	NNS	-	-	n_of:x	_	ARG1	compound	ARG2
+5	does	do	VBZ	-	-	_	_	_	_	_
+6	London	London	NNP	-	-	named:x-c	_	_	_	ARG1
+7	have	have	VB	+	+	v:e-i-i	_	_	_	_
+8	?	?	.	-	-	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_
+2	restaurants	restaurant	NNS	-	-	n:x	BV	ARG1	_
+3	are	be	VBP	-	-	_	_	_	_
+4	near	near	IN	+	+	p:e-u-i	_	_	_
+5	Edinburgh	Edinburgh	NNP	-	+	named:x-c	_	_	_
+6	Castle	Castle	NNP	-	-	named:x-c	_	ARG2	compound
+7	?	?	.	-	-	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_
+2	hotels	hotel	NNS	-	-	n:x	BV	ARG1	_
+3	are	be	VBP	-	-	_	_	_	_
+4	near	near	IN	+	+	p:e-u-i	_	_	_
+5	Big	big	JJ	-	+	named:x-c	_	_	_
+6	Ben	Ben	NNP	-	-	named:x-c	_	ARG2	compound
+7	?	?	.	-	-	_	_	_	_
+
+#NO-ID
+1	How	how	WRB	-	+	abstr_deg:i	_	_	_
+2	many	many	JJ	-	+	much-many_a:e-p	measure	_	_
+3	counties	county	NNS	-	-	n_of:x-i	_	ARG1	ARG2
+4	does	do	VBZ	-	-	_	_	_	_
+5	England	England	NNP	-	-	named:x-c	_	_	ARG1
+6	have	have	VB	+	+	v:e-i-i	_	_	_
+7	?	?	.	-	-	_	_	_	_
+
+#NO-ID
+1	Does	do	VBZ	-	-	_	_	_
+2	England	England	NNP	-	-	named:x-c	ARG1	_
+3	have	have	VB	+	+	v:e-i-i	_	_
+4	more	more	JJR	-	+	much-many_a:e-i	_	_
+5	counties	county	NNS	-	-	n_of:x-i	ARG2	ARG1
+6	than	than	IN	-	-	_	_	_
+7	Ireland	Ireland	NNP	-	-	named:x-c	_	than
+8	?	?	.	-	-	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_
+2	airports	airport	NNS	-	-	n:x	BV	ARG1
+3	are	be	VBP	-	-	_	_	_
+4	in	in	IN	+	+	p:e-u-i	_	_
+5	Ireland	Ireland	NNP	-	-	named:x-c	_	ARG2
+6	?	?	.	-	-	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_
+2	restaurants	restaurant	NNS	-	-	n:x	BV	ARG1	_
+3	are	be	VBP	-	-	_	_	_	_
+4	close	close	JJ	+	+	a_to:e-p-i	_	_	_
+5	to	to	IN	-	-	_	_	_	_
+6	London	London	NNP	-	+	named:x-c	_	_	_
+7	Bridge	Bridge	NNP	-	-	named:x-c	_	ARG2	compound
+8	?	?	.	-	-	_	_	_	_
+
+#NO-ID
+1	Is	be	VBZ	-	-	_	_	_	_	_	_	_	_
+2	the	the	DT	-	+	q:i-h-h	_	_	_	_	_	_	_
+3	Castle	Castle	NNP	-	-	n:x	BV	ARG1	_	_	_	_	_
+4	of	of	IN	-	+	p:e-x-i	_	_	_	_	_	_	_
+5	Edinburgh	Edinburgh	NNP	-	-	named:x-c	_	ARG2	_	_	_	_	_
+6	less	less	JJR	-	-	little-few_a:e-i	_	_	mwe	_	_	_	_
+7	than	than	IN	+	+	p:e-u-i	_	_	_	_	_	_	_
+8	2	2	CD	-	+	card:i-i-c	_	_	_	_	_	_	_
+9	km	km	NNS	-	-	n:x	_	_	ARG1	ARG1	ARG1	_	_
+10	away	away	RB	-	+	p:e-i	_	_	_	_	_	ARG1	_
+11	from	from	IN	-	+	p:e-u-i	_	_	_	_	_	_	_
+12	Calton	Calton	NNP	-	+	named:x-c	_	_	_	_	_	_	_
+13	Hill	Hill	NNP	-	-	named:x-c	_	_	_	_	_	ARG2	compound
+14	?	?	.	-	-	_	_	_	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_
+2	hospitals	hospital	NNS	-	-	n:x	BV	ARG1	_
+3	are	be	VBP	-	-	_	_	_	_
+4	close	close	JJ	+	+	a_to:e-p-i	_	_	_
+5	to	to	IN	-	-	_	_	_	_
+6	Stirling	Stirling	NNP	-	+	named:x-c	_	_	_
+7	Castle	Castle	NNP	-	-	named:x-c	_	ARG2	compound
+8	?	?	.	-	-	_	_	_	_
+
+#NO-ID
+1	Is	be	VBZ	+	+	v_there:e-i	_	_	_	_	_	_	_	_	_
+2	there	there	EX	-	-	_	_	_	_	_	_	_	_	_	_
+3	any	any	DT	-	+	q:i-h-h	_	_	_	_	_	_	_	_	_
+4	hospital	hospital	NN	-	-	n:x	ARG1	BV	ARG1	_	_	_	_	_	_
+5	in	in	IN	-	+	p:e-u-i	_	_	_	_	_	_	_	_	_
+6	a	a	DT	-	+	q:i-h-h	_	_	_	_	_	_	_	_	_
+7	range	range	NN	-	+	n_of:x-i	_	_	ARG2	BV	_	_	ARG1	_	_
+8	of	of	IN	-	-	_	_	_	_	_	_	_	_	_	_
+9	1	1	CD	-	+	card:i-i-c	_	_	_	_	_	_	_	_	_
+10	km	km	NN	-	-	n:x	_	_	_	_	ARG1	ARG1	_	_	_
+11	from	from	IN	-	+	p:e-u-i	_	_	_	_	_	_	_	_	_
+12	Jubilee	Jubilee	NNP	-	+	named:x-c	_	_	_	_	_	_	_	_	_
+13	Gardens	Gardens	NNPS	-	-	named:x-c	_	_	_	_	_	_	ARG2	compound	ARG1
+14	in	in	IN	-	+	p:e-u-i	_	_	_	_	_	_	_	_	_
+15	London	London	NNP	-	-	named:x-c	_	_	_	_	_	_	_	_	ARG2
+16	?	?	.	-	-	_	_	_	_	_	_	_	_	_	_
+
+#NO-ID
+1	Where	where	WRB	-	+	place_n:x	_	_	_	_	_	_	_
+2	is	be	VBZ	+	+	_	loc	_	_	_	_	_	_
+3	the	the	DT	-	+	q:i-h-h	_	_	_	_	_	_	_
+4	closest	close	JJS	-	+	a_to:e-i	_	_	_	_	_	_	_
+5	market	market	NN	-	-	n:x	_	ARG1	BV	ARG1	ARG1	_	_
+6	to	to	IN	-	+	p:e-u-i	_	_	_	_	_	_	_
+7	Elephant	Elephant	NNP	-	+	named:x-c	_	_	_	_	_	_	_
+8	and	and	CC	-	-	_	_	_	_	_	_	_	_
+9	Castle	Castle	NNP	-	-	named:x-c	_	_	_	_	_	_and_c	_
+10	underground	underground	JJ	-	+	named:x-c	_	_	_	_	_	_	_
+11	station	station	NN	-	-	n:x	_	_	_	_	ARG2	compound	compound
+12	?	?	.	-	-	_	_	_	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	-	_	ARG2	_	_	_
+2	is	be	VBZ	+	+	v_id:e-p-i	_	_	_	_
+3	the	the	DT	-	+	q:i-h-h	_	_	_	_
+4	highest	high	JJS	-	+	a:e-i	_	_	_	_
+5	point	point	NN	-	-	n_of:x	ARG1	BV	ARG1	ARG1
+6	in	in	IN	-	+	p:e-u-i	_	_	_	_
+7	Cheshire	Cheshire	NNP	-	-	named:x-c	_	_	_	ARG2
+8	?	?	.	-	-	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_
+2	counties	county	NNS	-	-	n_of:x-i	BV	ARG1	_
+3	border	border	VBP	+	+	v:e-i-p	_	_	_
+4	county	county	NN	-	+	n_of:x-i	_	_	_
+5	Lincolnshire	Lincolnshire	NNP	-	-	named:x-c	_	ARG2	compound
+6	?	?	.	-	-	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	-	q:i-h-h	ARG2	_	_	_
+2	is	be	VBZ	+	+	v_id:e-p-i	_	_	_	_
+3	the	the	DT	-	+	q:i-h-h	_	_	_	_
+4	largest	large	JJS	-	+	a:e-i	_	_	_	_
+5	lake	lake	NN	-	-	n:x	ARG1	BV	ARG1	ARG1
+6	in	in	IN	-	+	p:e-u-i	_	_	_	_
+7	England	England	NNP	-	-	named:x-c	_	_	_	ARG2
+8	?	?	.	-	-	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	-	q:i-h-h	ARG2	_	_	_
+2	is	be	VBZ	+	+	v_id:e-p-i	_	_	_	_
+3	the	the	DT	-	+	q:i-h-h	_	_	_	_
+4	highest	high	JJS	-	+	a:e-i	_	_	_	_
+5	building	building	NN	-	-	n:x	ARG1	BV	ARG1	ARG1
+6	in	in	IN	-	+	p:e-u-i	_	_	_	_
+7	London	London	NNP	-	-	named:x-c	_	_	_	ARG2
+8	?	?	.	-	-	_	_	_	_	_
+
+#NO-ID
+1	Where	where	WRB	-	+	place_n:x	_	_	_
+2	is	be	VBZ	-	-	_	_	_	_
+3	Loch	Loch	NNP	-	+	named:x-c	_	_	_
+4	Goil	Goil	NNP	-	-	named:x-c	_	compound	ARG2
+5	located	locate	VBN	+	+	v:e-i-p	loc	_	_
+6	?	?	.	-	-	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_
+2	theaters	theater	NNS	-	-	n:x	BV	ARG1	_
+3	are	be	VBP	-	-	_	_	_	_
+4	near	near	IN	+	+	p:e-u-i	_	_	_
+5	Trafalgar	Trafalgar	NNP	-	+	named:x-c	_	_	_
+6	Square	Square	NNP	-	-	named:x-c	_	ARG2	compound
+7	?	?	.	-	-	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_
+2	airports	airport	NNS	-	-	n:x	BV	ARG1
+3	are	be	VBP	-	-	_	_	_
+4	in	in	IN	+	+	p:e-u-i	_	_
+5	London	London	NNP	-	-	named:x-c	_	ARG2
+6	?	?	.	-	-	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_
+2	bridges	bridge	NNS	-	-	n:x	BV	ARG1	_
+3	cross	cross	VBP	+	+	v:e-i-p	_	_	_
+4	River	River	NNP	-	+	named:x-c	_	_	_
+5	Thames	Thames	NNP	-	-	named:x-c	_	ARG2	compound
+6	?	?	.	-	-	_	_	_	_
+
+#NO-ID
+1	Through	through	IN	-	+	p:e-u-i	_	_	_	_
+2	which	which	WDT	-	+	q:i-h-h	_	_	_	_
+3	cities	city	NNS	-	-	n:x	ARG2	BV	_	_
+4	does	do	VBZ	-	-	_	_	_	_	_
+5	River	River	NNP	-	+	named:x-c	_	_	_	_
+6	Thames	Thames	NNP	-	-	named:x-c	_	_	compound	ARG1
+7	flow	flow	VB	+	+	v:e-i	ARG1	_	_	_
+8	?	?	.	-	-	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_
+2	universities	university	NNS	-	-	n_of:x-i	BV	ARG1
+3	are	be	VBP	-	-	_	_	_
+4	in	in	IN	+	+	p:e-u-i	_	_
+5	England	England	NNP	-	-	named:x-c	_	ARG2
+6	?	?	.	-	-	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	-	q:i-h-h	ARG2	_	_	_
+2	is	be	VBZ	+	+	v_id:e-p-i	_	_	_	_
+3	the	the	DT	-	+	q:i-h-h	_	_	_	_
+4	highest	high	JJS	-	+	a:e-i	_	_	_	_
+5	mountain	mountain	NN	-	-	n:x	ARG1	BV	ARG1	ARG1
+6	in	in	IN	-	+	p:e-u-i	_	_	_	_
+7	Ireland	Ireland	NNP	-	-	named:x-c	_	_	_	ARG2
+8	?	?	.	-	-	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_
+2	rivers	river	NNS	-	-	n_of:x-i	BV	ARG1	_
+3	are	be	VBP	-	-	_	_	_	_
+4	in	in	IN	+	+	p:e-u-i	_	_	_
+5	Great	Great	NNP	-	+	named:x-c	_	_	_
+6	Britain	Britain	NNP	-	-	named:x-c	_	ARG2	compound
+7	?	?	.	-	-	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_
+2	mountains	mountain	NNS	-	-	n:x	BV	ARG1
+3	are	be	VBP	-	-	_	_	_
+4	in	in	IN	+	+	p:e-u-i	_	_
+5	Scotland	Scotland	NNP	-	-	named:x-c	_	ARG2
+6	?	?	.	-	-	_	_	_
+
+#NO-ID
+1	What	what	WP	-	-	thing:x	ARG1	_	_	_	_
+2	is	be	VBZ	+	+	v_id:e-p-i	_	_	_	_	_
+3	the	the	DT	-	+	q:i-h-h	_	_	_	_	_
+4	name	name	NN	-	+	n_of:x-i	ARG2	BV	_	_	_
+5	of	of	IN	-	-	_	_	_	_	_	_
+6	Britain	Britain	NNP	-	+	named:x-c	_	_	_	_	_
+7	's	's	POS	-	-	_	_	_	_	_	_
+8	longest	long	JJS	-	+	a:e-i	_	_	_	_	_
+9	river	river	NN	-	-	named:x-c	_	_	ARG1	poss	ARG1
+10	?	?	.	-	-	_	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_	_
+2	airports	airport	NNS	-	-	n:x	BV	ARG1	_	_
+3	are	be	VBP	-	-	_	_	_	_	_
+4	in	in	IN	+	+	p:e-u-i	_	_	_	_
+5	the	the	DT	-	+	q:i-h-h	_	_	_	_
+6	city	city	NN	-	-	n:x	_	ARG2	BV	ARG1
+7	of	of	IN	-	+	p:e-x-i	_	_	_	_
+8	Salford	Salford	NNP	-	-	named:x-c	_	_	_	ARG2
+9	?	?	.	-	-	_	_	_	_	_
+
+#NO-ID
+1	Where	where	WRB	-	+	place_n:x	_	_	_
+2	is	be	VBZ	-	-	_	_	_	_
+3	Elizabeth	Elizabeth	NNP	-	+	named:x-c	_	_	_
+4	Tower	Tower	NNP	-	-	named:x-c	_	compound	ARG2
+5	located	locate	VBN	+	+	v:e-i-p	loc	_	_
+6	?	?	.	-	-	_	_	_	_
+
+#NO-ID
+1	What	what	WP	-	-	thing:x	ARG1	_	_	_
+2	is	be	VBZ	+	+	v_id:e-p-i	_	_	_	_
+3	the	the	DT	-	+	q:i-h-h	_	_	_	_
+4	number	number	NN	-	+	n_of:x-i	ARG2	BV	_	_
+5	of	of	IN	-	-	_	_	_	_	_
+6	universities	university	NNS	-	-	n_of:x-i	_	_	ARG1	ARG1
+7	in	in	IN	-	+	p:e-u-i	_	_	_	_
+8	London	London	NNP	-	-	named:x-c	_	_	_	ARG2
+9	?	?	.	-	-	_	_	_	_	_
+
+#NO-ID
+1	Where	where	WRB	-	+	place_n:x	_	_	_	_	_	_
+2	is	be	VBZ	+	+	_	loc	_	_	_	_	_
+3	a	a	DT	-	+	q:i-h-h	_	_	_	_	_	_
+4	car	car	NN	-	+	n:x	_	_	_	_	_	_
+5	park	park	NN	-	-	n:x	_	ARG1	BV	compound	ARG1	_
+6	near	near	IN	-	+	p:e-u-i	_	_	_	_	_	_
+7	Big	big	JJ	-	+	named:x-c	_	_	_	_	_	_
+8	Ben	Ben	NNP	-	-	named:x-c	_	_	_	_	ARG2	compound
+9	?	?	.	-	-	_	_	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_	_	_	_
+2	pubs	pub	NNS	-	-	n:x	BV	ARG1	ARG1	_	_	_
+3	in	in	IN	-	+	p:e-u-i	_	_	_	_	_	_
+4	Manchester	Manchester	NNP	-	-	named:x-c	_	ARG2	_	_	_	_
+5	are	be	VBP	-	-	_	_	_	_	_	_	_
+6	near	near	IN	+	+	p:e-u-i	_	_	_	_	_	_
+7	the	the	DT	-	+	q:i-h-h	_	_	_	_	_	_
+8	Old	Old	NNP	-	+	named:x-c	_	_	_	_	_	_
+9	Trafford	Trafford	NNP	-	+	named:x-c	_	_	_	_	compound	_
+10	stadium	stadium	NN	-	-	named:x-c	_	_	ARG2	BV	_	compound
+11	?	?	.	-	-	_	_	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_
+2	rivers	river	NNS	-	-	n_of:x-i	BV	ARG1
+3	are	be	VBP	-	-	_	_	_
+4	in	in	IN	+	+	p:e-u-i	_	_
+5	Wales	Wales	NNP	-	-	named:x-c	_	ARG2
+6	?	?	.	-	-	_	_	_
+
+#NO-ID
+1	Is	be	VBZ	+	+	v_there:e-i	_	_	_
+2	there	there	EX	-	-	_	_	_	_
+3	a	a	DT	-	+	q:i-h-h	_	_	_
+4	river	river	NN	-	-	n_of:x-i	ARG1	BV	ARG1
+5	that	that	WDT	-	-	_	_	_	_
+6	crosses	cross	VBZ	-	+	v:e-i-p	_	_	_
+7	Manchester	Manchester	NNP	-	-	named:x-c	_	_	ARG2
+8	?	?	.	-	-	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_
+2	rivers	river	NNS	-	-	n_of:x-i	BV	ARG1
+3	cross	cross	VBP	+	+	v:e-i-p	_	_
+4	Derry	Derry	NNP	-	-	named:x-c	_	ARG2
+5	?	?	.	-	-	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_
+2	counties	county	NNS	-	-	n_of:x-i	BV	ARG1	ARG1
+3	of	of	IN	-	+	_	_	_	_
+4	Scotland	Scotland	NNP	-	-	named:x-c	_	ARG2	_
+5	border	border	NN	+	+	v:e-i-p	_	_	_
+6	England	England	NNP	-	-	named:x-c	_	_	ARG2
+7	?	?	.	-	-	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_
+2	Scottish	scottish	JJ	-	+	a:e-p	_	_	_
+3	counties	county	NNS	-	-	n_of:x-i	BV	ARG1	ARG1
+4	border	border	VBP	+	+	v:e-i-p	_	_	_
+5	England	England	NNP	-	-	named:x-c	_	_	ARG2
+6	?	?	.	-	-	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	-	_	_	_	_	_	_
+2	is	be	VBZ	+	+	v_id:e-p-i	_	_	_	_	_
+3	the	the	DT	-	+	q:i-h-h	_	_	_	_	_
+4	total	total	JJ	-	+	a:e-p	_	_	_	_	_
+5	area	area	NN	-	+	n_of:x-i	ARG2	BV	ARG1	_	_
+6	of	of	IN	-	-	_	_	_	_	_	_
+7	Northern	Northern	NNP	-	+	named:x-c	_	_	_	_	_
+8	Ireland	Ireland	NNP	-	-	named:x-c	_	_	_	ARG1	compound
+9	?	?	.	-	-	_	_	_	_	_	_
+
+#NO-ID
+1	Where	where	WRB	-	+	place_n:x	_	_	_
+2	is	be	VBZ	-	-	_	_	_	_
+3	Nelson	Nelson	NNP	-	+	named:x-c	_	_	_
+4	's	's	POS	-	-	_	_	_	_
+5	Column	column	NN	-	-	n_of:x-i	_	poss	ARG2
+6	located	locate	VBN	+	+	v:e-i-p	loc	_	_
+7	?	?	.	-	-	_	_	_	_
+
+#NO-ID
+1	Is	be	VBZ	+	+	v_there:e-i	_	_	_	_	_	_	_	_
+2	there	there	EX	-	-	_	_	_	_	_	_	_	_	_
+3	a	a	DT	-	+	q:i-h-h	_	_	_	ARG1	_	_	_	_
+4	car	car	NN	-	+	n:x	_	_	_	_	_	_	_	_
+5	park	park	NN	-	-	n_of:x-i	ARG1	BV	compound	_	_	loc	_	_
+6	at	at	IN	-	-	x:e-u	_	_	_	mwe	_	_	_	_
+7	most	most	JJS	-	+	x:e-u	_	_	_	_	_	_	_	_
+8	1	1	CD	-	+	card:i-i-c	_	_	_	_	_	_	_	_
+9	km	km	NN	-	+	n:x	_	_	_	_	ARG1	_	ARG1	_
+10	from	from	IN	-	+	p:e-u-i	_	_	_	_	_	_	_	_
+11	Waterloo	Waterloo	NNP	-	+	named:x-c	_	_	_	_	_	_	_	_
+12	Bridge	Bridge	NNP	-	-	named:x-c	_	_	_	_	_	_	ARG2	compound
+13	?	?	.	-	-	_	_	_	_	_	_	_	_	_
+
+#NO-ID
+1	Is	be	VBZ	-	-	_	_	_	_	_	_	_
+2	the	the	DT	-	+	q:i-h-h	_	_	_	_	_	_
+3	county	county	NN	-	+	n_of:x-i	BV	_	ARG2	ARG1	_	_
+4	of	of	IN	-	+	_	_	_	_	_	_	_
+5	Antrim	Antrim	NNP	-	-	named:x-c	_	ARG1	_	_	_	_
+6	bigger	big	JJR	+	+	a:e-i	_	_	_	_	_	_
+7	than	than	IN	-	-	_	_	_	_	_	_	_
+8	the	the	DT	-	+	q:i-h-h	_	_	_	_	_	_
+9	county	county	NN	-	-	n_of:x-i	_	_	_	than	BV	_
+10	of	of	IN	+	+	_	_	_	_	_	_	_
+11	Armagh	Armagh	NNP	-	-	named:x-c	_	_	_	_	_	ARG1
+12	?	?	.	-	-	_	_	_	_	_	_	_
+
+#NO-ID
+1	Does	do	VBZ	-	-	_	_	_	_
+2	the	the	DT	-	+	q:i-h-h	_	_	_
+3	county	county	NN	-	+	n_of:x-i	BV	_	ARG1
+4	of	of	IN	-	-	_	_	_	_
+5	Durham	Durham	NNP	-	-	named:x-c	_	ARG1	_
+6	border	border	NN	+	+	v:e-i-p	_	_	_
+7	Essex	Essex	NNP	-	-	named:x-c	_	_	ARG2
+8	?	?	.	-	-	_	_	_	_
+
+#NO-ID
+1	Where	where	WRB	-	+	place_n:x	_	_	_
+2	is	be	VBZ	-	-	_	_	_	_
+3	Trafalgar	Trafalgar	NNP	-	+	named:x-c	_	_	_
+4	square	square	NN	-	-	named:x-c	_	compound	ARG2
+5	located	locate	VBN	+	+	v:e-i-p	loc	_	_
+6	?	?	.	-	-	_	_	_	_
+
+#NO-ID
+1	Where	where	WRB	-	+	place_n:x	_	_	_
+2	is	be	VBZ	-	-	_	_	_	_
+3	Emirates	Emirates	NNP	-	+	named:x-c	_	_	_
+4	Stadium	Stadium	NNP	-	-	named:x-c	_	compound	ARG2
+5	located	locate	VBN	+	+	v:e-i-p	loc	_	_
+6	?	?	.	-	-	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_	_	_
+2	cities	city	NNS	-	-	n:x	BV	ARG1	ARG1	_	_
+3	in	in	IN	-	+	p:e-u-i	_	_	_	_	_
+4	England	England	NNP	-	-	named:x-c	_	ARG2	_	_	_
+5	have	have	VBP	+	+	v:e-i-i	_	_	_	_	_
+6	at	at	RB	-	-	x:e-u	_	_	_	mwe	_
+7	least	least	JJS	-	+	x:e-u	_	_	_	_	_
+8	2	2	CD	-	+	card:i-i-c	_	_	_	ARG1	_
+9	castles	castle	NNS	-	-	n:x	_	_	ARG2	_	ARG1
+10	?	?	.	-	-	_	_	_	_	_	_
+
+#NO-ID
+1	Are	be	VBP	+	+	_	_	_	_	_	_
+2	the	the	DT	-	+	q:i-h-h	_	_	_	_	_
+3	cities	city	NNS	-	-	n:x	ARG1	BV	_	ARG2	ARG2
+4	that	that	WDT	-	-	_	_	_	_	_	_
+5	River	River	NNP	-	+	named:x-c	_	_	_	_	_
+6	Thames	Thames	NNP	-	-	named:x-c	_	_	compound	ARG1	_
+7	crosses	cross	VBZ	-	+	v:e-i-p	_	_	_	_	ARG1
+8	more	more	JJR	-	-	p:e-u-i	_	_	_	_	mwe
+9	than	than	IN	-	+	p:e-u-i	_	_	_	_	_
+10	10	10	CD	-	-	card:i-i-c	_	_	_	_	_
+11	?	?	.	-	-	_	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_	_	_	_
+2	castles	castle	VBZ	-	-	n:x	BV	ARG1	_	_	_	_
+3	are	be	VBP	-	-	_	_	_	_	_	_	_
+4	in	in	IN	+	+	p:e-u-i	_	_	_	_	_	_
+5	the	the	DT	-	+	q:i-h-h	_	_	_	_	_	_
+6	Highland	Highland	NNP	-	+	named:x-c	_	_	_	_	_	_
+7	council	council	NN	-	+	n_of:x-i	_	_	_	compound	_	_
+8	area	area	NN	-	+	n_of:x-i	_	ARG2	BV	_	compound	_
+9	of	of	IN	-	-	_	_	_	_	_	_	_
+10	Scotland	Scotland	NNP	-	-	named:x-c	_	_	_	_	_	ARG1
+11	?	?	.	-	-	_	_	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_	_	_	_	_
+2	restaurants	restaurant	NNS	-	-	n:x	BV	ARG1	_	_	_	_	_
+3	are	be	VBP	+	+	_	_	_	_	_	_	_	_
+4	at	at	IN	-	-	x:e-u	_	_	mwe	_	_	_	_
+5	most	most	JJS	-	+	x:e-u	_	_	_	_	_	_	_
+6	1	1	CD	-	+	card:i-i-c	_	_	_	_	_	_	_
+7	km	km	NNS	-	-	n:x	_	_	ARG1	ARG1	ARG1	ARG1	_
+8	away	away	RB	-	+	p:e-i	_	_	_	_	_	_	_
+9	from	from	IN	-	+	p:e-u-i	_	_	_	_	_	_	_
+10	Big	big	JJ	-	+	named:x-c	_	_	_	_	_	_	_
+11	Ben	Ben	NNP	-	-	named:x-c	_	_	_	_	_	ARG2	compound
+12	?	?	.	-	-	_	_	_	_	_	_	_	_
+
+#NO-ID
+1	Are	be	VBP	+	+	v_there:e-i	_	_	_	_
+2	there	there	EX	-	-	_	_	_	_	_
+3	any	any	DT	-	+	q:i-h-h	_	_	_	_
+4	rivers	river	NNS	-	-	n_of:x-i	ARG1	BV	ARG1	_
+5	that	that	WDT	-	-	_	_	_	_	_
+6	cross	cross	VBP	-	+	v:e-i-p	_	_	_	_
+7	both	both	DT	-	-	_	_	_	_	_
+8	England	England	NNP	-	+	named:x-c	_	_	ARG2	_
+9	and	and	CC	-	-	_	_	_	_	_
+10	Wales	Wales	NNP	-	-	named:x-c	_	_	_	_and_c
+11	?	?	.	-	-	_	_	_	_	_
+
+#NO-ID
+1	How	how	WRB	-	+	abstr_deg:i	_	_	_	_
+2	many	many	JJ	-	-	much-many_a:e-p	measure	_	_	_
+3	are	be	VBP	+	+	v_id:e-p-i	_	_	_	_
+4	the	the	DT	-	+	q:i-h-h	_	_	_	_
+5	counties	county	NNS	-	+	n_of:x-i	_	ARG2	BV	_
+6	of	of	IN	-	-	_	_	_	_	_
+7	England	England	NNP	-	-	named:x-c	_	_	_	ARG1
+8	?	?	.	-	-	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	-	q:i-h-h	ARG2	_	_	_	_	_	_	_
+2	is	be	VBZ	+	+	v_id:e-p-i	_	_	_	_	_	_	_	_
+3	the	the	DT	-	+	q:i-h-h	_	_	_	_	_	_	_	_
+4	biggest	big	JJS	-	+	a:e-i	_	_	_	_	_	_	_	_
+5	county	county	NN	-	+	n_of:x-i	_	_	_	_	_	_	_	_
+6	council	council	NN	-	-	n_of:x-i	ARG1	BV	ARG1	compound	ARG1	_	_	_
+7	in	in	IN	-	+	p:e-u-i	_	_	_	_	_	_	_	_
+8	the	the	DT	-	+	q:i-h-h	_	_	_	_	_	_	_	_
+9	Republic	Republic	NNP	-	+	named:x-c	_	_	_	_	ARG2	BV	_	ARG2
+10	of	of	IN	-	+	p:e-x-i	_	_	_	_	_	_	_	_
+11	Ireland	Ireland	NNP	-	-	named:x-c	_	_	_	_	_	_	ARG1	_
+12	?	?	.	-	-	_	_	_	_	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_	_	_
+2	county	county	NN	-	+	n_of:x-i	BV	_	ARG1	_	_
+3	of	of	IN	-	-	_	_	_	_	_	_
+4	England	England	NNP	-	-	named:x-c	_	ARG1	_	_	_
+5	occupies	occupy	VBZ	+	+	v:e-i-p	_	_	_	_	_
+6	the	the	DT	-	+	q:i-h-h	_	_	_	_	_
+7	largest	large	JJS	-	+	a:e-i	_	_	_	_	_
+8	area	area	NN	-	-	n_of:x-i	_	_	ARG2	BV	ARG1
+9	?	?	.	-	-	_	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	-	q:i-h-h	_	_	_	_
+2	is	be	VBZ	+	+	v_id:e-p-i	_	_	_	_
+3	the	the	DT	-	+	q:i-h-h	_	_	_	_
+4	smallest	small	JJS	-	+	a:e-i	_	_	_	_
+5	lake	lake	NN	-	-	n:x	ARG2	BV	ARG1	ARG1
+6	in	in	IN	-	+	p:e-u-i	_	_	_	_
+7	Scotland	Scotland	NNP	-	-	named:x-c	_	_	_	ARG2
+8	?	?	.	-	-	_	_	_	_	_
+
+#NO-ID
+1	Is	be	VBZ	-	-	named:x-c	_	_	_	_
+2	county	county	NN	-	+	named:x-c	_	_	_	_
+3	Oxfordshire	Oxfordshire	NNP	-	-	named:x-c	compound	loc	_	_
+4	east	east	NN	+	+	place_n:x	_	_	_	_
+5	of	of	IN	-	-	_	_	_	_	_
+6	the	the	DT	-	+	q:i-h-h	_	_	_	_
+7	county	county	NN	-	-	n_of:x-i	_	ARG2	BV	appos
+8	Essex	Essex	NNP	-	+	named:x-c	_	_	_	_
+9	?	?	.	-	-	_	_	_	_	_
+
+#NO-ID
+1	What	what	WP	-	-	thing:x	ARG2	_	_	_
+2	is	be	VBZ	+	+	v_id:e-p-i	_	_	_	_
+3	the	the	DT	-	+	q:i-h-h	_	_	_	_
+4	longest	long	JJS	-	+	a:e-i	_	_	_	_
+5	bridge	bridge	NN	-	-	n:x	ARG1	BV	ARG1	ARG1
+6	in	in	IN	-	+	p:e-u-i	_	_	_	_
+7	Scotland	Scotland	NNP	-	-	named:x-c	_	_	_	ARG2
+8	?	?	.	-	-	_	_	_	_	_
+
+#NO-ID
+1	Is	be	VBZ	+	+	v_there:e-i	_	_	_	_
+2	there	there	EX	-	-	_	_	_	_	_
+3	a	a	DT	-	+	q:i-h-h	_	_	_	_
+4	national	national	JJ	-	+	a:e-p	_	_	_	_
+5	park	park	NN	-	-	named:x-c	ARG1	BV	ARG1	ARG1
+6	near	near	IN	-	+	p:e-u-i	_	_	_	_
+7	York	York	NNP	-	-	named:x-c	_	_	_	ARG2
+8	?	?	.	-	-	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_	_
+2	pubs	pub	NNS	-	-	n:x	BV	ARG1	ARG1	_
+3	in	in	IN	-	+	p:e-u-i	_	_	_	_
+4	Dublin	Dublin	NNP	-	-	named:x-c	_	ARG2	_	_
+5	are	be	VBP	-	-	_	_	_	_	_
+6	near	near	IN	+	+	p:e-u-i	_	_	_	_
+7	Guinness	Guinness	NNP	-	+	named:x-c	_	_	_	_
+8	Brewery	Brewery	NNP	-	-	named:x-c	_	_	ARG2	compound
+9	?	?	.	-	-	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_	_
+2	hospital	hospital	NN	-	-	n:x	BV	ARG1	_	_
+3	is	be	VBZ	-	-	_	_	_	_	_
+4	nearest	near	JJS	+	+	a_to:e-p-i	_	_	_	_
+5	to	to	IN	-	-	_	_	_	_	_
+6	Calton	Calton	NNP	-	+	named:x-c	_	_	_	_
+7	Hill	Hill	NNP	-	-	named:x-c	_	ARG2	compound	ARG1
+8	in	in	IN	-	+	p:e-u-i	_	_	_	_
+9	Edinburgh	Edinburgh	NNP	-	-	named:x-c	_	_	_	ARG2
+10	?	?	.	-	-	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_	_
+2	cafes	cafe	NNS	-	-	n:x	BV	ARG1	ARG1	_
+3	in	in	IN	-	+	p:e-u-i	_	_	_	_
+4	Manchester	Manchester	NNP	-	-	named:x-c	_	ARG2	_	_
+5	are	be	VBP	-	-	_	_	_	_	_
+6	near	near	IN	+	+	p:e-u-i	_	_	_	_
+7	Piccadilly	Piccadilly	NNP	-	+	named:x-c	_	_	_	_
+8	Gardens	Gardens	NNPS	-	-	named:x-c	_	_	ARG2	compound
+9	?	?	.	-	-	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_	_
+2	hospitals	hospital	NNS	-	-	n:x	BV	ARG1	ARG1	_
+3	in	in	IN	-	+	p:e-u-i	_	_	_	_
+4	Liverpool	Liverpool	NNP	-	-	named:x-c	_	ARG2	_	_
+5	are	be	VBP	-	-	_	_	_	_	_
+6	near	near	IN	+	+	p:e-u-i	_	_	_	_
+7	Abercromby	Abercromby	NNP	-	+	named:x-c	_	_	_	_
+8	Square	Square	NNP	-	-	named:x-c	_	_	ARG2	compound
+9	?	?	.	-	-	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_	_	_	_
+2	pubs	pub	NNS	-	-	n:x	BV	ARG1	_	_	_	_
+3	in	in	IN	-	+	p:e-u-i	_	_	_	_	_	_
+4	Liverpool	Liverpool	NNP	-	-	named:x-c	_	ARG2	_	_	_	_
+5	are	be	VBP	-	-	_	_	_	_	_	_	_
+6	at	at	IN	-	-	x:e-u	_	_	mwe	_	_	_
+7	most	most	JJS	+	+	x:e-u	_	_	_	_	_	_
+8	2	2	CD	-	+	card:i-i-c	_	_	_	_	_	_
+9	km	km	NN	-	-	n:x	_	_	_	ARG1	ARG1	_
+10	from	from	IN	-	+	p:e-u-i	_	_	_	_	_	_
+11	Anfield	Anfield	NNP	-	+	named:x-c	_	_	_	_	_	_
+12	stadium	stadium	NN	-	-	named:x-c	_	_	_	_	ARG2	compound
+13	?	?	.	-	-	_	_	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_	_
+2	hotels	hotel	NNS	-	-	n:x	BV	ARG1	ARG1	_
+3	in	in	IN	-	+	p:e-u-i	_	_	_	_
+4	Manchester	Manchester	NNP	-	-	named:x-c	_	ARG2	_	_
+5	are	be	VBP	-	-	_	_	_	_	_
+6	near	near	IN	+	+	p:e-u-i	_	_	_	_
+7	Wharfside	Wharfside	NNP	-	+	named:x-c	_	_	_	_
+8	Way	Way	NNP	-	-	named:x-c	_	_	ARG2	compound
+9	?	?	.	-	-	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_	_	_	_	_	_	_	_	_	_	_
+2	cafes	cafe	VBZ	-	-	n:x	BV	ARG1	ARG1	_	_	_	_	_	_	_	_	_	_
+3	in	in	IN	-	+	p:e-u-i	_	_	_	_	_	_	_	_	_	_	_	_	_
+4	London	London	NNP	-	-	named:x-c	_	ARG2	_	_	_	_	_	_	_	_	_	_	_
+5	are	be	VBP	+	+	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+6	at	at	IN	-	-	x:e-u	_	_	_	mwe	_	_	_	_	_	_	_	_	_
+7	most	most	JJS	-	+	x:e-u	_	_	_	_	_	_	_	_	_	_	_	_	_
+8	3	3	CD	-	+	card:i-i-c	_	_	_	_	_	_	_	_	_	_	_	_	_
+9	km	km	NN	-	-	n:x	_	_	_	ARG1	ARG1	ARG1	_	_	_	_	_	_	_
+10	from	from	IN	-	+	p:e-u-i	_	_	_	_	_	_	_	_	_	_	_	_	_
+11	St.	St.	NNP	-	+	n:x	_	_	_	_	_	_	_	_	_	_	_	_	_
+12	Anthony	Anthony	NNP	-	-	named:x-c	_	_	_	_	_	ARG2	compound	_	appos	_	_	_	_
+13	the	the	DT	-	+	q:i-h-h	_	_	_	_	_	_	_	_	_	_	_	_	_
+14	Great	Great	NNP	-	+	named:x-c	_	_	_	_	_	_	_	BV	_	_	_	_	_
+15	and	and	CC	-	-	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+16	St.	St.	NNP	-	+	n:x	_	_	_	_	_	_	_	_	_	_	_	_	_
+17	John	John	NNP	-	+	named:x-c	_	_	_	_	_	_	_	_	_	compound	_	_	compound
+18	the	the	DT	-	+	q:i-h-h	_	_	_	_	_	_	_	_	_	_	_	_	_
+19	Baptist	Baptist	NNP	-	+	named:x-c	_	_	_	_	_	_	_	_	_	_	_	compound	_
+20	church	church	NN	-	-	named:x-c	_	_	_	_	_	_	_	_	_and_c	_	compound	_	_
+21	?	?	.	-	-	_	_	_	_	_	_	_	_	_	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_	_
+2	pubs	pub	NNS	-	-	n:x	BV	ARG1	ARG1	_
+3	in	in	IN	-	+	p:e-u-i	_	_	_	_
+4	Liverpool	Liverpool	NNP	-	-	named:x-c	_	ARG2	_	_
+5	are	be	VBP	-	-	_	_	_	_	_
+6	near	near	IN	+	+	p:e-u-i	_	_	_	_
+7	Anfield	Anfield	NNP	-	+	named:x-c	_	_	_	_
+8	stadium	stadium	NN	-	-	named:x-c	_	_	ARG2	compound
+9	?	?	.	-	-	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_
+2	county	county	NN	-	-	n_of:x-i	BV	loc	_
+3	is	be	VBZ	-	-	_	_	_	_
+4	west	west	NN	+	+	named:x-c	_	_	_
+5	of	of	IN	-	-	_	_	_	_
+6	South	South	NNP	-	+	named:x-c	_	_	_
+7	Yorkshire	Yorkshire	NNP	-	-	named:x-c	_	ARG2	compound
+8	?	?	.	-	-	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_	_	_	_	_	_	_
+2	department	department	NN	-	+	n:x	_	_	_	_	_	_	_	_	_
+3	stores	store	NNS	-	-	n:x	BV	compound	_	_	ARG1	_	_	_	_
+4	are	be	VBP	-	-	_	_	_	_	_	_	_	_	_	_
+5	at	at	IN	-	-	x:e-u	_	_	mwe	_	_	_	_	_	_
+6	most	most	JJS	-	+	x:e-u	_	_	_	_	_	_	_	_	_
+7	2	2	CD	-	+	card:i-i-c	_	_	_	_	_	_	_	_	_
+8	km	km	NN	+	+	n:x	_	_	ARG1	ARG1	_	ARG1	_	_	_
+9	from	from	IN	-	+	p:e-u-i	_	_	_	_	_	_	_	_	_
+10	Central	Central	NNP	-	+	named:x-c	_	_	_	_	_	_	_	_	_
+11	Park	Park	NNP	-	+	named:x-c	_	_	_	_	_	_	compound	_	_
+12	hotel	hotel	NN	-	-	named:x-c	_	_	_	_	_	ARG2	_	compound	ARG1
+13	in	in	IN	-	+	p:e-u-i	_	_	_	_	_	_	_	_	_
+14	London	London	NNP	-	-	named:x-c	_	_	_	_	_	_	_	_	ARG2
+15	?	?	.	-	-	_	_	_	_	_	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_
+2	hotels	hotel	NNS	-	-	n:x	BV	ARG1	_
+3	are	be	VBP	-	-	_	_	_	_
+4	in	in	IN	+	+	p:e-u-i	_	_	_
+5	England	England	NNP	-	+	named:x-c	_	_	_
+6	's	's	POS	-	-	_	_	_	_
+7	capital	capital	NN	-	-	n:x	_	ARG2	poss
+8	?	?	.	-	-	_	_	_	_
+
+#NO-ID
+1	Where	where	WRB	-	+	place_n:x	_	_	_	_	_	_
+2	can	can	MD	+	+	v_modal:e-h	_	_	_	_	_	_
+3	I	I	PRP	-	-	pron:x	_	_	ARG1	_	_	_
+4	find	find	VB	-	+	v:e-i-p	loc	ARG1	_	_	_	ARG1
+5	a	a	DT	-	+	q:i-h-h	_	_	_	_	_	_
+6	car	car	NN	-	+	n:x	_	_	_	_	_	_
+7	park	park	NN	-	-	n:x	_	_	ARG2	BV	compound	_
+8	in	in	IN	-	+	p:e-u-i	_	_	_	_	_	_
+9	Bristol	Bristol	NNP	-	-	named:x-c	_	_	_	_	_	ARG2
+10	?	?	.	-	-	_	_	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_	_	_	_
+2	football	football	NN	-	+	n:x	_	_	_	_	_	_
+3	stadium	stadium	NN	-	-	n:x	BV	compound	ARG1	_	_	_
+4	has	have	VBZ	+	+	v:e-i-i	_	_	_	_	_	_
+5	the	the	DT	-	+	q:i-h-h	_	_	_	_	_	_
+6	biggest	big	JJS	-	+	a:e-i	_	_	_	_	_	_
+7	capacity	capacity	NN	-	-	n:x	_	_	ARG2	BV	ARG1	ARG1
+8	in	in	IN	-	+	p:e-u-i	_	_	_	_	_	_
+9	Ireland	Ireland	NNP	-	-	named:x-c	_	_	_	_	_	ARG2
+10	?	?	.	-	-	_	_	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_	_
+2	city	city	NN	-	+	n:x	BV	_	ARG2	ARG1
+3	of	of	IN	-	+	p:e-x-i	_	_	_	_
+4	England	England	NNP	-	-	named:x-c	_	ARG1	_	_
+5	is	be	VBZ	-	-	_	_	_	_	_
+6	nearest	near	JJS	+	+	a_to:e-p-i	_	_	_	_
+7	to	to	IN	-	-	_	_	_	_	_
+8	London	London	NNP	-	-	named:x-c	_	_	_	ARG2
+9	?	?	.	-	-	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_	_	_	_	_
+2	hotel	hotel	NN	-	-	n:x	BV	ARG1	_	_	_	_	_
+3	is	be	VBZ	+	+	v_id:e-p-i	_	_	_	_	_	_	_
+4	the	the	DT	-	+	q:i-h-h	_	_	_	_	_	_	_
+5	nearest	near	JJS	-	-	a_to:e-i	_	ARG2	BV	ARG1	_	_	_
+6	to	to	IN	-	+	_	_	_	_	_	_	_	_
+7	Old	Old	NNP	-	+	named:x-c	_	_	_	_	_	_	_
+8	Trafford	Trafford	NNP	-	+	named:x-c	_	_	_	_	compound	_	_
+9	Stadium	Stadium	NNP	-	-	named:x-c	_	_	_	ARG2	_	compound	ARG1
+10	in	in	IN	-	+	p:e-u-i	_	_	_	_	_	_	_
+11	Manchester	Manchester	NNP	-	-	named:x-c	_	_	_	_	_	_	ARG2
+12	?	?	.	-	-	_	_	_	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_
+2	universities	university	NNS	-	-	n_of:x-i	BV	ARG1	_
+3	are	be	VBP	-	-	_	_	_	_
+4	in	in	IN	+	+	p:e-u-i	_	_	_
+5	county	county	NN	-	+	n_of:x-i	_	_	_
+6	Essex	Essex	NNP	-	-	named:x-c	_	ARG2	compound
+7	?	?	.	-	-	_	_	_	_
+
+#NO-ID
+1	Is	be	VBZ	+	+	v_there:e-i	_	_	_	_
+2	there	there	EX	-	-	_	_	_	_	_
+3	a	a	DT	-	+	q:i-h-h	_	_	_	_
+4	forest	forest	NN	-	-	n_of:x-i	ARG1	BV	ARG1	loc
+5	in	in	IN	-	+	p:e-u-i	_	_	_	_
+6	Lancashire	Lancashire	NNP	-	-	named:x-c	_	_	ARG2	_
+7	north	north	RB	-	+	place_n:x	_	_	_	_
+8	of	of	IN	-	-	_	_	_	_	_
+9	Burnley	Burnley	NNP	-	-	named:x-c	_	_	_	ARG2
+10	?	?	.	-	-	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_
+2	villages	village	NNS	-	-	n_of:x-i	BV	ARG1
+3	are	be	VBP	-	-	_	_	_
+4	in	in	IN	+	+	p:e-u-i	_	_
+5	Herefordshire	Herefordshire	NNP	-	-	named:x-c	_	ARG2
+6	?	?	.	-	-	_	_	_
+
+#NO-ID
+1	Is	be	VBZ	+	+	v_there:e-i	_	_	_	_	_	_	_	_
+2	there	there	EX	-	-	_	_	_	_	_	_	_	_	_
+3	a	a	DT	-	+	q:i-h-h	_	_	_	_	_	_	_	_
+4	church	church	NN	-	-	n:x	ARG1	BV	_	_	loc	_	_	_
+5	at	at	IN	-	-	x:e-u	_	_	mwe	_	_	_	_	_
+6	most	most	JJS	-	+	x:e-u	_	_	_	_	_	_	_	_
+7	2	2	CD	-	+	card:i-i-c	_	_	_	_	_	_	_	_
+8	km	km	NN	-	+	n:x	_	_	ARG1	ARG1	_	ARG1	_	_
+9	from	from	IN	-	+	p:e-u-i	_	_	_	_	_	_	_	_
+10	the	the	DT	-	+	q:i-h-h	_	_	_	_	_	_	_	_
+11	University	University	NNP	-	+	n_of:x-i	_	_	_	_	_	ARG2	BV	_
+12	of	of	IN	-	-	_	_	_	_	_	_	_	_	_
+13	Westminster	Westminster	NNP	-	-	named:x-c	_	_	_	_	_	_	_	ARG1
+14	?	?	.	-	-	_	_	_	_	_	_	_	_	_
+
+#NO-ID
+1	Is	be	VBZ	+	+	v_there:e-i	_	_	_	_	_	_
+2	there	there	EX	-	-	_	_	_	_	_	_	_
+3	a	a	DT	-	+	q:i-h-h	_	_	_	_	_	_
+4	county	county	NN	-	+	n_of:x-i	ARG1	BV	_	ARG1	_	_
+5	of	of	IN	-	-	_	_	_	_	_	_	_
+6	England	England	NNP	-	-	named:x-c	_	_	ARG1	_	_	_
+7	that	that	WDT	-	-	_	_	_	_	_	_	_
+8	borders	border	VBZ	-	+	v:e-i-p	_	_	_	_	_	_
+9	the	the	DT	-	+	q:i-h-h	_	_	_	_	_	_
+10	Isle	Isle	NNP	-	-	named:x-c	_	_	_	ARG2	BV	ARG1
+11	of	of	IN	-	+	p:e-x-i	_	_	_	_	_	_
+12	Wight	Wight	NNP	-	-	named:x-c	_	_	_	_	_	ARG2
+13	?	?	.	-	-	_	_	_	_	_	_	_
+
+#NO-ID
+1	How	how	WRB	-	+	abstr_deg:i	_	_	_
+2	many	many	JJ	-	+	much-many_a:e-p	measure	_	_
+3	mountains	mountain	NNS	-	-	n:x	_	ARG1	ARG1
+4	are	be	VBP	-	-	_	_	_	_
+5	there	there	RB	-	-	place_n:x	_	_	_
+6	in	in	IN	-	+	p:e-u-i	_	_	_
+7	Scotland	Scotland	NNP	-	-	named:x-c	_	_	ARG2
+8	?	?	.	-	-	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_	_
+2	site	site	NN	-	-	n:x	BV	ARG1	ARG1	_
+3	of	of	IN	-	+	p:e-x-i	_	_	_	_
+4	Manchester	Manchester	NNP	-	-	named:x-c	_	ARG2	_	_
+5	is	be	VBZ	+	+	v_id:e-p-i	_	_	_	_
+6	the	the	DT	-	-	q:i-h-h	_	_	_	mwe
+7	most	most	RBS	-	+	superl:e-u	_	_	_	_
+8	popular	popular	JJ	-	-	a_for:e-p	_	_	_	ARG1
+9	?	?	.	-	-	_	_	_	_	_
+
+#NO-ID
+1	Is	be	VBZ	+	+	v_there:e-i	_	_	_	_	_	_	_	_
+2	there	there	EX	-	-	_	_	_	_	_	_	_	_	_
+3	a	a	DT	-	+	q:i-h-h	_	_	_	_	_	_	_	_
+4	church	church	NN	-	-	n:x	ARG1	BV	ARG1	_	_	_	ARG2	_
+5	in	in	IN	-	+	p:e-u-i	_	_	_	_	_	_	_	_
+6	the	the	DT	-	+	q:i-h-h	_	_	_	_	_	_	_	_
+7	county	county	NN	-	+	n_of:x-i	_	_	ARG2	BV	_	_	_	_
+8	of	of	IN	-	-	_	_	_	_	_	_	_	_	_
+9	Greater	Greater	NNP	-	+	named:x-c	_	_	_	_	_	_	_	_
+10	Manchester	Manchester	NNP	-	-	named:x-c	_	_	_	_	ARG1	compound	_	_
+11	dedicated	dedicate	VBN	-	+	v_to:e-i-p-i	_	_	_	_	_	_	_	_
+12	to	to	IN	-	-	_	_	_	_	_	_	_	_	_
+13	St.	St.	NNP	-	+	n:x	_	_	_	_	_	_	_	_
+14	Patrick	Patrick	NNP	-	-	named:x-c	_	_	_	_	_	_	ARG3	compound
+15	?	?	.	-	-	_	_	_	_	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_
+2	city	city	NN	-	-	n:x	BV	loc
+3	is	be	VBZ	-	-	_	_	_
+4	southeast	southeast	JJ	+	+	place_n:x	_	_
+5	of	of	IN	-	-	_	_	_
+6	Salford	Salford	NNP	-	-	named:x-c	_	ARG2
+7	?	?	.	-	-	_	_	_
+
+#NO-ID
+1	Is	be	VBZ	+	+	_	_	_	_	_	_	_	_	_	_	_
+2	there	there	EX	-	-	_	_	_	_	_	_	_	_	_	_	_
+3	a	a	DT	-	+	q:i-h-h	_	_	_	_	_	_	_	_	_	_
+4	mountain	mountain	NN	-	-	n:x	ARG1	BV	ARG1	_	_	_	ARG1	_	_	_
+5	in	in	IN	-	+	p:e-u-i	_	_	_	_	_	_	_	_	_	_
+6	the	the	DT	-	+	q:i-h-h	_	_	_	_	_	_	_	_	_	_
+7	county	county	NN	-	-	n_of:x-i	_	_	ARG2	BV	ARG1	_	_	_	_	_
+8	of	of	IN	-	+	_	_	_	_	_	_	_	_	_	_	_
+9	Greater	Greater	NNP	-	+	named:x-c	_	_	_	_	_	_	_	_	_	_
+10	Manchester	Manchester	NNP	-	-	named:x-c	_	_	_	_	ARG2	compound	_	_	_	_
+11	taller	tall	JJR	-	+	a:e-i	_	_	_	_	_	_	_	_	_	_
+12	than	than	IN	-	-	_	_	_	_	_	_	_	_	_	_	_
+13	1300	1300	CD	-	+	card:i-i-c	_	_	_	_	_	_	_	_	_	_
+14	meters	meter	NNS	-	-	n:x	_	_	_	_	_	_	than	ARG1	ARG1	_
+15	above	above	IN	-	+	p:e-u-i	_	_	_	_	_	_	_	_	_	_
+16	sea	sea	NN	-	+	n:x	_	_	_	_	_	_	_	_	_	_
+17	level	level	NN	-	-	n:x	_	_	_	_	_	_	_	_	ARG2	compound
+18	?	?	.	-	-	_	_	_	_	_	_	_	_	_	_	_
+
+#NO-ID
+1	Is	be	VBZ	+	+	v_there:e-i	_	_	_	_	_	_
+2	there	there	EX	-	-	_	_	_	_	_	_	_
+3	a	a	DT	-	+	q:i-h-h	_	_	_	_	_	_
+4	river	river	NN	-	-	n_of:x-i	ARG1	BV	ARG1	ARG1	_	_
+5	in	in	IN	-	+	p:e-u-i	_	_	_	_	_	_
+6	Ireland	Ireland	NNP	-	-	named:x-c	_	_	ARG2	_	_	_
+7	that	that	WDT	-	-	_	_	_	_	_	_	_
+8	crosses	cross	VBZ	-	+	v:e-i-p	_	_	_	_	_	_
+9	more	more	JJR	-	+	much-many_a:e-i	_	_	_	_	_	_
+10	than	than	IN	-	-	_	_	_	_	_	_	_
+11	3	3	CD	-	+	card:i-i-c	_	_	_	_	_	_
+12	cities	city	NNS	-	-	n:x	_	_	_	_	than	ARG1
+13	?	?	.	-	-	_	_	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_
+2	university	university	NN	-	+	n_of:x-i	_	_	_
+3	colleges	college	NNS	-	-	n_of:x-i	BV	compound	ARG1
+4	are	be	VBP	-	-	_	_	_	_
+5	in	in	IN	+	+	p:e-u-i	_	_	_
+6	Scotland	Scotland	NNP	-	-	named:x-c	_	_	ARG2
+7	?	?	.	-	-	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_	_	_
+2	mountains	mountain	VBZ	-	-	n:x	BV	ARG1	ARG1	_	_
+3	in	in	IN	-	+	p:e-u-i	_	_	_	_	_
+4	Scotland	Scotland	NNP	-	-	named:x-c	_	ARG2	_	_	_
+5	have	have	VBP	+	+	v:e-i-i	_	_	_	_	_
+6	height	height	VBN	-	-	n:x	_	_	ARG2	ARG1	_
+7	more	more	JJR	-	-	much-many_a:e-i	_	_	_	mwe	_
+8	than	than	IN	-	+	_	_	_	_	_	_
+9	1000	1000	CD	-	+	card:i-i-c	_	_	_	_	_
+10	meters	meter	NNS	-	-	n:x	_	_	_	ARG2	ARG1
+11	?	?	.	-	-	_	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_	_	_	_	_
+2	villages	village	NNS	-	-	n_of:x-i	BV	ARG1	ARG1	_	_	_	_
+3	in	in	IN	-	+	p:e-u-i	_	_	_	_	_	_	_
+4	Scotland	Scotland	NNP	-	-	named:x-c	_	ARG2	_	_	_	_	_
+5	have	have	VBP	+	+	v:e-i-i	_	_	_	_	_	_	_
+6	a	a	DT	-	+	q:i-h-h	_	_	_	_	_	_	_
+7	population	population	NN	-	-	n:x	_	_	ARG2	BV	ARG1	_	_
+8	of	of	IN	-	+	p:e-x-i	_	_	_	_	_	_	_
+9	less	less	JJR	-	+	little-few_a:e-i	_	_	_	_	_	_	_
+10	than	than	IN	-	-	_	_	_	_	_	_	_	_
+11	500	500	CD	-	+	card:i-i-c	_	_	_	_	_	_	_
+12	people	people	NNS	-	-	n_of:x-i	_	_	_	_	_	than	ARG1
+13	?	?	.	-	-	_	_	_	_	_	_	_	_
+
+#NO-ID
+1	In	in	IN	-	+	p:e-u-i	_	_	_	_
+2	which	which	WDT	-	+	q:i-h-h	_	_	_	_
+3	city	city	NN	-	-	n:x	ARG2	BV	_	_
+4	is	be	VBZ	-	-	_	_	_	_	_
+5	Big	big	JJ	-	+	named:x-c	_	_	_	_
+6	Ben	Ben	NNP	-	-	named:x-c	_	_	compound	ARG2
+7	located	locate	VBN	+	+	v:e-i-p	ARG1	_	_	_
+8	?	?	.	-	-	_	_	_	_	_
+
+#NO-ID
+1	What	what	WP	-	-	thing:x	ARG1	_	_	_	_	_
+2	's	be	VBZ	+	+	v_id:e-p-i	_	_	_	_	_	_
+3	the	the	DT	-	+	q:i-h-h	_	_	_	_	_	_
+4	name	name	NN	-	+	n_of:x-i	ARG2	BV	_	_	_	_
+5	of	of	IN	-	-	_	_	_	_	_	_	_
+6	the	the	DT	-	+	q:i-h-h	_	_	_	_	_	_
+7	river	river	NN	-	-	n_of:x-i	_	_	ARG1	BV	ARG1	_
+8	that	that	WDT	-	-	_	_	_	_	_	_	_
+9	runs	run	VBZ	-	+	v:e-i	_	_	_	_	_	ARG1
+10	through	through	IN	-	+	p:e-u-i	_	_	_	_	_	_
+11	London	London	NNP	-	-	named:x-c	_	_	_	_	_	ARG2
+12	?	?	.	-	-	_	_	_	_	_	_	_
+
+#NO-ID
+1	Is	be	VBZ	+	+	v_there:e-i	_	_	_	_	_
+2	there	there	EX	-	-	_	_	_	_	_	_
+3	a	a	DT	-	+	q:i-h-h	_	_	_	_	_
+4	Modern	Modern	NNP	-	+	a:e-p	_	_	_	_	_
+5	Art	Art	NNP	-	+	n:x	_	_	ARG1	_	_
+6	Museum	Museum	NNP	-	-	n_of:x-i	ARG1	BV	_	compound	ARG1
+7	in	in	IN	-	+	p:e-u-i	_	_	_	_	_
+8	London	London	NNP	-	-	named:x-c	_	_	_	_	ARG2
+9	?	?	.	-	-	_	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_	_	_
+2	county	county	NN	-	+	n_of:x-i	BV	_	ARG1	_	_
+3	of	of	IN	-	-	_	_	_	_	_	_
+4	England	England	NNP	-	-	named:x-c	_	ARG1	_	_	_
+5	has	have	VBZ	+	+	v:e-i-i	_	_	_	_	_
+6	the	the	DT	-	+	q:i-h-h	_	_	_	_	_
+7	biggest	big	JJS	-	+	a:e-i	_	_	_	_	_
+8	population	population	NN	-	-	n:x	_	_	ARG2	BV	ARG1
+9	?	?	.	-	-	_	_	_	_	_	_
+
+#NO-ID
+1	How	how	WRB	-	+	abstr_deg:i	_	_	_	_
+2	many	many	JJ	-	+	much-many_a:e-p	measure	_	_	_
+3	cities	city	NNS	-	-	n:x	_	ARG1	_	ARG2
+4	does	do	VBZ	-	-	_	_	_	_	_
+5	Thames	Thames	NNP	-	+	named:x-c	_	_	_	_
+6	river	river	NN	-	-	named:x-c	_	_	compound	ARG1
+7	crosses	crosse	NNS	+	+	v:e-i-p	_	_	_	_
+8	?	?	.	-	-	_	_	_	_	_
+
+#NO-ID
+1	Through	through	IN	-	+	p:e-u-i	_	_	_	_
+2	which	which	WDT	-	+	q:i-h-h	_	_	_	_
+3	cities	city	NNS	-	-	n:x	ARG2	BV	_	_
+4	does	do	VBZ	-	-	_	_	_	_	_
+5	River	River	NNP	-	+	named:x-c	_	_	_	_
+6	Thames	Thames	NNP	-	-	named:x-c	_	_	compound	ARG1
+7	flow	flow	VB	+	+	v:e-i	ARG1	_	_	_
+8	?	?	.	-	-	_	_	_	_	_
+
+#NO-ID
+1	Does	do	VBZ	-	-	_	_	_	_
+2	the	the	DT	-	+	q:i-h-h	_	_	_
+3	distric	distric	NN	-	-	n:x	BV	ARG1	ARG1
+4	of	of	IN	-	+	p:e-x-i	_	_	_
+5	Coleraine	Coleraine	NNP	-	-	named:x-c	_	ARG2	_
+6	border	border	NN	+	+	v:e-i-p	_	_	_
+7	Belfast	Belfast	NNP	-	-	named:x-c	_	_	ARG2
+8	?	?	.	-	-	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_
+2	districts	district	VBZ	-	-	n_of:x-i	BV	ARG1
+3	border	border	VBP	+	+	v:e-i-p	_	_
+4	London	London	NNP	-	-	named:x-c	_	ARG2
+5	?	?	.	-	-	_	_	_
+
+#NO-ID
+1	Is	be	VBZ	+	+	v_there:e-i	_	_	_	_
+2	there	there	EX	-	-	_	_	_	_	_
+3	a	a	DT	-	+	q:i-h-h	_	_	_	_
+4	train	train	NN	-	+	n:x	_	_	_	_
+5	station	station	NN	-	-	n:x	ARG1	BV	compound	ARG1
+6	in	in	IN	-	+	p:e-u-i	_	_	_	_
+7	Dublin	Dublin	NNP	-	-	named:x-c	_	_	_	ARG2
+8	?	?	.	-	-	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_
+2	forests	forest	NNS	-	-	n_of:x-i	BV	ARG1	_
+3	are	be	VBP	-	-	_	_	_	_
+4	in	in	IN	+	+	p:e-u-i	_	_	_
+5	Northern	Northern	NNP	-	+	named:x-c	_	_	_
+6	Ireland	Ireland	NNP	-	-	named:x-c	_	ARG2	compound
+7	?	?	.	-	-	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	-	q:i-h-h	ARG1	_	_	_
+2	are	be	VBP	+	+	v_id:e-p-i	_	_	_	_
+3	the	the	DT	-	+	q:i-h-h	_	_	_	_
+4	metropolitan	metropolitan	JJ	-	+	a:e-p	_	_	_	_
+5	counties	county	NNS	-	+	n_of:x-i	ARG2	BV	ARG1	_
+6	of	of	IN	-	-	_	_	_	_	_
+7	England	England	NNP	-	-	named:x-c	_	_	_	ARG1
+8	?	?	.	-	-	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	-	_	ARG1	_	_	_	_
+2	is	be	VBZ	+	+	v_id:e-p-i	_	_	_	_	_
+3	the	the	DT	-	+	q:i-h-h	_	_	_	_	_
+4	largest	large	JJS	-	+	a:e-i	_	_	_	_	_
+5	royal	royal	JJ	-	+	a:e-p	_	_	_	_	_
+6	borough	borough	NN	-	-	n:x	ARG2	BV	ARG1	ARG1	ARG1
+7	of	of	IN	-	+	p:e-x-i	_	_	_	_	_
+8	London	London	NNP	-	-	named:x-c	_	_	_	_	ARG2
+9	?	?	.	-	-	_	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_	_	_	_
+2	Welsh	Welsh	NNP	-	+	a:e-p	_	_	_	_	_	_
+3	district	district	NN	-	-	n_of:x-i	BV	ARG1	ARG1	_	_	_
+4	has	have	VBZ	+	+	v:e-i-i	_	_	_	_	_	_
+5	the	the	DT	-	-	q:i-h-h	_	_	_	mwe	_	_
+6	most	most	RBS	-	+	superl:e-u	_	_	_	_	_	_
+7	adjacent	adjacent	JJ	-	+	a:e-p	_	_	_	ARG1	_	_
+8	Welsh	Welsh	NNP	-	+	a:e-p	_	_	_	_	_	_
+9	districts	district	NNS	-	-	n_of:x-i	_	_	ARG2	_	ARG1	ARG1
+10	?	?	.	-	-	_	_	_	_	_	_	_
+
+#NO-ID
+1	What	what	WP	-	-	thing:x	ARG1	_	_	_	_	_	_	_	_
+2	is	be	VBZ	+	+	v_id:e-p-i	_	_	_	_	_	_	_	_	_
+3	the	the	DT	-	+	q:i-h-h	_	_	_	_	_	_	_	_	_
+4	name	name	NN	-	+	n_of:x-i	ARG2	BV	_	_	_	_	_	_	_
+5	of	of	IN	-	-	_	_	_	_	_	_	_	_	_	_
+6	the	the	DT	-	+	q:i-h-h	_	_	_	_	_	_	_	_	_
+7	river	river	NN	-	-	n_of:x-i	_	_	ARG1	BV	ARG1	_	_	_	_
+8	that	that	WDT	-	-	_	_	_	_	_	_	_	_	_	_
+9	flows	flow	VBZ	-	+	v:e-i	_	_	_	_	_	ARG1	_	_	_
+10	under	under	IN	-	+	p:e-u-i	_	_	_	_	_	_	_	_	_
+11	the	the	DT	-	+	q:i-h-h	_	_	_	_	_	_	_	_	_
+12	Queensway	Queensway	NNP	-	+	named:x-c	_	_	_	_	_	_	_	_	_
+13	Bridge	Bridge	NNP	-	-	named:x-c	_	_	_	_	_	ARG2	BV	compound	ARG1
+14	in	in	IN	-	+	p:e-u-i	_	_	_	_	_	_	_	_	_
+15	Liverpool	Liverpool	NNP	-	-	named:x-c	_	_	_	_	_	_	_	_	ARG2
+16	?	?	.	-	-	_	_	_	_	_	_	_	_	_	_
+
+#NO-ID
+1	Is	be	VBZ	+	+	_	_	_	_	_	_
+2	there	there	EX	-	-	_	_	_	_	_	_
+3	a	a	DT	-	+	q:i-h-h	_	_	_	_	_
+4	castle	castle	NN	-	-	n:x	ARG1	BV	ARG1	ARG1	_
+5	in	in	IN	-	+	p:e-u-i	_	_	_	_	_
+6	London	London	NNP	-	-	named:x-c	_	_	ARG2	_	_
+7	near	near	IN	-	+	p:e-u-i	_	_	_	_	_
+8	Trafalgar	Trafalgar	NNP	-	+	named:x-c	_	_	_	_	_
+9	Square	Square	NNP	-	-	named:x-c	_	_	_	ARG2	compound
+10	?	?	.	-	-	_	_	_	_	_	_
+
+#NO-ID
+1	Is	be	VBZ	+	+	v_there:e-i	_	_	_	_	_
+2	there	there	EX	-	-	_	_	_	_	_	_
+3	a	a	DT	-	+	q:i-h-h	_	_	_	_	_
+4	park	park	NN	-	-	n:x	ARG1	BV	ARG1	ARG1	_
+5	in	in	IN	-	+	p:e-u-i	_	_	_	_	_
+6	Dublin	Dublin	NNP	-	-	named:x-c	_	_	ARG2	_	_
+7	near	near	IN	-	+	p:e-u-i	_	_	_	_	_
+8	Grafton	Grafton	NNP	-	+	named:x-c	_	_	_	_	_
+9	Street	Street	NNP	-	-	named:x-c	_	_	_	ARG2	compound
+10	?	?	.	-	-	_	_	_	_	_	_
+
+#NO-ID
+1	Is	be	VBZ	-	-	_	_
+2	Hampshire	Hampshire	NNP	-	-	named:x-c	ARG2
+3	north	north	RB	+	+	place_n:x	_
+4	of	of	IN	-	-	_	_
+5	Berkshire	Berkshire	NNP	-	-	named:x-c	loc
+6	?	?	.	-	-	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_	_	_
+2	counties	county	NNS	-	+	n_of:x-i	BV	_	ARG1	ARG1	_
+3	of	of	IN	-	+	_	_	_	_	_	_
+4	England	England	NNP	-	-	named:x-c	_	ARG1	_	_	_
+5	border	border	NN	+	+	v:e-i-p	_	_	_	_	ARG1
+6	country	country	NN	-	+	n_of:x-i	_	_	_	_	_
+7	Scotland	Scotland	NNP	-	-	named:x-c	_	_	_	ARG2	_
+8	?	?	.	-	-	_	_	_	_	_	_
+
+#NO-ID
+1	Is	be	VBZ	-	-	_	_	_	_
+2	Trafalgar	Trafalgar	NNP	-	+	named:x-c	_	_	_
+3	square	square	NN	-	-	named:x-c	compound	ARG2	ARG1
+4	located	locate	VBN	+	+	v:e-i-p	_	_	_
+5	in	in	IN	-	+	p:e-u-i	_	ARG3	_
+6	London	London	NNP	-	-	named:x-c	_	_	ARG2
+7	?	?	.	-	-	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	-	_	ARG1	_	_	_
+2	is	be	VBZ	+	+	v_id:e-p-i	_	_	_	_
+3	the	the	DT	-	+	q:i-h-h	_	_	_	_
+4	oldest	old	JJS	-	+	a:e-i	_	_	_	_
+5	bridge	bridge	NN	-	+	n:x	ARG2	BV	ARG1	_
+6	of	of	IN	-	-	_	_	_	_	_
+7	London	London	NNP	-	-	named:x-c	_	_	_	ARG1
+8	?	?	.	-	-	_	_	_	_	_
+
+#NO-ID
+1	Is	be	VBZ	+	+	v_there:e-i	_	_	_	_	_
+2	there	there	EX	-	-	_	_	_	_	_	_
+3	any	any	DT	-	+	q:i-h-h	_	_	_	_	_
+4	airfield	airfield	NN	-	-	n:x	ARG1	BV	ARG1	_	ARG1
+5	in	in	IN	-	+	p:e-u-i	_	_	_	_	_
+6	Wellesbourne	Wellesbourne	NNP	-	+	named:x-c	_	_	_	_	_
+7	village	village	NN	-	-	n_of:x-i	_	_	ARG2	compound	_
+8	in	in	IN	-	+	p:e-u-i	_	_	_	_	_
+9	England	England	NNP	-	-	named:x-c	_	_	_	_	ARG2
+10	?	?	.	-	-	_	_	_	_	_	_
+
+#NO-ID
+1	How	how	WRB	-	+	abstr_deg:i	_	_	_
+2	many	many	JJ	-	+	much-many_a:e-p	measure	_	_
+3	parks	park	NNS	-	-	n:x	_	ARG1	_
+4	are	be	VBP	-	-	_	_	_	_
+5	there	there	RB	-	-	_	_	_	_
+6	in	in	IN	+	+	p:e-u-i	_	_	_
+7	Northampton	Northampton	NNP	-	-	named:x-c	_	_	ARG2
+8	?	?	.	-	-	_	_	_	_
+
+#NO-ID
+1	Is	be	VBZ	+	+	v_there:e-i	_	_	_
+2	there	there	EX	-	-	_	_	_	_
+3	any	any	DT	-	+	q:i-h-h	_	_	_
+4	stadium	stadium	NN	-	-	n:x	ARG1	BV	ARG1
+5	in	in	IN	-	+	p:e-u-i	_	_	_
+6	Cardiff	Cardiff	NNP	-	-	named:x-c	_	_	ARG2
+7	?	?	.	-	-	_	_	_	_
+
+#NO-ID
+1	Is	be	VBZ	+	+	_	_	_	_
+2	there	there	EX	-	-	_	_	_	_
+3	an	an	DT	-	+	q:i-h-h	_	_	_
+4	aerodrome	aerodrome	NN	-	-	n:x	ARG1	BV	ARG1
+5	in	in	IN	-	+	p:e-u-i	_	_	_
+6	Essex	Essex	NNP	-	-	named:x-c	_	_	ARG2
+7	?	?	.	-	-	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_
+2	aerodrome	aerodrome	NN	-	-	n:x	BV	ARG1
+3	is	be	VBZ	-	-	_	_	_
+4	in	in	IN	+	+	p:e-u-i	_	_
+5	Essex	Essex	NNP	-	-	named:x-c	_	ARG2
+6	?	?	.	-	-	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_	_	_
+2	aerodromes	aerodrome	NNS	-	-	n:x	BV	ARG1	_	_	_
+3	are	be	VBP	+	+	_	_	_	_	_	_
+4	at	at	IN	-	-	x:e-u	_	_	mwe	_	_
+5	most	most	RBS	-	+	x:e-u	_	_	_	_	_
+6	50	50	CD	-	+	card:i-i-c	_	_	ARG1	_	_
+7	km	km	NNS	-	-	n:x	_	_	_	ARG1	ARG1
+8	from	from	IN	-	+	p:e-u-i	_	_	_	_	_
+9	London	London	NNP	-	-	named:x-c	_	_	_	_	ARG2
+10	?	?	.	-	-	_	_	_	_	_	_
+
+#NO-ID
+1	Is	be	VBZ	-	-	_	_
+2	Somerset	Somerset	NNP	-	-	named:x-c	ARG1
+3	west	west	NN	+	+	named:x-c	_
+4	of	of	IN	-	-	_	_
+5	Westmorland	Westmorland	NNP	-	-	named:x-c	ARG2
+6	?	?	.	-	-	_	_
+
+#NO-ID
+1	Is	be	VBZ	-	-	_	_
+2	Edinburgh	Edinburgh	NNP	-	-	named:x-c	ARG2
+3	west	west	NN	+	+	named:x-c	_
+4	of	of	IN	-	-	_	_
+5	Glasgow	Glasgow	NNP	-	-	named:x-c	loc
+6	?	?	.	-	-	_	_
+
+#NO-ID
+1	How	how	WRB	-	+	abstr_deg:i	_	_	_	_	_	_
+2	many	many	JJ	-	+	much-many_a:e-p	measure	_	_	_	_	_
+3	rivers	river	NNS	-	-	n_of:x-i	_	ARG1	ARG1	_	_	_
+4	cross	cross	VBP	+	+	v:e-i-p	_	_	_	_	_	_
+5	the	the	DT	-	+	q:i-h-h	_	_	_	_	_	_
+6	county	county	NN	-	-	n_of:x-i	_	_	ARG2	BV	_	appos
+7	West	West	NNP	-	+	named:x-c	_	_	_	_	_	_
+8	Yorkshire	Yorkshire	NNP	-	+	named:x-c	_	_	_	_	compound	_
+9	?	?	.	-	-	_	_	_	_	_	_	_
+
+#NO-ID
+1	How	how	WRB	-	+	abstr_deg:i	_	_	_
+2	many	many	JJ	-	+	much-many_a:e-p	measure	_	_
+3	cities	city	NNS	-	-	n:x	_	ARG1	ARG2
+4	does	do	VBZ	-	-	_	_	_	_
+5	Merseyside	Merseyside	NNP	-	-	named:x-c	_	_	ARG1
+6	have	have	VB	+	+	v:e-i-i	_	_	_
+7	?	?	.	-	-	_	_	_	_
+
+#NO-ID
+1	Is	be	VBZ	+	+	v_there:e-i	_	_	_
+2	there	there	EX	-	-	_	_	_	_
+3	an	an	DT	-	+	q:i-h-h	_	_	_
+4	airport	airport	NN	-	-	n:x	ARG1	BV	ARG1
+5	in	in	IN	-	+	p:e-u-i	_	_	_
+6	Dublin	Dublin	NNP	-	-	named:x-c	_	_	ARG2
+7	?	?	.	-	-	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	-	q:i-h-h	ARG1	_	_	_
+2	are	be	VBP	+	+	v_id:e-p-i	_	_	_	_
+3	the	the	DT	-	+	q:i-h-h	_	_	_	_
+4	counties	county	NNS	-	+	n_of:x-i	ARG2	BV	_	_
+5	of	of	IN	-	-	_	_	_	_	_
+6	Northern	Northern	NNP	-	+	named:x-c	_	_	_	_
+7	Ireland	Ireland	NNP	-	-	named:x-c	_	_	ARG1	compound
+8	?	?	.	-	-	_	_	_	_	_
+
+#NO-ID
+1	What	what	WDT	-	+	q:i-h-h	_	_	_
+2	historic	historic	JJ	-	+	a:e-p	_	_	_
+3	buildings	building	NNS	-	-	n:x	BV	ARG1	ARG1
+4	are	be	VBP	-	-	_	_	_	_
+5	in	in	IN	+	+	p:e-u-i	_	_	_
+6	Buckinghamshire	Buckinghamshire	NNP	-	-	named:x-c	_	_	ARG2
+7	?	?	.	-	-	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_	_	_
+2	Greek	greek	JJ	-	+	a:e-p	_	_	_	_	_
+3	restaurants	restaurant	NNS	-	-	n:x	BV	ARG1	ARG1	ARG1	_
+4	in	in	IN	-	+	p:e-u-i	_	_	_	_	_
+5	London	London	NNP	-	-	named:x-c	_	_	ARG2	_	_
+6	are	be	VBP	-	-	_	_	_	_	_	_
+7	near	near	IN	+	+	p:e-u-i	_	_	_	_	_
+8	Wembley	Wembley	NNP	-	+	named:x-c	_	_	_	_	_
+9	stadium	stadium	NN	-	-	named:x-c	_	_	_	ARG2	compound
+10	?	?	.	-	-	_	_	_	_	_	_
+
+#NO-ID
+1	Is	be	VBZ	+	+	v_there:e-i	_	_	_	_
+2	there	there	EX	-	-	_	_	_	_	_
+3	a	a	DT	-	+	q:i-h-h	_	_	_	_
+4	National	National	NNP	-	+	a:e-p	_	_	_	_
+5	Park	Park	NNP	-	-	n:x	ARG1	BV	ARG1	ARG1
+6	in	in	IN	-	+	p:e-u-i	_	_	_	_
+7	England	England	NNP	-	-	named:x-c	_	_	_	ARG2
+8	?	?	.	-	-	_	_	_	_	_
+
+#NO-ID
+1	Is	be	VBZ	+	+	v_there:e-i	_	_	_
+2	there	there	EX	-	-	_	_	_	_
+3	a	a	DT	-	+	q:i-h-h	_	_	_
+4	mountain	mountain	NN	-	-	n:x	ARG1	BV	ARG1
+5	in	in	IN	-	+	p:e-u-i	_	_	_
+6	Merseyside	Merseyside	NNP	-	-	named:x-c	_	_	ARG2
+7	?	?	.	-	-	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_	_	_
+2	town	town	NN	-	-	n:x	BV	ARG1	_	_	_
+3	has	have	VBZ	+	+	v:e-i-i	_	_	_	_	_
+4	the	the	DT	-	+	q:i-h-h	_	_	_	_	_
+5	biggest	big	JJS	-	+	a:e-i	_	_	_	_	_
+6	population	population	NN	-	-	n:x	_	ARG2	BV	ARG1	ARG1
+7	in	in	IN	-	+	p:e-u-i	_	_	_	_	_
+8	Scotland	Scotland	NNP	-	-	named:x-c	_	_	_	_	ARG2
+9	?	?	.	-	-	_	_	_	_	_	_
+
+#NO-ID
+1	Where	where	WRB	-	+	place_n:x	_	_	_	_	_	_	_	_	_
+2	is	be	VBZ	+	+	_	loc	_	_	_	_	_	_	_	_
+3	the	the	DT	-	+	q:i-h-h	_	_	_	_	_	_	_	_	_
+4	nearest	near	JJS	-	+	a_to:e-i	_	_	_	_	_	_	_	_	_
+5	gas	gas	NN	-	+	n:x	_	_	_	_	_	_	_	_	_
+6	station	station	NN	-	-	n:x	_	ARG1	BV	ARG1	compound	ARG1	_	_	_
+7	to	to	IN	-	+	p:e-u-i	_	_	_	_	_	_	_	_	_
+8	St.	St.	NNP	-	+	n:x	_	_	_	_	_	_	_	_	_
+9	Peter	Peter	NNP	-	+	named:x-c	_	_	_	_	_	_	compound	_	_
+10	's	's	POS	-	-	_	_	_	_	_	_	_	_	_	_
+11	Square	Square	NNP	-	-	named:x-c	_	_	_	_	_	ARG2	_	poss	ARG1
+12	in	in	IN	-	+	p:e-u-i	_	_	_	_	_	_	_	_	_
+13	Manchester	Manchester	NNP	-	-	named:x-c	_	_	_	_	_	_	_	_	ARG2
+14	?	?	.	-	-	_	_	_	_	_	_	_	_	_	_
+
+#NO-ID
+1	Does	do	VBZ	-	-	_	_	_	_
+2	county	county	NN	-	+	named:x-c	_	_	_
+3	Suffolk	Suffolk	NNP	-	-	named:x-c	compound	ARG1	_
+4	border	border	NN	+	+	v:e-i-p	_	_	_
+5	county	county	NN	-	+	named:x-c	_	_	_
+6	Durham	Durham	NNP	-	-	named:x-c	_	ARG2	compound
+7	?	?	.	-	-	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_	_	_
+2	counties	county	NNS	-	+	n_of:x-i	BV	_	ARG1	_	ARG2
+3	of	of	IN	-	+	_	_	_	_	_	_
+4	Ireland	Ireland	NNP	-	-	named:x-c	_	ARG1	_	_	_
+5	does	do	VBZ	-	-	_	_	_	_	_	_
+6	River	River	NNP	-	+	named:x-c	_	_	_	_	_
+7	Shannon	Shannon	NNP	-	-	named:x-c	_	_	_	compound	ARG1
+8	cross	cross	NN	+	+	v:e-i-p	_	_	_	_	_
+9	?	?	.	-	-	_	_	_	_	_	_
+
+#NO-ID
+1	Is	be	VBZ	+	+	v_id:e-p-i	_	_	_	_
+2	Cavan	Cavan	NNP	-	+	named:x-c	ARG2	_	_	_
+3	a	a	DT	-	+	q:i-h-h	_	_	_	_
+4	county	county	NN	-	+	n_of:x-i	_	appos	BV	_
+5	of	of	IN	-	-	_	_	_	_	_
+6	Ireland	Ireland	NNP	-	-	named:x-c	_	_	_	ARG1
+7	?	?	.	-	-	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_	_	_	_
+2	restaurants	restaurant	NNS	-	-	n:x	BV	_	_	_	_	_
+3	are	be	VBP	-	-	_	_	_	_	_	_	_
+4	at	at	IN	-	-	x:e-u	_	mwe	_	_	_	_
+5	most	most	RBS	-	+	x:e-u	_	_	_	_	_	_
+6	500	500	CD	-	+	card:i-i-c	_	ARG1	_	_	_	_
+7	m	m	NNS	-	-	n:x	_	_	ARG1	ARG1	_	_
+8	from	from	IN	-	+	p:e-u-i	_	_	_	_	_	_
+9	the	the	DT	-	+	q:i-h-h	_	_	_	_	_	_
+10	University	University	NNP	-	+	n_of:x-i	_	_	_	ARG2	BV	_
+11	of	of	IN	-	-	_	_	_	_	_	_	_
+12	Liverpool	Liverpool	NNP	-	-	named:x-c	_	_	_	_	_	ARG1
+13	?	?	.	-	-	_	_	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_	_
+2	restaurants	restaurant	NNS	-	-	n:x	BV	ARG1	_	_
+3	are	be	VBP	-	-	_	_	_	_	_
+4	near	near	IN	+	+	p:e-u-i	_	_	_	ARG1
+5	Baker	Baker	NNP	-	+	named:x-c	_	_	_	_
+6	Street	Street	NNP	-	-	named:x-c	_	ARG2	compound	_
+7	in	in	IN	-	+	p:e-u-i	_	_	_	_
+8	London	London	NNP	-	-	named:x-c	_	_	_	ARG2
+9	?	?	.	-	-	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_
+2	lakes	lake	NNS	-	-	n:x	BV	ARG1
+3	are	be	VBP	-	-	_	_	_
+4	in	in	IN	+	+	p:e-u-i	_	_
+5	Ireland	Ireland	NNP	-	-	named:x-c	_	ARG2
+6	?	?	.	-	-	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_
+2	parks	park	NNS	-	-	n:x	BV	ARG1	_
+3	are	be	VBP	-	-	_	_	_	_
+4	near	near	IN	+	+	p:e-u-i	_	_	_
+5	Trafalgar	Trafalgar	NNP	-	+	named:x-c	_	_	_
+6	Square	Square	NNP	-	-	named:x-c	_	ARG2	compound
+7	?	?	.	-	-	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_
+2	countries	country	NNS	-	-	n_of:x-i	BV	ARG1
+3	border	border	VBP	+	+	v:e-i-p	_	_
+4	Wales	Wales	NNP	-	-	named:x-c	_	ARG2
+5	?	?	.	-	-	_	_	_
+
+#NO-ID
+1	Are	be	VBP	+	+	_	_	_	_	_	_	_	_	_
+2	there	there	EX	-	-	_	_	_	_	_	_	_	_	_
+3	cities	city	NNS	-	-	n:x	ARG1	_	_	_	_	_	_	_
+4	that	that	WDT	-	-	_	_	_	_	_	_	_	_	_
+5	are	be	VBP	-	-	_	_	_	_	_	_	_	_	_
+6	at	at	IN	-	-	x:e-u	_	mwe	_	_	_	_	_	_
+7	most	most	JJS	-	+	x:e-u	_	_	_	_	_	_	_	_
+8	2	2	CD	-	+	card:i-i-c	_	_	_	_	_	_	_	_
+9	km	km	NNS	-	-	n:x	_	ARG1	ARG1	ARG1	_	_	_	_
+10	away	away	RB	-	+	p:e-i	_	_	_	_	ARG1	_	_	ARG1
+11	from	from	IN	-	+	p:e-u-i	_	_	_	_	_	_	_	_
+12	St.	St.	NNP	-	+	n:x	_	_	_	_	_	_	_	_
+13	David	David	NNP	-	+	named:x-c	_	_	_	_	_	compound	_	_
+14	's	's	POS	-	-	named:x-c	_	_	_	_	_	_	compound	_
+15	in	in	IN	-	+	p:e-u-i	_	_	_	_	_	_	_	_
+16	Wales	Wales	NNP	-	-	named:x-c	_	_	_	_	_	_	_	ARG2
+17	?	?	.	-	-	_	_	_	_	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_	_	_
+2	river	river	NN	-	-	n_of:x-i	BV	ARG1	_	_	_
+3	crosses	cross	VBZ	+	+	v:e-i-p	_	_	_	_	_
+4	the	the	DT	-	+	q:i-h-h	_	_	_	_	_
+5	most	most	JJS	-	+	q:i-h-h	_	_	_	_	_
+6	cities	city	NNS	-	-	n:x	_	ARG2	BV	BV	ARG1
+7	in	in	IN	-	+	p:e-u-i	_	_	_	_	_
+8	England	England	NNP	-	-	named:x-c	_	_	_	_	ARG2
+9	?	?	.	-	-	_	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	-	q:i-h-h	ARG2	_	_	_
+2	is	be	VBZ	+	+	v_id:e-p-i	_	_	_	_
+3	the	the	DT	-	+	q:i-h-h	_	_	_	_
+4	longest	long	JJS	-	+	a:e-i	_	_	_	_
+5	river	river	NN	-	-	n_of:x-i	ARG1	BV	ARG1	ARG1
+6	in	in	IN	-	+	p:e-u-i	_	_	_	_
+7	Scotland	Scotland	NNP	-	-	named:x-c	_	_	_	ARG2
+8	?	?	.	-	-	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_	_	_
+2	city	city	NN	-	-	n:x	BV	ARG1	ARG1	_	_
+3	in	in	IN	-	+	p:e-u-i	_	_	_	_	_
+4	Scotland	Scotland	NNP	-	-	named:x-c	_	ARG2	_	_	_
+5	has	have	VBZ	+	+	v:e-i-i	_	_	_	_	_
+6	the	the	DT	-	+	q:i-h-h	_	_	_	_	_
+7	largest	large	JJS	-	+	a:e-i	_	_	_	_	_
+8	population	population	NN	-	-	n:x	_	_	ARG2	BV	ARG1
+9	?	?	.	-	-	_	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	-	_	ARG1	_	_	_	_	_
+2	is	be	VBZ	+	+	v_id:e-p-i	_	_	_	_	_	_
+3	the	the	DT	-	+	q:i-h-h	_	_	_	_	_	_
+4	largest	large	JJS	-	+	a:e-i	_	_	_	_	_	_
+5	lake	lake	NN	-	-	n:x	ARG2	BV	ARG1	ARG1	ARG1	_
+6	by	by	IN	-	+	p:e-u-i	_	_	_	_	_	_
+7	area	area	NN	-	-	n_of:x-i	_	_	_	ARG2	_	_
+8	in	in	IN	-	+	p:e-u-i	_	_	_	_	_	_
+9	Great	great	JJ	-	+	named:x-c	_	_	_	_	_	_
+10	Britain	Britain	NNP	-	-	named:x-c	_	_	_	_	ARG2	compound
+11	?	?	.	-	-	_	_	_	_	_	_	_
+
+#NO-ID
+1	Is	be	VBZ	+	+	v_id:e-p-i	_	_	_	_	_
+2	England	England	NNP	-	+	named:x-c	ARG2	_	_	_	_
+3	part	part	NN	-	+	part_of:i-i	_	ARG2	_	_	_
+4	of	of	IN	-	-	_	_	_	_	_	_
+5	the	the	DT	-	+	q:i-h-h	_	_	_	_	_
+6	United	United	NNP	-	+	named:x-c	_	_	_	_	_
+7	Kingdom	Kingdom	NNP	-	-	named:x-c	_	_	part	BV	compound
+8	?	?	.	-	-	_	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_	_	_	_	_
+2	cities	city	NNS	-	+	n:x	BV	_	ARG1	_	_	ARG1	_
+3	or	or	CC	-	-	_	_	_	_	_	_	_	_
+4	towns	town	NNS	-	-	n:x	_	_or_c	_	_	_	_	_
+5	of	of	IN	-	+	p:e-x-i	_	_	_	_	_	_	_
+6	the	the	DT	-	+	q:i-h-h	_	_	_	_	_	_	_
+7	United	United	NNP	-	+	named:x-c	_	_	_	_	_	_	_
+8	Kingdom	Kingdom	NNP	-	-	named:x-c	_	_	ARG2	BV	compound	_	_
+9	have	have	VBP	+	+	v:e-i-i	_	_	_	_	_	_	_
+10	a	a	DT	-	+	q:i-h-h	_	_	_	_	_	_	_
+11	university	university	NN	-	-	n_of:x-i	_	_	_	_	_	ARG2	BV
+12	?	?	.	-	-	_	_	_	_	_	_	_	_
+
+#NO-ID
+1	Does	do	VBZ	-	-	_	_	_	_
+2	Everton	Everton	NNP	-	-	named:x-c	compound	ARG1	_
+3	FC	FC	NNP	-	+	named:x-c	_	_	_
+4	plays	play	VBZ	+	+	v:e-i-p	_	_	ARG1
+5	in	in	IN	-	+	p:e-u-i	_	_	_
+6	Liverpool	Liverpool	NNP	-	-	named:x-c	_	_	ARG2
+7	?	?	.	-	-	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_	_	_
+2	towns	town	NNS	-	-	n:x	BV	ARG1	ARG1	_	_
+3	of	of	IN	-	+	p:e-x-i	_	_	_	_	_
+4	England	England	NNP	-	-	named:x-c	_	ARG2	_	_	_
+5	have	have	VBP	+	+	v:e-i-i	_	_	_	_	_
+6	at	at	RB	-	-	x:e-u	_	_	_	mwe	_
+7	least	least	RBS	-	+	x:e-u	_	_	_	_	_
+8	two	two	CD	-	+	card:i-i-c	_	_	_	ARG1	_
+9	hospitals	hospital	NNS	-	-	n:x	_	_	ARG2	_	ARG1
+10	?	?	.	-	-	_	_	_	_	_	_
+
+#NO-ID
+1	Is	be	VBZ	-	-	_	_	_
+2	Alnwick	Alnwick	NNP	-	+	named:x-c	_	_
+3	Castle	Castle	NNP	-	-	named:x-c	compound	ARG1
+4	in	in	IN	+	+	p:e-u-i	_	_
+5	Scotland	Scotland	NNP	-	-	named:x-c	_	ARG2
+6	?	?	.	-	-	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	-	_	ARG2	_	_	_
+2	is	be	VBZ	+	+	v_id:e-p-i	_	_	_	_
+3	the	the	DT	-	+	q:i-h-h	_	_	_	_
+4	largest	large	JJS	-	+	a:e-i	_	_	_	_
+5	city	city	NN	-	-	n:x	ARG1	BV	ARG1	ARG1
+6	of	of	IN	-	+	p:e-x-i	_	_	_	_
+7	Ireland	Ireland	NNP	-	-	named:x-c	_	_	_	ARG2
+8	?	?	.	-	-	_	_	_	_	_
+
+#NO-ID
+1	How	how	WRB	-	+	abstr_deg:i	_	_	_	_
+2	many	many	JJ	-	+	much-many_a:e-p	measure	_	_	_
+3	country	country	NN	-	+	n_of:x-i	_	_	_	_
+4	councils	council	NNS	-	-	n_of:x-i	_	ARG1	compound	ARG1
+5	are	be	VBP	-	-	_	_	_	_	_
+6	there	there	RB	-	-	place_n:x	_	_	_	_
+7	in	in	IN	-	+	p:e-u-i	_	_	_	_
+8	Ireland	Ireland	NNP	-	-	named:x-c	_	_	_	ARG2
+9	?	?	.	-	-	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_
+2	colleges	college	NNS	-	-	n_of:x-i	BV	ARG1
+3	are	be	VBP	-	-	_	_	_
+4	in	in	IN	+	+	p:e-u-i	_	_
+5	London	London	NNP	-	-	named:x-c	_	ARG2
+6	?	?	.	-	-	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_
+2	city	city	NN	-	+	n:x	_	_	_
+3	council	council	NN	-	-	n_of:x-i	BV	compound	ARG1
+4	includes	include	VBZ	+	+	v:e-i-p	_	_	_
+5	Dublin	Dublin	NNP	-	-	named:x-c	_	_	ARG2
+6	?	?	.	-	-	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_
+2	restaurants	restaurant	NNS	-	-	n:x	BV	ARG1
+3	are	be	VBP	-	-	_	_	_
+4	near	near	IN	+	+	p:e-u-i	_	_
+5	Stonehenge	Stonehenge	NNP	-	-	named:x-c	_	ARG2
+6	?	?	.	-	-	_	_	_
+
+#NO-ID
+1	How	how	WRB	-	+	abstr_deg:i	_	_	_	_
+2	many	many	JJ	-	+	much-many_a:e-p	measure	_	_	_
+3	districts	district	NNS	-	-	n_of:x-i	_	ARG1	_	ARG2
+4	does	do	VBZ	-	-	_	_	_	_	_
+5	Northern	Northern	NNP	-	+	named:x-c	_	_	_	_
+6	Ireland	Ireland	NNP	-	-	named:x-c	_	_	compound	ARG1
+7	have	have	VB	+	+	v:e-i-i	_	_	_	_
+8	?	?	.	-	-	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	-	q:i-h-h	ARG1	_	_	_	_	_
+2	are	be	VBP	+	+	v_id:e-p-i	_	_	_	_	_	_
+3	the	the	DT	-	+	q:i-h-h	_	_	_	_	_	_
+4	non	non	JJ	-	+	named:x-c	_	_	_	_	_	_
+5	-	-	JJ	-	+	_	_	_	compound	_	_	_
+6	metropolitan	metropolitan	JJ	-	+	a:e-p	_	_	_	compound	_	_
+7	counties	county	NNS	-	+	n_of:x-i	ARG2	BV	_	_	ARG1	_
+8	of	of	IN	-	-	_	_	_	_	_	_	_
+9	England	England	NNP	-	-	named:x-c	_	_	_	_	_	ARG1
+10	?	?	.	-	-	_	_	_	_	_	_	_
+
+#NO-ID
+1	What	what	WDT	-	+	q:i-h-h	_	_	_	_	_	_
+2	tourist	tourist	NN	-	+	n:x	_	_	_	_	_	_
+3	attractions	attraction	NNS	-	-	n_of:x-i	BV	compound	loc	ARG1	_	_
+4	are	be	VBP	-	-	_	_	_	_	_	_	_
+5	there	there	RB	+	+	place_n:x	_	_	_	_	_	_
+6	in	in	IN	-	+	p:e-u-i	_	_	_	_	_	_
+7	Belfast	Belfast	NNP	-	+	named:x-c	_	_	_	_	_	_
+8	,	,	,	-	-	_	_	_	_	_	_	_
+9	Northern	Northern	NNP	-	+	named:x-c	_	_	_	_	_	_
+10	Ireland	Ireland	NNP	-	-	named:x-c	_	_	_	ARG2	compound	compound
+11	?	?	.	-	-	_	_	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_	_	_
+2	pubs	pub	NNS	-	-	n:x	BV	ARG1	_	_	_
+3	are	be	VBP	-	-	_	_	_	_	_	_
+4	near	near	IN	+	+	p:e-u-i	_	_	_	_	_
+5	Mercure	Mercure	NNP	-	+	named:x-c	_	_	_	_	_
+6	Hotel	Hotel	NNP	-	-	named:x-c	_	ARG2	compound	ARG1	_
+7	in	in	IN	-	+	p:e-u-i	_	_	_	_	_
+8	Glasgow	Glasgow	NNP	-	+	named:x-c	_	_	_	_	_
+9	,	,	,	-	-	_	_	_	_	_	_
+10	Scotland	Scotland	NNP	-	-	named:x-c	_	_	_	ARG2	compound
+11	?	?	.	-	-	_	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	-	_	ARG1	_	_	_	_	_
+2	are	be	VBP	+	+	v_id:e-p-i	_	_	_	_	_	_
+3	the	the	DT	-	+	q:i-h-h	_	_	_	_	_	_
+4	main	main	JJ	-	+	a:e-p	_	_	_	_	_	_
+5	railway	railway	NN	-	+	n:x	_	_	_	_	_	_
+6	stations	station	NNS	-	-	n:x	ARG2	BV	ARG1	compound	ARG1	_
+7	in	in	IN	-	+	p:e-u-i	_	_	_	_	_	_
+8	Glasgow	Glasgow	NNP	-	+	named:x-c	_	_	_	_	_	_
+9	,	,	,	-	-	_	_	_	_	_	_	_
+10	Scotland	Scotland	NNP	-	-	named:x-c	_	_	_	_	ARG2	compound
+11	?	?	.	-	-	_	_	_	_	_	_	_
+
+#NO-ID
+1	Are	be	VBP	-	-	_	_	_	_	_
+2	there	there	EX	-	-	_	_	_	_	_
+3	more	more	JJR	-	+	much-many_a:e-i	_	_	_	_
+4	than	than	IN	-	-	_	_	_	_	_
+5	10	10	CD	-	+	card:i-i-c	_	_	_	_
+6	districts	district	NNS	-	-	n_of:x-i	than	ARG1	ARG1	_
+7	in	in	IN	-	+	p:e-u-i	_	_	_	_
+8	Hampshire	Hampshire	NNP	-	+	named:x-c	_	_	_	_
+9	,	,	,	-	-	_	_	_	_	_
+10	England	England	NNP	-	-	named:x-c	_	_	ARG2	compound
+11	?	?	.	-	-	_	_	_	_	_
+
+#NO-ID
+1	Is	be	VBZ	+	+	v_there:e-i	_	_	_	_	_
+2	there	there	EX	-	-	_	_	_	_	_	_
+3	a	a	DT	-	+	q:i-h-h	_	_	_	_	_
+4	mountain	mountain	NN	-	-	n:x	ARG1	BV	ARG1	_	_
+5	within	within	IN	-	+	p:e-u-i	_	_	_	_	_
+6	20	20	CD	-	+	card:i-i-c	_	_	_	_	_
+7	km	km	NN	-	-	n:x	_	_	ARG2	ARG1	ARG1
+8	of	of	IN	-	+	p:e-x-i	_	_	_	_	_
+9	Cheshire	Cheshire	NNP	-	-	named:x-c	_	_	_	_	ARG2
+10	?	?	.	-	-	_	_	_	_	_	_
+
+#NO-ID
+1	What	what	WDT	-	+	q:i-h-h	_	_	_	_
+2	historical	historical	JJ	-	+	a:e-p	_	_	_	_
+3	monuments	monument	NNS	-	-	n:x	BV	ARG1	loc	_
+4	are	be	VBP	-	-	_	_	_	_	_
+5	there	there	RB	+	+	place_n:x	_	_	_	_
+6	in	in	IN	+	+	p:e-u-i	_	_	_	_
+7	London	London	NNP	-	-	named:x-c	_	_	_	ARG2
+8	?	?	.	-	-	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_	_	_	_
+2	rivers	river	VBZ	-	-	n:x	BV	ARG1	ARG1	_	_	_
+3	in	in	IN	-	+	p:e-u-i	_	_	_	_	_	_
+4	Scotland	Scotland	NNP	-	-	named:x-c	_	ARG2	_	_	_	_
+5	have	have	VBP	+	+	v:e-i-i	_	_	_	_	_	_
+6	more	more	JJR	-	+	much-many_a:e-i	_	_	_	_	_	_
+7	than	than	IN	-	-	_	_	_	_	_	_	_
+8	100	100	CD	-	+	card:i-i-c	_	_	_	_	_	_
+9	km	km	NNS	-	+	n:x	_	_	_	_	ARG1	_
+10	length	length	NN	-	-	n_of:x-i	_	_	_	than	_	compound
+11	?	?	.	-	-	_	_	_	_	_	_	_
+
+#NO-ID
+1	What	what	WP	-	-	thing:x	ARG1	_	_	_	_	_	_	_
+2	is	be	VBZ	+	+	v_id:e-p-i	_	_	_	_	_	_	_	_
+3	the	the	DT	-	+	q:i-h-h	_	_	_	_	_	_	_	_
+4	elevation	elevation	NN	-	-	n:x	ARG2	BV	ARG1	_	_	_	_	_
+5	of	of	IN	-	+	p:e-x-i	_	_	_	_	_	_	_	_
+6	the	the	DT	-	+	q:i-h-h	_	_	_	_	_	_	_	_
+7	most	most	RBS	-	+	superl:e-u	_	_	_	_	_	_	_	_
+8	elevated	elevated	JJ	-	+	v_cause:e-i-p	_	_	_	_	ARG1	_	_	_
+9	spot	spot	NN	-	-	n_of:x-i	_	_	ARG2	BV	_	ARG2	ARG1	_
+10	in	in	IN	-	+	p:e-u-i	_	_	_	_	_	_	_	_
+11	county	county	NN	-	+	n_of:x-i	_	_	_	_	_	_	_	_
+12	Down	down	RB	-	-	named:x-c	_	_	_	_	_	_	ARG2	compound
+13	?	?	.	-	-	_	_	_	_	_	_	_	_	_
+
+#NO-ID
+1	What	what	WP	-	-	thing:x	ARG1	_	_	_
+2	is	be	VBZ	+	+	v_id:e-p-i	_	_	_	_
+3	the	the	DT	-	+	q:i-h-h	_	_	_	_
+4	area	area	NN	-	+	n_of:x-i	ARG2	BV	_	_
+5	of	of	IN	-	-	_	_	_	_	_
+6	county	county	NN	-	+	named:x-c	_	_	_	_
+7	Chesire	Chesire	NNP	-	-	named:x-c	_	_	ARG1	compound
+8	?	?	.	-	-	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	-	_	_	_	_	_
+2	are	be	VBP	+	+	v_id:e-p-i	_	_	_	_
+3	the	the	DT	-	+	q:i-h-h	_	_	_	_
+4	districts	district	NNS	-	+	n_of:x-i	ARG2	BV	_	_
+5	of	of	IN	-	-	_	_	_	_	_
+6	county	county	NN	-	+	named:x-c	_	_	_	_
+7	Chesire	Chesire	NNP	-	-	named:x-c	_	_	ARG1	compound
+8	?	?	.	-	-	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	-	_	ARG2	_	_	_
+2	is	be	VBZ	+	+	v_id:e-p-i	_	_	_	_
+3	the	the	DT	-	+	q:i-h-h	_	_	_	_
+4	largest	large	JJS	-	+	a:e-i	_	_	_	_
+5	county	county	NN	-	+	n_of:x-i	ARG1	BV	ARG1	_
+6	of	of	IN	-	-	_	_	_	_	_
+7	England	England	NNP	-	-	named:x-c	_	_	_	ARG1
+8	?	?	.	-	-	_	_	_	_	_
+
+#NO-ID
+1	What	what	WP	-	-	thing:x	ARG1	_	_	_
+2	is	be	VBZ	+	+	v_id:e-p-i	_	_	_	_
+3	the	the	DT	-	+	q:i-h-h	_	_	_	_
+4	length	length	NN	-	+	n_of:x-i	ARG2	BV	_	_
+5	of	of	IN	-	-	_	_	_	_	_
+6	river	river	NN	-	+	named:x-c	_	_	_	_
+7	Thames	Thames	NNP	-	-	named:x-c	_	_	ARG1	compound
+8	?	?	.	-	-	_	_	_	_	_
+
+#NO-ID
+1	Where	where	WRB	-	+	place_n:x	_	_	_
+2	is	be	VBZ	-	-	_	_	_	_
+3	Tower	Tower	NNP	-	+	named:x-c	_	_	_
+4	Bridge	Bridge	NNP	-	-	named:x-c	_	compound	ARG2
+5	located	locate	VBN	+	+	v:e-i-p	loc	_	_
+6	?	?	.	-	-	_	_	_	_
+
+#NO-ID
+1	Does	do	VBZ	-	-	_	_	_
+2	London	London	NNP	-	-	named:x-c	ARG1	_
+3	have	have	VB	+	+	v:e-i-i	_	_
+4	a	a	DT	-	+	q:i-h-h	_	_
+5	mountain	mountain	NN	-	-	n:x	ARG2	BV
+6	?	?	.	-	-	_	_	_
+
+#NO-ID
+1	How	how	WRB	-	+	abstr_deg:i	_	_	_	_
+2	many	many	JJ	-	+	much-many_a:e-p	measure	_	_	_
+3	rivers	river	NNS	-	-	n_of:x-i	_	ARG1	ARG1	_
+4	cross	cross	VBP	+	+	v:e-i-p	_	_	_	_
+5	England	England	NNP	-	+	named:x-c	_	_	_	_
+6	's	's	POS	-	-	_	_	_	_	_
+7	cities	city	NNS	-	-	n:x	_	_	ARG2	poss
+8	?	?	.	-	-	_	_	_	_	_
+
+#NO-ID
+1	Is	be	VBZ	-	-	_	_
+2	London	London	NNP	-	-	named:x-c	ARG2
+3	south	south	NN	+	+	place_n:x	_
+4	of	of	IN	-	-	_	_
+5	Manchester	Manchester	NNP	-	-	named:x-c	loc
+6	?	?	.	-	-	_	_
+
+#NO-ID
+1	Is	be	VBZ	-	-	_	_
+2	Islington	Islington	NNP	-	-	named:x-c	ARG1
+3	near	near	IN	+	+	p:e-u-i	_
+4	Angel	Angel	NNP	-	-	named:x-c	ARG2
+5	?	?	.	-	-	_	_
+
+#NO-ID
+1	Is	be	VBZ	+	+	_	_	_	_	_	_	_
+2	the	the	DT	-	+	q:i-h-h	_	_	_	_	_	_
+3	City	City	NNP	-	-	named:x-c	ARG1	BV	ARG1	loc	_	_
+4	of	of	IN	-	+	p:e-x-i	_	_	_	_	_	_
+5	London	London	NNP	-	-	named:x-c	_	_	ARG2	_	_	_
+6	north	north	RB	-	+	place_n:x	_	_	_	_	_	_
+7	of	of	IN	-	-	_	_	_	_	_	_	_
+8	the	the	DT	-	+	q:i-h-h	_	_	_	_	_	_
+9	Thames	Thames	NNP	-	+	named:x-c	_	_	_	_	_	_
+10	river	river	NN	-	-	named:x-c	_	_	_	ARG2	BV	compound
+11	?	?	.	-	-	_	_	_	_	_	_	_
+
+#NO-ID
+1	Are	be	VBP	+	+	v_there:e-i	_	_	_
+2	there	there	EX	-	-	_	_	_	_
+3	any	any	DT	-	+	q:i-h-h	_	_	_
+4	lakes	lake	NNS	-	-	n:x	ARG1	BV	ARG1
+5	in	in	IN	-	+	p:e-u-i	_	_	_
+6	Scotland	Scotland	NNP	-	-	named:x-c	_	_	ARG2
+7	?	?	.	-	-	_	_	_	_
+
+#NO-ID
+1	Is	be	VBZ	+	+	_	_	_	_	_	_	_	_
+2	there	there	EX	-	-	_	_	_	_	_	_	_	_
+3	a	a	DT	-	+	q:i-h-h	_	_	_	_	_	_	_
+4	car	car	NN	-	+	n:x	_	_	_	_	_	_	_
+5	park	park	NN	-	-	n:x	ARG1	BV	compound	ARG1	_	_	_
+6	near	near	IN	-	+	p:e-u-i	_	_	_	_	_	_	_
+7	a	a	DT	-	+	q:i-h-h	_	_	_	_	_	_	_
+8	bridge	bridge	NN	-	-	n:x	_	_	_	ARG2	BV	ARG1	_
+9	on	on	IN	-	+	p:e-u-i	_	_	_	_	_	_	_
+10	river	river	NN	-	+	named:x-c	_	_	_	_	_	_	_
+11	Exe	Exe	NNP	-	-	named:x-c	_	_	_	_	_	ARG2	compound
+12	?	?	.	-	-	_	_	_	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_	_	_	_
+2	car	car	NN	-	+	n:x	_	_	_	_	_	_
+3	park	park	NN	-	-	n:x	BV	compound	ARG1	_	_	_
+4	is	be	VBZ	-	-	_	_	_	_	_	_	_
+5	closest	close	JJS	+	+	a_to:e-p-i	_	_	_	_	_	_
+6	to	to	IN	-	-	_	_	_	_	_	_	_
+7	a	a	DT	-	+	q:i-h-h	_	_	_	_	_	_
+8	bridge	bridge	NN	-	-	n:x	_	_	ARG2	BV	ARG1	_
+9	on	on	IN	-	+	p:e-u-i	_	_	_	_	_	_
+10	river	river	NN	-	+	named:x-c	_	_	_	_	_	_
+11	Exe	Exe	NNP	-	-	named:x-c	_	_	_	_	ARG2	compound
+12	?	?	.	-	-	_	_	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_	_	_
+2	counties	county	NNS	-	-	n_of:x-i	BV	ARG1	_	_	_
+3	border	border	VBP	+	+	v:e-i-p	_	_	_	ARG1	_
+4	county	county	NN	-	+	named:x-c	_	_	_	_	_
+5	Donegal	Donegal	NNP	-	-	named:x-c	_	ARG2	compound	_	_
+6	to	to	IN	-	+	p:e-u-i	_	_	_	_	_
+7	the	the	DT	-	+	q:i-h-h	_	_	_	_	_
+8	south	south	NN	-	-	n:x	_	_	_	ARG2	BV
+9	?	?	.	-	-	_	_	_	_	_	_
+
+#NO-ID
+1	What	what	WP	-	-	thing:x	ARG2	_	_	_	_
+2	is	be	VBZ	+	+	v_id:e-p-i	_	_	_	_	_
+3	the	the	DT	-	+	q:i-h-h	_	_	_	_	_
+4	longest	long	JJS	-	+	a:e-i	_	_	_	_	_
+5	river	river	NN	-	-	n_of:x-i	ARG1	BV	ARG1	ARG1	_
+6	in	in	IN	-	+	p:e-u-i	_	_	_	_	_
+7	England	England	NNP	-	+	named:x-c	_	_	_	ARG2	_
+8	and	and	CC	-	-	_	_	_	_	_	_
+9	Wales	Wales	NNP	-	-	named:x-c	_	_	_	_	_and_c
+10	?	?	.	-	-	_	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_	_
+2	restaurants	restaurant	NNS	-	-	n:x	BV	ARG1	ARG1	_
+3	in	in	IN	-	+	p:e-u-i	_	_	_	_
+4	London	London	NNP	-	-	named:x-c	_	ARG2	_	_
+5	are	be	VBP	-	-	_	_	_	_	_
+6	near	near	IN	+	+	p:e-u-i	_	_	_	_
+7	Kensington	Kensington	NNP	-	+	named:x-c	_	_	_	_
+8	Palace	Palace	NNP	-	-	named:x-c	_	_	ARG2	compound
+9	?	?	.	-	-	_	_	_	_	_
+
+#NO-ID
+1	Is	be	VBZ	+	+	_	_	_	_
+2	there	there	EX	-	-	_	_	_	_
+3	a	a	DT	-	+	q:i-h-h	_	_	_
+4	forest	forest	NN	-	-	n_of:x-i	ARG1	BV	ARG1
+5	near	near	IN	-	+	p:e-u-i	_	_	_
+6	Manchester	Manchester	NNP	-	-	named:x-c	_	_	ARG2
+7	?	?	.	-	-	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_
+2	medieval	medieval	JJ	-	+	a:e-p	_	_	_
+3	castles	castle	NNS	-	-	n:x	BV	ARG1	ARG1
+4	are	be	VBP	-	-	_	_	_	_
+5	in	in	IN	+	+	p:e-u-i	_	_	_
+6	Scotland	Scotland	NNP	-	-	named:x-c	_	_	ARG2
+7	?	?	.	-	-	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_	_	_
+2	provinces	province	NNS	-	+	n:x	BV	_	ARG1	_	_
+3	of	of	IN	-	-	_	_	_	_	_	_
+4	Ireland	Ireland	NNP	-	-	named:x-c	_	ARG1	_	_	_
+5	have	have	VBP	+	+	v:e-i-i	_	_	_	_	_
+6	population	population	NN	-	-	n:x	_	_	ARG2	ARG1	_
+7	over	over	IN	-	+	p:e-u-i	_	_	_	_	_
+8	2	2	CD	-	+	card:i-i-c	_	_	_	_	_
+9	million	million	CD	-	-	card:i-i-c	_	_	_	_	times
+10	?	?	.	-	-	_	_	_	_	_	_
+
+#NO-ID
+1	What	what	WP	-	+	q:i-h-h	_	_	_	_	_	_
+2	London	London	NNP	-	+	named:x-c	_	_	_	_	_	_
+3	underground	underground	JJ	-	+	named:x-c	_	compound	_	_	_	_
+4	stations	station	NNS	-	-	n:x	BV	_	compound	ARG1	_	_
+5	are	be	VBP	-	-	_	_	_	_	_	_	_
+6	closest	close	JJS	+	+	a_to:e-p-i	_	_	_	_	_	_
+7	to	to	IN	-	-	_	_	_	_	_	_	_
+8	the	the	DT	-	+	q:i-h-h	_	_	_	_	_	_
+9	British	British	NNP	-	+	a:e-p	_	_	_	_	_	_
+10	Museum	Museum	NNP	-	-	named:x-c	_	_	_	ARG2	BV	ARG1
+11	?	?	.	-	-	_	_	_	_	_	_	_
+
+#NO-ID
+1	What	what	WP	-	-	thing:x	ARG1	_	_	_	_	_	_	_
+2	is	be	VBZ	+	+	v_id:e-p-i	_	_	_	_	_	_	_	_
+3	the	the	DT	-	+	q:i-h-h	_	_	_	_	_	_	_	_
+4	most	most	RBS	-	+	superl:e-u	_	_	_	_	_	_	_	_
+5	populated	populated	JJ	-	+	v:e-i-p	_	_	ARG1	_	_	_	_	_
+6	city	city	NN	-	-	n:x	ARG2	BV	_	ARG2	ARG1	_	_	ARG1
+7	in	in	IN	-	+	p:e-u-i	_	_	_	_	_	_	_	_
+8	the	the	DT	-	+	q:i-h-h	_	_	_	_	_	_	_	_
+9	United	United	NNP	-	+	named:x-c	_	_	_	_	_	_	_	_
+10	Kingdom	Kingdom	NNP	-	-	named:x-c	_	_	_	_	ARG2	BV	compound	_
+11	except	except	IN	-	+	p:e-u-i	_	_	_	_	_	_	_	_
+12	London	London	NNP	-	-	named:x-c	_	_	_	_	_	_	_	ARG2
+13	?	?	.	-	-	_	_	_	_	_	_	_	_	_
+
+#NO-ID
+1	Is	be	VBZ	+	+	v_id:e-p-i	_	_	_	_	_	_	_	_	_
+2	the	the	DT	-	+	q:i-h-h	_	_	_	_	_	_	_	_	_
+3	monument	monument	NN	-	-	n:x	ARG2	BV	ARG1	_	_	_	_	_	_
+4	of	of	IN	-	+	p:e-x-i	_	_	_	_	_	_	_	_	_
+5	the	the	DT	-	+	q:i-h-h	_	_	_	_	_	_	_	_	_
+6	Great	Great	NNP	-	+	a_for:e-p	_	_	_	_	_	_	_	_	_
+7	Fire	Fire	NNP	-	-	named:x-c	_	_	ARG2	BV	ARG1	ARG1	loc	_	_
+8	of	of	IN	-	+	p:e-x-i	_	_	_	_	_	_	_	_	_
+9	London	London	NNP	-	-	named:x-c	_	_	_	_	_	ARG2	_	_	_
+10	east	east	NN	-	+	place_n:x	_	_	_	_	_	_	_	_	_
+11	of	of	IN	-	-	_	_	_	_	_	_	_	_	_	_
+12	King	King	NNP	-	+	named:x-c	_	_	_	_	_	_	_	_	_
+13	WIlliam	WIlliam	NNP	-	+	named:x-c	_	_	_	_	_	_	_	compound	_
+14	Street	Street	NNP	-	-	named:x-c	_	_	_	_	_	_	ARG2	_	compound
+15	?	?	.	-	-	_	_	_	_	_	_	_	_	_	_
+
+#NO-ID
+1	Is	be	VBZ	+	+	_	_	_	_	_	_
+2	the	the	DT	-	+	q:i-h-h	_	_	_	_	_
+3	Tower	Tower	NNP	-	-	named:x-c	ARG1	BV	ARG1	ARG1	_
+4	of	of	IN	-	+	p:e-x-i	_	_	_	_	_
+5	London	London	NNP	-	-	named:x-c	_	_	ARG2	_	_
+6	near	near	IN	-	+	p:e-u-i	_	_	_	_	_
+7	river	river	NN	-	+	named:x-c	_	_	_	_	_
+8	Thames	Thames	NNP	-	-	named:x-c	_	_	_	ARG2	compound
+9	?	?	.	-	-	_	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_	_	_
+2	bars	bar	NNS	-	-	n:x	BV	ARG1	_	_	_
+3	are	be	VBP	-	-	_	_	_	_	_	_
+4	near	near	IN	+	+	p:e-u-i	_	_	_	_	_
+5	Prince	Prince	NNP	-	+	named:x-c	_	_	_	_	_
+6	's	's	POS	-	+	_	_	_	_	_	_
+7	street	street	NN	-	-	named:x-c	_	ARG2	poss	compound	ARG1
+8	in	in	IN	-	+	p:e-u-i	_	_	_	_	_
+9	Edinburgh	Edinburgh	NNP	-	-	named:x-c	_	_	_	_	ARG2
+10	?	?	.	-	-	_	_	_	_	_	_
+
+#NO-ID
+1	What	what	WP	-	-	thing:x	ARG1	_	_	_	_	_
+2	is	be	VBZ	+	+	v_id:e-p-i	_	_	_	_	_	_
+3	the	the	DT	-	+	q:i-h-h	_	_	_	_	_	_
+4	most	most	RBS	-	+	superl:e-u	_	_	_	_	_	_
+5	densely	densely	RB	-	+	a:e-e	_	_	ARG1	_	_	_
+6	populated	populated	JJ	-	+	v:e-i-p	_	_	_	ARG1	_	_
+7	city	city	NN	-	-	n:x	ARG2	BV	_	_	ARG2	ARG1
+8	in	in	IN	-	+	p:e-u-i	_	_	_	_	_	_
+9	Ireland	Ireland	NNP	-	-	named:x-c	_	_	_	_	_	ARG2
+10	?	?	.	-	-	_	_	_	_	_	_	_
+
+#NO-ID
+1	Does	do	VBZ	-	-	_	_	_
+2	Hammersmith	Hammersmith	NNP	-	+	named:x-c	_	_
+3	Bridge	Bridge	NNP	-	-	named:x-c	compound	ARG1
+4	connect	connect	VB	+	+	v_to-with:e-i-p-i	_	_
+5	Hammersmith	Hammersmith	NNP	-	-	named:x-c	_	ARG2
+6	with	with	IN	-	-	_	_	_
+7	Barnes	Barnes	NNP	-	-	named:x-c	_	ARG3
+8	?	?	.	-	-	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_
+2	hotels	hotel	NNS	-	-	n:x	BV	ARG1	_
+3	are	be	VBP	-	-	_	_	_	_
+4	near	near	IN	+	+	p:e-u-i	_	_	_
+5	Loch	Loch	NNP	-	+	named:x-c	_	_	_
+6	Ness	Ness	NNP	-	-	named:x-c	_	ARG2	compound
+7	?	?	.	-	-	_	_	_	_
+
+#NO-ID
+1	Is	be	VBZ	+	+	v_there:e-i	_	_	_	_	_	_
+2	there	there	EX	-	-	_	_	_	_	_	_	_
+3	a	a	DT	-	+	q:i-h-h	_	_	ARG1	_	_	_
+4	museum	museum	NN	-	-	n_of:x-i	ARG1	BV	_	_	loc	_
+5	at	at	IN	-	-	x:e-u	_	_	mwe	_	_	_
+6	most	most	JJS	-	+	x:e-u	_	_	_	_	_	_
+7	1	1	CD	-	+	card:i-i-c	_	_	_	_	_	_
+8	km	km	NN	-	+	n:x	_	_	_	ARG1	_	ARG1
+9	from	from	IN	-	+	p:e-u-i	_	_	_	_	_	_
+10	Liverpool	Liverpool	NNP	-	-	named:x-c	_	_	_	_	_	ARG2
+11	?	?	.	-	-	_	_	_	_	_	_	_
+
+#NO-ID
+1	In	in	IN	-	+	p:e-u-i	_	_	_	_
+2	which	which	WDT	-	+	q:i-h-h	_	_	_	_
+3	part	part	NN	-	+	n:x	ARG2	BV	_	_
+4	of	of	IN	-	-	_	_	_	_	_
+5	England	England	NNP	-	-	named:x-c	_	_	ARG1	_
+6	is	be	VBZ	-	-	_	_	_	_	_
+7	Liverpool	Liverpool	NNP	-	-	named:x-c	_	_	_	ARG2
+8	located	locate	VBN	+	+	v:e-i-p	ARG1	_	_	_
+9	?	?	.	-	-	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_	_	_
+2	city	city	NN	-	-	n:x	BV	ARG1	ARG1	_	_
+3	in	in	IN	-	+	p:e-u-i	_	_	_	_	_
+4	Scotland	Scotland	NNP	-	-	named:x-c	_	ARG2	_	_	_
+5	has	have	VBZ	+	+	v:e-i-i	_	_	_	_	_
+6	the	the	DT	-	+	q:i-h-h	_	_	_	_	_
+7	largest	large	JJS	-	+	a:e-i	_	_	_	_	_
+8	population	population	NN	-	-	n:x	_	_	ARG2	BV	ARG1
+9	?	?	.	-	-	_	_	_	_	_	_
+
+#NO-ID
+1	Is	be	VBZ	+	+	v_id:e-p-i	_	_	_	_	_	_	_
+2	Glasgow	Glasgow	NNP	-	+	named:x-c	ARG2	_	_	_	_	_	_
+3	the	the	DT	-	+	q:i-h-h	_	_	_	_	_	_	_
+4	largest	large	JJS	-	+	a:e-i	_	_	_	_	_	_	_
+5	city	city	NN	-	+	n:x	_	appos	BV	ARG1	_	ARG1	_
+6	of	of	IN	-	-	_	_	_	_	_	_	_	_
+7	Scotland	Scotland	NNP	-	-	named:x-c	_	_	_	_	ARG1	_	_
+8	in	in	IN	-	+	p:e-u-i	_	_	_	_	_	_	_
+9	terms	term	NNS	-	+	n_of:x-i	_	_	_	_	_	ARG2	_
+10	of	of	IN	-	-	_	_	_	_	_	_	_	_
+11	population	population	NN	-	-	n:x	_	_	_	_	_	_	ARG1
+12	?	?	.	-	-	_	_	_	_	_	_	_	_
+
+#NO-ID
+1	What	what	WP	-	-	thing:x	ARG1	_	_	_
+2	is	be	VBZ	+	+	v_id:e-p-i	_	_	_	_
+3	the	the	DT	-	+	q:i-h-h	_	_	_	_
+4	distance	distance	NN	-	-	n:x	ARG2	BV	ARG1	_
+5	between	between	IN	-	+	p:e-u-i	_	_	_	_
+6	Liverpool	Liverpool	NNP	-	+	named:x-c	_	_	ARG2	_
+7	and	and	CC	-	-	_	_	_	_	_
+8	Glasgow	Glasgow	NNP	-	-	named:x-c	_	_	_	_and_c
+9	?	?	.	-	-	_	_	_	_	_
+
+#NO-ID
+1	Is	be	VBZ	-	-	v_id:e-p-i	_
+2	Liverpool	Liverpool	NNP	-	-	named:x-c	_
+3	part	part	NN	+	+	part_of:i-i	_
+4	of	of	IN	-	-	_	_
+5	Scotland	Scotland	NNP	-	-	named:x-c	part
+6	?	?	.	-	-	_	_
+
+#NO-ID
+1	In	in	IN	-	+	p:e-u-i	_	_	_
+2	what	what	WP	-	+	q:i-h-h	_	_	_
+3	county	county	NN	-	-	n_of:x-i	ARG2	BV	_
+4	is	be	VBZ	-	-	_	_	_	_
+5	Stonehenge	Stonehenge	NNP	-	-	named:x-c	_	_	ARG2
+6	located	locate	VBN	+	+	v:e-i-p	ARG1	_	_
+7	?	?	.	-	-	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_	_	_
+2	rivers	river	VBZ	-	-	n_of:x-i	BV	ARG1	_	_	_
+3	discharge	discharge	VBP	+	+	v:e-i-p	_	_	ARG1	_	_
+4	into	into	IN	-	+	p:e-u-i	_	_	_	_	_
+5	the	the	DT	-	+	q:i-h-h	_	_	_	_	_
+6	Solway	Solway	NNP	-	+	named:x-c	_	_	_	_	_
+7	Firth	Firth	NNP	-	-	named:x-c	_	_	ARG2	BV	compound
+8	?	?	.	-	-	_	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_	_	_	_	_
+2	museums	museum	NNS	-	-	n_of:x-i	BV	ARG1	_	_	_	_	_
+3	are	be	VBP	-	-	_	_	_	_	_	_	_	_
+4	within	within	IN	+	+	p:e-u-i	_	_	_	_	_	_	_
+5	3	3	CD	-	+	card:i-i-c	_	_	_	_	_	_	_
+6	km	km	NN	-	-	n:x	_	ARG2	ARG1	ARG1	_	_	_
+7	of	of	IN	-	+	p:e-x-i	_	_	_	_	_	_	_
+8	Saint	Saint	NNP	-	+	named:x-c	_	_	_	_	_	_	_
+9	George	George	NNP	-	+	named:x-c	_	_	_	_	compound	_	_
+10	's	's	POS	-	-	_	_	_	_	_	_	_	_
+11	hotel	hotel	NN	-	-	named:x-c	_	_	_	ARG2	_	poss	ARG1
+12	in	in	IN	-	+	p:e-u-i	_	_	_	_	_	_	_
+13	London	London	NNP	-	-	named:x-c	_	_	_	_	_	_	ARG2
+14	?	?	.	-	-	_	_	_	_	_	_	_	_
+
+#NO-ID
+1	Is	be	VBZ	+	+	_	_	_	_	_
+2	there	there	EX	-	-	_	_	_	_	_
+3	a	a	DT	-	+	q:i-h-h	_	_	_	_
+4	forest	forest	NN	-	-	n_of:x-i	ARG1	BV	ARG1	_
+5	in	in	IN	-	+	p:e-u-i	_	_	_	_
+6	county	county	NN	-	+	n_of:x-i	_	_	_	_
+7	Cheshire	Cheshire	NNP	-	-	named:x-c	_	_	ARG2	compound
+8	?	?	.	-	-	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_	_	_	_	_	_
+2	art	art	NN	-	+	n:x	_	_	_	_	_	_	_	_
+3	museums	museum	NNS	-	-	n_of:x-i	BV	compound	ARG1	_	_	_	_	_
+4	are	be	VBP	+	+	v_id:e-p-i	_	_	_	_	_	_	_	_
+5	at	at	IN	-	-	x:e-u	_	_	_	mwe	_	_	_	_
+6	most	most	JJS	-	+	x:e-u	_	_	_	_	_	_	_	_
+7	1	1	CD	-	+	card:i-i-c	_	_	_	_	_	_	_	_
+8	km	km	NN	-	-	n:x	_	_	_	ARG1	ARG1	ARG1	_	_
+9	from	from	IN	-	+	p:e-u-i	_	_	_	_	_	_	_	_
+10	Charlotte	Charlotte	NNP	-	+	named:x-c	_	_	_	_	_	_	_	_
+11	Square	Square	NNP	-	-	named:x-c	_	_	_	_	_	ARG2	compound	ARG1
+12	in	in	IN	-	+	p:e-u-i	_	_	_	_	_	_	_	_
+13	Edinburgh	Edinburgh	NNP	-	-	named:x-c	_	_	_	_	_	_	_	ARG2
+14	?	?	.	-	-	_	_	_	_	_	_	_	_	_
+
+#NO-ID
+1	How	how	WRB	-	+	abstr_deg:i	_	_	_
+2	many	many	JJ	-	+	much-many_a:e-p	measure	_	_
+3	rivers	river	NNS	-	-	n_of:x-i	_	ARG1	ARG1
+4	cross	cross	VBP	+	+	v:e-i-p	_	_	_
+5	Edinburgh	Edinburgh	NNP	-	-	named:x-c	_	_	ARG2
+6	?	?	.	-	-	_	_	_	_
+
+#NO-ID
+1	How	how	WRB	-	+	abstr_deg:i	_	_	_	_	_
+2	many	many	JJ	-	+	much-many_a:e-p	measure	_	_	_	_
+3	counties	county	NNS	-	-	n_of:x-i	_	ARG1	_	_	ARG2
+4	does	do	VBZ	-	-	_	_	_	_	_	_
+5	the	the	DT	-	+	q:i-h-h	_	_	_	_	_
+6	river	river	NN	-	-	named:x-c	_	_	BV	appos	ARG1
+7	Thames	Thames	NNP	-	+	named:x-c	_	_	_	_	_
+8	cross	cross	NN	+	+	v:e-i-p	_	_	_	_	_
+9	?	?	.	-	-	_	_	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_
+2	rivers	river	NNS	-	-	n_of:x-i	BV	ARG1	_
+3	cross	cross	VBP	+	+	v:e-i-p	_	_	_
+4	county	county	NN	-	+	named:x-c	_	_	_
+5	Cheshire	Cheshire	NNP	-	-	named:x-c	_	ARG2	compound
+6	?	?	.	-	-	_	_	_	_
+
+#NO-ID
+1	Which	which	WDT	-	+	q:i-h-h	_	_	_
+2	county	county	NN	-	-	n_of:x-i	BV	loc	_
+3	is	be	VBZ	-	-	_	_	_	_
+4	east	east	JJ	+	+	place_n:x	_	_	_
+5	of	of	IN	-	-	_	_	_	_
+6	county	county	NN	-	+	n_of:x-i	_	_	_
+7	Dorset	Dorset	NNP	-	-	named:x-c	_	ARG2	compound
+8	?	?	.	-	-	_	_	_	_
+
+#NO-ID
+1	Is	be	VBZ	+	+	_	_	_	_	_	_
+2	there	there	EX	-	-	_	_	_	_	_	_
+3	a	a	DT	-	+	q:i-h-h	_	_	_	_	_
+4	river	river	NN	-	-	n_of:x-i	ARG1	BV	ARG1	_	_
+5	that	that	WDT	-	-	_	_	_	_	_	_
+6	crosses	cross	VBZ	-	+	v:e-i-p	_	_	_	_	_
+7	county	county	NN	-	+	n_of:x-i	_	_	_	_	_
+8	Greater	Greater	NNP	-	+	named:x-c	_	_	_	_	_
+9	Manchester	Manchester	NNP	-	-	named:x-c	_	_	ARG2	compound	compound
+10	?	?	.	-	-	_	_	_	_	_	_
+

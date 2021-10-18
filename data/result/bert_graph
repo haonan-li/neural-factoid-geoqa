@@ -1,0 +1,7392 @@
+[
+    {
+        "sentence": "Is there a castle in London near Trafalgar Square ?",
+        "nodes": [
+            {
+                "text": "Is",
+                "start": 0,
+                "end": 1,
+                "code": "8",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "castle",
+                "start": 3,
+                "end": 4,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "in",
+                "start": 4,
+                "end": 5,
+                "code": "r",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "London",
+                "start": 5,
+                "end": 6,
+                "code": "n",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "near",
+                "start": 6,
+                "end": 7,
+                "code": "r",
+                "id": 4,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Trafalgar Square",
+                "start": 7,
+                "end": 9,
+                "code": "n",
+                "id": 5,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Is there a park in Dublin near Grafton Street ?",
+        "nodes": [
+            {
+                "text": "Is",
+                "start": 0,
+                "end": 1,
+                "code": "8",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "park",
+                "start": 3,
+                "end": 4,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "in",
+                "start": 4,
+                "end": 5,
+                "code": "r",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Dublin",
+                "start": 5,
+                "end": 6,
+                "code": "n",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "near",
+                "start": 6,
+                "end": 7,
+                "code": "r",
+                "id": 4,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Grafton Street",
+                "start": 7,
+                "end": 9,
+                "code": "n",
+                "id": 5,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Is Hampshire north of Berkshire ?",
+        "nodes": [
+            {
+                "text": "Is",
+                "start": 0,
+                "end": 1,
+                "code": "8",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Hampshire",
+                "start": 1,
+                "end": 2,
+                "code": "n",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "north of",
+                "start": 2,
+                "end": 4,
+                "code": "r",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Berkshire",
+                "start": 4,
+                "end": 5,
+                "code": "n",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Which counties of England border country Scotland ?",
+        "nodes": [
+            {
+                "text": "Which",
+                "start": 0,
+                "end": 1,
+                "code": "3",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "counties",
+                "start": 1,
+                "end": 2,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "of",
+                "start": 2,
+                "end": 3,
+                "code": "r",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "England",
+                "start": 3,
+                "end": 4,
+                "code": "n",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "border",
+                "start": 4,
+                "end": 5,
+                "code": "r",
+                "id": 4,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "country",
+                "start": 5,
+                "end": 6,
+                "code": "n",
+                "id": 5,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Scotland",
+                "start": 6,
+                "end": 7,
+                "code": "n",
+                "id": 6,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Is Trafalgar square located in London ?",
+        "nodes": [
+            {
+                "text": "Is",
+                "start": 0,
+                "end": 1,
+                "code": "8",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Trafalgar square",
+                "start": 1,
+                "end": 3,
+                "code": "n",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "located",
+                "start": 3,
+                "end": 4,
+                "code": "s",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "in",
+                "start": 4,
+                "end": 5,
+                "code": "r",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "London",
+                "start": 5,
+                "end": 6,
+                "code": "n",
+                "id": 4,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Which is the oldest bridge of London ?",
+        "nodes": [
+            {
+                "text": "Which",
+                "start": 0,
+                "end": 1,
+                "code": "3",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "oldest",
+                "start": 3,
+                "end": 4,
+                "code": "q",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "bridge",
+                "start": 4,
+                "end": 5,
+                "code": "t",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "of",
+                "start": 5,
+                "end": 6,
+                "code": "r",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "London",
+                "start": 6,
+                "end": 7,
+                "code": "n",
+                "id": 4,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Is there any airfield in Wellesbourne village in England ?",
+        "nodes": [
+            {
+                "text": "Is",
+                "start": 0,
+                "end": 1,
+                "code": "8",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "airfield",
+                "start": 3,
+                "end": 4,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "in",
+                "start": 4,
+                "end": 5,
+                "code": "r",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Wellesbourne village",
+                "start": 5,
+                "end": 7,
+                "code": "n",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "in",
+                "start": 7,
+                "end": 8,
+                "code": "r",
+                "id": 4,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "England",
+                "start": 8,
+                "end": 9,
+                "code": "n",
+                "id": 5,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "How many parks are there in Northampton ?",
+        "nodes": [
+            {
+                "text": "How many",
+                "start": 0,
+                "end": 2,
+                "code": "5",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "parks",
+                "start": 2,
+                "end": 3,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "in",
+                "start": 5,
+                "end": 6,
+                "code": "r",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Northampton",
+                "start": 6,
+                "end": 7,
+                "code": "n",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Is there any stadium in Cardiff ?",
+        "nodes": [
+            {
+                "text": "Is",
+                "start": 0,
+                "end": 1,
+                "code": "8",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "stadium",
+                "start": 3,
+                "end": 4,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "in",
+                "start": 4,
+                "end": 5,
+                "code": "r",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Cardiff",
+                "start": 5,
+                "end": 6,
+                "code": "n",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Is there an aerodrome in Essex ?",
+        "nodes": [
+            {
+                "text": "Is",
+                "start": 0,
+                "end": 1,
+                "code": "8",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "aerodrome",
+                "start": 3,
+                "end": 4,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "in",
+                "start": 4,
+                "end": 5,
+                "code": "r",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Essex",
+                "start": 5,
+                "end": 6,
+                "code": "n",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Which aerodrome is in Essex ?",
+        "nodes": [
+            {
+                "text": "Which",
+                "start": 0,
+                "end": 1,
+                "code": "3",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "aerodrome",
+                "start": 1,
+                "end": 2,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "in",
+                "start": 3,
+                "end": 4,
+                "code": "r",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Essex",
+                "start": 4,
+                "end": 5,
+                "code": "n",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Which aerodromes are at most 50 km from London ?",
+        "nodes": [
+            {
+                "text": "Which",
+                "start": 0,
+                "end": 1,
+                "code": "3",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "aerodromes",
+                "start": 1,
+                "end": 2,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "at most",
+                "start": 3,
+                "end": 5,
+                "code": "q",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "50 km",
+                "start": 5,
+                "end": 7,
+                "code": "d",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "from",
+                "start": 7,
+                "end": 8,
+                "code": "r",
+                "id": 4,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "London",
+                "start": 8,
+                "end": 9,
+                "code": "n",
+                "id": 5,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Is Somerset west of Westmorland ?",
+        "nodes": [
+            {
+                "text": "Is",
+                "start": 0,
+                "end": 1,
+                "code": "8",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Somerset",
+                "start": 1,
+                "end": 2,
+                "code": "n",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "west of",
+                "start": 2,
+                "end": 4,
+                "code": "r",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Westmorland",
+                "start": 4,
+                "end": 5,
+                "code": "n",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Is Edinburgh west of Glasgow ?",
+        "nodes": [
+            {
+                "text": "Is",
+                "start": 0,
+                "end": 1,
+                "code": "8",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Edinburgh",
+                "start": 1,
+                "end": 2,
+                "code": "n",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "west of",
+                "start": 2,
+                "end": 4,
+                "code": "r",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Glasgow",
+                "start": 4,
+                "end": 5,
+                "code": "n",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "How many rivers cross the county West Yorkshire ?",
+        "nodes": [
+            {
+                "text": "How many",
+                "start": 0,
+                "end": 2,
+                "code": "5",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "rivers",
+                "start": 2,
+                "end": 3,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "cross",
+                "start": 3,
+                "end": 4,
+                "code": "r",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "county West Yorkshire",
+                "start": 5,
+                "end": 8,
+                "code": "n",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "How many cities does Merseyside have ?",
+        "nodes": [
+            {
+                "text": "How many",
+                "start": 0,
+                "end": 2,
+                "code": "5",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "cities",
+                "start": 2,
+                "end": 3,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Merseyside",
+                "start": 4,
+                "end": 5,
+                "code": "n",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "have",
+                "start": 5,
+                "end": 6,
+                "code": "s",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Is there an airport in Dublin ?",
+        "nodes": [
+            {
+                "text": "Is",
+                "start": 0,
+                "end": 1,
+                "code": "8",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "airport",
+                "start": 3,
+                "end": 4,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "in",
+                "start": 4,
+                "end": 5,
+                "code": "r",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Dublin",
+                "start": 5,
+                "end": 6,
+                "code": "n",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Which are the counties of Northern Ireland ?",
+        "nodes": [
+            {
+                "text": "Which",
+                "start": 0,
+                "end": 1,
+                "code": "3",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "counties",
+                "start": 3,
+                "end": 4,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "of",
+                "start": 4,
+                "end": 5,
+                "code": "r",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Northern Ireland",
+                "start": 5,
+                "end": 7,
+                "code": "n",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "What historic buildings are in Buckinghamshire ?",
+        "nodes": [
+            {
+                "text": "What",
+                "start": 0,
+                "end": 1,
+                "code": "3",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "historic",
+                "start": 1,
+                "end": 2,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "buildings",
+                "start": 2,
+                "end": 3,
+                "code": "t",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "in",
+                "start": 4,
+                "end": 5,
+                "code": "r",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Buckinghamshire",
+                "start": 5,
+                "end": 6,
+                "code": "n",
+                "id": 4,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Which Greek restaurants in London are near Wembley stadium ?",
+        "nodes": [
+            {
+                "text": "Which",
+                "start": 0,
+                "end": 1,
+                "code": "3",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Greek",
+                "start": 1,
+                "end": 2,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "restaurants",
+                "start": 2,
+                "end": 3,
+                "code": "t",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "in",
+                "start": 3,
+                "end": 4,
+                "code": "r",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "London",
+                "start": 4,
+                "end": 5,
+                "code": "n",
+                "id": 4,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "near",
+                "start": 6,
+                "end": 7,
+                "code": "r",
+                "id": 5,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Wembley stadium",
+                "start": 7,
+                "end": 9,
+                "code": "n",
+                "id": 6,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Is there a National Park in England ?",
+        "nodes": [
+            {
+                "text": "Is",
+                "start": 0,
+                "end": 1,
+                "code": "8",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "National Park",
+                "start": 3,
+                "end": 5,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "in",
+                "start": 5,
+                "end": 6,
+                "code": "r",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "England",
+                "start": 6,
+                "end": 7,
+                "code": "n",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Is there a mountain in Merseyside ?",
+        "nodes": [
+            {
+                "text": "Is",
+                "start": 0,
+                "end": 1,
+                "code": "8",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "mountain",
+                "start": 3,
+                "end": 4,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "in",
+                "start": 4,
+                "end": 5,
+                "code": "r",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Merseyside",
+                "start": 5,
+                "end": 6,
+                "code": "n",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Which town has the biggest population in Scotland ?",
+        "nodes": [
+            {
+                "text": "Which",
+                "start": 0,
+                "end": 1,
+                "code": "3",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "town",
+                "start": 1,
+                "end": 2,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "has",
+                "start": 2,
+                "end": 3,
+                "code": "s",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "biggest",
+                "start": 4,
+                "end": 5,
+                "code": "q",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "population",
+                "start": 5,
+                "end": 6,
+                "code": "o",
+                "id": 4,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "in",
+                "start": 6,
+                "end": 7,
+                "code": "r",
+                "id": 5,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Scotland",
+                "start": 7,
+                "end": 8,
+                "code": "n",
+                "id": 6,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Where is the nearest gas station to St. Peter 's Square in Manchester ?",
+        "nodes": [
+            {
+                "text": "Where",
+                "start": 0,
+                "end": 1,
+                "code": "1",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "nearest",
+                "start": 3,
+                "end": 4,
+                "code": "q",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "gas station",
+                "start": 4,
+                "end": 6,
+                "code": "t",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "to",
+                "start": 6,
+                "end": 7,
+                "code": "r",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "St. Peter 's Square",
+                "start": 7,
+                "end": 11,
+                "code": "n",
+                "id": 4,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "in",
+                "start": 11,
+                "end": 12,
+                "code": "r",
+                "id": 5,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Manchester",
+                "start": 12,
+                "end": 13,
+                "code": "n",
+                "id": 6,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Does county Suffolk border county Durham ?",
+        "nodes": [
+            {
+                "text": "Does",
+                "start": 0,
+                "end": 1,
+                "code": "8",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "county Suffolk",
+                "start": 1,
+                "end": 3,
+                "code": "n",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "border",
+                "start": 3,
+                "end": 4,
+                "code": "r",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "county Durham",
+                "start": 4,
+                "end": 6,
+                "code": "n",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Which counties of Ireland does River Shannon cross ?",
+        "nodes": [
+            {
+                "text": "Which",
+                "start": 0,
+                "end": 1,
+                "code": "3",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "counties",
+                "start": 1,
+                "end": 2,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "of",
+                "start": 2,
+                "end": 3,
+                "code": "r",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Ireland",
+                "start": 3,
+                "end": 4,
+                "code": "n",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "River Shannon",
+                "start": 5,
+                "end": 7,
+                "code": "n",
+                "id": 4,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "cross",
+                "start": 7,
+                "end": 8,
+                "code": "r",
+                "id": 5,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Is Cavan a county of Ireland ?",
+        "nodes": [
+            {
+                "text": "Is",
+                "start": 0,
+                "end": 1,
+                "code": "8",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Cavan",
+                "start": 1,
+                "end": 2,
+                "code": "n",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "county",
+                "start": 3,
+                "end": 4,
+                "code": "t",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "of",
+                "start": 4,
+                "end": 5,
+                "code": "r",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Ireland",
+                "start": 5,
+                "end": 6,
+                "code": "n",
+                "id": 4,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Which restaurants are at most 500 m from the University of Liverpool ?",
+        "nodes": [
+            {
+                "text": "Which",
+                "start": 0,
+                "end": 1,
+                "code": "3",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "restaurants",
+                "start": 1,
+                "end": 2,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "at most",
+                "start": 3,
+                "end": 5,
+                "code": "q",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "500 m",
+                "start": 5,
+                "end": 7,
+                "code": "d",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "from",
+                "start": 7,
+                "end": 8,
+                "code": "r",
+                "id": 4,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "University of Liverpool",
+                "start": 9,
+                "end": 12,
+                "code": "n",
+                "id": 5,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Which restaurants are near Baker Street in London ?",
+        "nodes": [
+            {
+                "text": "Which",
+                "start": 0,
+                "end": 1,
+                "code": "3",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "restaurants",
+                "start": 1,
+                "end": 2,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "near",
+                "start": 3,
+                "end": 4,
+                "code": "r",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Baker Street",
+                "start": 4,
+                "end": 6,
+                "code": "n",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "in",
+                "start": 6,
+                "end": 7,
+                "code": "r",
+                "id": 4,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "London",
+                "start": 7,
+                "end": 8,
+                "code": "n",
+                "id": 5,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Which lakes are in Ireland ?",
+        "nodes": [
+            {
+                "text": "Which",
+                "start": 0,
+                "end": 1,
+                "code": "3",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "lakes",
+                "start": 1,
+                "end": 2,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "in",
+                "start": 3,
+                "end": 4,
+                "code": "r",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Ireland",
+                "start": 4,
+                "end": 5,
+                "code": "n",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Which parks are near Trafalgar Square ?",
+        "nodes": [
+            {
+                "text": "Which",
+                "start": 0,
+                "end": 1,
+                "code": "3",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "parks",
+                "start": 1,
+                "end": 2,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "near",
+                "start": 3,
+                "end": 4,
+                "code": "r",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Trafalgar Square",
+                "start": 4,
+                "end": 6,
+                "code": "n",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Which countries border Wales ?",
+        "nodes": [
+            {
+                "text": "Which",
+                "start": 0,
+                "end": 1,
+                "code": "3",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "countries",
+                "start": 1,
+                "end": 2,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "border",
+                "start": 2,
+                "end": 3,
+                "code": "r",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Wales",
+                "start": 3,
+                "end": 4,
+                "code": "n",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Are there cities that are at most 2 km away from St. David 's in Wales ?",
+        "nodes": [
+            {
+                "text": "Are",
+                "start": 0,
+                "end": 1,
+                "code": "8",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "cities",
+                "start": 2,
+                "end": 3,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "at most",
+                "start": 5,
+                "end": 7,
+                "code": "q",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "2 km",
+                "start": 7,
+                "end": 9,
+                "code": "d",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "from",
+                "start": 10,
+                "end": 11,
+                "code": "r",
+                "id": 4,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "St. David 's",
+                "start": 11,
+                "end": 14,
+                "code": "n",
+                "id": 5,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "in",
+                "start": 14,
+                "end": 15,
+                "code": "r",
+                "id": 6,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Wales",
+                "start": 15,
+                "end": 16,
+                "code": "n",
+                "id": 7,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Which river crosses the most cities in England ?",
+        "nodes": [
+            {
+                "text": "Which",
+                "start": 0,
+                "end": 1,
+                "code": "3",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "river",
+                "start": 1,
+                "end": 2,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "crosses",
+                "start": 2,
+                "end": 3,
+                "code": "r",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "most",
+                "start": 4,
+                "end": 5,
+                "code": "q",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "cities",
+                "start": 5,
+                "end": 6,
+                "code": "t",
+                "id": 4,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "in",
+                "start": 6,
+                "end": 7,
+                "code": "r",
+                "id": 5,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "England",
+                "start": 7,
+                "end": 8,
+                "code": "n",
+                "id": 6,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Which is the longest river in Scotland ?",
+        "nodes": [
+            {
+                "text": "Which",
+                "start": 0,
+                "end": 1,
+                "code": "3",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "longest",
+                "start": 3,
+                "end": 4,
+                "code": "q",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "river",
+                "start": 4,
+                "end": 5,
+                "code": "t",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "in",
+                "start": 5,
+                "end": 6,
+                "code": "r",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Scotland",
+                "start": 6,
+                "end": 7,
+                "code": "n",
+                "id": 4,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Which city in Scotland has the largest population ?",
+        "nodes": [
+            {
+                "text": "Which",
+                "start": 0,
+                "end": 1,
+                "code": "3",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "city",
+                "start": 1,
+                "end": 2,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "in",
+                "start": 2,
+                "end": 3,
+                "code": "r",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Scotland",
+                "start": 3,
+                "end": 4,
+                "code": "n",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "has",
+                "start": 4,
+                "end": 5,
+                "code": "s",
+                "id": 4,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "largest",
+                "start": 6,
+                "end": 7,
+                "code": "q",
+                "id": 5,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "population",
+                "start": 7,
+                "end": 8,
+                "code": "o",
+                "id": 6,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Which is the largest lake by area in Great Britain ?",
+        "nodes": [
+            {
+                "text": "Which",
+                "start": 0,
+                "end": 1,
+                "code": "3",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "largest",
+                "start": 3,
+                "end": 4,
+                "code": "q",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "lake",
+                "start": 4,
+                "end": 5,
+                "code": "t",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "by",
+                "start": 5,
+                "end": 6,
+                "code": "q",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "area",
+                "start": 6,
+                "end": 7,
+                "code": "o",
+                "id": 4,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "in",
+                "start": 7,
+                "end": 8,
+                "code": "r",
+                "id": 5,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Great Britain",
+                "start": 8,
+                "end": 10,
+                "code": "n",
+                "id": 6,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Is England part of the United Kingdom ?",
+        "nodes": [
+            {
+                "text": "Is",
+                "start": 0,
+                "end": 1,
+                "code": "8",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "England",
+                "start": 1,
+                "end": 2,
+                "code": "n",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "part of",
+                "start": 2,
+                "end": 4,
+                "code": "r",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "United Kingdom",
+                "start": 5,
+                "end": 7,
+                "code": "n",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Which cities or towns of the United Kingdom have a university ?",
+        "nodes": [
+            {
+                "text": "Which",
+                "start": 0,
+                "end": 1,
+                "code": "3",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "cities",
+                "start": 1,
+                "end": 2,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "towns",
+                "start": 3,
+                "end": 4,
+                "code": "t",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "of",
+                "start": 4,
+                "end": 5,
+                "code": "r",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "United Kingdom",
+                "start": 6,
+                "end": 8,
+                "code": "n",
+                "id": 4,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "have",
+                "start": 8,
+                "end": 9,
+                "code": "s",
+                "id": 5,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "university",
+                "start": 10,
+                "end": 11,
+                "code": "t",
+                "id": 6,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Does Everton FC plays in Liverpool ?",
+        "nodes": [
+            {
+                "text": "Does",
+                "start": 0,
+                "end": 1,
+                "code": "8",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Everton FC",
+                "start": 1,
+                "end": 3,
+                "code": "n",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "plays",
+                "start": 3,
+                "end": 4,
+                "code": "s",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "in",
+                "start": 4,
+                "end": 5,
+                "code": "r",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Liverpool",
+                "start": 5,
+                "end": 6,
+                "code": "n",
+                "id": 4,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Which towns of England have at least two hospitals ?",
+        "nodes": [
+            {
+                "text": "Which",
+                "start": 0,
+                "end": 1,
+                "code": "3",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "towns",
+                "start": 1,
+                "end": 2,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "of",
+                "start": 2,
+                "end": 3,
+                "code": "r",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "England",
+                "start": 3,
+                "end": 4,
+                "code": "n",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "have",
+                "start": 4,
+                "end": 5,
+                "code": "s",
+                "id": 4,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "at least",
+                "start": 5,
+                "end": 7,
+                "code": "q",
+                "id": 5,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "two",
+                "start": 7,
+                "end": 8,
+                "code": "d",
+                "id": 6,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "hospitals",
+                "start": 8,
+                "end": 9,
+                "code": "t",
+                "id": 7,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Is Alnwick Castle in Scotland ?",
+        "nodes": [
+            {
+                "text": "Is",
+                "start": 0,
+                "end": 1,
+                "code": "8",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Alnwick Castle",
+                "start": 1,
+                "end": 3,
+                "code": "n",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "in",
+                "start": 3,
+                "end": 4,
+                "code": "r",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Scotland",
+                "start": 4,
+                "end": 5,
+                "code": "n",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Which is the largest city of Ireland ?",
+        "nodes": [
+            {
+                "text": "Which",
+                "start": 0,
+                "end": 1,
+                "code": "3",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "largest",
+                "start": 3,
+                "end": 4,
+                "code": "q",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "city",
+                "start": 4,
+                "end": 5,
+                "code": "t",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "of",
+                "start": 5,
+                "end": 6,
+                "code": "r",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Ireland",
+                "start": 6,
+                "end": 7,
+                "code": "n",
+                "id": 4,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "How many country councils are there in Ireland ?",
+        "nodes": [
+            {
+                "text": "How many",
+                "start": 0,
+                "end": 2,
+                "code": "5",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "country councils",
+                "start": 2,
+                "end": 4,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "in",
+                "start": 6,
+                "end": 7,
+                "code": "r",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Ireland",
+                "start": 7,
+                "end": 8,
+                "code": "n",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Which colleges are in London ?",
+        "nodes": [
+            {
+                "text": "Which",
+                "start": 0,
+                "end": 1,
+                "code": "3",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "colleges",
+                "start": 1,
+                "end": 2,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "in",
+                "start": 3,
+                "end": 4,
+                "code": "r",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "London",
+                "start": 4,
+                "end": 5,
+                "code": "n",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Which city council includes Dublin ?",
+        "nodes": [
+            {
+                "text": "Which",
+                "start": 0,
+                "end": 1,
+                "code": "3",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "city council",
+                "start": 1,
+                "end": 3,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "includes",
+                "start": 3,
+                "end": 4,
+                "code": "r",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Dublin",
+                "start": 4,
+                "end": 5,
+                "code": "n",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Which restaurants are near Stonehenge ?",
+        "nodes": [
+            {
+                "text": "Which",
+                "start": 0,
+                "end": 1,
+                "code": "3",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "restaurants",
+                "start": 1,
+                "end": 2,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "near",
+                "start": 3,
+                "end": 4,
+                "code": "r",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Stonehenge",
+                "start": 4,
+                "end": 5,
+                "code": "n",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "How many districts does Northern Ireland have ?",
+        "nodes": [
+            {
+                "text": "How many",
+                "start": 0,
+                "end": 2,
+                "code": "5",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "districts",
+                "start": 2,
+                "end": 3,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Northern Ireland",
+                "start": 4,
+                "end": 6,
+                "code": "n",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "have",
+                "start": 6,
+                "end": 7,
+                "code": "s",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Which are the non - metropolitan counties of England ?",
+        "nodes": [
+            {
+                "text": "Which",
+                "start": 0,
+                "end": 1,
+                "code": "3",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "non",
+                "start": 3,
+                "end": 4,
+                "code": "q",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "metropolitan",
+                "start": 5,
+                "end": 6,
+                "code": "q",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "counties",
+                "start": 6,
+                "end": 7,
+                "code": "t",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "of",
+                "start": 7,
+                "end": 8,
+                "code": "r",
+                "id": 4,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "England",
+                "start": 8,
+                "end": 9,
+                "code": "n",
+                "id": 5,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "What tourist attractions are there in Belfast , Northern Ireland ?",
+        "nodes": [
+            {
+                "text": "What",
+                "start": 0,
+                "end": 1,
+                "code": "3",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "tourist attractions",
+                "start": 1,
+                "end": 3,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "in",
+                "start": 5,
+                "end": 6,
+                "code": "r",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Belfast",
+                "start": 6,
+                "end": 7,
+                "code": "n",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": ",",
+                "start": 7,
+                "end": 8,
+                "code": "r",
+                "id": 4,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Northern Ireland",
+                "start": 8,
+                "end": 10,
+                "code": "n",
+                "id": 5,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Which pubs are near Mercure Hotel in Glasgow , Scotland ?",
+        "nodes": [
+            {
+                "text": "Which",
+                "start": 0,
+                "end": 1,
+                "code": "3",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "pubs",
+                "start": 1,
+                "end": 2,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "near",
+                "start": 3,
+                "end": 4,
+                "code": "r",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Mercure Hotel",
+                "start": 4,
+                "end": 6,
+                "code": "n",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "in",
+                "start": 6,
+                "end": 7,
+                "code": "r",
+                "id": 4,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Glasgow",
+                "start": 7,
+                "end": 8,
+                "code": "n",
+                "id": 5,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": ",",
+                "start": 8,
+                "end": 9,
+                "code": "r",
+                "id": 6,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Scotland",
+                "start": 9,
+                "end": 10,
+                "code": "n",
+                "id": 7,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Which are the main railway stations in Glasgow , Scotland ?",
+        "nodes": [
+            {
+                "text": "Which",
+                "start": 0,
+                "end": 1,
+                "code": "3",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "main",
+                "start": 3,
+                "end": 4,
+                "code": "q",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "railway stations",
+                "start": 4,
+                "end": 6,
+                "code": "t",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "in",
+                "start": 6,
+                "end": 7,
+                "code": "r",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Glasgow",
+                "start": 7,
+                "end": 8,
+                "code": "n",
+                "id": 4,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": ",",
+                "start": 8,
+                "end": 9,
+                "code": "r",
+                "id": 5,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Scotland",
+                "start": 9,
+                "end": 10,
+                "code": "n",
+                "id": 6,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Are there more than 10 districts in Hampshire , England ?",
+        "nodes": [
+            {
+                "text": "Are",
+                "start": 0,
+                "end": 1,
+                "code": "8",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "more than",
+                "start": 2,
+                "end": 4,
+                "code": "q",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "10",
+                "start": 4,
+                "end": 5,
+                "code": "d",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "districts",
+                "start": 5,
+                "end": 6,
+                "code": "t",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "in",
+                "start": 6,
+                "end": 7,
+                "code": "r",
+                "id": 4,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Hampshire",
+                "start": 7,
+                "end": 8,
+                "code": "n",
+                "id": 5,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": ",",
+                "start": 8,
+                "end": 9,
+                "code": "r",
+                "id": 6,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "England",
+                "start": 9,
+                "end": 10,
+                "code": "n",
+                "id": 7,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Is there a mountain within 20 km of Cheshire ?",
+        "nodes": [
+            {
+                "text": "Is",
+                "start": 0,
+                "end": 1,
+                "code": "8",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "mountain",
+                "start": 3,
+                "end": 4,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "within",
+                "start": 4,
+                "end": 5,
+                "code": "r",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "20 km",
+                "start": 5,
+                "end": 7,
+                "code": "d",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "of",
+                "start": 7,
+                "end": 8,
+                "code": "r",
+                "id": 4,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Cheshire",
+                "start": 8,
+                "end": 9,
+                "code": "n",
+                "id": 5,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "What historical monuments are there in London ?",
+        "nodes": [
+            {
+                "text": "What",
+                "start": 0,
+                "end": 1,
+                "code": "3",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "historical",
+                "start": 1,
+                "end": 2,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "monuments",
+                "start": 2,
+                "end": 3,
+                "code": "t",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "in",
+                "start": 5,
+                "end": 6,
+                "code": "r",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "London",
+                "start": 6,
+                "end": 7,
+                "code": "n",
+                "id": 4,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Which rivers in Scotland have more than 100 km length ?",
+        "nodes": [
+            {
+                "text": "Which",
+                "start": 0,
+                "end": 1,
+                "code": "3",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "rivers",
+                "start": 1,
+                "end": 2,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "in",
+                "start": 2,
+                "end": 3,
+                "code": "r",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Scotland",
+                "start": 3,
+                "end": 4,
+                "code": "n",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "have",
+                "start": 4,
+                "end": 5,
+                "code": "s",
+                "id": 4,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "more than",
+                "start": 5,
+                "end": 7,
+                "code": "q",
+                "id": 5,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "100 km",
+                "start": 7,
+                "end": 9,
+                "code": "d",
+                "id": 6,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "length",
+                "start": 9,
+                "end": 10,
+                "code": "o",
+                "id": 7,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "What is the elevation of the most elevated spot in county Down ?",
+        "nodes": [
+            {
+                "text": "What",
+                "start": 0,
+                "end": 1,
+                "code": "2",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "elevation",
+                "start": 3,
+                "end": 4,
+                "code": "o",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "most",
+                "start": 6,
+                "end": 7,
+                "code": "q",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "elevated",
+                "start": 7,
+                "end": 8,
+                "code": "t",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "spot",
+                "start": 8,
+                "end": 9,
+                "code": "t",
+                "id": 4,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "in",
+                "start": 9,
+                "end": 10,
+                "code": "r",
+                "id": 5,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "county Down",
+                "start": 10,
+                "end": 12,
+                "code": "n",
+                "id": 6,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "What is the area of county Chesire ?",
+        "nodes": [
+            {
+                "text": "What",
+                "start": 0,
+                "end": 1,
+                "code": "2",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "area",
+                "start": 3,
+                "end": 4,
+                "code": "o",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "county Chesire",
+                "start": 5,
+                "end": 7,
+                "code": "n",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Which are the districts of county Chesire ?",
+        "nodes": [
+            {
+                "text": "Which",
+                "start": 0,
+                "end": 1,
+                "code": "3",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "districts",
+                "start": 3,
+                "end": 4,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "of",
+                "start": 4,
+                "end": 5,
+                "code": "r",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "county Chesire",
+                "start": 5,
+                "end": 7,
+                "code": "n",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Which is the largest county of England ?",
+        "nodes": [
+            {
+                "text": "Which",
+                "start": 0,
+                "end": 1,
+                "code": "3",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "largest",
+                "start": 3,
+                "end": 4,
+                "code": "q",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "county",
+                "start": 4,
+                "end": 5,
+                "code": "t",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "of",
+                "start": 5,
+                "end": 6,
+                "code": "r",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "England",
+                "start": 6,
+                "end": 7,
+                "code": "n",
+                "id": 4,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "What is the length of river Thames ?",
+        "nodes": [
+            {
+                "text": "What",
+                "start": 0,
+                "end": 1,
+                "code": "2",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "length",
+                "start": 3,
+                "end": 4,
+                "code": "o",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "river Thames",
+                "start": 5,
+                "end": 7,
+                "code": "n",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Where is Tower Bridge located ?",
+        "nodes": [
+            {
+                "text": "Where",
+                "start": 0,
+                "end": 1,
+                "code": "1",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Tower Bridge",
+                "start": 2,
+                "end": 4,
+                "code": "n",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "located",
+                "start": 4,
+                "end": 5,
+                "code": "s",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Does London have a mountain ?",
+        "nodes": [
+            {
+                "text": "Does",
+                "start": 0,
+                "end": 1,
+                "code": "8",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "London",
+                "start": 1,
+                "end": 2,
+                "code": "n",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "have",
+                "start": 2,
+                "end": 3,
+                "code": "s",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "mountain",
+                "start": 4,
+                "end": 5,
+                "code": "t",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "How many rivers cross England 's cities ?",
+        "nodes": [
+            {
+                "text": "How many",
+                "start": 0,
+                "end": 2,
+                "code": "5",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "rivers",
+                "start": 2,
+                "end": 3,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "cross",
+                "start": 3,
+                "end": 4,
+                "code": "r",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "England",
+                "start": 4,
+                "end": 5,
+                "code": "n",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "'s",
+                "start": 5,
+                "end": 6,
+                "code": "r",
+                "id": 4,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "cities",
+                "start": 6,
+                "end": 7,
+                "code": "t",
+                "id": 5,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Is London south of Manchester ?",
+        "nodes": [
+            {
+                "text": "Is",
+                "start": 0,
+                "end": 1,
+                "code": "8",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "London",
+                "start": 1,
+                "end": 2,
+                "code": "n",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "south of",
+                "start": 2,
+                "end": 4,
+                "code": "r",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Manchester",
+                "start": 4,
+                "end": 5,
+                "code": "n",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Is Islington near Angel ?",
+        "nodes": [
+            {
+                "text": "Is",
+                "start": 0,
+                "end": 1,
+                "code": "8",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Islington",
+                "start": 1,
+                "end": 2,
+                "code": "n",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "near",
+                "start": 2,
+                "end": 3,
+                "code": "r",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Angel",
+                "start": 3,
+                "end": 4,
+                "code": "n",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Is the City of London north of the Thames river ?",
+        "nodes": [
+            {
+                "text": "Is",
+                "start": 0,
+                "end": 1,
+                "code": "8",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "City of London",
+                "start": 2,
+                "end": 5,
+                "code": "n",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "north of",
+                "start": 5,
+                "end": 7,
+                "code": "r",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Thames river",
+                "start": 8,
+                "end": 10,
+                "code": "n",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Are there any lakes in Scotland ?",
+        "nodes": [
+            {
+                "text": "Are",
+                "start": 0,
+                "end": 1,
+                "code": "8",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "lakes",
+                "start": 3,
+                "end": 4,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "in",
+                "start": 4,
+                "end": 5,
+                "code": "r",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Scotland",
+                "start": 5,
+                "end": 6,
+                "code": "n",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Is there a car park near a bridge on river Exe ?",
+        "nodes": [
+            {
+                "text": "Is",
+                "start": 0,
+                "end": 1,
+                "code": "8",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "car park",
+                "start": 3,
+                "end": 5,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "near",
+                "start": 5,
+                "end": 6,
+                "code": "r",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "bridge",
+                "start": 7,
+                "end": 8,
+                "code": "t",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "on",
+                "start": 8,
+                "end": 9,
+                "code": "r",
+                "id": 4,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "river Exe",
+                "start": 9,
+                "end": 11,
+                "code": "n",
+                "id": 5,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Which car park is closest to a bridge on river Exe ?",
+        "nodes": [
+            {
+                "text": "Which",
+                "start": 0,
+                "end": 1,
+                "code": "3",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "car park",
+                "start": 1,
+                "end": 3,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "closest",
+                "start": 4,
+                "end": 5,
+                "code": "q",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "to",
+                "start": 5,
+                "end": 6,
+                "code": "r",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "bridge",
+                "start": 7,
+                "end": 8,
+                "code": "t",
+                "id": 4,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "on",
+                "start": 8,
+                "end": 9,
+                "code": "r",
+                "id": 5,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "river Exe",
+                "start": 9,
+                "end": 11,
+                "code": "n",
+                "id": 6,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Which counties border county Donegal to the south ?",
+        "nodes": [
+            {
+                "text": "Which",
+                "start": 0,
+                "end": 1,
+                "code": "3",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "counties",
+                "start": 1,
+                "end": 2,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "border",
+                "start": 2,
+                "end": 3,
+                "code": "r",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "county Donegal",
+                "start": 3,
+                "end": 5,
+                "code": "n",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "to",
+                "start": 5,
+                "end": 6,
+                "code": "r",
+                "id": 4,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "What is the longest river in England and Wales ?",
+        "nodes": [
+            {
+                "text": "What",
+                "start": 0,
+                "end": 1,
+                "code": "2",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "longest",
+                "start": 3,
+                "end": 4,
+                "code": "q",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "river",
+                "start": 4,
+                "end": 5,
+                "code": "t",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "in",
+                "start": 5,
+                "end": 6,
+                "code": "r",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "England",
+                "start": 6,
+                "end": 7,
+                "code": "n",
+                "id": 4,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "and",
+                "start": 7,
+                "end": 8,
+                "code": "x",
+                "id": 5,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Wales",
+                "start": 8,
+                "end": 9,
+                "code": "n",
+                "id": 6,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Which restaurants in London are near Kensington Palace ?",
+        "nodes": [
+            {
+                "text": "Which",
+                "start": 0,
+                "end": 1,
+                "code": "3",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "restaurants",
+                "start": 1,
+                "end": 2,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "in",
+                "start": 2,
+                "end": 3,
+                "code": "r",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "London",
+                "start": 3,
+                "end": 4,
+                "code": "n",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "near",
+                "start": 5,
+                "end": 6,
+                "code": "r",
+                "id": 4,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Kensington Palace",
+                "start": 6,
+                "end": 8,
+                "code": "n",
+                "id": 5,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Is there a forest near Manchester ?",
+        "nodes": [
+            {
+                "text": "Is",
+                "start": 0,
+                "end": 1,
+                "code": "8",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "forest",
+                "start": 3,
+                "end": 4,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "near",
+                "start": 4,
+                "end": 5,
+                "code": "r",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Manchester",
+                "start": 5,
+                "end": 6,
+                "code": "n",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Which medieval castles are in Scotland ?",
+        "nodes": [
+            {
+                "text": "Which",
+                "start": 0,
+                "end": 1,
+                "code": "3",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "medieval",
+                "start": 1,
+                "end": 2,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "castles",
+                "start": 2,
+                "end": 3,
+                "code": "t",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "in",
+                "start": 4,
+                "end": 5,
+                "code": "r",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Scotland",
+                "start": 5,
+                "end": 6,
+                "code": "n",
+                "id": 4,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Which provinces of Ireland have population over 2 million ?",
+        "nodes": [
+            {
+                "text": "Which",
+                "start": 0,
+                "end": 1,
+                "code": "3",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "provinces",
+                "start": 1,
+                "end": 2,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "of",
+                "start": 2,
+                "end": 3,
+                "code": "r",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Ireland",
+                "start": 3,
+                "end": 4,
+                "code": "n",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "have",
+                "start": 4,
+                "end": 5,
+                "code": "s",
+                "id": 4,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "population over",
+                "start": 5,
+                "end": 7,
+                "code": "o",
+                "id": 5,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "2 million",
+                "start": 7,
+                "end": 9,
+                "code": "d",
+                "id": 6,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "What London underground stations are closest to the British Museum ?",
+        "nodes": [
+            {
+                "text": "What",
+                "start": 0,
+                "end": 1,
+                "code": "2",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "London underground stations",
+                "start": 1,
+                "end": 4,
+                "code": "n",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "closest",
+                "start": 5,
+                "end": 6,
+                "code": "q",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "to",
+                "start": 6,
+                "end": 7,
+                "code": "r",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "British Museum",
+                "start": 8,
+                "end": 10,
+                "code": "n",
+                "id": 4,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "What is the most populated city in the United Kingdom except London ?",
+        "nodes": [
+            {
+                "text": "What",
+                "start": 0,
+                "end": 1,
+                "code": "2",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "most",
+                "start": 3,
+                "end": 4,
+                "code": "q",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "populated",
+                "start": 4,
+                "end": 5,
+                "code": "q",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "city",
+                "start": 5,
+                "end": 6,
+                "code": "t",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "in",
+                "start": 6,
+                "end": 7,
+                "code": "r",
+                "id": 4,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "United Kingdom",
+                "start": 8,
+                "end": 10,
+                "code": "n",
+                "id": 5,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "except",
+                "start": 10,
+                "end": 11,
+                "code": "r",
+                "id": 6,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "London",
+                "start": 11,
+                "end": 12,
+                "code": "n",
+                "id": 7,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Is the monument of the Great Fire of London east of King WIlliam Street ?",
+        "nodes": [
+            {
+                "text": "Is",
+                "start": 0,
+                "end": 1,
+                "code": "8",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "monument of",
+                "start": 2,
+                "end": 4,
+                "code": "n",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Great Fire of",
+                "start": 5,
+                "end": 8,
+                "code": "n",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "London",
+                "start": 8,
+                "end": 9,
+                "code": "n",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "east of",
+                "start": 9,
+                "end": 11,
+                "code": "r",
+                "id": 4,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "King WIlliam Street",
+                "start": 11,
+                "end": 14,
+                "code": "n",
+                "id": 5,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Is the Tower of London near river Thames ?",
+        "nodes": [
+            {
+                "text": "Is",
+                "start": 0,
+                "end": 1,
+                "code": "8",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Tower of London",
+                "start": 2,
+                "end": 5,
+                "code": "n",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "near",
+                "start": 5,
+                "end": 6,
+                "code": "r",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "river Thames",
+                "start": 6,
+                "end": 8,
+                "code": "n",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Which bars are near Prince 's street in Edinburgh ?",
+        "nodes": [
+            {
+                "text": "Which",
+                "start": 0,
+                "end": 1,
+                "code": "3",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "bars",
+                "start": 1,
+                "end": 2,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "near",
+                "start": 3,
+                "end": 4,
+                "code": "r",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Prince 's street",
+                "start": 4,
+                "end": 7,
+                "code": "n",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "in",
+                "start": 7,
+                "end": 8,
+                "code": "r",
+                "id": 4,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Edinburgh",
+                "start": 8,
+                "end": 9,
+                "code": "n",
+                "id": 5,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "What is the most densely populated city in Ireland ?",
+        "nodes": [
+            {
+                "text": "What",
+                "start": 0,
+                "end": 1,
+                "code": "2",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "most",
+                "start": 3,
+                "end": 4,
+                "code": "q",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "densely populated",
+                "start": 4,
+                "end": 6,
+                "code": "q",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "city",
+                "start": 6,
+                "end": 7,
+                "code": "t",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "in",
+                "start": 7,
+                "end": 8,
+                "code": "r",
+                "id": 4,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Ireland",
+                "start": 8,
+                "end": 9,
+                "code": "n",
+                "id": 5,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Does Hammersmith Bridge connect Hammersmith with Barnes ?",
+        "nodes": [
+            {
+                "text": "Does",
+                "start": 0,
+                "end": 1,
+                "code": "8",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Hammersmith Bridge",
+                "start": 1,
+                "end": 3,
+                "code": "n",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "connect",
+                "start": 3,
+                "end": 4,
+                "code": "r",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Hammersmith with",
+                "start": 4,
+                "end": 6,
+                "code": "n",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Barnes",
+                "start": 6,
+                "end": 7,
+                "code": "n",
+                "id": 4,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Which hotels are near Loch Ness ?",
+        "nodes": [
+            {
+                "text": "Which",
+                "start": 0,
+                "end": 1,
+                "code": "3",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "hotels",
+                "start": 1,
+                "end": 2,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "near",
+                "start": 3,
+                "end": 4,
+                "code": "r",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Loch Ness",
+                "start": 4,
+                "end": 6,
+                "code": "n",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Is there a museum at most 1 km from Liverpool ?",
+        "nodes": [
+            {
+                "text": "Is",
+                "start": 0,
+                "end": 1,
+                "code": "8",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "museum",
+                "start": 3,
+                "end": 4,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "at most",
+                "start": 4,
+                "end": 6,
+                "code": "q",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "1 km",
+                "start": 6,
+                "end": 8,
+                "code": "d",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "from",
+                "start": 8,
+                "end": 9,
+                "code": "r",
+                "id": 4,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Liverpool",
+                "start": 9,
+                "end": 10,
+                "code": "n",
+                "id": 5,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "In which part of England is Liverpool located ?",
+        "nodes": [
+            {
+                "text": "In",
+                "start": 0,
+                "end": 1,
+                "code": "r",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "which",
+                "start": 1,
+                "end": 2,
+                "code": "3",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "part",
+                "start": 2,
+                "end": 3,
+                "code": "t",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "of",
+                "start": 3,
+                "end": 4,
+                "code": "r",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "England",
+                "start": 4,
+                "end": 5,
+                "code": "n",
+                "id": 4,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Liverpool",
+                "start": 6,
+                "end": 7,
+                "code": "n",
+                "id": 5,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "located",
+                "start": 7,
+                "end": 8,
+                "code": "s",
+                "id": 6,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Which city in Scotland has the largest population ?",
+        "nodes": [
+            {
+                "text": "Which",
+                "start": 0,
+                "end": 1,
+                "code": "3",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "city",
+                "start": 1,
+                "end": 2,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "in",
+                "start": 2,
+                "end": 3,
+                "code": "r",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Scotland",
+                "start": 3,
+                "end": 4,
+                "code": "n",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "has",
+                "start": 4,
+                "end": 5,
+                "code": "s",
+                "id": 4,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "largest",
+                "start": 6,
+                "end": 7,
+                "code": "q",
+                "id": 5,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "population",
+                "start": 7,
+                "end": 8,
+                "code": "o",
+                "id": 6,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Is Glasgow the largest city of Scotland in terms of population ?",
+        "nodes": [
+            {
+                "text": "Is",
+                "start": 0,
+                "end": 1,
+                "code": "8",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Glasgow",
+                "start": 1,
+                "end": 2,
+                "code": "n",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "largest",
+                "start": 3,
+                "end": 4,
+                "code": "q",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "city",
+                "start": 4,
+                "end": 5,
+                "code": "t",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "of",
+                "start": 5,
+                "end": 6,
+                "code": "r",
+                "id": 4,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Scotland",
+                "start": 6,
+                "end": 7,
+                "code": "n",
+                "id": 5,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "in",
+                "start": 7,
+                "end": 8,
+                "code": "r",
+                "id": 6,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "terms",
+                "start": 8,
+                "end": 9,
+                "code": "q",
+                "id": 7,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "population",
+                "start": 10,
+                "end": 11,
+                "code": "o",
+                "id": 8,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "What is the distance between Liverpool and Glasgow ?",
+        "nodes": [
+            {
+                "text": "What",
+                "start": 0,
+                "end": 1,
+                "code": "2",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "distance",
+                "start": 3,
+                "end": 4,
+                "code": "o",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "between",
+                "start": 4,
+                "end": 5,
+                "code": "r",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Liverpool",
+                "start": 5,
+                "end": 6,
+                "code": "n",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "and",
+                "start": 6,
+                "end": 7,
+                "code": "r",
+                "id": 4,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Glasgow",
+                "start": 7,
+                "end": 8,
+                "code": "n",
+                "id": 5,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Is Liverpool part of Scotland ?",
+        "nodes": [
+            {
+                "text": "Is",
+                "start": 0,
+                "end": 1,
+                "code": "8",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Liverpool",
+                "start": 1,
+                "end": 2,
+                "code": "n",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "part of",
+                "start": 2,
+                "end": 4,
+                "code": "r",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Scotland",
+                "start": 4,
+                "end": 5,
+                "code": "n",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "In what county is Stonehenge located ?",
+        "nodes": [
+            {
+                "text": "In",
+                "start": 0,
+                "end": 1,
+                "code": "r",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "what",
+                "start": 1,
+                "end": 2,
+                "code": "3",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "county",
+                "start": 2,
+                "end": 3,
+                "code": "t",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Stonehenge",
+                "start": 4,
+                "end": 5,
+                "code": "n",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "located",
+                "start": 5,
+                "end": 6,
+                "code": "s",
+                "id": 4,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Which rivers discharge into the Solway Firth ?",
+        "nodes": [
+            {
+                "text": "Which",
+                "start": 0,
+                "end": 1,
+                "code": "3",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "rivers",
+                "start": 1,
+                "end": 2,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "discharge",
+                "start": 2,
+                "end": 3,
+                "code": "r",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "into",
+                "start": 3,
+                "end": 4,
+                "code": "r",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Solway Firth",
+                "start": 5,
+                "end": 7,
+                "code": "n",
+                "id": 4,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Which museums are within 3 km of Saint George 's hotel in London ?",
+        "nodes": [
+            {
+                "text": "Which",
+                "start": 0,
+                "end": 1,
+                "code": "3",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "museums",
+                "start": 1,
+                "end": 2,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "within",
+                "start": 3,
+                "end": 4,
+                "code": "r",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "3 km",
+                "start": 4,
+                "end": 6,
+                "code": "d",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "of",
+                "start": 6,
+                "end": 7,
+                "code": "r",
+                "id": 4,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Saint George 's hotel",
+                "start": 7,
+                "end": 11,
+                "code": "n",
+                "id": 5,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "in",
+                "start": 11,
+                "end": 12,
+                "code": "r",
+                "id": 6,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "London",
+                "start": 12,
+                "end": 13,
+                "code": "n",
+                "id": 7,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Is there a forest in county Cheshire ?",
+        "nodes": [
+            {
+                "text": "Is",
+                "start": 0,
+                "end": 1,
+                "code": "8",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "forest",
+                "start": 3,
+                "end": 4,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "in",
+                "start": 4,
+                "end": 5,
+                "code": "r",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "county Cheshire",
+                "start": 5,
+                "end": 7,
+                "code": "n",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Which art museums are at most 1 km from Charlotte Square in Edinburgh ?",
+        "nodes": [
+            {
+                "text": "Which",
+                "start": 0,
+                "end": 1,
+                "code": "3",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "art museums",
+                "start": 1,
+                "end": 3,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "at most",
+                "start": 4,
+                "end": 6,
+                "code": "q",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "1 km",
+                "start": 6,
+                "end": 8,
+                "code": "d",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "from",
+                "start": 8,
+                "end": 9,
+                "code": "r",
+                "id": 4,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Charlotte Square",
+                "start": 9,
+                "end": 11,
+                "code": "n",
+                "id": 5,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "in",
+                "start": 11,
+                "end": 12,
+                "code": "r",
+                "id": 6,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Edinburgh",
+                "start": 12,
+                "end": 13,
+                "code": "n",
+                "id": 7,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "How many rivers cross Edinburgh ?",
+        "nodes": [
+            {
+                "text": "How many",
+                "start": 0,
+                "end": 2,
+                "code": "5",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "rivers",
+                "start": 2,
+                "end": 3,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "cross",
+                "start": 3,
+                "end": 4,
+                "code": "r",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "Edinburgh",
+                "start": 4,
+                "end": 5,
+                "code": "n",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "How many counties does the river Thames cross ?",
+        "nodes": [
+            {
+                "text": "How many",
+                "start": 0,
+                "end": 2,
+                "code": "5",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "counties",
+                "start": 2,
+                "end": 3,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "river Thames",
+                "start": 5,
+                "end": 7,
+                "code": "n",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "cross",
+                "start": 7,
+                "end": 8,
+                "code": "r",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Which rivers cross county Cheshire ?",
+        "nodes": [
+            {
+                "text": "Which",
+                "start": 0,
+                "end": 1,
+                "code": "3",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "rivers",
+                "start": 1,
+                "end": 2,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "cross",
+                "start": 2,
+                "end": 3,
+                "code": "r",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "county Cheshire",
+                "start": 3,
+                "end": 5,
+                "code": "n",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Which county is east of county Dorset ?",
+        "nodes": [
+            {
+                "text": "Which",
+                "start": 0,
+                "end": 1,
+                "code": "3",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "county",
+                "start": 1,
+                "end": 2,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "east of",
+                "start": 3,
+                "end": 5,
+                "code": "r",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "county Dorset",
+                "start": 5,
+                "end": 7,
+                "code": "n",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    },
+    {
+        "sentence": "Is there a river that crosses county Greater Manchester ?",
+        "nodes": [
+            {
+                "text": "Is",
+                "start": 0,
+                "end": 1,
+                "code": "8",
+                "id": 0,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "river",
+                "start": 3,
+                "end": 4,
+                "code": "t",
+                "id": 1,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "crosses",
+                "start": 5,
+                "end": 6,
+                "code": "r",
+                "id": 2,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            },
+            {
+                "text": "county Greater Manchester",
+                "start": 6,
+                "end": 9,
+                "code": "n",
+                "id": 3,
+                "arg1": [
+                    -1
+                ],
+                "arg2": [
+                    -1
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,1382 @@
+[
+    {
+        "sentence": "Is there a castle in London near Trafalgar Square ?",
+        "code": [
+            "8",
+            ",",
+            ",",
+            "t",
+            "r",
+            "n",
+            "r",
+            "n",
+            "-",
+            ","
+        ]
+    },
+    {
+        "sentence": "Is there a park in Dublin near Grafton Street ?",
+        "code": [
+            "8",
+            ",",
+            ",",
+            "t",
+            "r",
+            "n",
+            "r",
+            "n",
+            "-",
+            ","
+        ]
+    },
+    {
+        "sentence": "Is Hampshire north of Berkshire ?",
+        "code": [
+            "8",
+            "n",
+            "r",
+            "-",
+            "n",
+            ","
+        ]
+    },
+    {
+        "sentence": "Which counties of England border country Scotland ?",
+        "code": [
+            "3",
+            "t",
+            "r",
+            "n",
+            "r",
+            "n",
+            "n",
+            ","
+        ]
+    },
+    {
+        "sentence": "Is Trafalgar square located in London ?",
+        "code": [
+            "8",
+            "n",
+            "-",
+            "s",
+            "r",
+            "n",
+            ","
+        ]
+    },
+    {
+        "sentence": "Which is the oldest bridge of London ?",
+        "code": [
+            "3",
+            ",",
+            ",",
+            "q",
+            "t",
+            "r",
+            "n",
+            ","
+        ]
+    },
+    {
+        "sentence": "Is there any airfield in Wellesbourne village in England ?",
+        "code": [
+            "8",
+            ",",
+            ",",
+            "t",
+            "r",
+            "n",
+            "-",
+            "r",
+            "n",
+            ","
+        ]
+    },
+    {
+        "sentence": "How many parks are there in Northampton ?",
+        "code": [
+            "5",
+            "-",
+            "t",
+            ",",
+            ",",
+            "r",
+            "n",
+            ","
+        ]
+    },
+    {
+        "sentence": "Is there any stadium in Cardiff ?",
+        "code": [
+            "8",
+            ",",
+            ",",
+            "t",
+            "r",
+            "n",
+            ","
+        ]
+    },
+    {
+        "sentence": "Is there an aerodrome in Essex ?",
+        "code": [
+            "8",
+            ",",
+            ",",
+            "t",
+            "r",
+            "n",
+            ","
+        ]
+    },
+    {
+        "sentence": "Which aerodrome is in Essex ?",
+        "code": [
+            "3",
+            "t",
+            ",",
+            "r",
+            "n",
+            ","
+        ]
+    },
+    {
+        "sentence": "Which aerodromes are at most 50 km from London ?",
+        "code": [
+            "3",
+            "t",
+            ",",
+            "q",
+            "-",
+            "d",
+            "-",
+            "r",
+            "n",
+            ","
+        ]
+    },
+    {
+        "sentence": "Is Somerset west of Westmorland ?",
+        "code": [
+            "8",
+            "n",
+            "r",
+            "-",
+            "n",
+            ","
+        ]
+    },
+    {
+        "sentence": "Is Edinburgh west of Glasgow ?",
+        "code": [
+            "8",
+            "n",
+            "r",
+            "-",
+            "n",
+            ","
+        ]
+    },
+    {
+        "sentence": "How many rivers cross the county West Yorkshire ?",
+        "code": [
+            "5",
+            "-",
+            "t",
+            "r",
+            ",",
+            "n",
+            "-",
+            "-",
+            ","
+        ]
+    },
+    {
+        "sentence": "How many cities does Merseyside have ?",
+        "code": [
+            "5",
+            "-",
+            "t",
+            ",",
+            "n",
+            "s",
+            ","
+        ]
+    },
+    {
+        "sentence": "Is there an airport in Dublin ?",
+        "code": [
+            "8",
+            ",",
+            ",",
+            "t",
+            "r",
+            "n",
+            ","
+        ]
+    },
+    {
+        "sentence": "Which are the counties of Northern Ireland ?",
+        "code": [
+            "3",
+            ",",
+            ",",
+            "t",
+            "r",
+            "n",
+            "-",
+            ","
+        ]
+    },
+    {
+        "sentence": "What historic buildings are in Buckinghamshire ?",
+        "code": [
+            "3",
+            "t",
+            "t",
+            ",",
+            "r",
+            "n",
+            ","
+        ]
+    },
+    {
+        "sentence": "Which Greek restaurants in London are near Wembley stadium ?",
+        "code": [
+            "3",
+            "t",
+            "t",
+            "r",
+            "n",
+            ",",
+            "r",
+            "n",
+            "-",
+            ","
+        ]
+    },
+    {
+        "sentence": "Is there a National Park in England ?",
+        "code": [
+            "8",
+            ",",
+            ",",
+            "t",
+            "-",
+            "r",
+            "n",
+            ","
+        ]
+    },
+    {
+        "sentence": "Is there a mountain in Merseyside ?",
+        "code": [
+            "8",
+            ",",
+            ",",
+            "t",
+            "r",
+            "n",
+            ","
+        ]
+    },
+    {
+        "sentence": "Which town has the biggest population in Scotland ?",
+        "code": [
+            "3",
+            "t",
+            "s",
+            ",",
+            "q",
+            "o",
+            "r",
+            "n",
+            ","
+        ]
+    },
+    {
+        "sentence": "Where is the nearest gas station to St. Peter 's Square in Manchester ?",
+        "code": [
+            "1",
+            ",",
+            ",",
+            "q",
+            "t",
+            "-",
+            "r",
+            "n",
+            "-",
+            "-",
+            "-",
+            "r",
+            "n",
+            ","
+        ]
+    },
+    {
+        "sentence": "Does county Suffolk border county Durham ?",
+        "code": [
+            "8",
+            "n",
+            "-",
+            "r",
+            "n",
+            "-",
+            ","
+        ]
+    },
+    {
+        "sentence": "Which counties of Ireland does River Shannon cross ?",
+        "code": [
+            "3",
+            "t",
+            "r",
+            "n",
+            ",",
+            "n",
+            "-",
+            "r",
+            ","
+        ]
+    },
+    {
+        "sentence": "Is Cavan a county of Ireland ?",
+        "code": [
+            "8",
+            "n",
+            ",",
+            "t",
+            "r",
+            "n",
+            ","
+        ]
+    },
+    {
+        "sentence": "Which restaurants are at most 500 m from the University of Liverpool ?",
+        "code": [
+            "3",
+            "t",
+            ",",
+            "q",
+            "-",
+            "d",
+            "-",
+            "r",
+            ",",
+            "n",
+            "-",
+            "-",
+            ","
+        ]
+    },
+    {
+        "sentence": "Which restaurants are near Baker Street in London ?",
+        "code": [
+            "3",
+            "t",
+            ",",
+            "r",
+            "n",
+            "-",
+            "r",
+            "n",
+            ","
+        ]
+    },
+    {
+        "sentence": "Which lakes are in Ireland ?",
+        "code": [
+            "3",
+            "t",
+            ",",
+            "r",
+            "n",
+            ","
+        ]
+    },
+    {
+        "sentence": "Which parks are near Trafalgar Square ?",
+        "code": [
+            "3",
+            "t",
+            ",",
+            "r",
+            "n",
+            "-",
+            ","
+        ]
+    },
+    {
+        "sentence": "Which countries border Wales ?",
+        "code": [
+            "3",
+            "t",
+            "r",
+            "n",
+            ","
+        ]
+    },
+    {
+        "sentence": "Are there cities that are at most 2 km away from St. David 's in Wales ?",
+        "code": [
+            "8",
+            ",",
+            "t",
+            ",",
+            ",",
+            "q",
+            "-",
+            "d",
+            "-",
+            ",",
+            "r",
+            "n",
+            "-",
+            "-",
+            "r",
+            "n",
+            ","
+        ]
+    },
+    {
+        "sentence": "Which river crosses the most cities in England ?",
+        "code": [
+            "3",
+            "t",
+            "r",
+            ",",
+            "q",
+            "t",
+            "r",
+            "n",
+            ","
+        ]
+    },
+    {
+        "sentence": "Which is the longest river in Scotland ?",
+        "code": [
+            "3",
+            ",",
+            ",",
+            "q",
+            "t",
+            "r",
+            "n",
+            ","
+        ]
+    },
+    {
+        "sentence": "Which city in Scotland has the largest population ?",
+        "code": [
+            "3",
+            "t",
+            "r",
+            "n",
+            "s",
+            ",",
+            "q",
+            "o",
+            ","
+        ]
+    },
+    {
+        "sentence": "Which is the largest lake by area in Great Britain ?",
+        "code": [
+            "3",
+            ",",
+            ",",
+            "q",
+            "t",
+            "q",
+            "o",
+            "r",
+            "n",
+            "-",
+            ","
+        ]
+    },
+    {
+        "sentence": "Is England part of the United Kingdom ?",
+        "code": [
+            "8",
+            "n",
+            "r",
+            "-",
+            ",",
+            "n",
+            "-",
+            ","
+        ]
+    },
+    {
+        "sentence": "Which cities or towns of the United Kingdom have a university ?",
+        "code": [
+            "3",
+            "t",
+            ",",
+            "t",
+            "r",
+            ",",
+            "n",
+            "-",
+            "s",
+            ",",
+            "t",
+            ","
+        ]
+    },
+    {
+        "sentence": "Does Everton FC plays in Liverpool ?",
+        "code": [
+            "8",
+            "n",
+            "-",
+            "s",
+            "r",
+            "n",
+            ","
+        ]
+    },
+    {
+        "sentence": "Which towns of England have at least two hospitals ?",
+        "code": [
+            "3",
+            "t",
+            "r",
+            "n",
+            "s",
+            "q",
+            "-",
+            "d",
+            "t",
+            ","
+        ]
+    },
+    {
+        "sentence": "Is Alnwick Castle in Scotland ?",
+        "code": [
+            "8",
+            "n",
+            "-",
+            "r",
+            "n",
+            ","
+        ]
+    },
+    {
+        "sentence": "Which is the largest city of Ireland ?",
+        "code": [
+            "3",
+            ",",
+            ",",
+            "q",
+            "t",
+            "r",
+            "n",
+            ","
+        ]
+    },
+    {
+        "sentence": "How many country councils are there in Ireland ?",
+        "code": [
+            "5",
+            "-",
+            "t",
+            "-",
+            ",",
+            ",",
+            "r",
+            "n",
+            ","
+        ]
+    },
+    {
+        "sentence": "Which colleges are in London ?",
+        "code": [
+            "3",
+            "t",
+            ",",
+            "r",
+            "n",
+            ","
+        ]
+    },
+    {
+        "sentence": "Which city council includes Dublin ?",
+        "code": [
+            "3",
+            "t",
+            "-",
+            "r",
+            "n",
+            ","
+        ]
+    },
+    {
+        "sentence": "Which restaurants are near Stonehenge ?",
+        "code": [
+            "3",
+            "t",
+            ",",
+            "r",
+            "n",
+            ","
+        ]
+    },
+    {
+        "sentence": "How many districts does Northern Ireland have ?",
+        "code": [
+            "5",
+            "-",
+            "t",
+            ",",
+            "n",
+            "-",
+            "s",
+            ","
+        ]
+    },
+    {
+        "sentence": "Which are the non - metropolitan counties of England ?",
+        "code": [
+            "3",
+            ",",
+            ",",
+            "q",
+            ",",
+            "q",
+            "t",
+            "r",
+            "n",
+            ","
+        ]
+    },
+    {
+        "sentence": "What tourist attractions are there in Belfast , Northern Ireland ?",
+        "code": [
+            "3",
+            "t",
+            "-",
+            ",",
+            ",",
+            "r",
+            "n",
+            "r",
+            "n",
+            "-",
+            ","
+        ]
+    },
+    {
+        "sentence": "Which pubs are near Mercure Hotel in Glasgow , Scotland ?",
+        "code": [
+            "3",
+            "t",
+            ",",
+            "r",
+            "n",
+            "-",
+            "r",
+            "n",
+            "r",
+            "n",
+            ","
+        ]
+    },
+    {
+        "sentence": "Which are the main railway stations in Glasgow , Scotland ?",
+        "code": [
+            "3",
+            ",",
+            ",",
+            "q",
+            "t",
+            "-",
+            "r",
+            "n",
+            "r",
+            "n",
+            ","
+        ]
+    },
+    {
+        "sentence": "Are there more than 10 districts in Hampshire , England ?",
+        "code": [
+            "8",
+            ",",
+            "q",
+            "-",
+            "d",
+            "t",
+            "r",
+            "n",
+            "r",
+            "n",
+            ","
+        ]
+    },
+    {
+        "sentence": "Is there a mountain within 20 km of Cheshire ?",
+        "code": [
+            "8",
+            ",",
+            ",",
+            "t",
+            "r",
+            "d",
+            "-",
+            "r",
+            "n",
+            ","
+        ]
+    },
+    {
+        "sentence": "What historical monuments are there in London ?",
+        "code": [
+            "3",
+            "t",
+            "t",
+            ",",
+            ",",
+            "r",
+            "n",
+            ","
+        ]
+    },
+    {
+        "sentence": "Which rivers in Scotland have more than 100 km length ?",
+        "code": [
+            "3",
+            "t",
+            "r",
+            "n",
+            "s",
+            "q",
+            "-",
+            "d",
+            "-",
+            "o",
+            ","
+        ]
+    },
+    {
+        "sentence": "What is the elevation of the most elevated spot in county Down ?",
+        "code": [
+            "2",
+            ",",
+            ",",
+            "o",
+            ",",
+            ",",
+            "q",
+            "t",
+            "t",
+            "r",
+            "n",
+            "-",
+            ","
+        ]
+    },
+    {
+        "sentence": "What is the area of county Chesire ?",
+        "code": [
+            "2",
+            ",",
+            ",",
+            "o",
+            ",",
+            "n",
+            "-",
+            ","
+        ]
+    },
+    {
+        "sentence": "Which are the districts of county Chesire ?",
+        "code": [
+            "3",
+            ",",
+            ",",
+            "t",
+            "r",
+            "n",
+            "-",
+            ","
+        ]
+    },
+    {
+        "sentence": "Which is the largest county of England ?",
+        "code": [
+            "3",
+            ",",
+            ",",
+            "q",
+            "t",
+            "r",
+            "n",
+            ","
+        ]
+    },
+    {
+        "sentence": "What is the length of river Thames ?",
+        "code": [
+            "2",
+            ",",
+            ",",
+            "o",
+            ",",
+            "n",
+            "-",
+            ","
+        ]
+    },
+    {
+        "sentence": "Where is Tower Bridge located ?",
+        "code": [
+            "1",
+            ",",
+            "n",
+            "-",
+            "s",
+            ","
+        ]
+    },
+    {
+        "sentence": "Does London have a mountain ?",
+        "code": [
+            "8",
+            "n",
+            "s",
+            ",",
+            "t",
+            ","
+        ]
+    },
+    {
+        "sentence": "How many rivers cross England 's cities ?",
+        "code": [
+            "5",
+            "-",
+            "t",
+            "r",
+            "n",
+            "r",
+            "t",
+            ","
+        ]
+    },
+    {
+        "sentence": "Is London south of Manchester ?",
+        "code": [
+            "8",
+            "n",
+            "r",
+            "-",
+            "n",
+            ","
+        ]
+    },
+    {
+        "sentence": "Is Islington near Angel ?",
+        "code": [
+            "8",
+            "n",
+            "r",
+            "n",
+            ","
+        ]
+    },
+    {
+        "sentence": "Is the City of London north of the Thames river ?",
+        "code": [
+            "8",
+            ",",
+            "n",
+            "-",
+            "-",
+            "r",
+            "-",
+            ",",
+            "n",
+            "-",
+            ","
+        ]
+    },
+    {
+        "sentence": "Are there any lakes in Scotland ?",
+        "code": [
+            "8",
+            ",",
+            ",",
+            "t",
+            "r",
+            "n",
+            ","
+        ]
+    },
+    {
+        "sentence": "Is there a car park near a bridge on river Exe ?",
+        "code": [
+            "8",
+            ",",
+            ",",
+            "t",
+            "-",
+            "r",
+            ",",
+            "t",
+            "r",
+            "n",
+            "-",
+            ","
+        ]
+    },
+    {
+        "sentence": "Which car park is closest to a bridge on river Exe ?",
+        "code": [
+            "3",
+            "t",
+            "-",
+            ",",
+            "q",
+            "r",
+            ",",
+            "t",
+            "r",
+            "n",
+            "-",
+            ","
+        ]
+    },
+    {
+        "sentence": "Which counties border county Donegal to the south ?",
+        "code": [
+            "3",
+            "t",
+            "r",
+            "n",
+            "-",
+            "r",
+            ",",
+            "-",
+            ","
+        ]
+    },
+    {
+        "sentence": "What is the longest river in England and Wales ?",
+        "code": [
+            "2",
+            ",",
+            ",",
+            "q",
+            "t",
+            "r",
+            "n",
+            "x",
+            "n",
+            ","
+        ]
+    },
+    {
+        "sentence": "Which restaurants in London are near Kensington Palace ?",
+        "code": [
+            "3",
+            "t",
+            "r",
+            "n",
+            ",",
+            "r",
+            "n",
+            "-",
+            ","
+        ]
+    },
+    {
+        "sentence": "Is there a forest near Manchester ?",
+        "code": [
+            "8",
+            ",",
+            ",",
+            "t",
+            "r",
+            "n",
+            ","
+        ]
+    },
+    {
+        "sentence": "Which medieval castles are in Scotland ?",
+        "code": [
+            "3",
+            "t",
+            "t",
+            ",",
+            "r",
+            "n",
+            ","
+        ]
+    },
+    {
+        "sentence": "Which provinces of Ireland have population over 2 million ?",
+        "code": [
+            "3",
+            "t",
+            "r",
+            "n",
+            "s",
+            "o",
+            "-",
+            "d",
+            "-",
+            ","
+        ]
+    },
+    {
+        "sentence": "What London underground stations are closest to the British Museum ?",
+        "code": [
+            "2",
+            "n",
+            "-",
+            "-",
+            ",",
+            "q",
+            "r",
+            ",",
+            "n",
+            "-",
+            ","
+        ]
+    },
+    {
+        "sentence": "What is the most populated city in the United Kingdom except London ?",
+        "code": [
+            "2",
+            ",",
+            ",",
+            "q",
+            "q",
+            "t",
+            "r",
+            ",",
+            "n",
+            "-",
+            "r",
+            "n",
+            ","
+        ]
+    },
+    {
+        "sentence": "Is the monument of the Great Fire of London east of King WIlliam Street ?",
+        "code": [
+            "8",
+            ",",
+            "n",
+            "-",
+            ",",
+            "n",
+            "-",
+            "-",
+            "n",
+            "r",
+            "-",
+            "n",
+            "-",
+            "-",
+            ","
+        ]
+    },
+    {
+        "sentence": "Is the Tower of London near river Thames ?",
+        "code": [
+            "8",
+            ",",
+            "n",
+            "-",
+            "-",
+            "r",
+            "n",
+            "-",
+            ","
+        ]
+    },
+    {
+        "sentence": "Which bars are near Prince 's street in Edinburgh ?",
+        "code": [
+            "3",
+            "t",
+            ",",
+            "r",
+            "n",
+            "-",
+            "-",
+            "r",
+            "n",
+            ","
+        ]
+    },
+    {
+        "sentence": "What is the most densely populated city in Ireland ?",
+        "code": [
+            "2",
+            ",",
+            ",",
+            "q",
+            "q",
+            "-",
+            "t",
+            "r",
+            "n",
+            ","
+        ]
+    },
+    {
+        "sentence": "Does Hammersmith Bridge connect Hammersmith with Barnes ?",
+        "code": [
+            "8",
+            "n",
+            "-",
+            "r",
+            "n",
+            "-",
+            "n",
+            ","
+        ]
+    },
+    {
+        "sentence": "Which hotels are near Loch Ness ?",
+        "code": [
+            "3",
+            "t",
+            ",",
+            "r",
+            "n",
+            "-",
+            ","
+        ]
+    },
+    {
+        "sentence": "Is there a museum at most 1 km from Liverpool ?",
+        "code": [
+            "8",
+            ",",
+            ",",
+            "t",
+            "q",
+            "-",
+            "d",
+            "-",
+            "r",
+            "n",
+            ","
+        ]
+    },
+    {
+        "sentence": "In which part of England is Liverpool located ?",
+        "code": [
+            "r",
+            "3",
+            "t",
+            "r",
+            "n",
+            ",",
+            "n",
+            "s",
+            ","
+        ]
+    },
+    {
+        "sentence": "Which city in Scotland has the largest population ?",
+        "code": [
+            "3",
+            "t",
+            "r",
+            "n",
+            "s",
+            ",",
+            "q",
+            "o",
+            ","
+        ]
+    },
+    {
+        "sentence": "Is Glasgow the largest city of Scotland in terms of population ?",
+        "code": [
+            "8",
+            "n",
+            ",",
+            "q",
+            "t",
+            "r",
+            "n",
+            "r",
+            "q",
+            ",",
+            "o",
+            ","
+        ]
+    },
+    {
+        "sentence": "What is the distance between Liverpool and Glasgow ?",
+        "code": [
+            "2",
+            ",",
+            ",",
+            "o",
+            "r",
+            "n",
+            "r",
+            "n",
+            ","
+        ]
+    },
+    {
+        "sentence": "Is Liverpool part of Scotland ?",
+        "code": [
+            "8",
+            "n",
+            "r",
+            "-",
+            "n",
+            ","
+        ]
+    },
+    {
+        "sentence": "In what county is Stonehenge located ?",
+        "code": [
+            "r",
+            "3",
+            "t",
+            ",",
+            "n",
+            "s",
+            ","
+        ]
+    },
+    {
+        "sentence": "Which rivers discharge into the Solway Firth ?",
+        "code": [
+            "3",
+            "t",
+            "r",
+            "r",
+            ",",
+            "n",
+            "-",
+            ","
+        ]
+    },
+    {
+        "sentence": "Which museums are within 3 km of Saint George 's hotel in London ?",
+        "code": [
+            "3",
+            "t",
+            ",",
+            "r",
+            "d",
+            "-",
+            "r",
+            "n",
+            "-",
+            "-",
+            "-",
+            "r",
+            "n",
+            ","
+        ]
+    },
+    {
+        "sentence": "Is there a forest in county Cheshire ?",
+        "code": [
+            "8",
+            ",",
+            ",",
+            "t",
+            "r",
+            "n",
+            "-",
+            ","
+        ]
+    },
+    {
+        "sentence": "Which art museums are at most 1 km from Charlotte Square in Edinburgh ?",
+        "code": [
+            "3",
+            "t",
+            "-",
+            ",",
+            "q",
+            "-",
+            "d",
+            "-",
+            "r",
+            "n",
+            "-",
+            "r",
+            "n",
+            ","
+        ]
+    },
+    {
+        "sentence": "How many rivers cross Edinburgh ?",
+        "code": [
+            "5",
+            "-",
+            "t",
+            "r",
+            "n",
+            ","
+        ]
+    },
+    {
+        "sentence": "How many counties does the river Thames cross ?",
+        "code": [
+            "5",
+            "-",
+            "t",
+            ",",
+            ",",
+            "n",
+            "-",
+            "r",
+            ","
+        ]
+    },
+    {
+        "sentence": "Which rivers cross county Cheshire ?",
+        "code": [
+            "3",
+            "t",
+            "r",
+            "n",
+            "-",
+            ","
+        ]
+    },
+    {
+        "sentence": "Which county is east of county Dorset ?",
+        "code": [
+            "3",
+            "t",
+            ",",
+            "r",
+            "-",
+            "n",
+            "-",
+            ","
+        ]
+    },
+    {
+        "sentence": "Is there a river that crosses county Greater Manchester ?",
+        "code": [
+            "8",
+            ",",
+            ",",
+            "t",
+            ",",
+            "r",
+            "n",
+            "-",
+            "-",
+            ","
+        ]
+    }
+]

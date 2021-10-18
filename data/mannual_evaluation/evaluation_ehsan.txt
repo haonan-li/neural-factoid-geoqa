@@ -1,0 +1,2949 @@
+Question ID: 101
+Question is:	Is there a castle in London near Trafalgar Square ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+ASK {
+	?trafa0 db:has_name ?trafa0NAME;
+		geosparql:hasGeometry ?trafa0GEOM.
+	OPTIONAL{?trafa0 db:has_osm_id ?trafa0ID}.
+	filter(regex(?trafa0NAME, "[T|t]rafalgar square", "i" )) .
+	?London1 db:has_name ?London1NAME;
+		geosparql:hasGeometry ?London1GEOM.
+	OPTIONAL{?London1 db:has_osm_id ?London1ID}.
+	filter(regex(?London1NAME, "[L|l]ondon", "i" )) .
+	?castle2 <http://spatial.au/ontology#has_fclass> ?castle2TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?castle2GEOM;
+		<http://spatial.au/ontology#has_name> ?castle2NAME.
+	OPTIONAL{?castle2 db:has_osm_id ?castle2ID}.
+	filter(regex(?castle2TYPE, "[C|c]astle", "i" )) .
+	?castle2GEOM geosparql:ehCoveredBy ?London1GEOM.
+	FILTER (geof:distance(?castle2GEOM, ?trafa0GEOM, units:metre) < 5000).
+
+}
+Correctness: 1
+
+=====================
+Question ID: 102
+Question is:	Is there a park in Dublin near Grafton Street ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+ASK {
+	?graft0 db:has_name ?graft0NAME;
+		geosparql:hasGeometry ?graft0GEOM.
+	OPTIONAL{?graft0 db:has_osm_id ?graft0ID}.
+	filter(regex(?graft0NAME, "[G|g]rafton street", "i" )) .
+	?Dublin1 db:has_name ?Dublin1NAME;
+		geosparql:hasGeometry ?Dublin1GEOM.
+	OPTIONAL{?Dublin1 db:has_osm_id ?Dublin1ID}.
+	filter(regex(?Dublin1NAME, "[D|d]ublin", "i" )) .
+	?park2 <http://spatial.au/ontology#has_fclass> ?park2TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?park2GEOM;
+		<http://spatial.au/ontology#has_name> ?park2NAME.
+	OPTIONAL{?park2 db:has_osm_id ?park2ID}.
+	filter(regex(?park2TYPE, "[P|p]ark", "i" )) .
+	?park2GEOM geosparql:ehCoveredBy ?Dublin1GEOM.
+	FILTER (geof:distance(?park2GEOM, ?graft0GEOM, units:metre) < 5000).
+
+}
+Correctness: 1
+
+=====================
+Question ID: 103
+Question is:	Is Hampshire north of Berkshire ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+ASK {
+	?berks0 db:has_name ?berks0NAME;
+		geosparql:hasGeometry ?berks0GEOM.
+	OPTIONAL{?berks0 db:has_osm_id ?berks0ID}.
+	filter(regex(?berks0NAME, "[B|b]erkshire", "i" )) .
+	?hamps1 db:has_name ?hamps1NAME;
+		geosparql:hasGeometry ?hamps1GEOM.
+	OPTIONAL{?hamps1 db:has_osm_id ?hamps1ID}.
+	filter(regex(?hamps1NAME, "[H|h]ampshire", "i" )) .
+	FILTER (spatialF:northGeom(?hamps1GEOM, ?berks0GEOM, 10)).
+
+}
+Correctness: 1
+
+=====================
+Question ID: 104
+Question is:	Which counties of England border country Scotland ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT ?count2
+WHERE {
+	?count0 db:has_name ?count0NAME;
+		geosparql:hasGeometry ?count0GEOM.
+	OPTIONAL{?count0 db:has_osm_id ?count0ID}.
+	filter(regex(?count0NAME, "[C|c]ountry scotland", "i" )) .
+	?engla1 db:has_name ?engla1NAME;
+		geosparql:hasGeometry ?engla1GEOM.
+	OPTIONAL{?engla1 db:has_osm_id ?engla1ID}.
+	filter(regex(?engla1NAME, "[E|e]ngland", "i" )) .
+	?count2 <http://spatial.au/ontology#has_fclass> ?count2TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?count2GEOM;
+		<http://spatial.au/ontology#has_name> ?count2NAME.
+	OPTIONAL{?count2 db:has_osm_id ?count2ID}.
+	filter(regex(?count2TYPE, "[C|c]ounties", "i" )) .
+	FILTER(geof:sfTouches(?count2GEOM,?count0GEOM)).
+	?count2GEOM geosparql:ehCoveredBy ?engla1GEOM.
+} LIMIT 10
+Correctness: 1
+
+=====================
+Question ID: 105
+Question is:	Is Trafalgar square located in London ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+ASK {
+	?London0 db:has_name ?London0NAME;
+		geosparql:hasGeometry ?London0GEOM.
+	OPTIONAL{?London0 db:has_osm_id ?London0ID}.
+	filter(regex(?London0NAME, "[L|l]ondon", "i" )) .
+	?trafa1 db:has_name ?trafa1NAME;
+		geosparql:hasGeometry ?trafa1GEOM.
+	OPTIONAL{?trafa1 db:has_osm_id ?trafa1ID}.
+	filter(regex(?trafa1NAME, "[T|t]rafalgar square", "i" )) .
+	?trafa1GEOM geosparql:ehCoveredBy ?London0GEOM.
+
+}
+Correctness: 1
+
+=====================
+Question ID: 106
+Question is:	Which is the oldest bridge of London ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT ?bridge1
+WHERE {
+	?London0 db:has_name ?London0NAME;
+		geosparql:hasGeometry ?London0GEOM.
+	OPTIONAL{?London0 db:has_osm_id ?London0ID}.
+	filter(regex(?London0NAME, "[L|l]ondon", "i" )) .
+	?bridge1 <http://spatial.au/ontology#has_fclass> ?bridge1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?bridge1GEOM;
+		<http://spatial.au/ontology#has_name> ?bridge1NAME.
+	OPTIONAL{?bridge1 db:has_osm_id ?bridge1ID}.
+	filter(regex(?bridge1TYPE, "[B|b]ridge", "i" )) .
+	?bridge1GEOM geosparql:ehCoveredBy ?London0GEOM.
+	?bridge1 <http://spatial.au/ontology#age> ?bridge1age.
+}
+ORDER BY asc(?bridge1age) LIMIT 1
+Correctness: 0
+
+=====================
+Question ID: 107
+Question is:	Is there any airfield in Wellesbourne village in England ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+ASK {
+	?welle0 db:has_name ?welle0NAME;
+		geosparql:hasGeometry ?welle0GEOM.
+	OPTIONAL{?welle0 db:has_osm_id ?welle0ID}.
+	filter(regex(?welle0NAME, "[W|w]ellesbourne village", "i" )) .
+	?engla1 db:has_name ?engla1NAME;
+		geosparql:hasGeometry ?engla1GEOM.
+	OPTIONAL{?engla1 db:has_osm_id ?engla1ID}.
+	filter(regex(?engla1NAME, "[E|e]ngland", "i" )) .
+	?airfi2 <http://spatial.au/ontology#has_fclass> ?airfi2TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?airfi2GEOM;
+		<http://spatial.au/ontology#has_name> ?airfi2NAME.
+	OPTIONAL{?airfi2 db:has_osm_id ?airfi2ID}.
+	filter(regex(?airfi2TYPE, "[A|a]irfield", "i" )) .
+	?airfi2GEOM geosparql:ehCoveredBy ?welle0GEOM.
+	?airfi2GEOM geosparql:ehCoveredBy ?engla1GEOM.
+
+}
+Correctness: 1
+
+=====================
+Question ID: 108
+Question is:	How many parks are there in Northampton ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT (COUNT(distinct ?parks1) as ?count)
+WHERE {
+	?north0 db:has_name ?north0NAME;
+		geosparql:hasGeometry ?north0GEOM.
+	OPTIONAL{?north0 db:has_osm_id ?north0ID}.
+	filter(regex(?north0NAME, "[N|n]orthampton", "i" )) .
+	?parks1 <http://spatial.au/ontology#has_fclass> ?parks1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?parks1GEOM;
+		<http://spatial.au/ontology#has_name> ?parks1NAME.
+	OPTIONAL{?parks1 db:has_osm_id ?parks1ID}.
+	filter(regex(?parks1TYPE, "[P|p]arks", "i" )) .
+	?parks1GEOM geosparql:ehCoveredBy ?north0GEOM.
+} LIMIT 1
+Correctness: 1
+
+=====================
+Question ID: 109
+Question is:	Is there any stadium in Cardiff ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+ASK {
+	?cardi0 db:has_name ?cardi0NAME;
+		geosparql:hasGeometry ?cardi0GEOM.
+	OPTIONAL{?cardi0 db:has_osm_id ?cardi0ID}.
+	filter(regex(?cardi0NAME, "[C|c]ardiff", "i" )) .
+	?stadi1 <http://spatial.au/ontology#has_fclass> ?stadi1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?stadi1GEOM;
+		<http://spatial.au/ontology#has_name> ?stadi1NAME.
+	OPTIONAL{?stadi1 db:has_osm_id ?stadi1ID}.
+	filter(regex(?stadi1TYPE, "[S|s]tadium", "i" )) .
+	?stadi1GEOM geosparql:ehCoveredBy ?cardi0GEOM.
+
+}
+Correctness: 1
+
+=====================
+Question ID: 110
+Question is:	Is there an aerodrome in Essex ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+ASK {
+	?Essex0 db:has_name ?Essex0NAME;
+		geosparql:hasGeometry ?Essex0GEOM.
+	OPTIONAL{?Essex0 db:has_osm_id ?Essex0ID}.
+	filter(regex(?Essex0NAME, "[E|e]ssex", "i" )) .
+	?aerod1 <http://spatial.au/ontology#has_fclass> ?aerod1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?aerod1GEOM;
+		<http://spatial.au/ontology#has_name> ?aerod1NAME.
+	OPTIONAL{?aerod1 db:has_osm_id ?aerod1ID}.
+	filter(regex(?aerod1TYPE, "[A|a]erodrome", "i" )) .
+	?aerod1GEOM geosparql:ehCoveredBy ?Essex0GEOM.
+
+}
+Correctness: 1
+
+=====================
+Question ID: 111
+Question is:	Which aerodrome is in Essex ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT ?aerod1
+WHERE {
+	?Essex0 db:has_name ?Essex0NAME;
+		geosparql:hasGeometry ?Essex0GEOM.
+	OPTIONAL{?Essex0 db:has_osm_id ?Essex0ID}.
+	filter(regex(?Essex0NAME, "[E|e]ssex", "i" )) .
+	?aerod1 <http://spatial.au/ontology#has_fclass> ?aerod1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?aerod1GEOM;
+		<http://spatial.au/ontology#has_name> ?aerod1NAME.
+	OPTIONAL{?aerod1 db:has_osm_id ?aerod1ID}.
+	filter(regex(?aerod1TYPE, "[A|a]erodrome", "i" )) .
+	?aerod1GEOM geosparql:ehCoveredBy ?Essex0GEOM.
+} LIMIT 10
+Correctness: 1
+
+=====================
+Question ID: 112
+Question is:	Which aerodromes are at most 50 km from London ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT ?aerod1
+WHERE {
+	?London0 db:has_name ?London0NAME;
+		geosparql:hasGeometry ?London0GEOM.
+	OPTIONAL{?London0 db:has_osm_id ?London0ID}.
+	filter(regex(?London0NAME, "[L|l]ondon", "i" )) .
+	?aerod1 <http://spatial.au/ontology#has_fclass> ?aerod1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?aerod1GEOM;
+		<http://spatial.au/ontology#has_name> ?aerod1NAME.
+	OPTIONAL{?aerod1 db:has_osm_id ?aerod1ID}.
+	filter(regex(?aerod1TYPE, "[A|a]erodromes", "i" )) .
+	FILTER(geof:distance(?London0GEOM, ?aerod1GEOM, units:kilometer) < 50 ).
+} LIMIT 10
+Correctness: 1
+
+=====================
+Question ID: 113
+Question is:	Is Somerset west of Westmorland ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+ASK {
+	?somer0 db:has_name ?somer0NAME;
+		geosparql:hasGeometry ?somer0GEOM.
+	OPTIONAL{?somer0 db:has_osm_id ?somer0ID}.
+	filter(regex(?somer0NAME, "[S|s]omerset", "i" )) .
+	?westm1 db:has_name ?westm1NAME;
+		geosparql:hasGeometry ?westm1GEOM.
+	OPTIONAL{?westm1 db:has_osm_id ?westm1ID}.
+	filter(regex(?westm1NAME, "[W|w]estmorland", "i" )) .
+	FILTER (spatialF:westGeom(?somer0GEOM, ?westm1GEOM, 10)).
+
+}
+Correctness: 1
+
+=====================
+Question ID: 114
+Question is:	Is Edinburgh west of Glasgow ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+ASK {
+	?edinb0 db:has_name ?edinb0NAME;
+		geosparql:hasGeometry ?edinb0GEOM.
+	OPTIONAL{?edinb0 db:has_osm_id ?edinb0ID}.
+	filter(regex(?edinb0NAME, "[E|e]dinburgh", "i" )) .
+	?glasg1 db:has_name ?glasg1NAME;
+		geosparql:hasGeometry ?glasg1GEOM.
+	OPTIONAL{?glasg1 db:has_osm_id ?glasg1ID}.
+	filter(regex(?glasg1NAME, "[G|g]lasgow", "i" )) .
+	FILTER (spatialF:westGeom(?edinb0GEOM, ?glasg1GEOM, 10)).
+
+}
+Correctness: 1
+
+=====================
+Question ID: 115
+Question is:	How many rivers cross the county West Yorkshire ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT (COUNT(distinct ?rivers1) as ?count)
+WHERE {
+	?count0 db:has_name ?count0NAME;
+		geosparql:hasGeometry ?count0GEOM.
+	OPTIONAL{?count0 db:has_osm_id ?count0ID}.
+	filter(regex(?count0NAME, "[C|c]ounty west yorkshire", "i" )) .
+	?rivers1 <http://spatial.au/ontology#has_fclass> ?rivers1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?rivers1GEOM;
+		<http://spatial.au/ontology#has_name> ?rivers1NAME.
+	OPTIONAL{?rivers1 db:has_osm_id ?rivers1ID}.
+	filter(regex(?rivers1TYPE, "[R|r]ivers", "i" )) .
+	FILTER(geof:sfCrosses(?rivers1GEOM,?count0GEOM)).
+} LIMIT 1
+Correctness: 1
+
+=====================
+Question ID: 116
+Question is:	How many cities does Merseyside have ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT (COUNT(distinct ?cities1) as ?count)
+WHERE {
+	?merse0 db:has_name ?merse0NAME;
+		geosparql:hasGeometry ?merse0GEOM.
+	OPTIONAL{?merse0 db:has_osm_id ?merse0ID}.
+	filter(regex(?merse0NAME, "[M|m]erseyside", "i" )) .
+	?cities1 <http://spatial.au/ontology#has_fclass> ?cities1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?cities1GEOM;
+		<http://spatial.au/ontology#has_name> ?cities1NAME.
+	OPTIONAL{?cities1 db:has_osm_id ?cities1ID}.
+	filter(regex(?cities1TYPE, "[C|c]ities", "i" )) .
+} LIMIT 1
+Correctness: 1
+
+=====================
+Question ID: 117
+Question is:	Is there an airport in Dublin ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+ASK {
+	?Dublin0 db:has_name ?Dublin0NAME;
+		geosparql:hasGeometry ?Dublin0GEOM.
+	OPTIONAL{?Dublin0 db:has_osm_id ?Dublin0ID}.
+	filter(regex(?Dublin0NAME, "[D|d]ublin", "i" )) .
+	?airpo1 <http://spatial.au/ontology#has_fclass> ?airpo1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?airpo1GEOM;
+		<http://spatial.au/ontology#has_name> ?airpo1NAME.
+	OPTIONAL{?airpo1 db:has_osm_id ?airpo1ID}.
+	filter(regex(?airpo1TYPE, "[A|a]irport", "i" )) .
+	?airpo1GEOM geosparql:ehCoveredBy ?Dublin0GEOM.
+
+}
+Correctness: 1
+
+=====================
+Question ID: 118
+Question is:	Which are the counties of Northern Ireland ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT ?count1
+WHERE {
+	?north0 db:has_name ?north0NAME;
+		geosparql:hasGeometry ?north0GEOM.
+	OPTIONAL{?north0 db:has_osm_id ?north0ID}.
+	filter(regex(?north0NAME, "[N|n]orthern ireland", "i" )) .
+	?count1 <http://spatial.au/ontology#has_fclass> ?count1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?count1GEOM;
+		<http://spatial.au/ontology#has_name> ?count1NAME.
+	OPTIONAL{?count1 db:has_osm_id ?count1ID}.
+	filter(regex(?count1TYPE, "[C|c]ounties", "i" )) .
+	?count1GEOM geosparql:ehCoveredBy ?north0GEOM.
+} LIMIT 10
+Correctness: 1
+
+=====================
+Question ID: 119
+Question is:	What historic buildings are in Buckinghamshire ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT ?build1
+WHERE {
+	?bucki0 db:has_name ?bucki0NAME;
+		geosparql:hasGeometry ?bucki0GEOM.
+	OPTIONAL{?bucki0 db:has_osm_id ?bucki0ID}.
+	filter(regex(?bucki0NAME, "[B|b]uckinghamshire", "i" )) .
+	?build1 <http://spatial.au/ontology#has_fclass> ?build1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?build1GEOM;
+		<http://spatial.au/ontology#has_name> ?build1NAME.
+	OPTIONAL{?build1 db:has_osm_id ?build1ID}.
+	filter(regex(?build1TYPE, "[B|b]uildings", "i" )) .
+	?build1GEOM geosparql:ehCoveredBy ?bucki0GEOM.
+} LIMIT 10
+Correctness: 0
+
+=====================
+Question ID: 120
+Question is:	Which Greek restaurants in London are near Wembley stadium ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT ?resta2
+WHERE {
+	?London0 db:has_name ?London0NAME;
+		geosparql:hasGeometry ?London0GEOM.
+	OPTIONAL{?London0 db:has_osm_id ?London0ID}.
+	filter(regex(?London0NAME, "[L|l]ondon", "i" )) .
+	?wembl1 db:has_name ?wembl1NAME;
+		geosparql:hasGeometry ?wembl1GEOM.
+	OPTIONAL{?wembl1 db:has_osm_id ?wembl1ID}.
+	filter(regex(?wembl1NAME, "[W|w]embley stadium", "i" )) .
+	?resta2 <http://spatial.au/ontology#has_fclass> ?resta2TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?resta2GEOM;
+		<http://spatial.au/ontology#has_name> ?resta2NAME.
+	OPTIONAL{?resta2 db:has_osm_id ?resta2ID}.
+	filter(regex(?resta2TYPE, "[R|r]estaurants", "i" )) .
+	FILTER (geof:distance(?resta2GEOM, ?wembl1GEOM, units:metre) < 5000).
+	?resta2GEOM geosparql:ehCoveredBy ?London0GEOM.
+} LIMIT 10
+Correctness: 0
+
+=====================
+Question ID: 121
+Question is:	Is there a National Park in England ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+ASK {
+	?engla0 db:has_name ?engla0NAME;
+		geosparql:hasGeometry ?engla0GEOM.
+	OPTIONAL{?engla0 db:has_osm_id ?engla0ID}.
+	filter(regex(?engla0NAME, "[E|e]ngland", "i" )) .
+	?natio1 <http://spatial.au/ontology#has_fclass> ?natio1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?natio1GEOM;
+		<http://spatial.au/ontology#has_name> ?natio1NAME.
+	OPTIONAL{?natio1 db:has_osm_id ?natio1ID}.
+	filter(regex(?natio1TYPE, "[N|n]ational park", "i" )) .
+	?natio1GEOM geosparql:ehCoveredBy ?engla0GEOM.
+
+}
+Correctness: 1
+
+=====================
+Question ID: 122
+Question is:	Is there a mountain in Merseyside ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+ASK {
+	?merse0 db:has_name ?merse0NAME;
+		geosparql:hasGeometry ?merse0GEOM.
+	OPTIONAL{?merse0 db:has_osm_id ?merse0ID}.
+	filter(regex(?merse0NAME, "[M|m]erseyside", "i" )) .
+	?mount1 <http://spatial.au/ontology#has_fclass> ?mount1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?mount1GEOM;
+		<http://spatial.au/ontology#has_name> ?mount1NAME.
+	OPTIONAL{?mount1 db:has_osm_id ?mount1ID}.
+	filter(regex(?mount1TYPE, "[M|m]ountain", "i" )) .
+	?mount1GEOM geosparql:ehCoveredBy ?merse0GEOM.
+
+}
+Correctness: 1
+
+=====================
+Question ID: 123
+Question is:	Which town has the biggest population in Scotland ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT ?town1
+WHERE {
+	?scotl0 db:has_name ?scotl0NAME;
+		geosparql:hasGeometry ?scotl0GEOM.
+	OPTIONAL{?scotl0 db:has_osm_id ?scotl0ID}.
+	filter(regex(?scotl0NAME, "[S|s]cotland", "i" )) .
+	?town1 <http://spatial.au/ontology#has_fclass> ?town1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?town1GEOM;
+		<http://spatial.au/ontology#has_name> ?town1NAME.
+	OPTIONAL{?town1 db:has_osm_id ?town1ID}.
+	filter(regex(?town1TYPE, "[T|t]own", "i" )) .
+	?town1GEOM geosparql:ehCoveredBy ?scotl0GEOM.
+	?town1 <http://spatial.au/ontology#population> ?town1population.
+}
+ORDER BY desc(?town1population) LIMIT 1
+Correctness: 1
+
+=====================
+Question ID: 124
+Question is:	Where is the nearest gas station to St. Peter 's Square in Manchester ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT ?dista3GEOM
+WHERE {
+	?manch0 db:has_name ?manch0NAME;
+		geosparql:hasGeometry ?manch0GEOM.
+	OPTIONAL{?manch0 db:has_osm_id ?manch0ID}.
+	filter(regex(?manch0NAME, "[M|m]anchester", "i" )) .
+	?stpet1 db:has_name ?stpet1NAME;
+		geosparql:hasGeometry ?stpet1GEOM.
+	OPTIONAL{?stpet1 db:has_osm_id ?stpet1ID}.
+	filter(regex(?stpet1NAME, "[S|s]t. peter 's square", "i" )) .
+	?gasst2 <http://spatial.au/ontology#has_fclass> ?gasst2TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?gasst2GEOM;
+		<http://spatial.au/ontology#has_name> ?gasst2NAME.
+	OPTIONAL{?gasst2 db:has_osm_id ?gasst2ID}.
+	filter(regex(?gasst2TYPE, "[G|g]as station", "i" )) .
+	?gasst2GEOM geosparql:ehCoveredBy ?manch0GEOM.
+	FILTER (geof:distance(?gasst2GEOM, ?stpet1GEOM, units:metre) < 5000).
+	?dista3 geof:distance(?stpet1GEOM ?gasst2GEOM units:kilometer).
+}
+ORDER BY asc(?dista3) LIMIT 1
+Correctness: 0
+
+=====================
+Question ID: 125
+Question is:	Does county Suffolk border county Durham ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+ASK {
+	?count0 db:has_name ?count0NAME;
+		geosparql:hasGeometry ?count0GEOM.
+	OPTIONAL{?count0 db:has_osm_id ?count0ID}.
+	filter(regex(?count0NAME, "[C|c]ounty durham", "i" )) .
+	?count1 db:has_name ?count1NAME;
+		geosparql:hasGeometry ?count1GEOM.
+	OPTIONAL{?count1 db:has_osm_id ?count1ID}.
+	filter(regex(?count1NAME, "[C|c]ounty suffolk", "i" )) .
+	FILTER(geof:sfTouches(?count1GEOM,?count0GEOM)).
+
+}
+Correctness: 1
+
+=====================
+Question ID: 126
+Question is:	Which counties of Ireland does River Shannon cross ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT ?count2
+WHERE {
+	?irela0 db:has_name ?irela0NAME;
+		geosparql:hasGeometry ?irela0GEOM.
+	OPTIONAL{?irela0 db:has_osm_id ?irela0ID}.
+	filter(regex(?irela0NAME, "[I|i]reland", "i" )) .
+	?river1 db:has_name ?river1NAME;
+		geosparql:hasGeometry ?river1GEOM.
+	OPTIONAL{?river1 db:has_osm_id ?river1ID}.
+	filter(regex(?river1NAME, "[R|r]iver shannon", "i" )) .
+	?count2 <http://spatial.au/ontology#has_fclass> ?count2TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?count2GEOM;
+		<http://spatial.au/ontology#has_name> ?count2NAME.
+	OPTIONAL{?count2 db:has_osm_id ?count2ID}.
+	filter(regex(?count2TYPE, "[C|c]ounties", "i" )) .
+	FILTER(geof:sfCrosses(?river1GEOM,?count2GEOM)).
+	?count2GEOM geosparql:ehCoveredBy ?irela0GEOM.
+} LIMIT 10
+Correctness: 1
+
+=====================
+Question ID: 127
+Question is:	Is Cavan a county of Ireland ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+ASK {
+	?irela0 db:has_name ?irela0NAME;
+		geosparql:hasGeometry ?irela0GEOM.
+	OPTIONAL{?irela0 db:has_osm_id ?irela0ID}.
+	filter(regex(?irela0NAME, "[I|i]reland", "i" )) .
+	?Cavan1 db:has_name ?Cavan1NAME;
+		geosparql:hasGeometry ?Cavan1GEOM.
+	OPTIONAL{?Cavan1 db:has_osm_id ?Cavan1ID}.
+	filter(regex(?Cavan1NAME, "[C|c]avan", "i" )) .
+	?county2 <http://spatial.au/ontology#has_fclass> ?county2TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?county2GEOM;
+		<http://spatial.au/ontology#has_name> ?county2NAME.
+	OPTIONAL{?county2 db:has_osm_id ?county2ID}.
+	filter(regex(?county2TYPE, "[C|c]ounty", "i" )) .
+	?Cavan1GEOM geosparql:ehCoveredBy ?irela0GEOM.
+
+}
+Correctness: 1
+
+=====================
+Question ID: 128
+Question is:	Which restaurants are at most 500 m from the University of Liverpool ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT ?resta1
+WHERE {
+	?unive0 db:has_name ?unive0NAME;
+		geosparql:hasGeometry ?unive0GEOM.
+	OPTIONAL{?unive0 db:has_osm_id ?unive0ID}.
+	filter(regex(?unive0NAME, "[U|u]niversity of liverpool", "i" )) .
+	?resta1 <http://spatial.au/ontology#has_fclass> ?resta1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?resta1GEOM;
+		<http://spatial.au/ontology#has_name> ?resta1NAME.
+	OPTIONAL{?resta1 db:has_osm_id ?resta1ID}.
+	filter(regex(?resta1TYPE, "[R|r]estaurants", "i" )) .
+	?unive0GEOM geosparql:ehCoveredBy ?resta1GEOM.
+} LIMIT 10
+Correctness: 0
+
+=====================
+Question ID: 129
+Question is:	Which restaurants are near Baker Street in London ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT ?resta2
+WHERE {
+	?baker0 db:has_name ?baker0NAME;
+		geosparql:hasGeometry ?baker0GEOM.
+	OPTIONAL{?baker0 db:has_osm_id ?baker0ID}.
+	filter(regex(?baker0NAME, "[B|b]aker street", "i" )) .
+	?London1 db:has_name ?London1NAME;
+		geosparql:hasGeometry ?London1GEOM.
+	OPTIONAL{?London1 db:has_osm_id ?London1ID}.
+	filter(regex(?London1NAME, "[L|l]ondon", "i" )) .
+	?resta2 <http://spatial.au/ontology#has_fclass> ?resta2TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?resta2GEOM;
+		<http://spatial.au/ontology#has_name> ?resta2NAME.
+	OPTIONAL{?resta2 db:has_osm_id ?resta2ID}.
+	filter(regex(?resta2TYPE, "[R|r]estaurants", "i" )) .
+	?resta2GEOM geosparql:ehCoveredBy ?London1GEOM.
+	FILTER (geof:distance(?resta2GEOM, ?baker0GEOM, units:metre) < 5000).
+} LIMIT 10
+Correctness: 1
+
+=====================
+Question ID: 130
+Question is:	Which lakes are in Ireland ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT ?lakes1
+WHERE {
+	?irela0 db:has_name ?irela0NAME;
+		geosparql:hasGeometry ?irela0GEOM.
+	OPTIONAL{?irela0 db:has_osm_id ?irela0ID}.
+	filter(regex(?irela0NAME, "[I|i]reland", "i" )) .
+	?lakes1 <http://spatial.au/ontology#has_fclass> ?lakes1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?lakes1GEOM;
+		<http://spatial.au/ontology#has_name> ?lakes1NAME.
+	OPTIONAL{?lakes1 db:has_osm_id ?lakes1ID}.
+	filter(regex(?lakes1TYPE, "[L|l]akes", "i" )) .
+	?lakes1GEOM geosparql:ehCoveredBy ?irela0GEOM.
+} LIMIT 10
+Correctness: 1
+
+=====================
+Question ID: 131
+Question is:	Which parks are near Trafalgar Square ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT ?parks1
+WHERE {
+	?trafa0 db:has_name ?trafa0NAME;
+		geosparql:hasGeometry ?trafa0GEOM.
+	OPTIONAL{?trafa0 db:has_osm_id ?trafa0ID}.
+	filter(regex(?trafa0NAME, "[T|t]rafalgar square", "i" )) .
+	?parks1 <http://spatial.au/ontology#has_fclass> ?parks1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?parks1GEOM;
+		<http://spatial.au/ontology#has_name> ?parks1NAME.
+	OPTIONAL{?parks1 db:has_osm_id ?parks1ID}.
+	filter(regex(?parks1TYPE, "[P|p]arks", "i" )) .
+	FILTER (geof:distance(?parks1GEOM, ?trafa0GEOM, units:metre) < 5000).
+} LIMIT 10
+Correctness: 1
+
+=====================
+Question ID: 132
+Question is:	Which countries border Wales ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT ?count1
+WHERE {
+	?Wales0 db:has_name ?Wales0NAME;
+		geosparql:hasGeometry ?Wales0GEOM.
+	OPTIONAL{?Wales0 db:has_osm_id ?Wales0ID}.
+	filter(regex(?Wales0NAME, "[W|w]ales", "i" )) .
+	?count1 <http://spatial.au/ontology#has_fclass> ?count1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?count1GEOM;
+		<http://spatial.au/ontology#has_name> ?count1NAME.
+	OPTIONAL{?count1 db:has_osm_id ?count1ID}.
+	filter(regex(?count1TYPE, "[C|c]ountries", "i" )) .
+	FILTER(geof:sfTouches(?count1GEOM,?Wales0GEOM)).
+} LIMIT 10
+Correctness: 1
+
+=====================
+Question ID: 133
+Question is:	Are there cities that are at most 2 km away from St. David 's in Wales ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+ASK {
+	?Wales0 db:has_name ?Wales0NAME;
+		geosparql:hasGeometry ?Wales0GEOM.
+	OPTIONAL{?Wales0 db:has_osm_id ?Wales0ID}.
+	filter(regex(?Wales0NAME, "[W|w]ales", "i" )) .
+	?stdav1 db:has_name ?stdav1NAME;
+		geosparql:hasGeometry ?stdav1GEOM.
+	OPTIONAL{?stdav1 db:has_osm_id ?stdav1ID}.
+	filter(regex(?stdav1NAME, "[S|s]t. david 's", "i" )) .
+	?cities2 <http://spatial.au/ontology#has_fclass> ?cities2TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?cities2GEOM;
+		<http://spatial.au/ontology#has_name> ?cities2NAME.
+	OPTIONAL{?cities2 db:has_osm_id ?cities2ID}.
+	filter(regex(?cities2TYPE, "[C|c]ities", "i" )) .
+	?cities2GEOM geosparql:ehCoveredBy ?Wales0GEOM.
+	FILTER(geof:distance(?stdav1GEOM, ?cities2GEOM, units:kilometer) < 2 ).
+
+}
+Correctness: 1
+
+=====================
+Question ID: 134
+Question is:	Which river crosses the most cities in England ?
+16:22:59.557 [main] INFO  - wait here!
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT ?river2
+WHERE {
+	?engla0 db:has_name ?engla0NAME;
+		geosparql:hasGeometry ?engla0GEOM.
+	OPTIONAL{?engla0 db:has_osm_id ?engla0ID}.
+	filter(regex(?engla0NAME, "[E|e]ngland", "i" )) .
+	?cities1 <http://spatial.au/ontology#has_fclass> ?cities1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?cities1GEOM;
+		<http://spatial.au/ontology#has_name> ?cities1NAME.
+	OPTIONAL{?cities1 db:has_osm_id ?cities1ID}.
+	filter(regex(?cities1TYPE, "[C|c]ities", "i" )) .
+	?river2 <http://spatial.au/ontology#has_fclass> ?river2TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?river2GEOM;
+		<http://spatial.au/ontology#has_name> ?river2NAME.
+	OPTIONAL{?river2 db:has_osm_id ?river2ID}.
+	filter(regex(?river2TYPE, "[R|r]iver", "i" )) .
+	?cities1GEOM geosparql:ehCoveredBy ?engla0GEOM.
+	FILTER(geof:sfCrosses(?river2GEOM,?cities1GEOM)).
+}
+ORDER BY desc(?nullpopulation) LIMIT 1
+Correctness: 0
+
+=====================
+Question ID: 135
+Question is:	Which is the longest river in Scotland ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT ?river1
+WHERE {
+	?scotl0 db:has_name ?scotl0NAME;
+		geosparql:hasGeometry ?scotl0GEOM.
+	OPTIONAL{?scotl0 db:has_osm_id ?scotl0ID}.
+	filter(regex(?scotl0NAME, "[S|s]cotland", "i" )) .
+	?river1 <http://spatial.au/ontology#has_fclass> ?river1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?river1GEOM;
+		<http://spatial.au/ontology#has_name> ?river1NAME.
+	OPTIONAL{?river1 db:has_osm_id ?river1ID}.
+	filter(regex(?river1TYPE, "[R|r]iver", "i" )) .
+	?river1GEOM geosparql:ehCoveredBy ?scotl0GEOM.
+	?river1 <http://spatial.au/ontology#length> ?river1length.
+}
+ORDER BY asc(?river1length) LIMIT 1
+Correctness: 0
+
+=====================
+Question ID: 136
+Question is:	Which city in Scotland has the largest population ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT ?city1
+WHERE {
+	?scotl0 db:has_name ?scotl0NAME;
+		geosparql:hasGeometry ?scotl0GEOM.
+	OPTIONAL{?scotl0 db:has_osm_id ?scotl0ID}.
+	filter(regex(?scotl0NAME, "[S|s]cotland", "i" )) .
+	?city1 <http://spatial.au/ontology#has_fclass> ?city1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?city1GEOM;
+		<http://spatial.au/ontology#has_name> ?city1NAME.
+	OPTIONAL{?city1 db:has_osm_id ?city1ID}.
+	filter(regex(?city1TYPE, "[C|c]ity", "i" )) .
+	?city1GEOM geosparql:ehCoveredBy ?scotl0GEOM.
+	?city1 <http://spatial.au/ontology#population> ?city1population.
+}
+ORDER BY desc(?city1population) LIMIT 1
+Correctness: 1
+
+=====================
+Question ID: 137
+Question is:	Which is the largest lake by area in Great Britain ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT ?lake1
+WHERE {
+	?great0 db:has_name ?great0NAME;
+		geosparql:hasGeometry ?great0GEOM.
+	OPTIONAL{?great0 db:has_osm_id ?great0ID}.
+	filter(regex(?great0NAME, "[G|g]reat britain", "i" )) .
+	?lake1 <http://spatial.au/ontology#has_fclass> ?lake1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?lake1GEOM;
+		<http://spatial.au/ontology#has_name> ?lake1NAME.
+	OPTIONAL{?lake1 db:has_osm_id ?lake1ID}.
+	filter(regex(?lake1TYPE, "[L|l]ake", "i" )) .
+	?lake1GEOM geosparql:ehCoveredBy ?great0GEOM.
+	?lake1 <http://spatial.au/ontology#area> ?lake1area.
+}
+ORDER BY desc(?lake1area) LIMIT 1
+Correctness: 1
+
+=====================
+Question ID: 138
+Question is:	Is England part of the United Kingdom ?
+16:22:59.566 [main] INFO  - Relation disambiguation failed: part of
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+ASK {
+	?engla0 db:has_name ?engla0NAME;
+		geosparql:hasGeometry ?engla0GEOM.
+	OPTIONAL{?engla0 db:has_osm_id ?engla0ID}.
+	filter(regex(?engla0NAME, "[E|e]ngland", "i" )) .
+	?unite1 db:has_name ?unite1NAME;
+		geosparql:hasGeometry ?unite1GEOM.
+	OPTIONAL{?unite1 db:has_osm_id ?unite1ID}.
+	filter(regex(?unite1NAME, "[U|u]nited kingdom", "i" )) .
+	FILTER(geof:sfIntersects(?engla0GEOM,?unite1GEOM)).
+
+}
+Correctness: 1
+
+=====================
+Question ID: 139
+Question is:	Which cities or towns of the United Kingdom have a university ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT ?cities1
+WHERE {
+	?unite0 db:has_name ?unite0NAME;
+		geosparql:hasGeometry ?unite0GEOM.
+	OPTIONAL{?unite0 db:has_osm_id ?unite0ID}.
+	filter(regex(?unite0NAME, "[U|u]nited kingdom", "i" )) .
+	?cities1 <http://spatial.au/ontology#has_fclass> ?cities1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?cities1GEOM;
+		<http://spatial.au/ontology#has_name> ?cities1NAME.
+	OPTIONAL{?cities1 db:has_osm_id ?cities1ID}.
+	filter(regex(?cities1TYPE, "[C|c]ities", "i" )) .
+	?unive2 <http://spatial.au/ontology#has_fclass> ?unive2TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?unive2GEOM;
+		<http://spatial.au/ontology#has_name> ?unive2NAME.
+	OPTIONAL{?unive2 db:has_osm_id ?unive2ID}.
+	filter(regex(?unive2TYPE, "[U|u]niversity", "i" )) .
+	?towns3 <http://spatial.au/ontology#has_fclass> ?towns3TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?towns3GEOM;
+		<http://spatial.au/ontology#has_name> ?towns3NAME.
+	OPTIONAL{?towns3 db:has_osm_id ?towns3ID}.
+	filter(regex(?towns3TYPE, "[T|t]owns", "i" )) .
+} LIMIT 10
+Correctness: 0
+
+=====================
+Question ID: 140
+Question is:	Does Everton FC plays in Liverpool ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+ASK {
+	?liver0 db:has_name ?liver0NAME;
+		geosparql:hasGeometry ?liver0GEOM.
+	OPTIONAL{?liver0 db:has_osm_id ?liver0ID}.
+	filter(regex(?liver0NAME, "[L|l]iverpool", "i" )) .
+
+}
+Correctness: 0
+
+=====================
+Question ID: 141
+Question is:	Which towns of England have at least two hospitals ?
+16:22:59.573 [main] INFO  - wait here!
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT ?towns2
+WHERE {
+	?engla0 db:has_name ?engla0NAME;
+		geosparql:hasGeometry ?engla0GEOM.
+	OPTIONAL{?engla0 db:has_osm_id ?engla0ID}.
+	filter(regex(?engla0NAME, "[E|e]ngland", "i" )) .
+	?hospi1 <http://spatial.au/ontology#has_fclass> ?hospi1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?hospi1GEOM;
+		<http://spatial.au/ontology#has_name> ?hospi1NAME.
+	OPTIONAL{?hospi1 db:has_osm_id ?hospi1ID}.
+	filter(regex(?hospi1TYPE, "[H|h]ospitals", "i" )) .
+	?towns2 <http://spatial.au/ontology#has_fclass> ?towns2TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?towns2GEOM;
+		<http://spatial.au/ontology#has_name> ?towns2NAME.
+	OPTIONAL{?towns2 db:has_osm_id ?towns2ID}.
+	filter(regex(?towns2TYPE, "[T|t]owns", "i" )) .
+	?towns2GEOM geosparql:ehCoveredBy ?engla0GEOM.
+}
+ORDER BY asc(?nullentity) LIMIT 1
+Correctness: 0
+
+=====================
+Question ID: 142
+Question is:	Is Alnwick Castle in Scotland ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+ASK {
+	?alnwi0 db:has_name ?alnwi0NAME;
+		geosparql:hasGeometry ?alnwi0GEOM.
+	OPTIONAL{?alnwi0 db:has_osm_id ?alnwi0ID}.
+	filter(regex(?alnwi0NAME, "[A|a]lnwick castle", "i" )) .
+	?scotl1 db:has_name ?scotl1NAME;
+		geosparql:hasGeometry ?scotl1GEOM.
+	OPTIONAL{?scotl1 db:has_osm_id ?scotl1ID}.
+	filter(regex(?scotl1NAME, "[S|s]cotland", "i" )) .
+	?alnwi0GEOM geosparql:ehCoveredBy ?scotl1GEOM.
+
+}
+Correctness: 1
+
+=====================
+Question ID: 143
+Question is:	Which is the largest city of Ireland ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT ?city1
+WHERE {
+	?irela0 db:has_name ?irela0NAME;
+		geosparql:hasGeometry ?irela0GEOM.
+	OPTIONAL{?irela0 db:has_osm_id ?irela0ID}.
+	filter(regex(?irela0NAME, "[I|i]reland", "i" )) .
+	?city1 <http://spatial.au/ontology#has_fclass> ?city1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?city1GEOM;
+		<http://spatial.au/ontology#has_name> ?city1NAME.
+	OPTIONAL{?city1 db:has_osm_id ?city1ID}.
+	filter(regex(?city1TYPE, "[C|c]ity", "i" )) .
+	?city1GEOM geosparql:ehCoveredBy ?irela0GEOM.
+	?city1 <http://spatial.au/ontology#area> ?city1area.
+}
+ORDER BY desc(?city1area) LIMIT 1
+Correctness: 1
+
+=====================
+Question ID: 144
+Question is:	How many country councils are there in Ireland ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT (COUNT(distinct ?count1) as ?count)
+WHERE {
+	?irela0 db:has_name ?irela0NAME;
+		geosparql:hasGeometry ?irela0GEOM.
+	OPTIONAL{?irela0 db:has_osm_id ?irela0ID}.
+	filter(regex(?irela0NAME, "[I|i]reland", "i" )) .
+	?count1 <http://spatial.au/ontology#has_fclass> ?count1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?count1GEOM;
+		<http://spatial.au/ontology#has_name> ?count1NAME.
+	OPTIONAL{?count1 db:has_osm_id ?count1ID}.
+	filter(regex(?count1TYPE, "[C|c]ountry councils", "i" )) .
+	?count1GEOM geosparql:ehCoveredBy ?irela0GEOM.
+} LIMIT 1
+Correctness: 1
+
+=====================
+Question ID: 145
+Question is:	Which colleges are in London ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT ?colle1
+WHERE {
+	?London0 db:has_name ?London0NAME;
+		geosparql:hasGeometry ?London0GEOM.
+	OPTIONAL{?London0 db:has_osm_id ?London0ID}.
+	filter(regex(?London0NAME, "[L|l]ondon", "i" )) .
+	?colle1 <http://spatial.au/ontology#has_fclass> ?colle1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?colle1GEOM;
+		<http://spatial.au/ontology#has_name> ?colle1NAME.
+	OPTIONAL{?colle1 db:has_osm_id ?colle1ID}.
+	filter(regex(?colle1TYPE, "[C|c]olleges", "i" )) .
+	?colle1GEOM geosparql:ehCoveredBy ?London0GEOM.
+} LIMIT 10
+Correctness: 1
+
+=====================
+Question ID: 146
+Question is:	Which city council includes Dublin ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT ?cityc1
+WHERE {
+	?Dublin0 db:has_name ?Dublin0NAME;
+		geosparql:hasGeometry ?Dublin0GEOM.
+	OPTIONAL{?Dublin0 db:has_osm_id ?Dublin0ID}.
+	filter(regex(?Dublin0NAME, "[D|d]ublin", "i" )) .
+	?cityc1 <http://spatial.au/ontology#has_fclass> ?cityc1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?cityc1GEOM;
+		<http://spatial.au/ontology#has_name> ?cityc1NAME.
+	OPTIONAL{?cityc1 db:has_osm_id ?cityc1ID}.
+	filter(regex(?cityc1TYPE, "[C|c]ity council", "i" )) .
+} LIMIT 10
+Correctness: 1
+
+=====================
+Question ID: 147
+Question is:	Which restaurants are near Stonehenge ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT ?resta1
+WHERE {
+	?stone0 db:has_name ?stone0NAME;
+		geosparql:hasGeometry ?stone0GEOM.
+	OPTIONAL{?stone0 db:has_osm_id ?stone0ID}.
+	filter(regex(?stone0NAME, "[S|s]tonehenge", "i" )) .
+	?resta1 <http://spatial.au/ontology#has_fclass> ?resta1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?resta1GEOM;
+		<http://spatial.au/ontology#has_name> ?resta1NAME.
+	OPTIONAL{?resta1 db:has_osm_id ?resta1ID}.
+	filter(regex(?resta1TYPE, "[R|r]estaurants", "i" )) .
+	FILTER (geof:distance(?resta1GEOM, ?stone0GEOM, units:metre) < 5000).
+} LIMIT 10
+Correctness: 1
+
+=====================
+Question ID: 148
+Question is:	How many districts does Northern Ireland have ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT (COUNT(distinct ?distr1) as ?count)
+WHERE {
+	?north0 db:has_name ?north0NAME;
+		geosparql:hasGeometry ?north0GEOM.
+	OPTIONAL{?north0 db:has_osm_id ?north0ID}.
+	filter(regex(?north0NAME, "[N|n]orthern ireland", "i" )) .
+	?distr1 <http://spatial.au/ontology#has_fclass> ?distr1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?distr1GEOM;
+		<http://spatial.au/ontology#has_name> ?distr1NAME.
+	OPTIONAL{?distr1 db:has_osm_id ?distr1ID}.
+	filter(regex(?distr1TYPE, "[D|d]istricts", "i" )) .
+} LIMIT 1
+Correctness: 0
+
+=====================
+Question ID: 149
+16:22:59.586 [main] INFO  - wait here...
+Question is:	Which are the non - metropolitan counties of England ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT ?count1
+WHERE {
+	?engla0 db:has_name ?engla0NAME;
+		geosparql:hasGeometry ?engla0GEOM.
+	OPTIONAL{?engla0 db:has_osm_id ?engla0ID}.
+	filter(regex(?engla0NAME, "[E|e]ngland", "i" )) .
+	?count1 <http://spatial.au/ontology#has_fclass> ?count1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?count1GEOM;
+		<http://spatial.au/ontology#has_name> ?count1NAME.
+	OPTIONAL{?count1 db:has_osm_id ?count1ID}.
+	filter(regex(?count1TYPE, "[C|c]ounties", "i" )) .
+	?count1GEOM geosparql:ehCoveredBy ?engla0GEOM.
+} LIMIT 10
+Correctness: 0
+
+=====================
+Question ID: 150
+Question is:	What tourist attractions are there in Belfast , Northern Ireland ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT ?touri1
+WHERE {
+	?belfa0 db:has_name ?belfa0NAME;
+		geosparql:hasGeometry ?belfa0GEOM.
+	OPTIONAL{?belfa0 db:has_osm_id ?belfa0ID}.
+	filter(regex(?belfa0NAME, "[B|b]elfast, northern ireland", "i" )) .
+	?touri1 <http://spatial.au/ontology#has_fclass> ?touri1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?touri1GEOM;
+		<http://spatial.au/ontology#has_name> ?touri1NAME.
+	OPTIONAL{?touri1 db:has_osm_id ?touri1ID}.
+	filter(regex(?touri1TYPE, "[T|t]ourist attractions", "i" )) .
+	?touri1GEOM geosparql:ehCoveredBy ?belfa0GEOM.
+} LIMIT 10
+Correctness: 1
+
+=====================
+Question ID: 151
+Question is:	Which pubs are near Mercure Hotel in Glasgow , Scotland ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT ?pubs2
+WHERE {
+	?mercu0 db:has_name ?mercu0NAME;
+		geosparql:hasGeometry ?mercu0GEOM.
+	OPTIONAL{?mercu0 db:has_osm_id ?mercu0ID}.
+	filter(regex(?mercu0NAME, "[M|m]ercure hotel", "i" )) .
+	?glasg1 db:has_name ?glasg1NAME;
+		geosparql:hasGeometry ?glasg1GEOM.
+	OPTIONAL{?glasg1 db:has_osm_id ?glasg1ID}.
+	filter(regex(?glasg1NAME, "[G|g]lasgow , scotland", "i" )) .
+	?pubs2 <http://spatial.au/ontology#has_fclass> ?pubs2TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?pubs2GEOM;
+		<http://spatial.au/ontology#has_name> ?pubs2NAME.
+	OPTIONAL{?pubs2 db:has_osm_id ?pubs2ID}.
+	filter(regex(?pubs2TYPE, "[P|p]ubs", "i" )) .
+	?pubs2GEOM geosparql:ehCoveredBy ?glasg1GEOM.
+	FILTER (geof:distance(?pubs2GEOM, ?mercu0GEOM, units:metre) < 5000).
+} LIMIT 10
+Correctness: 1
+
+=====================
+Question ID: 152
+Question is:	Which are the main railway stations in Glasgow , Scotland ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT ?railw1
+WHERE {
+	?glasg0 db:has_name ?glasg0NAME;
+		geosparql:hasGeometry ?glasg0GEOM.
+	OPTIONAL{?glasg0 db:has_osm_id ?glasg0ID}.
+	filter(regex(?glasg0NAME, "[G|g]lasgow , scotland", "i" )) .
+	?railw1 <http://spatial.au/ontology#has_fclass> ?railw1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?railw1GEOM;
+		<http://spatial.au/ontology#has_name> ?railw1NAME.
+	OPTIONAL{?railw1 db:has_osm_id ?railw1ID}.
+	filter(regex(?railw1TYPE, "[R|r]ailway stations", "i" )) .
+	?railw1GEOM geosparql:ehCoveredBy ?glasg0GEOM.
+} LIMIT 10
+Correctness: 0
+
+=====================
+Question ID: 153
+16:22:59.593 [main] INFO  - wait here
+16:22:59.593 [main] ERROR - not a comparison function...
+Question is:	Are there more than 10 districts in Hampshire , England ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+ASK {
+	?hamps0 db:has_name ?hamps0NAME;
+		geosparql:hasGeometry ?hamps0GEOM.
+	OPTIONAL{?hamps0 db:has_osm_id ?hamps0ID}.
+	filter(regex(?hamps0NAME, "[H|h]ampshire , england", "i" )) .
+	?distr1 <http://spatial.au/ontology#has_fclass> ?distr1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?distr1GEOM;
+		<http://spatial.au/ontology#has_name> ?distr1NAME.
+	OPTIONAL{?distr1 db:has_osm_id ?distr1ID}.
+	filter(regex(?distr1TYPE, "[D|d]istricts", "i" )) .
+	?distr1GEOM geosparql:ehCoveredBy ?hamps0GEOM.
+
+}
+Correctness: 0
+
+=====================
+Question ID: 154
+Question is:	Is there a mountain within 20 km of Cheshire ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+ASK {
+	?chesh0 db:has_name ?chesh0NAME;
+		geosparql:hasGeometry ?chesh0GEOM.
+	OPTIONAL{?chesh0 db:has_osm_id ?chesh0ID}.
+	filter(regex(?chesh0NAME, "[C|c]heshire", "i" )) .
+	?mount1 <http://spatial.au/ontology#has_fclass> ?mount1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?mount1GEOM;
+		<http://spatial.au/ontology#has_name> ?mount1NAME.
+	OPTIONAL{?mount1 db:has_osm_id ?mount1ID}.
+	filter(regex(?mount1TYPE, "[M|m]ountain", "i" )) .
+	FILTER(geof:distance(?mount1GEOM, ?chesh0GEOM, units:kilometer) < 20 ).
+
+}
+Correctness: 1
+
+=====================
+Question ID: 155
+Question is:	What historical monuments are there in London ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT ?monum1
+WHERE {
+	?London0 db:has_name ?London0NAME;
+		geosparql:hasGeometry ?London0GEOM.
+	OPTIONAL{?London0 db:has_osm_id ?London0ID}.
+	filter(regex(?London0NAME, "[L|l]ondon", "i" )) .
+	?monum1 <http://spatial.au/ontology#has_fclass> ?monum1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?monum1GEOM;
+		<http://spatial.au/ontology#has_name> ?monum1NAME.
+	OPTIONAL{?monum1 db:has_osm_id ?monum1ID}.
+	filter(regex(?monum1TYPE, "[M|m]onuments", "i" )) .
+	?monum1GEOM geosparql:ehCoveredBy ?London0GEOM.
+} LIMIT 10
+Correctness: 0
+
+=====================
+Question ID: 156
+Question is:	Which rivers in Scotland have more than 100 km length ?
+16:22:59.597 [main] INFO  - wait here for debug...
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT ?length2
+WHERE {
+	?scotl0 db:has_name ?scotl0NAME;
+		geosparql:hasGeometry ?scotl0GEOM.
+	OPTIONAL{?scotl0 db:has_osm_id ?scotl0ID}.
+	filter(regex(?scotl0NAME, "[S|s]cotland", "i" )) .
+	?rivers1 <http://spatial.au/ontology#has_fclass> ?rivers1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?rivers1GEOM;
+		<http://spatial.au/ontology#has_name> ?rivers1NAME.
+	OPTIONAL{?rivers1 db:has_osm_id ?rivers1ID}.
+	filter(regex(?rivers1TYPE, "[R|r]ivers", "i" )) .
+	?rivers1GEOM geosparql:ehCoveredBy ?scotl0GEOM.
+	?rivers1 <http://spatial.au/ontology#has_length> ?length2.
+	FILTER (?length2 > 100).
+} LIMIT 10
+Correctness: 0
+
+=====================
+Question ID: 157
+Question is:	What is the elevation of the most elevated spot in county Down ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT ?eleva2
+WHERE {
+	?count0 db:has_name ?count0NAME;
+		geosparql:hasGeometry ?count0GEOM.
+	OPTIONAL{?count0 db:has_osm_id ?count0ID}.
+	filter(regex(?count0NAME, "[C|c]ounty down", "i" )) .
+	?spot1 <http://spatial.au/ontology#has_fclass> ?spot1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?spot1GEOM;
+		<http://spatial.au/ontology#has_name> ?spot1NAME.
+	OPTIONAL{?spot1 db:has_osm_id ?spot1ID}.
+	filter(regex(?spot1TYPE, "[S|s]pot", "i" )) .
+	?spot1GEOM geosparql:ehCoveredBy ?count0GEOM.
+	?spot1 <http://spatial.au/ontology#has_elevation> ?eleva2.
+	?spot1 <http://spatial.au/ontology#elevation> ?spot1elevation.
+}
+ORDER BY desc(?spot1elevation) LIMIT 1
+Correctness: 0
+
+=====================
+Question ID: 158
+Question is:	What is the area of county Chesire ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT ?area1
+WHERE {
+	?count0 db:has_name ?count0NAME;
+		geosparql:hasGeometry ?count0GEOM.
+	OPTIONAL{?count0 db:has_osm_id ?count0ID}.
+	filter(regex(?count0NAME, "[C|c]ounty chesire", "i" )) .
+	?count0 <http://spatial.au/ontology#has_area> ?area1.
+} LIMIT 10
+Correctness: 1
+
+=====================
+Question ID: 159
+Question is:	Which are the districts of county Chesire ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT ?distr1
+WHERE {
+	?count0 db:has_name ?count0NAME;
+		geosparql:hasGeometry ?count0GEOM.
+	OPTIONAL{?count0 db:has_osm_id ?count0ID}.
+	filter(regex(?count0NAME, "[C|c]ounty chesire", "i" )) .
+	?distr1 <http://spatial.au/ontology#has_fclass> ?distr1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?distr1GEOM;
+		<http://spatial.au/ontology#has_name> ?distr1NAME.
+	OPTIONAL{?distr1 db:has_osm_id ?distr1ID}.
+	filter(regex(?distr1TYPE, "[D|d]istricts", "i" )) .
+	?distr1GEOM geosparql:ehCoveredBy ?count0GEOM.
+} LIMIT 10
+Correctness: 1
+
+=====================
+Question ID: 160
+Question is:	Which is the largest county of England ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT ?county1
+WHERE {
+	?engla0 db:has_name ?engla0NAME;
+		geosparql:hasGeometry ?engla0GEOM.
+	OPTIONAL{?engla0 db:has_osm_id ?engla0ID}.
+	filter(regex(?engla0NAME, "[E|e]ngland", "i" )) .
+	?county1 <http://spatial.au/ontology#has_fclass> ?county1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?county1GEOM;
+		<http://spatial.au/ontology#has_name> ?county1NAME.
+	OPTIONAL{?county1 db:has_osm_id ?county1ID}.
+	filter(regex(?county1TYPE, "[C|c]ounty", "i" )) .
+	?county1GEOM geosparql:ehCoveredBy ?engla0GEOM.
+	?county1 <http://spatial.au/ontology#area> ?county1area.
+}
+ORDER BY desc(?county1area) LIMIT 1
+Correctness: 1
+
+=====================
+Question ID: 161
+Question is:	What is the length of river Thames ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT ?length1
+WHERE {
+	?river0 db:has_name ?river0NAME;
+		geosparql:hasGeometry ?river0GEOM.
+	OPTIONAL{?river0 db:has_osm_id ?river0ID}.
+	filter(regex(?river0NAME, "[R|r]iver thames", "i" )) .
+	?river0 <http://spatial.au/ontology#has_length> ?length1.
+} LIMIT 10
+Correctness: 1
+
+=====================
+Question ID: 162
+Question is:	Where is Tower Bridge located ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT ?tower0GEOM
+WHERE {
+	?tower0 db:has_name ?tower0NAME;
+		geosparql:hasGeometry ?tower0GEOM.
+	OPTIONAL{?tower0 db:has_osm_id ?tower0ID}.
+	filter(regex(?tower0NAME, "[T|t]ower bridge", "i" )) .
+} LIMIT 10
+Correctness: 1
+
+=====================
+Question ID: 163
+Question is:	Does London have a mountain ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+ASK {
+	?London0 db:has_name ?London0NAME;
+		geosparql:hasGeometry ?London0GEOM.
+	OPTIONAL{?London0 db:has_osm_id ?London0ID}.
+	filter(regex(?London0NAME, "[L|l]ondon", "i" )) .
+	?mount1 <http://spatial.au/ontology#has_fclass> ?mount1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?mount1GEOM;
+		<http://spatial.au/ontology#has_name> ?mount1NAME.
+	OPTIONAL{?mount1 db:has_osm_id ?mount1ID}.
+	filter(regex(?mount1TYPE, "[M|m]ountain", "i" )) .
+
+}
+Correctness: 0
+
+=====================
+Question ID: 164
+Question is:	How many rivers cross England 's cities ?
+16:22:59.608 [main] INFO  - Relation disambiguation failed: 's
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT (COUNT(distinct ?rivers1) as ?count)
+WHERE {
+	?engla0 db:has_name ?engla0NAME;
+		geosparql:hasGeometry ?engla0GEOM.
+	OPTIONAL{?engla0 db:has_osm_id ?engla0ID}.
+	filter(regex(?engla0NAME, "[E|e]ngland", "i" )) .
+	?rivers1 <http://spatial.au/ontology#has_fclass> ?rivers1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?rivers1GEOM;
+		<http://spatial.au/ontology#has_name> ?rivers1NAME.
+	OPTIONAL{?rivers1 db:has_osm_id ?rivers1ID}.
+	filter(regex(?rivers1TYPE, "[R|r]ivers", "i" )) .
+	?cities2 <http://spatial.au/ontology#has_fclass> ?cities2TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?cities2GEOM;
+		<http://spatial.au/ontology#has_name> ?cities2NAME.
+	OPTIONAL{?cities2 db:has_osm_id ?cities2ID}.
+	filter(regex(?cities2TYPE, "[C|c]ities", "i" )) .
+	FILTER(geof:sfCrosses(?rivers1GEOM,?cities2GEOM)).
+	FILTER(geof:sfIntersects(?engla0GEOM,?cities2GEOM)).
+} LIMIT 1
+Correctness: 1
+
+=====================
+Question ID: 165
+Question is:	Is London south of Manchester ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+ASK {
+	?London0 db:has_name ?London0NAME;
+		geosparql:hasGeometry ?London0GEOM.
+	OPTIONAL{?London0 db:has_osm_id ?London0ID}.
+	filter(regex(?London0NAME, "[L|l]ondon", "i" )) .
+	?manch1 db:has_name ?manch1NAME;
+		geosparql:hasGeometry ?manch1GEOM.
+	OPTIONAL{?manch1 db:has_osm_id ?manch1ID}.
+	filter(regex(?manch1NAME, "[M|m]anchester", "i" )) .
+	FILTER (spatialF:southGeom(?London0GEOM, ?manch1GEOM, 10)).
+
+}
+Correctness: 1
+
+=====================
+Question ID: 166
+Question is:	Is Islington near Angel ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+ASK {
+	?islin0 db:has_name ?islin0NAME;
+		geosparql:hasGeometry ?islin0GEOM.
+	OPTIONAL{?islin0 db:has_osm_id ?islin0ID}.
+	filter(regex(?islin0NAME, "[I|i]slington", "i" )) .
+	?Angel1 db:has_name ?Angel1NAME;
+		geosparql:hasGeometry ?Angel1GEOM.
+	OPTIONAL{?Angel1 db:has_osm_id ?Angel1ID}.
+	filter(regex(?Angel1NAME, "[A|a]ngel", "i" )) .
+	FILTER (geof:distance(?islin0GEOM, ?Angel1GEOM, units:metre) < 5000).
+
+}
+Correctness: 1
+
+=====================
+Question ID: 167
+Question is:	Is the City of London north of the Thames river ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+ASK {
+	?cityo0 db:has_name ?cityo0NAME;
+		geosparql:hasGeometry ?cityo0GEOM.
+	OPTIONAL{?cityo0 db:has_osm_id ?cityo0ID}.
+	filter(regex(?cityo0NAME, "[C|c]ity of london", "i" )) .
+	?thame1 <http://spatial.au/ontology#has_fclass> ?thame1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?thame1GEOM;
+		<http://spatial.au/ontology#has_name> ?thame1NAME.
+	OPTIONAL{?thame1 db:has_osm_id ?thame1ID}.
+	filter(regex(?thame1TYPE, "[T|t]hames river", "i" )) .
+	FILTER (spatialF:northGeom(?cityo0GEOM, ?thame1GEOM, 10)).
+
+}
+Correctness: 1
+
+=====================
+Question ID: 168
+Question is:	Are there any lakes in Scotland ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+ASK {
+	?scotl0 db:has_name ?scotl0NAME;
+		geosparql:hasGeometry ?scotl0GEOM.
+	OPTIONAL{?scotl0 db:has_osm_id ?scotl0ID}.
+	filter(regex(?scotl0NAME, "[S|s]cotland", "i" )) .
+	?lakes1 <http://spatial.au/ontology#has_fclass> ?lakes1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?lakes1GEOM;
+		<http://spatial.au/ontology#has_name> ?lakes1NAME.
+	OPTIONAL{?lakes1 db:has_osm_id ?lakes1ID}.
+	filter(regex(?lakes1TYPE, "[L|l]akes", "i" )) .
+	?lakes1GEOM geosparql:ehCoveredBy ?scotl0GEOM.
+
+}
+Correctness: 1
+
+=====================
+Question ID: 169
+Question is:	Is there a car park near a bridge on river Exe ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+ASK {
+	?river0 db:has_name ?river0NAME;
+		geosparql:hasGeometry ?river0GEOM.
+	OPTIONAL{?river0 db:has_osm_id ?river0ID}.
+	filter(regex(?river0NAME, "[R|r]iver exe", "i" )) .
+	?carpa1 <http://spatial.au/ontology#has_fclass> ?carpa1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?carpa1GEOM;
+		<http://spatial.au/ontology#has_name> ?carpa1NAME.
+	OPTIONAL{?carpa1 db:has_osm_id ?carpa1ID}.
+	filter(regex(?carpa1TYPE, "[C|c]ar park", "i" )) .
+	?bridge2 <http://spatial.au/ontology#has_fclass> ?bridge2TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?bridge2GEOM;
+		<http://spatial.au/ontology#has_name> ?bridge2NAME.
+	OPTIONAL{?bridge2 db:has_osm_id ?bridge2ID}.
+	filter(regex(?bridge2TYPE, "[B|b]ridge", "i" )) .
+	?bridge2GEOM geosparql:ehCoveredBy ?river0GEOM.
+	FILTER (geof:distance(?carpa1GEOM, ?bridge2GEOM, units:metre) < 5000).
+
+}
+Correctness: 1
+
+=====================
+Question ID: 170
+Question is:	Which car park is closest to a bridge on river Exe ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT ?dista3
+WHERE {
+	?river0 db:has_name ?river0NAME;
+		geosparql:hasGeometry ?river0GEOM.
+	OPTIONAL{?river0 db:has_osm_id ?river0ID}.
+	filter(regex(?river0NAME, "[R|r]iver exe", "i" )) .
+	?carpa1 <http://spatial.au/ontology#has_fclass> ?carpa1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?carpa1GEOM;
+		<http://spatial.au/ontology#has_name> ?carpa1NAME.
+	OPTIONAL{?carpa1 db:has_osm_id ?carpa1ID}.
+	filter(regex(?carpa1TYPE, "[C|c]ar park", "i" )) .
+	?bridge2 <http://spatial.au/ontology#has_fclass> ?bridge2TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?bridge2GEOM;
+		<http://spatial.au/ontology#has_name> ?bridge2NAME.
+	OPTIONAL{?bridge2 db:has_osm_id ?bridge2ID}.
+	filter(regex(?bridge2TYPE, "[B|b]ridge", "i" )) .
+	FILTER (geof:distance(?carpa1GEOM, ?bridge2GEOM, units:metre) < 5000).
+	?bridge2GEOM geosparql:ehCoveredBy ?river0GEOM.
+	?dista3 geof:distance(?bridge2GEOM ?carpa1GEOM units:kilometer).
+}
+ORDER BY asc(?dista3) LIMIT 1
+Correctness: 0
+
+=====================
+Question ID: 171
+Question is:	Which counties border county Donegal to the south ?
+16:22:59.621 [main] INFO  - Relation disambiguation failed: to the south
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT ?count1
+WHERE {
+	?count0 db:has_name ?count0NAME;
+		geosparql:hasGeometry ?count0GEOM.
+	OPTIONAL{?count0 db:has_osm_id ?count0ID}.
+	filter(regex(?count0NAME, "[C|c]ounty donegal", "i" )) .
+	?count1 <http://spatial.au/ontology#has_fclass> ?count1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?count1GEOM;
+		<http://spatial.au/ontology#has_name> ?count1NAME.
+	OPTIONAL{?count1 db:has_osm_id ?count1ID}.
+	filter(regex(?count1TYPE, "[C|c]ounties", "i" )) .
+	FILTER(geof:sfTouches(?count1GEOM,?count0GEOM)).
+	FILTER(geof:sfIntersects(?count1GEOM,?count0GEOM)).
+} LIMIT 10
+Correctness: 0
+
+=====================
+Question ID: 172
+Question is:	What is the longest river in England and Wales ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT ?river2
+WHERE {
+	?Wales0 db:has_name ?Wales0NAME;
+		geosparql:hasGeometry ?Wales0GEOM.
+	OPTIONAL{?Wales0 db:has_osm_id ?Wales0ID}.
+	filter(regex(?Wales0NAME, "[W|w]ales", "i" )) .
+	?engla1 db:has_name ?engla1NAME;
+		geosparql:hasGeometry ?engla1GEOM.
+	OPTIONAL{?engla1 db:has_osm_id ?engla1ID}.
+	filter(regex(?engla1NAME, "[E|e]ngland", "i" )) .
+	?river2 <http://spatial.au/ontology#has_fclass> ?river2TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?river2GEOM;
+		<http://spatial.au/ontology#has_name> ?river2NAME.
+	OPTIONAL{?river2 db:has_osm_id ?river2ID}.
+	filter(regex(?river2TYPE, "[R|r]iver", "i" )) .
+	?river2 <http://spatial.au/ontology#length> ?river2length.
+}
+ORDER BY asc(?river2length) LIMIT 1
+Correctness: 0
+
+=====================
+Question ID: 173
+Question is:	Which restaurants in London are near Kensington Palace ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT ?resta2
+WHERE {
+	?kensi0 db:has_name ?kensi0NAME;
+		geosparql:hasGeometry ?kensi0GEOM.
+	OPTIONAL{?kensi0 db:has_osm_id ?kensi0ID}.
+	filter(regex(?kensi0NAME, "[K|k]ensington palace", "i" )) .
+	?London1 db:has_name ?London1NAME;
+		geosparql:hasGeometry ?London1GEOM.
+	OPTIONAL{?London1 db:has_osm_id ?London1ID}.
+	filter(regex(?London1NAME, "[L|l]ondon", "i" )) .
+	?resta2 <http://spatial.au/ontology#has_fclass> ?resta2TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?resta2GEOM;
+		<http://spatial.au/ontology#has_name> ?resta2NAME.
+	OPTIONAL{?resta2 db:has_osm_id ?resta2ID}.
+	filter(regex(?resta2TYPE, "[R|r]estaurants", "i" )) .
+	FILTER (geof:distance(?resta2GEOM, ?kensi0GEOM, units:metre) < 5000).
+	?resta2GEOM geosparql:ehCoveredBy ?London1GEOM.
+} LIMIT 10
+Correctness: 1
+
+=====================
+Question ID: 174
+Question is:	Is there a forest near Manchester ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+ASK {
+	?manch0 db:has_name ?manch0NAME;
+		geosparql:hasGeometry ?manch0GEOM.
+	OPTIONAL{?manch0 db:has_osm_id ?manch0ID}.
+	filter(regex(?manch0NAME, "[M|m]anchester", "i" )) .
+	?forest1 <http://spatial.au/ontology#has_fclass> ?forest1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?forest1GEOM;
+		<http://spatial.au/ontology#has_name> ?forest1NAME.
+	OPTIONAL{?forest1 db:has_osm_id ?forest1ID}.
+	filter(regex(?forest1TYPE, "[F|f]orest", "i" )) .
+	FILTER (geof:distance(?forest1GEOM, ?manch0GEOM, units:metre) < 5000).
+
+}
+Correctness: 1
+
+=====================
+Question ID: 175
+Question is:	Which medieval castles are in Scotland ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT ?castl1
+WHERE {
+	?scotl0 db:has_name ?scotl0NAME;
+		geosparql:hasGeometry ?scotl0GEOM.
+	OPTIONAL{?scotl0 db:has_osm_id ?scotl0ID}.
+	filter(regex(?scotl0NAME, "[S|s]cotland", "i" )) .
+	?castl1 <http://spatial.au/ontology#has_fclass> ?castl1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?castl1GEOM;
+		<http://spatial.au/ontology#has_name> ?castl1NAME.
+	OPTIONAL{?castl1 db:has_osm_id ?castl1ID}.
+	filter(regex(?castl1TYPE, "[C|c]astles", "i" )) .
+	?castl1GEOM geosparql:ehCoveredBy ?scotl0GEOM.
+} LIMIT 10
+Correctness: 0
+
+=====================
+Question ID: 176
+Question is:	Which provinces of Ireland have population over 2 million ?
+16:22:59.637 [main] INFO  - wait here for debug...
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT ?popul2
+WHERE {
+	?irela0 db:has_name ?irela0NAME;
+		geosparql:hasGeometry ?irela0GEOM.
+	OPTIONAL{?irela0 db:has_osm_id ?irela0ID}.
+	filter(regex(?irela0NAME, "[I|i]reland", "i" )) .
+	?provi1 <http://spatial.au/ontology#has_fclass> ?provi1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?provi1GEOM;
+		<http://spatial.au/ontology#has_name> ?provi1NAME.
+	OPTIONAL{?provi1 db:has_osm_id ?provi1ID}.
+	filter(regex(?provi1TYPE, "[P|p]rovinces", "i" )) .
+	?provi1GEOM geosparql:ehCoveredBy ?irela0GEOM.
+	?provi1 <http://spatial.au/ontology#has_population> ?popul2.
+	FILTER (?popul2 > 2000000).
+} LIMIT 10
+Correctness: 1
+
+=====================
+Question ID: 177
+Question is:	What London underground stations are closest to the British Museum ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT ?dista3
+WHERE {
+	?briti0 db:has_name ?briti0NAME;
+		geosparql:hasGeometry ?briti0GEOM.
+	OPTIONAL{?briti0 db:has_osm_id ?briti0ID}.
+	filter(regex(?briti0NAME, "[B|b]ritish museum", "i" )) .
+	?London1 db:has_name ?London1NAME;
+		geosparql:hasGeometry ?London1GEOM.
+	OPTIONAL{?London1 db:has_osm_id ?London1ID}.
+	filter(regex(?London1NAME, "[L|l]ondon", "i" )) .
+	?under2 <http://spatial.au/ontology#has_fclass> ?under2TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?under2GEOM;
+		<http://spatial.au/ontology#has_name> ?under2NAME.
+	OPTIONAL{?under2 db:has_osm_id ?under2ID}.
+	filter(regex(?under2TYPE, "[U|u]nderground stations", "i" )) .
+	FILTER (geof:distance(?under2GEOM, ?briti0GEOM, units:metre) < 5000).
+	?dista3 geof:distance(?briti0GEOM ?under2GEOM units:kilometer).
+}
+ORDER BY asc(?dista3) LIMIT 1
+Correctness: 0
+
+=====================
+Question ID: 178
+Question is:	What is the most populated city in the United Kingdom except London ?
+16:22:59.642 [main] INFO  - wait to check!
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT ?city2
+WHERE {
+	?London0 db:has_name ?London0NAME;
+		geosparql:hasGeometry ?London0GEOM.
+	OPTIONAL{?London0 db:has_osm_id ?London0ID}.
+	filter(regex(?London0NAME, "[L|l]ondon", "i" )) .
+	?unite1 db:has_name ?unite1NAME;
+		geosparql:hasGeometry ?unite1GEOM.
+	OPTIONAL{?unite1 db:has_osm_id ?unite1ID}.
+	filter(regex(?unite1NAME, "[U|u]nited kingdom", "i" )) .
+	?city2 <http://spatial.au/ontology#has_fclass> ?city2TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?city2GEOM;
+		<http://spatial.au/ontology#has_name> ?city2NAME.
+	OPTIONAL{?city2 db:has_osm_id ?city2ID}.
+	filter(regex(?city2TYPE, "[C|c]ity", "i" )) .
+	?city2GEOM geosparql:ehCoveredBy ?unite1GEOM.
+	?city2 <http://spatial.au/ontology#entity> ?city2entity.
+	FILTER NOT EXISTS { ?city2 (owl:sameAs|^owl:sameAs) ?London0}.
+}
+ORDER BY desc(?city2entity) LIMIT 1
+Correctness: 0
+
+=====================
+Question ID: 179
+Question is:	Is the monument of the Great Fire of London east of King WIlliam Street ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+ASK {
+	?kingw0 db:has_name ?kingw0NAME;
+		geosparql:hasGeometry ?kingw0GEOM.
+	OPTIONAL{?kingw0 db:has_osm_id ?kingw0ID}.
+	filter(regex(?kingw0NAME, "[K|k]ing william street", "i" )) .
+	?monum1 <http://spatial.au/ontology#has_fclass> ?monum1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?monum1GEOM;
+		<http://spatial.au/ontology#has_name> ?monum1NAME.
+	OPTIONAL{?monum1 db:has_osm_id ?monum1ID}.
+	filter(regex(?monum1TYPE, "[M|m]onument", "i" )) .
+	FILTER (spatialF:eastGeom(?monum1GEOM, ?kingw0GEOM, 10)).
+
+}
+Correctness: 0
+
+=====================
+Question ID: 180
+Question is:	Is the Tower of London near river Thames ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+ASK {
+	?tower0 db:has_name ?tower0NAME;
+		geosparql:hasGeometry ?tower0GEOM.
+	OPTIONAL{?tower0 db:has_osm_id ?tower0ID}.
+	filter(regex(?tower0NAME, "[T|t]ower of london", "i" )) .
+	?river1 db:has_name ?river1NAME;
+		geosparql:hasGeometry ?river1GEOM.
+	OPTIONAL{?river1 db:has_osm_id ?river1ID}.
+	filter(regex(?river1NAME, "[R|r]iver thames", "i" )) .
+	FILTER (geof:distance(?tower0GEOM, ?river1GEOM, units:metre) < 5000).
+
+}
+Correctness: 1
+
+=====================
+Question ID: 181
+Question is:	Which bars are near Prince 's street in Edinburgh ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT ?bars2
+WHERE {
+	?edinb0 db:has_name ?edinb0NAME;
+		geosparql:hasGeometry ?edinb0GEOM.
+	OPTIONAL{?edinb0 db:has_osm_id ?edinb0ID}.
+	filter(regex(?edinb0NAME, "[E|e]dinburgh", "i" )) .
+	?princ1 <http://spatial.au/ontology#has_fclass> ?princ1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?princ1GEOM;
+		<http://spatial.au/ontology#has_name> ?princ1NAME.
+	OPTIONAL{?princ1 db:has_osm_id ?princ1ID}.
+	filter(regex(?princ1TYPE, "[P|p]rince 's street", "i" )) .
+	?bars2 <http://spatial.au/ontology#has_fclass> ?bars2TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?bars2GEOM;
+		<http://spatial.au/ontology#has_name> ?bars2NAME.
+	OPTIONAL{?bars2 db:has_osm_id ?bars2ID}.
+	filter(regex(?bars2TYPE, "[B|b]ars", "i" )) .
+	?bars2GEOM geosparql:ehCoveredBy ?edinb0GEOM.
+	FILTER (geof:distance(?bars2GEOM, ?princ1GEOM, units:metre) < 5000).
+} LIMIT 10
+Correctness: 1
+
+=====================
+Question ID: 182
+Question is:	What is the most densely populated city in Ireland ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT ?city1
+WHERE {
+	?irela0 db:has_name ?irela0NAME;
+		geosparql:hasGeometry ?irela0GEOM.
+	OPTIONAL{?irela0 db:has_osm_id ?irela0ID}.
+	filter(regex(?irela0NAME, "[I|i]reland", "i" )) .
+	?city1 <http://spatial.au/ontology#has_fclass> ?city1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?city1GEOM;
+		<http://spatial.au/ontology#has_name> ?city1NAME.
+	OPTIONAL{?city1 db:has_osm_id ?city1ID}.
+	filter(regex(?city1TYPE, "[C|c]ity", "i" )) .
+	?city1GEOM geosparql:ehCoveredBy ?irela0GEOM.
+	?city1 <http://spatial.au/ontology#entity> ?city1entity.
+}
+ORDER BY desc(?city1entity) LIMIT 1
+Correctness: 0
+
+=====================
+Question ID: 183
+Question is:	Does Hammersmith Bridge connect Hammersmith with Barnes ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+ASK {
+	?hamme0 db:has_name ?hamme0NAME;
+		geosparql:hasGeometry ?hamme0GEOM.
+	OPTIONAL{?hamme0 db:has_osm_id ?hamme0ID}.
+	filter(regex(?hamme0NAME, "[H|h]ammersmith bridge", "i" )) .
+	?hamme1 db:has_name ?hamme1NAME;
+		geosparql:hasGeometry ?hamme1GEOM.
+	OPTIONAL{?hamme1 db:has_osm_id ?hamme1ID}.
+	filter(regex(?hamme1NAME, "[H|h]ammersmith", "i" )) .
+	?Barnes2 db:has_name ?Barnes2NAME;
+		geosparql:hasGeometry ?Barnes2GEOM.
+	OPTIONAL{?Barnes2 db:has_osm_id ?Barnes2ID}.
+	filter(regex(?Barnes2NAME, "[B|b]arnes", "i" )) .
+
+}
+Correctness: 0
+
+=====================
+Question ID: 184
+Question is:	Which hotels are near Loch Ness ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT ?hotels1
+WHERE {
+	?lochn0 db:has_name ?lochn0NAME;
+		geosparql:hasGeometry ?lochn0GEOM.
+	OPTIONAL{?lochn0 db:has_osm_id ?lochn0ID}.
+	filter(regex(?lochn0NAME, "[L|l]och ness", "i" )) .
+	?hotels1 <http://spatial.au/ontology#has_fclass> ?hotels1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?hotels1GEOM;
+		<http://spatial.au/ontology#has_name> ?hotels1NAME.
+	OPTIONAL{?hotels1 db:has_osm_id ?hotels1ID}.
+	filter(regex(?hotels1TYPE, "[H|h]otels", "i" )) .
+	FILTER (geof:distance(?hotels1GEOM, ?lochn0GEOM, units:metre) < 5000).
+} LIMIT 10
+Correctness: 1
+
+=====================
+Question ID: 185
+Question is:	Is there a museum at most 1 km from Liverpool ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+ASK {
+	?liver0 db:has_name ?liver0NAME;
+		geosparql:hasGeometry ?liver0GEOM.
+	OPTIONAL{?liver0 db:has_osm_id ?liver0ID}.
+	filter(regex(?liver0NAME, "[L|l]iverpool", "i" )) .
+	?museum1 <http://spatial.au/ontology#has_fclass> ?museum1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?museum1GEOM;
+		<http://spatial.au/ontology#has_name> ?museum1NAME.
+	OPTIONAL{?museum1 db:has_osm_id ?museum1ID}.
+	filter(regex(?museum1TYPE, "[M|m]useum", "i" )) .
+	FILTER(geof:distance(?liver0GEOM, ?museum1GEOM, units:kilometer) < 1 ).
+
+}
+Correctness: 1
+
+=====================
+Question ID: 186
+Question is:	In which part of England is Liverpool located ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT ?part2
+WHERE {
+	?liver0 db:has_name ?liver0NAME;
+		geosparql:hasGeometry ?liver0GEOM.
+	OPTIONAL{?liver0 db:has_osm_id ?liver0ID}.
+	filter(regex(?liver0NAME, "[L|l]iverpool", "i" )) .
+	?engla1 db:has_name ?engla1NAME;
+		geosparql:hasGeometry ?engla1GEOM.
+	OPTIONAL{?engla1 db:has_osm_id ?engla1ID}.
+	filter(regex(?engla1NAME, "[E|e]ngland", "i" )) .
+	?part2 <http://spatial.au/ontology#has_fclass> ?part2TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?part2GEOM;
+		<http://spatial.au/ontology#has_name> ?part2NAME.
+	OPTIONAL{?part2 db:has_osm_id ?part2ID}.
+	filter(regex(?part2TYPE, "[P|p]art", "i" )) .
+	?liver0GEOM geosparql:ehCoveredBy ?part2GEOM.
+	?part2GEOM geosparql:ehCoveredBy ?engla1GEOM.
+} LIMIT 10
+Correctness: 1
+
+=====================
+Question ID: 187
+Question is:	Which city in Scotland has the largest population ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT ?city1
+WHERE {
+	?scotl0 db:has_name ?scotl0NAME;
+		geosparql:hasGeometry ?scotl0GEOM.
+	OPTIONAL{?scotl0 db:has_osm_id ?scotl0ID}.
+	filter(regex(?scotl0NAME, "[S|s]cotland", "i" )) .
+	?city1 <http://spatial.au/ontology#has_fclass> ?city1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?city1GEOM;
+		<http://spatial.au/ontology#has_name> ?city1NAME.
+	OPTIONAL{?city1 db:has_osm_id ?city1ID}.
+	filter(regex(?city1TYPE, "[C|c]ity", "i" )) .
+	?city1GEOM geosparql:ehCoveredBy ?scotl0GEOM.
+	?city1 <http://spatial.au/ontology#population> ?city1population.
+}
+ORDER BY desc(?city1population) LIMIT 1
+Correctness: 1
+
+=====================
+Question ID: 188
+Question is:	Is Glasgow the largest city of Scotland in terms of population ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+ASK {
+	?scotl0 db:has_name ?scotl0NAME;
+		geosparql:hasGeometry ?scotl0GEOM.
+	OPTIONAL{?scotl0 db:has_osm_id ?scotl0ID}.
+	filter(regex(?scotl0NAME, "[S|s]cotland", "i" )) .
+	?glasg1 db:has_name ?glasg1NAME;
+		geosparql:hasGeometry ?glasg1GEOM.
+	OPTIONAL{?glasg1 db:has_osm_id ?glasg1ID}.
+	filter(regex(?glasg1NAME, "[G|g]lasgow", "i" )) .
+	?city2 <http://spatial.au/ontology#has_fclass> ?city2TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?city2GEOM;
+		<http://spatial.au/ontology#has_name> ?city2NAME.
+	OPTIONAL{?city2 db:has_osm_id ?city2ID}.
+	filter(regex(?city2TYPE, "[C|c]ity", "i" )) .
+	?city2GEOM geosparql:ehCoveredBy ?scotl0GEOM.
+
+}
+Correctness: 0
+
+=====================
+Question ID: 189
+Question is:	What is the distance between Liverpool and Glasgow ?
+16:22:59.694 [main] INFO  - Relation disambiguation failed: between
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT ?dista2
+WHERE {
+	?liver0 db:has_name ?liver0NAME;
+		geosparql:hasGeometry ?liver0GEOM.
+	OPTIONAL{?liver0 db:has_osm_id ?liver0ID}.
+	filter(regex(?liver0NAME, "[L|l]iverpool", "i" )) .
+	?glasg1 db:has_name ?glasg1NAME;
+		geosparql:hasGeometry ?glasg1GEOM.
+	OPTIONAL{?glasg1 db:has_osm_id ?glasg1ID}.
+	filter(regex(?glasg1NAME, "[G|g]lasgow", "i" )) .
+	FILTER(geof:sfIntersects(?liver0GEOM,?glasg1GEOM)).
+	?dista2 geof:distance(?glasg1GEOM ?liver0GEOM units:kilometer).
+} LIMIT 10
+Correctness: 1
+
+=====================
+Question ID: 190
+Question is:	Is Liverpool part of Scotland ?
+16:22:59.696 [main] INFO  - Relation disambiguation failed: part of
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+ASK {
+	?liver0 db:has_name ?liver0NAME;
+		geosparql:hasGeometry ?liver0GEOM.
+	OPTIONAL{?liver0 db:has_osm_id ?liver0ID}.
+	filter(regex(?liver0NAME, "[L|l]iverpool", "i" )) .
+	?scotl1 db:has_name ?scotl1NAME;
+		geosparql:hasGeometry ?scotl1GEOM.
+	OPTIONAL{?scotl1 db:has_osm_id ?scotl1ID}.
+	filter(regex(?scotl1NAME, "[S|s]cotland", "i" )) .
+	FILTER(geof:sfIntersects(?liver0GEOM,?scotl1GEOM)).
+
+}
+Correctness: 0
+
+=====================
+Question ID: 191
+Question is:	In what county is Stonehenge located ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT ?county1
+WHERE {
+	?stone0 db:has_name ?stone0NAME;
+		geosparql:hasGeometry ?stone0GEOM.
+	OPTIONAL{?stone0 db:has_osm_id ?stone0ID}.
+	filter(regex(?stone0NAME, "[S|s]tonehenge", "i" )) .
+	?county1 <http://spatial.au/ontology#has_fclass> ?county1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?county1GEOM;
+		<http://spatial.au/ontology#has_name> ?county1NAME.
+	OPTIONAL{?county1 db:has_osm_id ?county1ID}.
+	filter(regex(?county1TYPE, "[C|c]ounty", "i" )) .
+	?stone0GEOM geosparql:ehCoveredBy ?county1GEOM.
+} LIMIT 10
+Correctness: 1
+
+=====================
+Question ID: 192
+Question is:	Which rivers discharge into the Solway Firth ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT ?rivers1
+WHERE {
+	?solwa0 db:has_name ?solwa0NAME;
+		geosparql:hasGeometry ?solwa0GEOM.
+	OPTIONAL{?solwa0 db:has_osm_id ?solwa0ID}.
+	filter(regex(?solwa0NAME, "[S|s]olway firth", "i" )) .
+	?rivers1 <http://spatial.au/ontology#has_fclass> ?rivers1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?rivers1GEOM;
+		<http://spatial.au/ontology#has_name> ?rivers1NAME.
+	OPTIONAL{?rivers1 db:has_osm_id ?rivers1ID}.
+	filter(regex(?rivers1TYPE, "[R|r]ivers", "i" )) .
+} LIMIT 10
+Correctness: 0
+
+=====================
+Question ID: 193
+Question is:	Which museums are within 3 km of Saint George 's hotel in London ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT ?museu2
+WHERE {
+	?saint0 db:has_name ?saint0NAME;
+		geosparql:hasGeometry ?saint0GEOM.
+	OPTIONAL{?saint0 db:has_osm_id ?saint0ID}.
+	filter(regex(?saint0NAME, "[S|s]aint george 's hotel", "i" )) .
+	?London1 db:has_name ?London1NAME;
+		geosparql:hasGeometry ?London1GEOM.
+	OPTIONAL{?London1 db:has_osm_id ?London1ID}.
+	filter(regex(?London1NAME, "[L|l]ondon", "i" )) .
+	?museu2 <http://spatial.au/ontology#has_fclass> ?museu2TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?museu2GEOM;
+		<http://spatial.au/ontology#has_name> ?museu2NAME.
+	OPTIONAL{?museu2 db:has_osm_id ?museu2ID}.
+	filter(regex(?museu2TYPE, "[M|m]useums", "i" )) .
+	?museu2GEOM geosparql:ehCoveredBy ?London1GEOM.
+	FILTER(geof:distance(?saint0GEOM, ?museu2GEOM, units:kilometer) < 3 ).
+} LIMIT 10
+Correctness: 1
+
+=====================
+Question ID: 194
+Question is:	Is there a forest in county Cheshire ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+ASK {
+	?count0 db:has_name ?count0NAME;
+		geosparql:hasGeometry ?count0GEOM.
+	OPTIONAL{?count0 db:has_osm_id ?count0ID}.
+	filter(regex(?count0NAME, "[C|c]ounty cheshire", "i" )) .
+	?forest1 <http://spatial.au/ontology#has_fclass> ?forest1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?forest1GEOM;
+		<http://spatial.au/ontology#has_name> ?forest1NAME.
+	OPTIONAL{?forest1 db:has_osm_id ?forest1ID}.
+	filter(regex(?forest1TYPE, "[F|f]orest", "i" )) .
+	?forest1GEOM geosparql:ehCoveredBy ?count0GEOM.
+
+}
+Correctness: 1
+
+=====================
+Question ID: 195
+Question is:	Which art museums are at most 1 km from Charlotte Square in Edinburgh ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT ?artmu2
+WHERE {
+	?charl0 db:has_name ?charl0NAME;
+		geosparql:hasGeometry ?charl0GEOM.
+	OPTIONAL{?charl0 db:has_osm_id ?charl0ID}.
+	filter(regex(?charl0NAME, "[C|c]harlotte square", "i" )) .
+	?edinb1 db:has_name ?edinb1NAME;
+		geosparql:hasGeometry ?edinb1GEOM.
+	OPTIONAL{?edinb1 db:has_osm_id ?edinb1ID}.
+	filter(regex(?edinb1NAME, "[E|e]dinburgh", "i" )) .
+	?artmu2 <http://spatial.au/ontology#has_fclass> ?artmu2TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?artmu2GEOM;
+		<http://spatial.au/ontology#has_name> ?artmu2NAME.
+	OPTIONAL{?artmu2 db:has_osm_id ?artmu2ID}.
+	filter(regex(?artmu2TYPE, "[A|a]rt museums", "i" )) .
+	FILTER(geof:distance(?charl0GEOM, ?artmu2GEOM, units:kilometer) < 1 ).
+	?artmu2GEOM geosparql:ehCoveredBy ?edinb1GEOM.
+} LIMIT 10
+Correctness: 1
+
+=====================
+Question ID: 196
+Question is:	How many rivers cross Edinburgh ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT (COUNT(distinct ?rivers1) as ?count)
+WHERE {
+	?edinb0 db:has_name ?edinb0NAME;
+		geosparql:hasGeometry ?edinb0GEOM.
+	OPTIONAL{?edinb0 db:has_osm_id ?edinb0ID}.
+	filter(regex(?edinb0NAME, "[E|e]dinburgh", "i" )) .
+	?rivers1 <http://spatial.au/ontology#has_fclass> ?rivers1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?rivers1GEOM;
+		<http://spatial.au/ontology#has_name> ?rivers1NAME.
+	OPTIONAL{?rivers1 db:has_osm_id ?rivers1ID}.
+	filter(regex(?rivers1TYPE, "[R|r]ivers", "i" )) .
+	FILTER(geof:sfCrosses(?rivers1GEOM,?edinb0GEOM)).
+} LIMIT 1
+Correctness: 1
+
+=====================
+Question ID: 197
+Question is:	How many counties does the river Thames cross ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT (COUNT(distinct ?count1) as ?count)
+WHERE {
+	?river0 db:has_name ?river0NAME;
+		geosparql:hasGeometry ?river0GEOM.
+	OPTIONAL{?river0 db:has_osm_id ?river0ID}.
+	filter(regex(?river0NAME, "[R|r]iver thames", "i" )) .
+	?count1 <http://spatial.au/ontology#has_fclass> ?count1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?count1GEOM;
+		<http://spatial.au/ontology#has_name> ?count1NAME.
+	OPTIONAL{?count1 db:has_osm_id ?count1ID}.
+	filter(regex(?count1TYPE, "[C|c]ounties", "i" )) .
+	FILTER(geof:sfCrosses(?river0GEOM,?count1GEOM)).
+} LIMIT 1
+Correctness: 1
+
+=====================
+Question ID: 198
+Question is:	Which rivers cross county Cheshire ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT ?rivers1
+WHERE {
+	?count0 db:has_name ?count0NAME;
+		geosparql:hasGeometry ?count0GEOM.
+	OPTIONAL{?count0 db:has_osm_id ?count0ID}.
+	filter(regex(?count0NAME, "[C|c]ounty cheshire", "i" )) .
+	?rivers1 <http://spatial.au/ontology#has_fclass> ?rivers1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?rivers1GEOM;
+		<http://spatial.au/ontology#has_name> ?rivers1NAME.
+	OPTIONAL{?rivers1 db:has_osm_id ?rivers1ID}.
+	filter(regex(?rivers1TYPE, "[R|r]ivers", "i" )) .
+	FILTER(geof:sfCrosses(?rivers1GEOM,?count0GEOM)).
+} LIMIT 10
+Correctness: 1
+
+=====================
+Question ID: 199
+Question is:	Which county is east of county Dorset ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+SELECT ?county1
+WHERE {
+	?count0 db:has_name ?count0NAME;
+		geosparql:hasGeometry ?count0GEOM.
+	OPTIONAL{?count0 db:has_osm_id ?count0ID}.
+	filter(regex(?count0NAME, "[C|c]ounty dorset", "i" )) .
+	?county1 <http://spatial.au/ontology#has_fclass> ?county1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?county1GEOM;
+		<http://spatial.au/ontology#has_name> ?county1NAME.
+	OPTIONAL{?county1 db:has_osm_id ?county1ID}.
+	filter(regex(?county1TYPE, "[C|c]ounty", "i" )) .
+	FILTER (spatialF:eastGeom(?county1GEOM, ?count0GEOM, 10)).
+} LIMIT 10
+Correctness: 1
+
+=====================
+Question ID: 200
+Question is:	Is there a river that crosses county Greater Manchester ?
+Query:
+
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX  geof: <http://www.opengis.net/def/function/geosparql/>
+PREFIX db: <http://spatial.au/ontology#>
+PREFIX spatialF: <http://jena.apache.org/function/spatial#>
+PREFIX units: <http://www.opengis.net/def/uom/OGC/1.0/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+ PREFIX owl:<http://www.w3.org/2002/07/owl#>
+
+ASK {
+	?count0 db:has_name ?count0NAME;
+		geosparql:hasGeometry ?count0GEOM.
+	OPTIONAL{?count0 db:has_osm_id ?count0ID}.
+	filter(regex(?count0NAME, "[C|c]ounty greater manchester", "i" )) .
+	?river1 <http://spatial.au/ontology#has_fclass> ?river1TYPE;
+		<http://www.opengis.net/ont/geosparql#hasGeometry> ?river1GEOM;
+		<http://spatial.au/ontology#has_name> ?river1NAME.
+	OPTIONAL{?river1 db:has_osm_id ?river1ID}.
+	filter(regex(?river1TYPE, "[R|r]iver", "i" )) .
+	FILTER(geof:sfCrosses(?river1GEOM,?count0GEOM)).
+
+}
+Correctness: 1
+
+=====================

@@ -1,0 +1,11479 @@
+[
+  {
+    "sentence": "How many hospitals are there in Oxford ?",
+    "triples": [
+      "0 1:t:hospitals",
+      "0 3:n:Oxford",
+      "1 0:num:How many 1:t:hospitals",
+      "1 1:t:hospitals 2:r:in 3:n:Oxford"
+    ],
+    "code": [
+      "5",
+      "-",
+      "t",
+      ".",
+      ".",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "How many",
+        0,
+        2
+      ]
+    ],
+    "place name": [
+      [
+        "Oxford",
+        6,
+        7
+      ]
+    ],
+    "place type": [
+      [
+        "hospitals",
+        2,
+        3
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        5,
+        6
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "How many pharmacies are in 200 meter radius of High Street in Oxford ?",
+    "triples": [
+      "0 1:t:pharmacies",
+      "0 3:d:200 meter",
+      "0 5:n:High Street",
+      "0 7:n:Oxford",
+      "1 0:num:How many 1:t:pharmacies",
+      "1 5:n:High Street 4:r:of 1:t:pharmacies",
+      "1 5:n:High Street 6:r:in 7:n:Oxford",
+      "2 4:r:of 2:r:in 3:d:200 meter"
+    ],
+    "code": [
+      "5",
+      "-",
+      "t",
+      ".",
+      "r",
+      "d",
+      "-",
+      ".",
+      "r",
+      "n",
+      "-",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "How many",
+        0,
+        2
+      ]
+    ],
+    "place name": [
+      [
+        "High Street",
+        9,
+        11
+      ],
+      [
+        "Oxford",
+        12,
+        13
+      ]
+    ],
+    "place type": [
+      [
+        "pharmacies",
+        2,
+        3
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        4,
+        5
+      ],
+      [
+        "of",
+        8,
+        9
+      ],
+      [
+        "in",
+        11,
+        12
+      ]
+    ],
+    "digit": [
+      [
+        "200 meter",
+        5,
+        7
+      ]
+    ],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which is the closest airport to London ?",
+    "triples": [
+      "0 2:t:airport",
+      "0 4:n:London",
+      "1 0:num:Which 2:t:airport",
+      "1 2:t:airport 3:r:to 4:n:London",
+      "2 1:q:closest 3:r:to"
+    ],
+    "code": [
+      "3",
+      ",",
+      ",",
+      "q",
+      "t",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "London",
+        6,
+        7
+      ]
+    ],
+    "place type": [
+      [
+        "airport",
+        4,
+        5
+      ]
+    ],
+    "spatial relation": [
+      [
+        "to",
+        5,
+        6
+      ]
+    ],
+    "digit": [],
+    "quality": [
+      [
+        "closest",
+        3,
+        4
+      ]
+    ],
+    "object": []
+  },
+  {
+    "sentence": "How many underground lines does London have ?",
+    "triples": [
+      "0 1:t:underground lines",
+      "0 2:n:London",
+      "1 0:num:How many 1:t:underground lines",
+      "1 2:n:London 3:s:have 1:t:underground lines"
+    ],
+    "code": [
+      "5",
+      "-",
+      "t",
+      "-",
+      ",",
+      "n",
+      "s",
+      "."
+    ],
+    "question word": [
+      [
+        "How many",
+        0,
+        2
+      ]
+    ],
+    "place name": [
+      [
+        "London",
+        5,
+        6
+      ]
+    ],
+    "place type": [
+      [
+        "underground lines",
+        2,
+        4
+      ]
+    ],
+    "spatial relation": [],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which restaurants are near Edinburgh Castle ?",
+    "triples": [
+      "0 1:t:restaurants",
+      "0 3:n:Edinburgh Castle",
+      "1 0:num:Which 1:t:restaurants",
+      "1 1:t:restaurants 2:r:near 3:n:Edinburgh Castle"
+    ],
+    "code": [
+      "3",
+      "t",
+      ",",
+      "r",
+      "n",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Edinburgh Castle",
+        4,
+        6
+      ]
+    ],
+    "place type": [
+      [
+        "restaurants",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "near",
+        3,
+        4
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which hotels are near Big Ben ?",
+    "triples": [
+      "0 1:t:hotels",
+      "0 3:n:Big Ben",
+      "1 0:num:Which 1:t:hotels",
+      "1 1:t:hotels 2:r:near 3:n:Big Ben"
+    ],
+    "code": [
+      "3",
+      "t",
+      ",",
+      "r",
+      "n",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Big Ben",
+        4,
+        6
+      ]
+    ],
+    "place type": [
+      [
+        "hotels",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "near",
+        3,
+        4
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "How many counties does England have ?",
+    "triples": [
+      "0 1:t:counties",
+      "0 2:n:England",
+      "1 0:num:How many 1:t:counties",
+      "1 2:n:England 3:s:have 1:t:counties"
+    ],
+    "code": [
+      "5",
+      "-",
+      "t",
+      ",",
+      "n",
+      "s",
+      "."
+    ],
+    "question word": [
+      [
+        "How many",
+        0,
+        2
+      ]
+    ],
+    "place name": [
+      [
+        "England",
+        4,
+        5
+      ]
+    ],
+    "place type": [
+      [
+        "counties",
+        2,
+        3
+      ]
+    ],
+    "spatial relation": [],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Does England have more counties than Ireland ?",
+    "triples": [
+      "0 0:num:Does",
+      "0 1:n:England",
+      "0 4:t:counties",
+      "0 5:q:than",
+      "0 6:n:Ireland",
+      "1 1:n:England 2:s:have 4:t:counties",
+      "1 6:n:Ireland 7:s:have 4:t:counties",
+      "2 2:s:have 3:q:more 7:s:have"
+    ],
+    "code": [
+      "8",
+      "n",
+      "s",
+      "q",
+      "t",
+      "q",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Does",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "England",
+        1,
+        2
+      ],
+      [
+        "Ireland",
+        6,
+        7
+      ]
+    ],
+    "place type": [
+      [
+        "counties",
+        4,
+        5
+      ]
+    ],
+    "spatial relation": [],
+    "digit": [],
+    "quality": [
+      [
+        "more",
+        3,
+        4
+      ],
+      [
+        "than",
+        5,
+        6
+      ]
+    ],
+    "object": []
+  },
+  {
+    "sentence": "Which airports are in Ireland ?",
+    "triples": [
+      "0 1:t:airports",
+      "0 3:n:Ireland",
+      "1 0:num:Which 1:t:airports",
+      "1 1:t:airports 2:r:in 3:n:Ireland"
+    ],
+    "code": [
+      "3",
+      "t",
+      ",",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Ireland",
+        4,
+        5
+      ]
+    ],
+    "place type": [
+      [
+        "airports",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        3,
+        4
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which restaurants are close to London Bridge ?",
+    "triples": [
+      "0 1:t:restaurants",
+      "0 3:n:London Bridge",
+      "1 0:num:Which 1:t:restaurants",
+      "1 1:t:restaurants 2:r:close to 3:n:London Bridge"
+    ],
+    "code": [
+      "3",
+      "t",
+      ",",
+      "r",
+      "-",
+      "n",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "London Bridge",
+        5,
+        7
+      ]
+    ],
+    "place type": [
+      [
+        "restaurants",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "close to",
+        3,
+        5
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Is the Castle of Edinburgh less than 2 km away from Calton Hill ?",
+    "triples": [
+      "0 0:num:Is",
+      "0 1:n:Castle of Edinburgh",
+      "0 3:d:2 km",
+      "0 5:n:Calton Hill",
+      "1 5:n:Calton Hill 4:r:from 1:n:Castle of Edinburgh",
+      "2 4:r:from 2:q:less than 3:d:2 km"
+    ],
+    "code": [
+      "8",
+      ",",
+      "n",
+      "-",
+      "-",
+      "q",
+      "-",
+      "d",
+      "-",
+      ".",
+      "r",
+      "n",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Is",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Castle of Edinburgh",
+        2,
+        5
+      ],
+      [
+        "Calton Hill",
+        11,
+        13
+      ]
+    ],
+    "place type": [],
+    "spatial relation": [
+      [
+        "from",
+        10,
+        11
+      ]
+    ],
+    "digit": [
+      [
+        "2 km",
+        7,
+        9
+      ]
+    ],
+    "quality": [
+      [
+        "less than",
+        5,
+        7
+      ]
+    ],
+    "object": []
+  },
+  {
+    "sentence": "Which hospitals are close to Stirling Castle ?",
+    "triples": [
+      "0 1:t:hospitals",
+      "0 3:n:Stirling Castle",
+      "1 0:num:Which 1:t:hospitals",
+      "1 1:t:hospitals 2:r:close to 3:n:Stirling Castle"
+    ],
+    "code": [
+      "3",
+      "t",
+      ",",
+      "r",
+      "-",
+      "n",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Stirling Castle",
+        5,
+        7
+      ]
+    ],
+    "place type": [
+      [
+        "hospitals",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "close to",
+        3,
+        5
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Is there any hospital in a range of 1 km from Jubilee Gardens in London ?",
+    "triples": [
+      "0 0:num:Is",
+      "0 1:t:hospital",
+      "0 3:d:1 km",
+      "0 5:n:Jubilee Gardens",
+      "0 7:n:London",
+      "1 5:n:Jubilee Gardens 4:r:from 1:t:hospital",
+      "1 5:n:Jubilee Gardens 6:r:in 7:n:London",
+      "2 4:r:from 2:r:in 3:d:1 km"
+    ],
+    "code": [
+      "8",
+      ".",
+      ".",
+      "t",
+      "r",
+      ",",
+      ".",
+      ".",
+      "d",
+      "-",
+      "r",
+      "n",
+      "-",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Is",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Jubilee Gardens",
+        11,
+        13
+      ],
+      [
+        "London",
+        14,
+        15
+      ]
+    ],
+    "place type": [
+      [
+        "hospital",
+        3,
+        4
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        4,
+        5
+      ],
+      [
+        "from",
+        10,
+        11
+      ],
+      [
+        "in",
+        13,
+        14
+      ]
+    ],
+    "digit": [
+      [
+        "1 km",
+        8,
+        10
+      ]
+    ],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Where is the closest market to Elephant and Castle underground station ?",
+    "triples": [
+      "0 2:t:market",
+      "0 4:n:Elephant and Castle underground station",
+      "1 0:num:Where 2:t:market",
+      "1 2:t:market 3:r:to 4:n:Elephant and Castle underground station",
+      "2 1:q:closest 3:r:to"
+    ],
+    "code": [
+      "1",
+      ",",
+      ",",
+      "q",
+      "t",
+      "r",
+      "n",
+      "-",
+      "-",
+      "-",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Where",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Elephant and Castle underground station",
+        6,
+        11
+      ]
+    ],
+    "place type": [
+      [
+        "market",
+        4,
+        5
+      ]
+    ],
+    "spatial relation": [
+      [
+        "to",
+        5,
+        6
+      ]
+    ],
+    "digit": [],
+    "quality": [
+      [
+        "closest",
+        3,
+        4
+      ]
+    ],
+    "object": []
+  },
+  {
+    "sentence": "Which is the highest point in Cheshire ?",
+    "triples": [
+      "0 2:t:point",
+      "0 4:n:Cheshire",
+      "1 0:num:Which 2:t:point",
+      "1 1:q:highest 2:t:point",
+      "1 2:t:point 3:r:in 4:n:Cheshire"
+    ],
+    "code": [
+      "3",
+      ",",
+      ",",
+      "q",
+      "t",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Cheshire",
+        6,
+        7
+      ]
+    ],
+    "place type": [
+      [
+        "point",
+        4,
+        5
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        5,
+        6
+      ]
+    ],
+    "digit": [],
+    "quality": [
+      [
+        "highest",
+        3,
+        4
+      ]
+    ],
+    "object": []
+  },
+  {
+    "sentence": "Which counties border county Lincolnshire ?",
+    "triples": [
+      "0 1:t:counties",
+      "0 3:n:county Lincolnshire",
+      "1 0:num:Which 1:t:counties",
+      "1 1:t:counties 2:r:border 3:n:county Lincolnshire"
+    ],
+    "code": [
+      "3",
+      "t",
+      "r",
+      "n",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "county Lincolnshire",
+        3,
+        5
+      ]
+    ],
+    "place type": [
+      [
+        "counties",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "border",
+        2,
+        3
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which is the largest lake in England ?",
+    "triples": [
+      "0 2:t:lake",
+      "0 4:n:England",
+      "1 0:num:Which 2:t:lake",
+      "1 1:q:largest 2:t:lake",
+      "1 2:t:lake 3:r:in 4:n:England"
+    ],
+    "code": [
+      "3",
+      ",",
+      ",",
+      "q",
+      "t",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "England",
+        6,
+        7
+      ]
+    ],
+    "place type": [
+      [
+        "lake",
+        4,
+        5
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        5,
+        6
+      ]
+    ],
+    "digit": [],
+    "quality": [
+      [
+        "largest",
+        3,
+        4
+      ]
+    ],
+    "object": []
+  },
+  {
+    "sentence": "Which is the highest building in London ?",
+    "triples": [
+      "0 2:t:building",
+      "0 4:n:London",
+      "1 0:num:Which 2:t:building",
+      "1 1:q:highest 2:t:building",
+      "1 2:t:building 3:r:in 4:n:London"
+    ],
+    "code": [
+      "3",
+      ",",
+      ",",
+      "q",
+      "t",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "London",
+        6,
+        7
+      ]
+    ],
+    "place type": [
+      [
+        "building",
+        4,
+        5
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        5,
+        6
+      ]
+    ],
+    "digit": [],
+    "quality": [
+      [
+        "highest",
+        3,
+        4
+      ]
+    ],
+    "object": []
+  },
+  {
+    "sentence": "Where is Loch Goil located ?",
+    "triples": [
+      "0 1:n:Loch Goil",
+      "0 2:s:located",
+      "1 0:num:Where 1:n:Loch Goil"
+    ],
+    "code": [
+      "1",
+      ",",
+      "n",
+      "-",
+      "s",
+      "."
+    ],
+    "question word": [
+      [
+        "Where",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Loch Goil",
+        2,
+        4
+      ]
+    ],
+    "place type": [],
+    "spatial relation": [],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which theaters are near Trafalgar Square ?",
+    "triples": [
+      "0 1:t:theaters",
+      "0 3:n:Trafalgar Square",
+      "1 0:num:Which 1:t:theaters",
+      "1 1:t:theaters 2:r:near 3:n:Trafalgar Square"
+    ],
+    "code": [
+      "3",
+      "t",
+      ",",
+      "r",
+      "n",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Trafalgar Square",
+        4,
+        6
+      ]
+    ],
+    "place type": [
+      [
+        "theaters",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "near",
+        3,
+        4
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which airports are in London ?",
+    "triples": [
+      "0 1:t:airports",
+      "0 3:n:London",
+      "1 0:num:Which 1:t:airports",
+      "1 1:t:airports 2:r:in 3:n:London"
+    ],
+    "code": [
+      "3",
+      "t",
+      ",",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "London",
+        4,
+        5
+      ]
+    ],
+    "place type": [
+      [
+        "airports",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        3,
+        4
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which bridges cross River Thames ?",
+    "triples": [
+      "0 1:t:bridges",
+      "0 3:n:River Thames",
+      "1 0:num:Which 1:t:bridges",
+      "1 1:t:bridges 2:r:cross 3:n:River Thames"
+    ],
+    "code": [
+      "3",
+      "t",
+      "r",
+      "n",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "River Thames",
+        3,
+        5
+      ]
+    ],
+    "place type": [
+      [
+        "bridges",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "cross",
+        2,
+        3
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Through which cities does River Thames flow ?",
+    "triples": [
+      "0 2:t:cities",
+      "0 3:n:River Thames",
+      "0 4:s:flow",
+      "1 3:n:River Thames 0:r:Through 2:t:cities",
+      "1 1:num:which 2:t:cities"
+    ],
+    "code": [
+      "r",
+      "3",
+      "t",
+      ",",
+      "n",
+      "-",
+      "s",
+      "."
+    ],
+    "question word": [
+      [
+        "which",
+        1,
+        2
+      ]
+    ],
+    "place name": [
+      [
+        "River Thames",
+        4,
+        6
+      ]
+    ],
+    "place type": [
+      [
+        "cities",
+        2,
+        3
+      ]
+    ],
+    "spatial relation": [
+      [
+        "Through",
+        0,
+        1
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which universities are in England ?",
+    "triples": [
+      "0 1:t:universities",
+      "0 3:n:England",
+      "1 0:num:Which 1:t:universities",
+      "1 1:t:universities 2:r:in 3:n:England"
+    ],
+    "code": [
+      "3",
+      "t",
+      ",",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "England",
+        4,
+        5
+      ]
+    ],
+    "place type": [
+      [
+        "universities",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        3,
+        4
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which is the highest mountain in Ireland ?",
+    "triples": [
+      "0 2:t:mountain",
+      "0 4:n:Ireland",
+      "1 0:num:Which 2:t:mountain",
+      "1 1:q:highest 2:t:mountain",
+      "1 2:t:mountain 3:r:in 4:n:Ireland"
+    ],
+    "code": [
+      "3",
+      ",",
+      ",",
+      "q",
+      "t",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Ireland",
+        6,
+        7
+      ]
+    ],
+    "place type": [
+      [
+        "mountain",
+        4,
+        5
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        5,
+        6
+      ]
+    ],
+    "digit": [],
+    "quality": [
+      [
+        "highest",
+        3,
+        4
+      ]
+    ],
+    "object": []
+  },
+  {
+    "sentence": "Which rivers are in Great Britain ?",
+    "triples": [
+      "0 1:t:rivers",
+      "0 3:n:Great Britain",
+      "1 0:num:Which 1:t:rivers",
+      "1 1:t:rivers 2:r:in 3:n:Great Britain"
+    ],
+    "code": [
+      "3",
+      "t",
+      ",",
+      "r",
+      "n",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Great Britain",
+        4,
+        6
+      ]
+    ],
+    "place type": [
+      [
+        "rivers",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        3,
+        4
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which mountains are in Scotland ?",
+    "triples": [
+      "0 1:t:mountains",
+      "0 3:n:Scotland",
+      "1 0:num:Which 1:t:mountains",
+      "1 1:t:mountains 2:r:in 3:n:Scotland"
+    ],
+    "code": [
+      "3",
+      "t",
+      ",",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Scotland",
+        4,
+        5
+      ]
+    ],
+    "place type": [
+      [
+        "mountains",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        3,
+        4
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "What is the name of Britain 's longest river ?",
+    "triples": [
+      "0 2:n:Britain",
+      "0 5:t:river",
+      "1 1:o:name 5:t:river",
+      "1 2:n:Britain 3:r:'s 5:t:river",
+      "1 4:q:longest 5:t:river",
+      "2 0:num:What 1:o:name"
+    ],
+    "code": [
+      "2",
+      ",",
+      ",",
+      "o",
+      ".",
+      "n",
+      "r",
+      "q",
+      "t",
+      "."
+    ],
+    "question word": [
+      [
+        "What",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Britain",
+        5,
+        6
+      ]
+    ],
+    "place type": [
+      [
+        "river",
+        8,
+        9
+      ]
+    ],
+    "spatial relation": [
+      [
+        "'s",
+        6,
+        7
+      ]
+    ],
+    "digit": [],
+    "quality": [
+      [
+        "longest",
+        7,
+        8
+      ]
+    ],
+    "object": [
+      [
+        "name",
+        3,
+        4
+      ]
+    ]
+  },
+  {
+    "sentence": "Which airports are in the city of Salford ?",
+    "triples": [
+      "0 1:t:airports",
+      "0 3:n:city of Salford",
+      "1 0:num:Which 1:t:airports",
+      "1 1:t:airports 2:r:in 3:n:city of Salford"
+    ],
+    "code": [
+      "3",
+      "t",
+      ",",
+      "r",
+      ",",
+      "n",
+      "-",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "city of Salford",
+        5,
+        8
+      ]
+    ],
+    "place type": [
+      [
+        "airports",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        3,
+        4
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Where is Elizabeth Tower located ?",
+    "triples": [
+      "0 1:n:Elizabeth Tower",
+      "0 2:s:located",
+      "1 0:num:Where 1:n:Elizabeth Tower"
+    ],
+    "code": [
+      "1",
+      ",",
+      "n",
+      "-",
+      "s",
+      "."
+    ],
+    "question word": [
+      [
+        "Where",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Elizabeth Tower",
+        2,
+        4
+      ]
+    ],
+    "place type": [],
+    "spatial relation": [],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "What is the number of universities in London ?",
+    "triples": [
+      "0 2:t:universities",
+      "0 4:n:London",
+      "1 1:o:number 2:t:universities",
+      "1 2:t:universities 3:r:in 4:n:London",
+      "2 0:num:What 1:o:number"
+    ],
+    "code": [
+      "2",
+      ",",
+      ",",
+      "o",
+      ".",
+      "t",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "What",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "London",
+        7,
+        8
+      ]
+    ],
+    "place type": [
+      [
+        "universities",
+        5,
+        6
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        6,
+        7
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": [
+      [
+        "number",
+        3,
+        4
+      ]
+    ]
+  },
+  {
+    "sentence": "Where is a car park near Big Ben ?",
+    "triples": [
+      "0 1:t:car park",
+      "0 3:n:Big Ben",
+      "1 0:num:Where 1:t:car park",
+      "1 1:t:car park 2:r:near 3:n:Big Ben"
+    ],
+    "code": [
+      "1",
+      ",",
+      ",",
+      "t",
+      "-",
+      "r",
+      "n",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Where",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Big Ben",
+        6,
+        8
+      ]
+    ],
+    "place type": [
+      [
+        "car park",
+        3,
+        5
+      ]
+    ],
+    "spatial relation": [
+      [
+        "near",
+        5,
+        6
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which pubs in Manchester are near the Old Trafford stadium ?",
+    "triples": [
+      "0 1:t:pubs",
+      "0 3:n:Manchester",
+      "0 5:n:Old Trafford stadium",
+      "1 0:num:Which 1:t:pubs",
+      "1 1:t:pubs 2:r:in 3:n:Manchester",
+      "1 1:t:pubs 4:r:near 5:n:Old Trafford stadium"
+    ],
+    "code": [
+      "3",
+      "t",
+      "r",
+      "n",
+      ",",
+      "r",
+      ",",
+      "n",
+      "-",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Manchester",
+        3,
+        4
+      ],
+      [
+        "Old Trafford stadium",
+        7,
+        10
+      ]
+    ],
+    "place type": [
+      [
+        "pubs",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        2,
+        3
+      ],
+      [
+        "near",
+        5,
+        6
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which rivers are in Wales ?",
+    "triples": [
+      "0 1:t:rivers",
+      "0 3:n:Wales",
+      "1 0:num:Which 1:t:rivers",
+      "1 1:t:rivers 2:r:in 3:n:Wales"
+    ],
+    "code": [
+      "3",
+      "t",
+      ",",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Wales",
+        4,
+        5
+      ]
+    ],
+    "place type": [
+      [
+        "rivers",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        3,
+        4
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Is there a river that crosses Manchester ?",
+    "triples": [
+      "0 0:num:Is there",
+      "0 1:t:river",
+      "0 3:n:Manchester",
+      "1 1:t:river 2:r:crosses 3:n:Manchester"
+    ],
+    "code": [
+      "8",
+      ".",
+      ",",
+      "t",
+      ".",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Is",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Manchester",
+        6,
+        7
+      ]
+    ],
+    "place type": [
+      [
+        "river",
+        3,
+        4
+      ]
+    ],
+    "spatial relation": [
+      [
+        "crosses",
+        5,
+        6
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which rivers cross Derry ?",
+    "triples": [
+      "0 1:t:rivers",
+      "0 3:n:Derry",
+      "1 0:num:Which 1:t:rivers",
+      "1 1:t:rivers 2:r:cross 3:n:Derry"
+    ],
+    "code": [
+      "3",
+      "t",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Derry",
+        3,
+        4
+      ]
+    ],
+    "place type": [
+      [
+        "rivers",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "cross",
+        2,
+        3
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which counties of Scotland border England ?",
+    "triples": [
+      "0 1:t:counties",
+      "0 3:n:Scotland",
+      "0 5:n:England",
+      "1 0:num:Which 1:t:counties",
+      "1 1:t:counties 2:r:of 3:n:Scotland",
+      "1 1:t:counties 4:r:border 5:n:England"
+    ],
+    "code": [
+      "3",
+      "t",
+      "r",
+      "n",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Scotland",
+        3,
+        4
+      ],
+      [
+        "England",
+        5,
+        6
+      ]
+    ],
+    "place type": [
+      [
+        "counties",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "of",
+        2,
+        3
+      ],
+      [
+        "border",
+        4,
+        5
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which Scottish counties border England ?",
+    "triples": [
+      "0 2:t:counties",
+      "0 4:n:England",
+      "1 0:num:Which 2:t:counties",
+      "1 1:q:Scottish 2:t:counties",
+      "1 2:t:counties 3:r:border 4:n:England"
+    ],
+    "code": [
+      "3",
+      "q",
+      "t",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "England",
+        4,
+        5
+      ]
+    ],
+    "place type": [
+      [
+        "counties",
+        2,
+        3
+      ]
+    ],
+    "spatial relation": [
+      [
+        "border",
+        3,
+        4
+      ]
+    ],
+    "digit": [],
+    "quality": [
+      [
+        "Scottish",
+        1,
+        2
+      ]
+    ],
+    "object": []
+  },
+  {
+    "sentence": "Which is the total area of Northern Ireland ?",
+    "triples": [
+      "0 2:n:Northern Ireland",
+      "1 1:o:area 2:n:Northern Ireland",
+      "2 0:num:Which 1:o:area"
+    ],
+    "code": [
+      "3",
+      ",",
+      ",",
+      ".",
+      "o",
+      ".",
+      "n",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Northern Ireland",
+        6,
+        8
+      ]
+    ],
+    "place type": [],
+    "spatial relation": [],
+    "digit": [],
+    "quality": [],
+    "object": [
+      [
+        "area",
+        4,
+        5
+      ]
+    ]
+  },
+  {
+    "sentence": "Where is Nelson 's Column located ?",
+    "triples": [
+      "0 1:n:Nelson 's Column",
+      "0 2:s:located",
+      "1 0:num:Where 1:n:Nelson 's Column"
+    ],
+    "code": [
+      "1",
+      ",",
+      "n",
+      "-",
+      "-",
+      "s",
+      "."
+    ],
+    "question word": [
+      [
+        "Where",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Nelson 's Column",
+        2,
+        5
+      ]
+    ],
+    "place type": [],
+    "spatial relation": [],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Is there a car park at most 1 km from Waterloo Bridge ?",
+    "triples": [
+      "0 0:num:Is there",
+      "0 1:t:car park",
+      "0 3:d:1 km",
+      "0 5:n:Waterloo Bridge",
+      "1 5:n:Waterloo Bridge 4:r:from 1:t:car park",
+      "2 4:r:from 2:q:at most 3:d:1 km"
+    ],
+    "code": [
+      "8",
+      ".",
+      ",",
+      "t",
+      "-",
+      "q",
+      "-",
+      "d",
+      "-",
+      "r",
+      "n",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Is",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Waterloo Bridge",
+        10,
+        12
+      ]
+    ],
+    "place type": [
+      [
+        "car park",
+        3,
+        5
+      ]
+    ],
+    "spatial relation": [
+      [
+        "from",
+        9,
+        10
+      ]
+    ],
+    "digit": [
+      [
+        "1 km",
+        7,
+        9
+      ]
+    ],
+    "quality": [
+      [
+        "at most",
+        5,
+        7
+      ]
+    ],
+    "object": []
+  },
+  {
+    "sentence": "Is the county of Antrim bigger than the county of Armagh ?",
+    "triples": [
+      "0 0:num:Is",
+      "0 1:n:county of Antrim",
+      "0 3:n:county of Armagh",
+      "1 1:n:county of Antrim 2:q:bigger than 3:n:county of Armagh"
+    ],
+    "code": [
+      "8",
+      ",",
+      "n",
+      "-",
+      "-",
+      "q",
+      "-",
+      ",",
+      "n",
+      "-",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Is",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "county of Antrim",
+        2,
+        5
+      ],
+      [
+        "county of Armagh",
+        8,
+        11
+      ]
+    ],
+    "place type": [],
+    "spatial relation": [],
+    "digit": [],
+    "quality": [
+      [
+        "bigger than",
+        5,
+        7
+      ]
+    ],
+    "object": []
+  },
+  {
+    "sentence": "Does the county of Durham border Essex ?",
+    "triples": [
+      "0 0:num:Does",
+      "0 1:n:county of Durham",
+      "0 3:n:Essex",
+      "1 1:n:county of Durham 2:r:border 3:n:Essex"
+    ],
+    "code": [
+      "8",
+      ",",
+      "n",
+      "-",
+      "-",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Does",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "county of Durham",
+        2,
+        5
+      ],
+      [
+        "Essex",
+        6,
+        7
+      ]
+    ],
+    "place type": [],
+    "spatial relation": [
+      [
+        "border",
+        5,
+        6
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Where is Trafalgar square located ?",
+    "triples": [
+      "0 1:n:Trafalgar square",
+      "0 2:s:located",
+      "1 0:num:Where 1:n:Trafalgar square"
+    ],
+    "code": [
+      "1",
+      ",",
+      "n",
+      "-",
+      "s",
+      "."
+    ],
+    "question word": [
+      [
+        "Where",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Trafalgar square",
+        2,
+        4
+      ]
+    ],
+    "place type": [],
+    "spatial relation": [],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Where is Emirates Stadium located ?",
+    "triples": [
+      "0 1:n:Emirates Stadium",
+      "0 2:s:located",
+      "1 0:num:Where 1:n:Emirates Stadium"
+    ],
+    "code": [
+      "1",
+      ",",
+      "n",
+      "-",
+      "s",
+      "."
+    ],
+    "question word": [
+      [
+        "Where",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Emirates Stadium",
+        2,
+        4
+      ]
+    ],
+    "place type": [],
+    "spatial relation": [],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which cities in England have at least 2 castles ?",
+    "triples": [
+      "0 1:t:cities",
+      "0 3:n:England",
+      "0 6:d:2",
+      "0 7:t:castles",
+      "1 0:num:Which 1:t:cities",
+      "1 1:t:cities 2:r:in 3:n:England",
+      "1 1:t:cities 4:s:have 7:t:castles",
+      "2 4:s:have 5:q:at least 6:d:2"
+    ],
+    "code": [
+      "3",
+      "t",
+      "r",
+      "n",
+      "s",
+      "q",
+      "-",
+      "d",
+      "t",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "England",
+        3,
+        4
+      ]
+    ],
+    "place type": [
+      [
+        "cities",
+        1,
+        2
+      ],
+      [
+        "castles",
+        8,
+        9
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        2,
+        3
+      ]
+    ],
+    "digit": [
+      [
+        "2",
+        7,
+        8
+      ]
+    ],
+    "quality": [
+      [
+        "at least",
+        5,
+        7
+      ]
+    ],
+    "object": []
+  },
+  {
+    "sentence": "Are the cities that River Thames crosses more than 10 ?",
+    "triples": [
+      "0 0:num:Are",
+      "0 1:t:cities",
+      "0 2:n:River Thames",
+      "0 5:d:10",
+      "1 2:n:River Thames 3:r:crosses 1:t:cities",
+      "2 3:r:crosses 4:q:more than 5:d:10"
+    ],
+    "code": [
+      "8",
+      ",",
+      "t",
+      ".",
+      "n",
+      "-",
+      "r",
+      "q",
+      "-",
+      "d",
+      "."
+    ],
+    "question word": [
+      [
+        "Are",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "River Thames",
+        4,
+        6
+      ]
+    ],
+    "place type": [
+      [
+        "cities",
+        2,
+        3
+      ]
+    ],
+    "spatial relation": [
+      [
+        "crosses",
+        6,
+        7
+      ]
+    ],
+    "digit": [
+      [
+        "10",
+        9,
+        10
+      ]
+    ],
+    "quality": [
+      [
+        "more than",
+        7,
+        9
+      ]
+    ],
+    "object": []
+  },
+  {
+    "sentence": "Which castles are in the Highland council area of Scotland ?",
+    "triples": [
+      "0 1:t:castles",
+      "0 3:n:Highland council area",
+      "0 5:n:Scotland",
+      "1 0:num:Which 1:t:castles",
+      "1 1:t:castles 2:r:in 3:n:Highland council area",
+      "1 3:n:Highland council area 4:r:of 5:n:Scotland"
+    ],
+    "code": [
+      "3",
+      "t",
+      ",",
+      "r",
+      ",",
+      "n",
+      "-",
+      "-",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Highland council area",
+        5,
+        8
+      ],
+      [
+        "Scotland",
+        9,
+        10
+      ]
+    ],
+    "place type": [
+      [
+        "castles",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        3,
+        4
+      ],
+      [
+        "of",
+        8,
+        9
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which restaurants are at most 1 km away from Big Ben ?",
+    "triples": [
+      "0 1:t:restaurants",
+      "0 3:d:1 km",
+      "0 5:n:Big Ben",
+      "1 0:num:Which 1:t:restaurants",
+      "1 5:n:Big Ben 4:r:from 1:t:restaurants",
+      "2 4:r:from 2:q:at most 3:d:1 km"
+    ],
+    "code": [
+      "3",
+      "t",
+      ",",
+      "q",
+      "-",
+      "d",
+      "-",
+      ".",
+      "r",
+      "n",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Big Ben",
+        9,
+        11
+      ]
+    ],
+    "place type": [
+      [
+        "restaurants",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "from",
+        8,
+        9
+      ]
+    ],
+    "digit": [
+      [
+        "1 km",
+        5,
+        7
+      ]
+    ],
+    "quality": [
+      [
+        "at most",
+        3,
+        5
+      ]
+    ],
+    "object": []
+  },
+  {
+    "sentence": "Are there any rivers that cross both England and Wales ?",
+    "triples": [
+      "0 0:num:Are there",
+      "0 1:t:rivers",
+      "0 3:n:England",
+      "0 4:n:Wales",
+      "1 1:t:rivers 2:r:cross 3:n:England",
+      "1 1:t:rivers 5:r:cross 4:n:Wales"
+    ],
+    "code": [
+      "8",
+      ".",
+      ".",
+      "t",
+      ".",
+      "r",
+      ".",
+      "n",
+      ",",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Are",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "England",
+        7,
+        8
+      ],
+      [
+        "Wales",
+        9,
+        10
+      ]
+    ],
+    "place type": [
+      [
+        "rivers",
+        3,
+        4
+      ]
+    ],
+    "spatial relation": [
+      [
+        "cross",
+        5,
+        6
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "How many are the counties of England ?",
+    "triples": [
+      "0 1:t:counties",
+      "0 3:n:England",
+      "1 0:num:How many 1:t:counties",
+      "1 1:t:counties 2:r:of 3:n:England"
+    ],
+    "code": [
+      "5",
+      "-",
+      ",",
+      ",",
+      "t",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "How many",
+        0,
+        2
+      ]
+    ],
+    "place name": [
+      [
+        "England",
+        6,
+        7
+      ]
+    ],
+    "place type": [
+      [
+        "counties",
+        4,
+        5
+      ]
+    ],
+    "spatial relation": [
+      [
+        "of",
+        5,
+        6
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which is the biggest county council in the Republic of Ireland ?",
+    "triples": [
+      "0 2:t:county council",
+      "0 4:n:Republic of Ireland",
+      "1 0:num:Which 2:t:county council",
+      "1 1:q:biggest 2:t:county council",
+      "1 2:t:county council 3:r:in 4:n:Republic of Ireland"
+    ],
+    "code": [
+      "3",
+      ",",
+      ",",
+      "q",
+      "t",
+      "-",
+      "r",
+      ",",
+      "n",
+      "-",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Republic of Ireland",
+        8,
+        11
+      ]
+    ],
+    "place type": [
+      [
+        "county council",
+        4,
+        6
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        6,
+        7
+      ]
+    ],
+    "digit": [],
+    "quality": [
+      [
+        "biggest",
+        3,
+        4
+      ]
+    ],
+    "object": []
+  },
+  {
+    "sentence": "Which county of England occupies the largest area ?",
+    "triples": [
+      "0 1:t:county",
+      "0 3:n:England",
+      "0 4:s:occupies",
+      "1 0:num:Which 1:t:county",
+      "1 1:t:county 2:r:of 3:n:England",
+      "1 6:o:area 1:t:county",
+      "2 5:q:largest 6:o:area"
+    ],
+    "code": [
+      "3",
+      "t",
+      "r",
+      "n",
+      "s",
+      ",",
+      "q",
+      "o",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "England",
+        3,
+        4
+      ]
+    ],
+    "place type": [
+      [
+        "county",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "of",
+        2,
+        3
+      ]
+    ],
+    "digit": [],
+    "quality": [
+      [
+        "largest",
+        6,
+        7
+      ]
+    ],
+    "object": [
+      [
+        "area",
+        7,
+        8
+      ]
+    ]
+  },
+  {
+    "sentence": "Which is the smallest lake in Scotland ?",
+    "triples": [
+      "0 2:t:lake",
+      "0 4:n:Scotland",
+      "1 0:num:Which 2:t:lake",
+      "1 1:q:smallest 2:t:lake",
+      "1 2:t:lake 3:r:in 4:n:Scotland"
+    ],
+    "code": [
+      "3",
+      ",",
+      ",",
+      "q",
+      "t",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Scotland",
+        6,
+        7
+      ]
+    ],
+    "place type": [
+      [
+        "lake",
+        4,
+        5
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        5,
+        6
+      ]
+    ],
+    "digit": [],
+    "quality": [
+      [
+        "smallest",
+        3,
+        4
+      ]
+    ],
+    "object": []
+  },
+  {
+    "sentence": "Is county Oxfordshire east of the county Essex ?",
+    "triples": [
+      "0 0:num:Is",
+      "0 1:n:county Oxfordshire",
+      "0 3:n:county Essex",
+      "1 1:n:county Oxfordshire 2:r:east of 3:n:county Essex"
+    ],
+    "code": [
+      "8",
+      "n",
+      "-",
+      "r",
+      "-",
+      ",",
+      "n",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Is",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "county Oxfordshire",
+        1,
+        3
+      ],
+      [
+        "county Essex",
+        6,
+        8
+      ]
+    ],
+    "place type": [],
+    "spatial relation": [
+      [
+        "east of",
+        3,
+        5
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "What is the longest bridge in Scotland ?",
+    "triples": [
+      "0 2:t:bridge",
+      "0 4:n:Scotland",
+      "1 0:num:What 2:t:bridge",
+      "1 1:q:longest 2:t:bridge",
+      "1 2:t:bridge 3:r:in 4:n:Scotland"
+    ],
+    "code": [
+      "2",
+      ",",
+      ",",
+      "q",
+      "t",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "What",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Scotland",
+        6,
+        7
+      ]
+    ],
+    "place type": [
+      [
+        "bridge",
+        4,
+        5
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        5,
+        6
+      ]
+    ],
+    "digit": [],
+    "quality": [
+      [
+        "longest",
+        3,
+        4
+      ]
+    ],
+    "object": []
+  },
+  {
+    "sentence": "Is there a national park near York ?",
+    "triples": [
+      "0 0:num:Is there",
+      "0 1:t:national park",
+      "0 3:n:York",
+      "1 1:t:national park 2:r:near 3:n:York"
+    ],
+    "code": [
+      "8",
+      ".",
+      ",",
+      "t",
+      "-",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Is",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "York",
+        6,
+        7
+      ]
+    ],
+    "place type": [
+      [
+        "national park",
+        3,
+        5
+      ]
+    ],
+    "spatial relation": [
+      [
+        "near",
+        5,
+        6
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which pubs in Dublin are near Guinness Brewery ?",
+    "triples": [
+      "0 1:t:pubs",
+      "0 3:n:Dublin",
+      "0 5:n:Guinness Brewery",
+      "1 0:num:Which 1:t:pubs",
+      "1 1:t:pubs 2:r:in 3:n:Dublin",
+      "1 1:t:pubs 4:r:near 5:n:Guinness Brewery"
+    ],
+    "code": [
+      "3",
+      "t",
+      "r",
+      "n",
+      ",",
+      "r",
+      "n",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Dublin",
+        3,
+        4
+      ],
+      [
+        "Guinness Brewery",
+        6,
+        8
+      ]
+    ],
+    "place type": [
+      [
+        "pubs",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        2,
+        3
+      ],
+      [
+        "near",
+        5,
+        6
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which hospital is nearest to Calton Hill in Edinburgh ?",
+    "triples": [
+      "0 1:t:hospital",
+      "0 4:n:Calton Hill",
+      "0 6:n:Edinburgh",
+      "1 0:num:Which 1:t:hospital",
+      "1 1:t:hospital 3:r:to 4:n:Calton Hill",
+      "1 1:t:hospital 5:r:in 6:n:Edinburgh",
+      "2 2:q:nearest 3:r:to"
+    ],
+    "code": [
+      "3",
+      "t",
+      ",",
+      "q",
+      "r",
+      "n",
+      "-",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Calton Hill",
+        5,
+        7
+      ],
+      [
+        "Edinburgh",
+        8,
+        9
+      ]
+    ],
+    "place type": [
+      [
+        "hospital",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "to",
+        4,
+        5
+      ],
+      [
+        "in",
+        7,
+        8
+      ]
+    ],
+    "digit": [],
+    "quality": [
+      [
+        "nearest",
+        3,
+        4
+      ]
+    ],
+    "object": []
+  },
+  {
+    "sentence": "Which cafes in Manchester are near Piccadilly Gardens ?",
+    "triples": [
+      "0 1:t:cafes",
+      "0 3:n:Manchester",
+      "0 5:n:Piccadilly Gardens",
+      "1 0:num:Which 1:t:cafes",
+      "1 1:t:cafes 2:r:in 3:n:Manchester",
+      "1 1:t:cafes 4:r:near 5:n:Piccadilly Gardens"
+    ],
+    "code": [
+      "3",
+      "t",
+      "r",
+      "n",
+      ",",
+      "r",
+      "n",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Manchester",
+        3,
+        4
+      ],
+      [
+        "Piccadilly Gardens",
+        6,
+        8
+      ]
+    ],
+    "place type": [
+      [
+        "cafes",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        2,
+        3
+      ],
+      [
+        "near",
+        5,
+        6
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which hospitals in Liverpool are near Abercromby Square ?",
+    "triples": [
+      "0 1:t:hospitals",
+      "0 3:n:Liverpool",
+      "0 5:n:Abercromby Square",
+      "1 0:num:Which 1:t:hospitals",
+      "1 1:t:hospitals 2:r:in 3:n:Liverpool",
+      "1 1:t:hospitals 4:r:near 5:n:Abercromby Square"
+    ],
+    "code": [
+      "3",
+      "t",
+      "r",
+      "n",
+      ",",
+      "r",
+      "n",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Liverpool",
+        3,
+        4
+      ],
+      [
+        "Abercromby Square",
+        6,
+        8
+      ]
+    ],
+    "place type": [
+      [
+        "hospitals",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        2,
+        3
+      ],
+      [
+        "near",
+        5,
+        6
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which pubs in Liverpool are at most 2 km from Anfield stadium ?",
+    "triples": [
+      "0 1:t:pubs",
+      "0 3:n:Liverpool",
+      "0 5:d:2 km",
+      "0 7:n:Anfield stadium",
+      "1 0:num:Which 1:t:pubs",
+      "1 1:t:pubs 2:r:in 3:n:Liverpool",
+      "1 7:n:Anfield stadium 6:r:from 1:t:pubs",
+      "2 6:r:from 4:q:at most 5:d:2 km"
+    ],
+    "code": [
+      "3",
+      "t",
+      "r",
+      "n",
+      ",",
+      "q",
+      "-",
+      "d",
+      "-",
+      "r",
+      "n",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Liverpool",
+        3,
+        4
+      ],
+      [
+        "Anfield stadium",
+        10,
+        12
+      ]
+    ],
+    "place type": [
+      [
+        "pubs",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        2,
+        3
+      ],
+      [
+        "from",
+        9,
+        10
+      ]
+    ],
+    "digit": [
+      [
+        "2 km",
+        7,
+        9
+      ]
+    ],
+    "quality": [
+      [
+        "at most",
+        5,
+        7
+      ]
+    ],
+    "object": []
+  },
+  {
+    "sentence": "Which hotels in Manchester are near Wharfside Way ?",
+    "triples": [
+      "0 1:t:hotels",
+      "0 3:n:Manchester",
+      "0 5:n:Wharfside Way",
+      "1 0:num:Which 1:t:hotels",
+      "1 1:t:hotels 2:r:in 3:n:Manchester",
+      "1 1:t:hotels 4:r:near 5:n:Wharfside Way"
+    ],
+    "code": [
+      "3",
+      "t",
+      "r",
+      "n",
+      ",",
+      "r",
+      "n",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Manchester",
+        3,
+        4
+      ],
+      [
+        "Wharfside Way",
+        6,
+        8
+      ]
+    ],
+    "place type": [
+      [
+        "hotels",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        2,
+        3
+      ],
+      [
+        "near",
+        5,
+        6
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which cafes in London are at most 3 km from St. Anthony the Great and St. John the Baptist church ?",
+    "triples": [
+      "0 1:t:cafes",
+      "0 3:n:London",
+      "0 5:d:3 km",
+      "0 7:n:St. Anthony the Great",
+      "0 8:n:St. John the Baptist",
+      "1 0:num:Which 1:t:cafes",
+      "1 1:t:cafes 2:r:in 3:n:London",
+      "1 1:t:cafes 6:r:from 7:n:St. Anthony the Great",
+      "1 9:t:church 7:n:St. Anthony the Great",
+      "2 6:r:from 4:q:at most 5:d:3 km"
+    ],
+    "code": [
+      "3",
+      "t",
+      "r",
+      "n",
+      ",",
+      "q",
+      "-",
+      "d",
+      "-",
+      "r",
+      "n",
+      "-",
+      "-",
+      "-",
+      ",",
+      "n",
+      "-",
+      "-",
+      "-",
+      "t",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "London",
+        3,
+        4
+      ],
+      [
+        "St. Anthony the Great",
+        10,
+        14
+      ],
+      [
+        "St. John the Baptist",
+        15,
+        19
+      ]
+    ],
+    "place type": [
+      [
+        "cafes",
+        1,
+        2
+      ],
+      [
+        "church",
+        19,
+        20
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        2,
+        3
+      ],
+      [
+        "from",
+        9,
+        10
+      ]
+    ],
+    "digit": [
+      [
+        "3 km",
+        7,
+        9
+      ]
+    ],
+    "quality": [
+      [
+        "at most",
+        5,
+        7
+      ]
+    ],
+    "object": []
+  },
+  {
+    "sentence": "Which pubs in Liverpool are near Anfield stadium ?",
+    "triples": [
+      "0 1:t:pubs",
+      "0 3:n:Liverpool",
+      "0 5:n:Anfield stadium",
+      "1 0:num:Which 1:t:pubs",
+      "1 1:t:pubs 2:r:in 3:n:Liverpool",
+      "1 1:t:pubs 4:r:near 5:n:Anfield stadium"
+    ],
+    "code": [
+      "3",
+      "t",
+      "r",
+      "n",
+      ",",
+      "r",
+      "n",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Liverpool",
+        3,
+        4
+      ],
+      [
+        "Anfield stadium",
+        6,
+        8
+      ]
+    ],
+    "place type": [
+      [
+        "pubs",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        2,
+        3
+      ],
+      [
+        "near",
+        5,
+        6
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which county is west of South Yorkshire ?",
+    "triples": [
+      "0 1:t:county",
+      "0 3:n:South Yorkshire",
+      "1 0:num:Which 1:t:county",
+      "1 1:t:county 2:r:west of 3:n:South Yorkshire"
+    ],
+    "code": [
+      "3",
+      "t",
+      ",",
+      "r",
+      "-",
+      "n",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "South Yorkshire",
+        5,
+        7
+      ]
+    ],
+    "place type": [
+      [
+        "county",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "west of",
+        3,
+        5
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which department stores are at most 2 km from Central Park hotel in London ?",
+    "triples": [
+      "0 1:t:department stores",
+      "0 3:d:2 km",
+      "0 5:n:Central Park hotel",
+      "0 7:n:London",
+      "1 0:num:Which 1:t:department stores",
+      "1 5:n:Central Park hotel 4:r:from 1:t:department stores",
+      "1 1:t:department stores 6:r:in 7:n:London",
+      "2 4:r:from 2:q:at most 3:d:2 km"
+    ],
+    "code": [
+      "3",
+      "t",
+      "-",
+      ",",
+      "q",
+      "-",
+      "d",
+      "-",
+      "r",
+      "n",
+      "-",
+      "-",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Central Park hotel",
+        9,
+        12
+      ],
+      [
+        "London",
+        13,
+        14
+      ]
+    ],
+    "place type": [
+      [
+        "department stores",
+        1,
+        3
+      ]
+    ],
+    "spatial relation": [
+      [
+        "from",
+        8,
+        9
+      ],
+      [
+        "in",
+        12,
+        13
+      ]
+    ],
+    "digit": [
+      [
+        "2 km",
+        6,
+        8
+      ]
+    ],
+    "quality": [
+      [
+        "at most",
+        4,
+        6
+      ]
+    ],
+    "object": []
+  },
+  {
+    "sentence": "Which hotels are in England 's capital ?",
+    "triples": [
+      "0 1:t:hotels",
+      "0 3:n:England",
+      "0 5:t:capital",
+      "1 0:num:Which 1:t:hotels",
+      "1 1:t:hotels 2:r:in 5:t:capital",
+      "1 3:n:England 4:r:'s 5:t:capital"
+    ],
+    "code": [
+      "3",
+      "t",
+      ",",
+      "r",
+      "n",
+      "r",
+      "t",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "England",
+        4,
+        5
+      ]
+    ],
+    "place type": [
+      [
+        "hotels",
+        1,
+        2
+      ],
+      [
+        "capital",
+        6,
+        7
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        3,
+        4
+      ],
+      [
+        "'s",
+        5,
+        6
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Where can I find a car park in Bristol ?",
+    "triples": [
+      "0 1:t:car park",
+      "0 3:n:Bristol",
+      "1 0:num:Where 1:t:car park",
+      "1 1:t:car park 2:r:in 3:n:Bristol"
+    ],
+    "code": [
+      "1",
+      ",",
+      ".",
+      ".",
+      ",",
+      "t",
+      "-",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Where",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Bristol",
+        8,
+        9
+      ]
+    ],
+    "place type": [
+      [
+        "car park",
+        5,
+        7
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        7,
+        8
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which football stadium has the biggest capacity in Ireland ?",
+    "triples": [
+      "0 1:t:football stadium",
+      "0 2:s:has",
+      "0 6:n:Ireland",
+      "1 0:num:Which 1:t:football stadium",
+      "1 4:o:capacity 1:t:football stadium",
+      "1 1:t:football stadium 5:r:in 6:n:Ireland",
+      "2 3:q:biggest 4:o:capacity"
+    ],
+    "code": [
+      "3",
+      "t",
+      "-",
+      "s",
+      ",",
+      "q",
+      "o",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Ireland",
+        8,
+        9
+      ]
+    ],
+    "place type": [
+      [
+        "football stadium",
+        1,
+        3
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        7,
+        8
+      ]
+    ],
+    "digit": [],
+    "quality": [
+      [
+        "biggest",
+        5,
+        6
+      ]
+    ],
+    "object": [
+      [
+        "capacity",
+        6,
+        7
+      ]
+    ]
+  },
+  {
+    "sentence": "Which city of England is nearest to London ?",
+    "triples": [
+      "0 1:t:city",
+      "0 3:n:England",
+      "0 6:n:London",
+      "1 0:num:Which 1:t:city",
+      "1 1:t:city 2:r:of 3:n:England",
+      "1 1:t:city 5:r:to 6:n:London",
+      "2 4:q:nearest 5:r:to"
+    ],
+    "code": [
+      "3",
+      "t",
+      "r",
+      "n",
+      ",",
+      "q",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "England",
+        3,
+        4
+      ],
+      [
+        "London",
+        7,
+        8
+      ]
+    ],
+    "place type": [
+      [
+        "city",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "of",
+        2,
+        3
+      ],
+      [
+        "to",
+        6,
+        7
+      ]
+    ],
+    "digit": [],
+    "quality": [
+      [
+        "nearest",
+        5,
+        6
+      ]
+    ],
+    "object": []
+  },
+  {
+    "sentence": "Which hotel is the nearest to Old Trafford Stadium in Manchester ?",
+    "triples": [
+      "0 1:t:hotel",
+      "0 4:n:Old Trafford Stadium",
+      "0 6:n:Manchester",
+      "1 0:num:Which 1:t:hotel",
+      "1 1:t:hotel 3:r:to 4:n:Old Trafford Stadium",
+      "1 1:t:hotel 5:r:in 6:n:Manchester",
+      "2 2:q:nearest 3:r:to"
+    ],
+    "code": [
+      "3",
+      "t",
+      ",",
+      ",",
+      "q",
+      "r",
+      "n",
+      "-",
+      "-",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Old Trafford Stadium",
+        6,
+        9
+      ],
+      [
+        "Manchester",
+        10,
+        11
+      ]
+    ],
+    "place type": [
+      [
+        "hotel",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "to",
+        5,
+        6
+      ],
+      [
+        "in",
+        9,
+        10
+      ]
+    ],
+    "digit": [],
+    "quality": [
+      [
+        "nearest",
+        4,
+        5
+      ]
+    ],
+    "object": []
+  },
+  {
+    "sentence": "Which universities are in county Essex ?",
+    "triples": [
+      "0 1:t:universities",
+      "0 3:n:county Essex",
+      "1 0:num:Which 1:t:universities",
+      "1 1:t:universities 2:r:in 3:n:county Essex"
+    ],
+    "code": [
+      "3",
+      "t",
+      ",",
+      "r",
+      "n",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "county Essex",
+        4,
+        6
+      ]
+    ],
+    "place type": [
+      [
+        "universities",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        3,
+        4
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Is there a forest in Lancashire north of Burnley ?",
+    "triples": [
+      "0 0:num:Is there",
+      "0 1:t:forest",
+      "0 3:n:Lancashire",
+      "0 5:n:Burnley",
+      "1 1:t:forest 2:r:in 3:n:Lancashire",
+      "1 1:t:forest 4:r:north of 5:n:Burnley"
+    ],
+    "code": [
+      "8",
+      ".",
+      ",",
+      "t",
+      "r",
+      "n",
+      "r",
+      "-",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Is",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Lancashire",
+        5,
+        6
+      ],
+      [
+        "Burnley",
+        8,
+        9
+      ]
+    ],
+    "place type": [
+      [
+        "forest",
+        3,
+        4
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        4,
+        5
+      ],
+      [
+        "north of",
+        6,
+        8
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which villages are in Herefordshire ?",
+    "triples": [
+      "0 1:t:villages",
+      "0 3:n:Herefordshire",
+      "1 0:num:Which 1:t:villages",
+      "1 1:t:villages 2:r:in 3:n:Herefordshire"
+    ],
+    "code": [
+      "3",
+      "t",
+      ",",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Herefordshire",
+        4,
+        5
+      ]
+    ],
+    "place type": [
+      [
+        "villages",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        3,
+        4
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Is there a church at most 2 km from the University of Westminster ?",
+    "triples": [
+      "0 0:num:Is there",
+      "0 1:t:church",
+      "0 3:d:2 km",
+      "0 5:n:University of Westminster",
+      "1 5:n:University of Westminster 4:r:from 1:t:church",
+      "2 4:r:from 2:q:at most 3:d:2 km"
+    ],
+    "code": [
+      "8",
+      ".",
+      ",",
+      "t",
+      "q",
+      "-",
+      "d",
+      "-",
+      "r",
+      ",",
+      "n",
+      "-",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Is",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "University of Westminster",
+        10,
+        13
+      ]
+    ],
+    "place type": [
+      [
+        "church",
+        3,
+        4
+      ]
+    ],
+    "spatial relation": [
+      [
+        "from",
+        8,
+        9
+      ]
+    ],
+    "digit": [
+      [
+        "2 km",
+        6,
+        8
+      ]
+    ],
+    "quality": [
+      [
+        "at most",
+        4,
+        6
+      ]
+    ],
+    "object": []
+  },
+  {
+    "sentence": "Is there a county of England that borders the Isle of Wight ?",
+    "triples": [
+      "0 0:num:Is there",
+      "0 1:t:county",
+      "0 3:n:England",
+      "0 5:n:Isle of Wight",
+      "1 1:t:county 2:r:of 3:n:England",
+      "1 1:t:county 4:r:borders 5:n:Isle of Wight"
+    ],
+    "code": [
+      "8",
+      ".",
+      ",",
+      "t",
+      "r",
+      "n",
+      ".",
+      "r",
+      ",",
+      "n",
+      "-",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Is",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "England",
+        5,
+        6
+      ],
+      [
+        "Isle of Wight",
+        9,
+        12
+      ]
+    ],
+    "place type": [
+      [
+        "county",
+        3,
+        4
+      ]
+    ],
+    "spatial relation": [
+      [
+        "of",
+        4,
+        5
+      ],
+      [
+        "borders",
+        7,
+        8
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "How many mountains are there in Scotland ?",
+    "triples": [
+      "0 1:t:mountains",
+      "0 3:n:Scotland",
+      "1 0:num:How many 1:t:mountains",
+      "1 1:t:mountains 2:r:in 3:n:Scotland"
+    ],
+    "code": [
+      "5",
+      "-",
+      "t",
+      ",",
+      ".",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "How many",
+        0,
+        2
+      ]
+    ],
+    "place name": [
+      [
+        "Scotland",
+        6,
+        7
+      ]
+    ],
+    "place type": [
+      [
+        "mountains",
+        2,
+        3
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        5,
+        6
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which site of Manchester is the most popular ?",
+    "triples": [
+      "0 1:t:site",
+      "0 3:n:Manchester",
+      "1 0:num:Which 1:t:site",
+      "1 1:t:site 2:r:of 3:n:Manchester",
+      "1 4:q:most popular 1:t:site"
+    ],
+    "code": [
+      "3",
+      "t",
+      "r",
+      "n",
+      ",",
+      ",",
+      "q",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Manchester",
+        3,
+        4
+      ]
+    ],
+    "place type": [
+      [
+        "site",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "of",
+        2,
+        3
+      ]
+    ],
+    "digit": [],
+    "quality": [
+      [
+        "most popular",
+        6,
+        8
+      ]
+    ],
+    "object": []
+  },
+  {
+    "sentence": "Is there a church in the county of Greater Manchester dedicated to St. Patrick ?",
+    "triples": [
+      "0 0:num:Is there",
+      "0 1:t:church",
+      "0 3:t:county of Greater Manchester",
+      "0 5:n:St. Patrick",
+      "1 1:t:church 2:r:in 3:t:county of Greater Manchester",
+      "1 1:t:church 4:s:dedicated 5:n:St. Patrick"
+    ],
+    "code": [
+      "8",
+      ".",
+      ",",
+      "t",
+      "r",
+      ",",
+      "t",
+      "-",
+      "-",
+      "-",
+      "s",
+      ".",
+      "n",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Is",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "St. Patrick",
+        12,
+        14
+      ]
+    ],
+    "place type": [
+      [
+        "church",
+        3,
+        4
+      ],
+      [
+        "county of Greater Manchester",
+        6,
+        10
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        4,
+        5
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which city is southeast of Salford ?",
+    "triples": [
+      "0 1:t:city",
+      "0 3:n:Salford",
+      "1 0:num:Which 1:t:city",
+      "1 1:t:city 2:r:southeast of 3:n:Salford"
+    ],
+    "code": [
+      "3",
+      "t",
+      ",",
+      "r",
+      "-",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Salford",
+        5,
+        6
+      ]
+    ],
+    "place type": [
+      [
+        "city",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "southeast of",
+        3,
+        5
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Is there a mountain in the county of Greater Manchester taller than 1300 meters above sea level ?",
+    "triples": [
+      "0 0:num:Is there",
+      "0 1:t:mountain",
+      "0 3:n:county of Greater Manchester",
+      "0 5:d:1300 meters",
+      "0 7:o:sea level",
+      "1 1:t:mountain 2:r:in 3:n:county of Greater Manchester",
+      "1 5:d:1300 meters 6:r:above 7:o:sea level",
+      "2 1:t:mountain 4:q:taller than 6:r:above"
+    ],
+    "code": [
+      "8",
+      ".",
+      ",",
+      "t",
+      "r",
+      ",",
+      "n",
+      "-",
+      "-",
+      "-",
+      "q",
+      "-",
+      "d",
+      "-",
+      "r",
+      "o",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Is",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "county of Greater Manchester",
+        6,
+        10
+      ]
+    ],
+    "place type": [
+      [
+        "mountain",
+        3,
+        4
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        4,
+        5
+      ],
+      [
+        "above",
+        14,
+        15
+      ]
+    ],
+    "digit": [
+      [
+        "1300 meters",
+        12,
+        14
+      ]
+    ],
+    "quality": [
+      [
+        "taller than",
+        10,
+        12
+      ]
+    ],
+    "object": [
+      [
+        "sea level",
+        15,
+        17
+      ]
+    ]
+  },
+  {
+    "sentence": "Is there a river in Ireland that crosses more than 3 cities ?",
+    "triples": [
+      "0 0:num:Is there",
+      "0 1:t:river",
+      "0 3:n:Ireland",
+      "0 6:d:3",
+      "0 7:t:cities",
+      "1 1:t:river 2:r:in 3:n:Ireland",
+      "1 1:t:river 4:r:crosses 7:t:cities",
+      "2 4:r:crosses 5:q:more than 6:d:3"
+    ],
+    "code": [
+      "8",
+      ".",
+      ",",
+      "t",
+      "r",
+      "n",
+      ".",
+      "r",
+      "q",
+      "-",
+      "d",
+      "t",
+      "."
+    ],
+    "question word": [
+      [
+        "Is",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Ireland",
+        5,
+        6
+      ]
+    ],
+    "place type": [
+      [
+        "river",
+        3,
+        4
+      ],
+      [
+        "cities",
+        11,
+        12
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        4,
+        5
+      ],
+      [
+        "crosses",
+        7,
+        8
+      ]
+    ],
+    "digit": [
+      [
+        "3",
+        10,
+        11
+      ]
+    ],
+    "quality": [
+      [
+        "more than",
+        8,
+        10
+      ]
+    ],
+    "object": []
+  },
+  {
+    "sentence": "Which university colleges are in Scotland ?",
+    "triples": [
+      "0 1:t:university colleges",
+      "0 3:n:Scotland",
+      "1 0:num:Which 1:t:university colleges",
+      "1 1:t:university colleges 2:r:in 3:n:Scotland"
+    ],
+    "code": [
+      "3",
+      "t",
+      "-",
+      ",",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Scotland",
+        5,
+        6
+      ]
+    ],
+    "place type": [
+      [
+        "university colleges",
+        1,
+        3
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        4,
+        5
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which mountains in Scotland have height more than 1000 meters ?",
+    "triples": [
+      "0 1:t:mountains",
+      "0 3:n:Scotland",
+      "0 4:s:have",
+      "0 7:d:1000 meters",
+      "1 0:num:Which 1:t:mountains",
+      "1 1:t:mountains 2:r:in 3:n:Scotland",
+      "1 5:o:height 1:t:mountains",
+      "2 5:o:height 6:q:more than 7:d:1000 meters"
+    ],
+    "code": [
+      "3",
+      "t",
+      "r",
+      "n",
+      "s",
+      "o",
+      "q",
+      "-",
+      "d",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Scotland",
+        3,
+        4
+      ]
+    ],
+    "place type": [
+      [
+        "mountains",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        2,
+        3
+      ]
+    ],
+    "digit": [
+      [
+        "1000 meters",
+        8,
+        10
+      ]
+    ],
+    "quality": [
+      [
+        "more than",
+        6,
+        8
+      ]
+    ],
+    "object": [
+      [
+        "height",
+        5,
+        6
+      ]
+    ]
+  },
+  {
+    "sentence": "Which villages in Scotland have a population of less than 500 people ?",
+    "triples": [
+      "0 1:t:villages",
+      "0 3:n:Scotland",
+      "0 4:s:have",
+      "0 7:d:500 people",
+      "1 0:num:Which 1:t:villages",
+      "1 1:t:villages 2:r:in 3:n:Scotland",
+      "1 5:o:population 1:t:villages",
+      "2 5:o:population 6:q:less than 7:d:500 people"
+    ],
+    "code": [
+      "3",
+      "t",
+      "r",
+      "n",
+      "s",
+      ",",
+      "o",
+      ".",
+      "q",
+      "-",
+      "d",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Scotland",
+        3,
+        4
+      ]
+    ],
+    "place type": [
+      [
+        "villages",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        2,
+        3
+      ]
+    ],
+    "digit": [
+      [
+        "500 people",
+        10,
+        12
+      ]
+    ],
+    "quality": [
+      [
+        "less than",
+        8,
+        10
+      ]
+    ],
+    "object": [
+      [
+        "population",
+        6,
+        7
+      ]
+    ]
+  },
+  {
+    "sentence": "In which city is Big Ben located ?",
+    "triples": [
+      "0 2:t:city",
+      "0 3:n:Big Ben",
+      "0 4:s:located",
+      "1 3:n:Big Ben 0:r:In 2:t:city",
+      "1 1:num:which 2:t:city"
+    ],
+    "code": [
+      "r",
+      "3",
+      "t",
+      ",",
+      "n",
+      "-",
+      "s",
+      "."
+    ],
+    "question word": [
+      [
+        "which",
+        1,
+        2
+      ]
+    ],
+    "place name": [
+      [
+        "Big Ben",
+        4,
+        6
+      ]
+    ],
+    "place type": [
+      [
+        "city",
+        2,
+        3
+      ]
+    ],
+    "spatial relation": [
+      [
+        "In",
+        0,
+        1
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "What 's the name of the river that runs through London ?",
+    "triples": [
+      "0 2:t:river",
+      "0 3:a:runs",
+      "0 5:n:London",
+      "1 1:o:name 2:t:river",
+      "1 2:t:river 4:r:through 5:n:London",
+      "2 0:num:What 1:o:name"
+    ],
+    "code": [
+      "2",
+      ".",
+      ",",
+      "o",
+      ".",
+      ",",
+      "t",
+      ".",
+      "a",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "What",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "London",
+        10,
+        11
+      ]
+    ],
+    "place type": [
+      [
+        "river",
+        6,
+        7
+      ]
+    ],
+    "spatial relation": [
+      [
+        "through",
+        9,
+        10
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": [
+      [
+        "name",
+        3,
+        4
+      ]
+    ]
+  },
+  {
+    "sentence": "Is there a Modern Art Museum in London ?",
+    "triples": [
+      "0 0:num:Is there",
+      "0 1:t:Modern Art Museum",
+      "0 3:n:London",
+      "1 1:t:Modern Art Museum 2:r:in 3:n:London"
+    ],
+    "code": [
+      "8",
+      ".",
+      ",",
+      "t",
+      "-",
+      "-",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Is",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "London",
+        7,
+        8
+      ]
+    ],
+    "place type": [
+      [
+        "Modern Art Museum",
+        3,
+        6
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        6,
+        7
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which county of England has the biggest population ?",
+    "triples": [
+      "0 1:t:county",
+      "0 3:n:England",
+      "0 4:s:has",
+      "1 0:num:Which 1:t:county",
+      "1 1:t:county 2:r:of 3:n:England",
+      "1 6:o:population 1:t:county",
+      "2 5:q:biggest 6:o:population"
+    ],
+    "code": [
+      "3",
+      "t",
+      "r",
+      "n",
+      "s",
+      ",",
+      "q",
+      "o",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "England",
+        3,
+        4
+      ]
+    ],
+    "place type": [
+      [
+        "county",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "of",
+        2,
+        3
+      ]
+    ],
+    "digit": [],
+    "quality": [
+      [
+        "biggest",
+        6,
+        7
+      ]
+    ],
+    "object": [
+      [
+        "population",
+        7,
+        8
+      ]
+    ]
+  },
+  {
+    "sentence": "How many cities does Thames river crosses ?",
+    "triples": [
+      "0 1:t:cities",
+      "0 2:n:Thames river",
+      "1 0:num:How many 1:t:cities",
+      "1 2:n:Thames river 3:r:crosses 1:t:cities"
+    ],
+    "code": [
+      "5",
+      "-",
+      "t",
+      ",",
+      "n",
+      "-",
+      "r",
+      "."
+    ],
+    "question word": [
+      [
+        "How many",
+        0,
+        2
+      ]
+    ],
+    "place name": [
+      [
+        "Thames river",
+        4,
+        6
+      ]
+    ],
+    "place type": [
+      [
+        "cities",
+        2,
+        3
+      ]
+    ],
+    "spatial relation": [
+      [
+        "crosses",
+        6,
+        7
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Through which cities does River Thames flow ?",
+    "triples": [
+      "0 2:t:cities",
+      "0 3:n:River Thames",
+      "0 4:a:flow",
+      "1 3:n:River Thames 0:r:Through 2:t:cities",
+      "1 1:num:which 2:t:cities"
+    ],
+    "code": [
+      "r",
+      "3",
+      "t",
+      ",",
+      "n",
+      "-",
+      "a",
+      "."
+    ],
+    "question word": [
+      [
+        "which",
+        1,
+        2
+      ]
+    ],
+    "place name": [
+      [
+        "River Thames",
+        4,
+        6
+      ]
+    ],
+    "place type": [
+      [
+        "cities",
+        2,
+        3
+      ]
+    ],
+    "spatial relation": [
+      [
+        "Through",
+        0,
+        1
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Does the distric of Coleraine border Belfast ?",
+    "triples": [
+      "0 0:num:Does",
+      "0 1:n:distric of Coleraine",
+      "0 3:n:Belfast",
+      "1 1:n:distric of Coleraine 2:r:border 3:n:Belfast"
+    ],
+    "code": [
+      "8",
+      ",",
+      "n",
+      "-",
+      "-",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Does",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "distric of Coleraine",
+        2,
+        5
+      ],
+      [
+        "Belfast",
+        6,
+        7
+      ]
+    ],
+    "place type": [],
+    "spatial relation": [
+      [
+        "border",
+        5,
+        6
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which districts border London ?",
+    "triples": [
+      "0 1:t:districts",
+      "0 3:n:London",
+      "1 0:num:Which 1:t:districts",
+      "1 1:t:districts 2:r:border 3:n:London"
+    ],
+    "code": [
+      "3",
+      "t",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "London",
+        3,
+        4
+      ]
+    ],
+    "place type": [
+      [
+        "districts",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "border",
+        2,
+        3
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Is there a train station in Dublin ?",
+    "triples": [
+      "0 0:num:Is there",
+      "0 1:t:train station",
+      "0 3:n:Dublin",
+      "1 1:t:train station 2:r:in 3:n:Dublin"
+    ],
+    "code": [
+      "8",
+      ".",
+      ",",
+      "t",
+      "-",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Is",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Dublin",
+        6,
+        7
+      ]
+    ],
+    "place type": [
+      [
+        "train station",
+        3,
+        5
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        5,
+        6
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which forests are in Northern Ireland ?",
+    "triples": [
+      "0 1:t:forests",
+      "0 3:n:Northern Ireland",
+      "1 0:num:Which 1:t:forests",
+      "1 1:t:forests 2:r:in 3:n:Northern Ireland"
+    ],
+    "code": [
+      "3",
+      "t",
+      ",",
+      "r",
+      "n",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Northern Ireland",
+        4,
+        6
+      ]
+    ],
+    "place type": [
+      [
+        "forests",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        3,
+        4
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which are the metropolitan counties of England ?",
+    "triples": [
+      "0 2:t:counties",
+      "0 4:n:England",
+      "1 0:num:Which 2:t:counties",
+      "1 1:q:metropolitan 2:t:counties",
+      "1 2:t:counties 3:r:of 4:n:England"
+    ],
+    "code": [
+      "3",
+      ",",
+      ",",
+      "q",
+      "t",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "England",
+        6,
+        7
+      ]
+    ],
+    "place type": [
+      [
+        "counties",
+        4,
+        5
+      ]
+    ],
+    "spatial relation": [
+      [
+        "of",
+        5,
+        6
+      ]
+    ],
+    "digit": [],
+    "quality": [
+      [
+        "metropolitan",
+        3,
+        4
+      ]
+    ],
+    "object": []
+  },
+  {
+    "sentence": "Which is the largest royal borough of London ?",
+    "triples": [
+      "0 2:t:royal borough",
+      "0 4:n:London",
+      "1 0:num:Which 2:t:royal borough",
+      "1 1:q:largest 2:t:royal borough",
+      "1 2:t:royal borough 3:r:of 4:n:London"
+    ],
+    "code": [
+      "3",
+      ",",
+      ",",
+      "q",
+      "t",
+      "-",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "London",
+        7,
+        8
+      ]
+    ],
+    "place type": [
+      [
+        "royal borough",
+        4,
+        6
+      ]
+    ],
+    "spatial relation": [
+      [
+        "of",
+        6,
+        7
+      ]
+    ],
+    "digit": [],
+    "quality": [
+      [
+        "largest",
+        3,
+        4
+      ]
+    ],
+    "object": []
+  },
+  {
+    "sentence": "Which Welsh district has the most adjacent Welsh districts ?",
+    "triples": [
+      "0 1:n:Welsh",
+      "0 3:s:has",
+      "0 6:n:Welsh",
+      "1 2:t:district 1:n:Welsh",
+      "1 7:t:districts 6:n:Welsh",
+      "2 0:num:Which 2:t:district",
+      "2 2:t:district 5:r:adjacent 7:t:districts",
+      "3 4:q:most 5:r:adjacent"
+    ],
+    "code": [
+      "3",
+      "n",
+      "t",
+      "s",
+      ",",
+      "q",
+      "r",
+      "n",
+      "t",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Welsh",
+        1,
+        2
+      ],
+      [
+        "Welsh",
+        7,
+        8
+      ]
+    ],
+    "place type": [
+      [
+        "district",
+        2,
+        3
+      ],
+      [
+        "districts",
+        8,
+        9
+      ]
+    ],
+    "spatial relation": [
+      [
+        "adjacent",
+        6,
+        7
+      ]
+    ],
+    "digit": [],
+    "quality": [
+      [
+        "most",
+        5,
+        6
+      ]
+    ],
+    "object": []
+  },
+  {
+    "sentence": "What is the name of the river that flows under the Queensway Bridge in Liverpool ?",
+    "triples": [
+      "0 2:t:river",
+      "0 5:n:Queensway Bridge",
+      "0 7:n:Liverpool",
+      "1 1:o:name 2:t:river",
+      "1 2:t:river 3:r:flows 5:n:Queensway Bridge",
+      "1 2:t:river 4:r:under 5:n:Queensway Bridge",
+      "1 5:n:Queensway Bridge 6:r:in 7:n:Liverpool",
+      "2 0:num:What 1:o:name"
+    ],
+    "code": [
+      "2",
+      ",",
+      ",",
+      "o",
+      ",",
+      ",",
+      "t",
+      ".",
+      "r",
+      "r",
+      ",",
+      "n",
+      "-",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "What",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Queensway Bridge",
+        11,
+        13
+      ],
+      [
+        "Liverpool",
+        14,
+        15
+      ]
+    ],
+    "place type": [
+      [
+        "river",
+        6,
+        7
+      ]
+    ],
+    "spatial relation": [
+      [
+        "flows",
+        8,
+        9
+      ],
+      [
+        "under",
+        9,
+        10
+      ],
+      [
+        "in",
+        13,
+        14
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": [
+      [
+        "name",
+        3,
+        4
+      ]
+    ]
+  },
+  {
+    "sentence": "Is there a castle in London near Trafalgar Square ?",
+    "triples": [
+      "0 0:num:Is there",
+      "0 1:t:castle",
+      "0 3:n:London",
+      "0 5:n:Trafalgar Square",
+      "1 1:t:castle 2:r:in 3:n:London",
+      "1 1:t:castle 4:r:near 5:n:Trafalgar Square"
+    ],
+    "code": [
+      "8",
+      ".",
+      ",",
+      "t",
+      "r",
+      "n",
+      "r",
+      "n",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Is",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "London",
+        5,
+        6
+      ],
+      [
+        "Trafalgar Square",
+        7,
+        9
+      ]
+    ],
+    "place type": [
+      [
+        "castle",
+        3,
+        4
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        4,
+        5
+      ],
+      [
+        "near",
+        6,
+        7
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Is there a park in Dublin near Grafton Street ?",
+    "triples": [
+      "0 0:num:Is there",
+      "0 1:t:park",
+      "0 3:n:Dublin",
+      "0 5:n:Grafton Street",
+      "1 1:t:park 2:r:in 3:n:Dublin",
+      "1 1:t:park 4:r:near 5:n:Grafton Street"
+    ],
+    "code": [
+      "8",
+      ".",
+      ",",
+      "t",
+      "r",
+      "n",
+      "r",
+      "n",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Is",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Dublin",
+        5,
+        6
+      ],
+      [
+        "Grafton Street",
+        7,
+        9
+      ]
+    ],
+    "place type": [
+      [
+        "park",
+        3,
+        4
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        4,
+        5
+      ],
+      [
+        "near",
+        6,
+        7
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Is Hampshire north of Berkshire ?",
+    "triples": [
+      "0 0:num:Is",
+      "0 1:n:Hampshire",
+      "0 3:n:Berkshire",
+      "1 1:n:Hampshire 2:r:north of 3:n:Berkshire"
+    ],
+    "code": [
+      "8",
+      "n",
+      "r",
+      "-",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Is",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Hampshire",
+        1,
+        2
+      ],
+      [
+        "Berkshire",
+        4,
+        5
+      ]
+    ],
+    "place type": [],
+    "spatial relation": [
+      [
+        "north of",
+        2,
+        4
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which counties of England border country Scotland ?",
+    "triples": [
+      "0 1:t:counties",
+      "0 3:n:England",
+      "0 5:n:country Scotland",
+      "1 0:num:Which 1:t:counties",
+      "1 1:t:counties 2:r:of 3:n:England",
+      "1 1:t:counties 4:r:border 5:n:country Scotland"
+    ],
+    "code": [
+      "3",
+      "t",
+      "r",
+      "n",
+      "r",
+      "n",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "England",
+        3,
+        4
+      ],
+      [
+        "country Scotland",
+        5,
+        7
+      ]
+    ],
+    "place type": [
+      [
+        "counties",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "of",
+        2,
+        3
+      ],
+      [
+        "border",
+        4,
+        5
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Is Trafalgar square located in London ?",
+    "triples": [
+      "0 0:num:Is",
+      "0 1:n:Trafalgar square",
+      "0 2:s:located",
+      "0 4:n:London",
+      "1 1:n:Trafalgar square 3:r:in 4:n:London"
+    ],
+    "code": [
+      "8",
+      "n",
+      "-",
+      "s",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Is",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Trafalgar square",
+        1,
+        3
+      ],
+      [
+        "London",
+        5,
+        6
+      ]
+    ],
+    "place type": [],
+    "spatial relation": [
+      [
+        "in",
+        4,
+        5
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which is the oldest bridge of London ?",
+    "triples": [
+      "0 2:t:bridge",
+      "0 4:n:London",
+      "1 0:num:Which 2:t:bridge",
+      "1 1:q:oldest 2:t:bridge",
+      "1 2:t:bridge 3:r:of 4:n:London"
+    ],
+    "code": [
+      "3",
+      ",",
+      ",",
+      "q",
+      "t",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "London",
+        6,
+        7
+      ]
+    ],
+    "place type": [
+      [
+        "bridge",
+        4,
+        5
+      ]
+    ],
+    "spatial relation": [
+      [
+        "of",
+        5,
+        6
+      ]
+    ],
+    "digit": [],
+    "quality": [
+      [
+        "oldest",
+        3,
+        4
+      ]
+    ],
+    "object": []
+  },
+  {
+    "sentence": "Is there any airfield in Wellesbourne village in England ?",
+    "triples": [
+      "0 0:num:Is there",
+      "0 1:t:airfield",
+      "0 3:n:Wellesbourne village",
+      "0 5:n:England",
+      "1 1:t:airfield 2:r:in 3:n:Wellesbourne village",
+      "1 1:t:airfield 4:r:in 5:n:England"
+    ],
+    "code": [
+      "8",
+      ".",
+      ".",
+      "t",
+      "r",
+      "n",
+      "-",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Is",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Wellesbourne village",
+        5,
+        7
+      ],
+      [
+        "England",
+        8,
+        9
+      ]
+    ],
+    "place type": [
+      [
+        "airfield",
+        3,
+        4
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        4,
+        5
+      ],
+      [
+        "in",
+        7,
+        8
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "How many parks are there in Northampton ?",
+    "triples": [
+      "0 1:t:parks",
+      "0 3:n:Northampton",
+      "1 0:num:How many 1:t:parks",
+      "1 1:t:parks 2:r:in 3:n:Northampton"
+    ],
+    "code": [
+      "5",
+      "-",
+      "t",
+      ",",
+      ".",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "How many",
+        0,
+        2
+      ]
+    ],
+    "place name": [
+      [
+        "Northampton",
+        6,
+        7
+      ]
+    ],
+    "place type": [
+      [
+        "parks",
+        2,
+        3
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        5,
+        6
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Is there any stadium in Cardiff ?",
+    "triples": [
+      "0 0:num:Is there",
+      "0 1:t:stadium",
+      "0 3:n:Cardiff",
+      "1 1:t:stadium 2:r:in 3:n:Cardiff"
+    ],
+    "code": [
+      "8",
+      ".",
+      ".",
+      "t",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Is",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Cardiff",
+        5,
+        6
+      ]
+    ],
+    "place type": [
+      [
+        "stadium",
+        3,
+        4
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        4,
+        5
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Is there an aerodrome in Essex ?",
+    "triples": [
+      "0 0:num:Is there",
+      "0 1:t:aerodrome",
+      "0 3:n:Essex",
+      "1 1:t:aerodrome 2:r:in 3:n:Essex"
+    ],
+    "code": [
+      "8",
+      ".",
+      ",",
+      "t",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Is",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Essex",
+        5,
+        6
+      ]
+    ],
+    "place type": [
+      [
+        "aerodrome",
+        3,
+        4
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        4,
+        5
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which aerodrome is in Essex ?",
+    "triples": [
+      "0 1:t:aerodrome",
+      "0 3:n:Essex",
+      "1 0:num:Which 1:t:aerodrome",
+      "1 1:t:aerodrome 2:r:in 3:n:Essex"
+    ],
+    "code": [
+      "3",
+      "t",
+      ",",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Essex",
+        4,
+        5
+      ]
+    ],
+    "place type": [
+      [
+        "aerodrome",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        3,
+        4
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which aerodromes are at most 50 km from London ?",
+    "triples": [
+      "0 1:t:aerodromes",
+      "0 3:d:50 km",
+      "0 5:n:London",
+      "1 0:num:Which 1:t:aerodromes",
+      "1 5:n:London 4:r:from 1:t:aerodromes",
+      "2 4:r:from 2:q:at most 3:d:50 km"
+    ],
+    "code": [
+      "3",
+      "t",
+      ",",
+      "q",
+      "-",
+      "d",
+      "-",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "London",
+        8,
+        9
+      ]
+    ],
+    "place type": [
+      [
+        "aerodromes",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "from",
+        7,
+        8
+      ]
+    ],
+    "digit": [
+      [
+        "50 km",
+        5,
+        7
+      ]
+    ],
+    "quality": [
+      [
+        "at most",
+        3,
+        5
+      ]
+    ],
+    "object": []
+  },
+  {
+    "sentence": "Is Somerset west of Westmorland ?",
+    "triples": [
+      "0 0:num:Is",
+      "0 1:n:Somerset",
+      "0 3:n:Westmorland",
+      "1 1:n:Somerset 2:r:west of 3:n:Westmorland"
+    ],
+    "code": [
+      "8",
+      "n",
+      "r",
+      "-",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Is",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Somerset",
+        1,
+        2
+      ],
+      [
+        "Westmorland",
+        4,
+        5
+      ]
+    ],
+    "place type": [],
+    "spatial relation": [
+      [
+        "west of",
+        2,
+        4
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Is Edinburgh west of Glasgow ?",
+    "triples": [
+      "0 0:num:Is",
+      "0 1:n:Edinburgh",
+      "0 3:n:Glasgow",
+      "1 1:n:Edinburgh 2:r:west of 3:n:Glasgow"
+    ],
+    "code": [
+      "8",
+      "n",
+      "r",
+      "-",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Is",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Edinburgh",
+        1,
+        2
+      ],
+      [
+        "Glasgow",
+        4,
+        5
+      ]
+    ],
+    "place type": [],
+    "spatial relation": [
+      [
+        "west of",
+        2,
+        4
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "How many rivers cross the county West Yorkshire ?",
+    "triples": [
+      "0 1:t:rivers",
+      "0 3:n:county West Yorkshire",
+      "1 0:num:How many 1:t:rivers",
+      "1 1:t:rivers 2:r:cross 3:n:county West Yorkshire"
+    ],
+    "code": [
+      "5",
+      "-",
+      "t",
+      "r",
+      ",",
+      "n",
+      "-",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "How many",
+        0,
+        2
+      ]
+    ],
+    "place name": [
+      [
+        "county West Yorkshire",
+        5,
+        8
+      ]
+    ],
+    "place type": [
+      [
+        "rivers",
+        2,
+        3
+      ]
+    ],
+    "spatial relation": [
+      [
+        "cross",
+        3,
+        4
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "How many cities does Merseyside have ?",
+    "triples": [
+      "0 1:t:cities",
+      "0 2:n:Merseyside",
+      "1 0:num:How many 1:t:cities",
+      "1 2:n:Merseyside 3:s:have 1:t:cities"
+    ],
+    "code": [
+      "5",
+      "-",
+      "t",
+      ",",
+      "n",
+      "s",
+      "."
+    ],
+    "question word": [
+      [
+        "How many",
+        0,
+        2
+      ]
+    ],
+    "place name": [
+      [
+        "Merseyside",
+        4,
+        5
+      ]
+    ],
+    "place type": [
+      [
+        "cities",
+        2,
+        3
+      ]
+    ],
+    "spatial relation": [],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Is there an airport in Dublin ?",
+    "triples": [
+      "0 0:num:Is there",
+      "0 1:t:airport",
+      "0 3:n:Dublin",
+      "1 1:t:airport 2:r:in 3:n:Dublin"
+    ],
+    "code": [
+      "8",
+      ".",
+      ",",
+      "t",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Is",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Dublin",
+        5,
+        6
+      ]
+    ],
+    "place type": [
+      [
+        "airport",
+        3,
+        4
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        4,
+        5
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which are the counties of Northern Ireland ?",
+    "triples": [
+      "0 1:t:counties",
+      "0 3:n:Northern Ireland",
+      "1 0:num:Which 1:t:counties",
+      "1 1:t:counties 2:r:of 3:n:Northern Ireland"
+    ],
+    "code": [
+      "3",
+      ",",
+      ",",
+      "t",
+      "r",
+      "n",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Northern Ireland",
+        5,
+        7
+      ]
+    ],
+    "place type": [
+      [
+        "counties",
+        3,
+        4
+      ]
+    ],
+    "spatial relation": [
+      [
+        "of",
+        4,
+        5
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "What historic buildings are in Buckinghamshire ?",
+    "triples": [
+      "0 2:t:buildings",
+      "0 4:n:Buckinghamshire",
+      "1 0:num:What 2:t:buildings",
+      "1 1:q:historic 2:t:buildings",
+      "1 2:t:buildings 3:r:in 4:n:Buckinghamshire"
+    ],
+    "code": [
+      "2",
+      "q",
+      "t",
+      ",",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "What",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Buckinghamshire",
+        5,
+        6
+      ]
+    ],
+    "place type": [
+      [
+        "buildings",
+        2,
+        3
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        4,
+        5
+      ]
+    ],
+    "digit": [],
+    "quality": [
+      [
+        "historic",
+        1,
+        2
+      ]
+    ],
+    "object": []
+  },
+  {
+    "sentence": "Which Greek restaurants in London are near Wembley stadium ?",
+    "triples": [
+      "0 2:t:restaurants",
+      "0 4:n:London",
+      "0 6:n:Wembley stadium",
+      "1 0:num:Which 2:t:restaurants",
+      "1 1:q:Greek 2:t:restaurants",
+      "1 2:t:restaurants 3:r:in 4:n:London",
+      "1 2:t:restaurants 5:r:near 6:n:Wembley stadium"
+    ],
+    "code": [
+      "3",
+      "q",
+      "t",
+      "r",
+      "n",
+      ",",
+      "r",
+      "n",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "London",
+        4,
+        5
+      ],
+      [
+        "Wembley stadium",
+        7,
+        9
+      ]
+    ],
+    "place type": [
+      [
+        "restaurants",
+        2,
+        3
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        3,
+        4
+      ],
+      [
+        "near",
+        6,
+        7
+      ]
+    ],
+    "digit": [],
+    "quality": [
+      [
+        "Greek",
+        1,
+        2
+      ]
+    ],
+    "object": []
+  },
+  {
+    "sentence": "Is there a National Park in England ?",
+    "triples": [
+      "0 0:num:Is there",
+      "0 1:t:National Park",
+      "0 3:n:England",
+      "1 1:t:National Park 2:r:in 3:n:England"
+    ],
+    "code": [
+      "8",
+      ".",
+      ",",
+      "t",
+      "-",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Is",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "England",
+        6,
+        7
+      ]
+    ],
+    "place type": [
+      [
+        "National Park",
+        3,
+        5
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        5,
+        6
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Is there a mountain in Merseyside ?",
+    "triples": [
+      "0 0:num:Is there",
+      "0 1:t:mountain",
+      "0 3:n:Merseyside",
+      "1 1:t:mountain 2:r:in 3:n:Merseyside"
+    ],
+    "code": [
+      "8",
+      ".",
+      ",",
+      "t",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Is",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Merseyside",
+        5,
+        6
+      ]
+    ],
+    "place type": [
+      [
+        "mountain",
+        3,
+        4
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        4,
+        5
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which town has the biggest population in Scotland ?",
+    "triples": [
+      "0 1:t:town",
+      "0 2:s:has",
+      "0 6:n:Scotland",
+      "1 0:num:Which 1:t:town",
+      "1 4:o:population 1:t:town",
+      "1 1:t:town 5:r:in 6:n:Scotland",
+      "2 3:q:biggest 4:o:population"
+    ],
+    "code": [
+      "3",
+      "t",
+      "s",
+      ",",
+      "q",
+      "o",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Scotland",
+        7,
+        8
+      ]
+    ],
+    "place type": [
+      [
+        "town",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        6,
+        7
+      ]
+    ],
+    "digit": [],
+    "quality": [
+      [
+        "biggest",
+        4,
+        5
+      ]
+    ],
+    "object": [
+      [
+        "population",
+        5,
+        6
+      ]
+    ]
+  },
+  {
+    "sentence": "Where is the nearest gas station to St. Peter 's Square in Manchester ?",
+    "triples": [
+      "0 2:t:gas station",
+      "0 4:n:St. Peter 's Square",
+      "0 6:n:Manchester",
+      "1 0:num:Where 2:t:gas station",
+      "1 2:t:gas station 3:r:to 4:n:St. Peter 's Square",
+      "1 2:t:gas station 5:r:in 6:n:Manchester",
+      "2 1:q:nearest 3:r:to"
+    ],
+    "code": [
+      "1",
+      ",",
+      ",",
+      "q",
+      "t",
+      "-",
+      "r",
+      "n",
+      "-",
+      "-",
+      "-",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Where",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "St. Peter 's Square",
+        7,
+        11
+      ],
+      [
+        "Manchester",
+        12,
+        13
+      ]
+    ],
+    "place type": [
+      [
+        "gas station",
+        4,
+        6
+      ]
+    ],
+    "spatial relation": [
+      [
+        "to",
+        6,
+        7
+      ],
+      [
+        "in",
+        11,
+        12
+      ]
+    ],
+    "digit": [],
+    "quality": [
+      [
+        "nearest",
+        3,
+        4
+      ]
+    ],
+    "object": []
+  },
+  {
+    "sentence": "Does county Suffolk border county Durham ?",
+    "triples": [
+      "0 0:num:Does",
+      "0 1:n:county Suffolk",
+      "0 3:n:county Durham",
+      "1 1:n:county Suffolk 2:r:border 3:n:county Durham"
+    ],
+    "code": [
+      "8",
+      "n",
+      "-",
+      "r",
+      "n",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Does",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "county Suffolk",
+        1,
+        3
+      ],
+      [
+        "county Durham",
+        4,
+        6
+      ]
+    ],
+    "place type": [],
+    "spatial relation": [
+      [
+        "border",
+        3,
+        4
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which counties of Ireland does River Shannon cross ?",
+    "triples": [
+      "0 1:t:counties",
+      "0 3:n:Ireland",
+      "0 4:n:River Shannon",
+      "1 0:num:Which 1:t:counties",
+      "1 1:t:counties 2:r:of 3:n:Ireland",
+      "1 4:n:River Shannon 5:r:cross 1:t:counties"
+    ],
+    "code": [
+      "3",
+      "t",
+      "r",
+      "n",
+      ",",
+      "n",
+      "-",
+      "r",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Ireland",
+        3,
+        4
+      ],
+      [
+        "River Shannon",
+        5,
+        7
+      ]
+    ],
+    "place type": [
+      [
+        "counties",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "of",
+        2,
+        3
+      ],
+      [
+        "cross",
+        7,
+        8
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Is Cavan a county of Ireland ?",
+    "triples": [
+      "0 0:num:Is",
+      "0 1:n:Cavan",
+      "0 4:n:Ireland",
+      "1 2:t:county 1:n:Cavan",
+      "1 1:n:Cavan 3:r:of 4:n:Ireland"
+    ],
+    "code": [
+      "8",
+      "n",
+      ",",
+      "t",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Is",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Cavan",
+        1,
+        2
+      ],
+      [
+        "Ireland",
+        5,
+        6
+      ]
+    ],
+    "place type": [
+      [
+        "county",
+        3,
+        4
+      ]
+    ],
+    "spatial relation": [
+      [
+        "of",
+        4,
+        5
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which restaurants are at most 500 m from the University of Liverpool ?",
+    "triples": [
+      "0 1:t:restaurants",
+      "0 3:d:500 m",
+      "0 5:n:University of Liverpool",
+      "1 0:num:Which 1:t:restaurants",
+      "1 5:n:University of Liverpool 4:r:from 1:t:restaurants",
+      "2 4:r:from 2:q:at most 3:d:500 m"
+    ],
+    "code": [
+      "3",
+      "t",
+      ",",
+      "q",
+      "-",
+      "d",
+      "-",
+      "r",
+      ".",
+      "n",
+      "-",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "University of Liverpool",
+        9,
+        12
+      ]
+    ],
+    "place type": [
+      [
+        "restaurants",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "from",
+        7,
+        8
+      ]
+    ],
+    "digit": [
+      [
+        "500 m",
+        5,
+        7
+      ]
+    ],
+    "quality": [
+      [
+        "at most",
+        3,
+        5
+      ]
+    ],
+    "object": []
+  },
+  {
+    "sentence": "Which restaurants are near Baker Street in London ?",
+    "triples": [
+      "0 1:t:restaurants",
+      "0 3:n:Baker Street",
+      "0 5:n:London",
+      "1 0:num:Which 1:t:restaurants",
+      "1 1:t:restaurants 2:r:near 3:n:Baker Street",
+      "1 1:t:restaurants 4:r:in 5:n:London"
+    ],
+    "code": [
+      "3",
+      "t",
+      ",",
+      "r",
+      "n",
+      "-",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Baker Street",
+        4,
+        6
+      ],
+      [
+        "London",
+        7,
+        8
+      ]
+    ],
+    "place type": [
+      [
+        "restaurants",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "near",
+        3,
+        4
+      ],
+      [
+        "in",
+        6,
+        7
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which lakes are in Ireland ?",
+    "triples": [
+      "0 1:t:lakes",
+      "0 3:n:Ireland",
+      "1 0:num:Which 1:t:lakes",
+      "1 1:t:lakes 2:r:in 3:n:Ireland"
+    ],
+    "code": [
+      "3",
+      "t",
+      ",",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Ireland",
+        4,
+        5
+      ]
+    ],
+    "place type": [
+      [
+        "lakes",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        3,
+        4
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which parks are near Trafalgar Square ?",
+    "triples": [
+      "0 1:t:parks",
+      "0 3:n:Trafalgar Square",
+      "1 0:num:Which 1:t:parks",
+      "1 1:t:parks 2:r:near 3:n:Trafalgar Square"
+    ],
+    "code": [
+      "3",
+      "t",
+      ",",
+      "r",
+      "n",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Trafalgar Square",
+        4,
+        6
+      ]
+    ],
+    "place type": [
+      [
+        "parks",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "near",
+        3,
+        4
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which countries border Wales ?",
+    "triples": [
+      "0 1:t:countries",
+      "0 3:n:Wales",
+      "1 0:num:Which 1:t:countries",
+      "1 1:t:countries 2:r:border 3:n:Wales"
+    ],
+    "code": [
+      "3",
+      "t",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Wales",
+        3,
+        4
+      ]
+    ],
+    "place type": [
+      [
+        "countries",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "border",
+        2,
+        3
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Are there cities that are at most 2 km away from St. David 's in Wales ?",
+    "triples": [
+      "0 0:num:Are there",
+      "0 1:t:cities",
+      "0 3:d:2 km",
+      "0 5:n:St. David 's",
+      "0 7:n:Wales",
+      "1 5:n:St. David 's 4:r:from 1:t:cities",
+      "1 1:t:cities 6:r:in 7:n:Wales",
+      "2 4:r:from 2:q:at most 3:d:2 km"
+    ],
+    "code": [
+      "8",
+      ".",
+      "t",
+      ".",
+      ",",
+      "q",
+      "-",
+      "d",
+      "-",
+      ".",
+      "r",
+      "n",
+      "-",
+      "-",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Are",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "St. David 's",
+        11,
+        14
+      ],
+      [
+        "Wales",
+        15,
+        16
+      ]
+    ],
+    "place type": [
+      [
+        "cities",
+        2,
+        3
+      ]
+    ],
+    "spatial relation": [
+      [
+        "from",
+        10,
+        11
+      ],
+      [
+        "in",
+        14,
+        15
+      ]
+    ],
+    "digit": [
+      [
+        "2 km",
+        7,
+        9
+      ]
+    ],
+    "quality": [
+      [
+        "at most",
+        5,
+        7
+      ]
+    ],
+    "object": []
+  },
+  {
+    "sentence": "Which river crosses the most cities in England ?",
+    "triples": [
+      "0 1:t:river",
+      "0 4:t:cities",
+      "0 6:n:England",
+      "1 0:num:Which 1:t:river",
+      "1 1:t:river 2:r:crosses 4:t:cities",
+      "1 4:t:cities 5:r:in 6:n:England",
+      "2 3:q:most 2:r:crosses"
+    ],
+    "code": [
+      "3",
+      "t",
+      "r",
+      ",",
+      "q",
+      "t",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "England",
+        7,
+        8
+      ]
+    ],
+    "place type": [
+      [
+        "river",
+        1,
+        2
+      ],
+      [
+        "cities",
+        5,
+        6
+      ]
+    ],
+    "spatial relation": [
+      [
+        "crosses",
+        2,
+        3
+      ],
+      [
+        "in",
+        6,
+        7
+      ]
+    ],
+    "digit": [],
+    "quality": [
+      [
+        "most",
+        4,
+        5
+      ]
+    ],
+    "object": []
+  },
+  {
+    "sentence": "Which is the longest river in Scotland ?",
+    "triples": [
+      "0 2:t:river",
+      "0 4:n:Scotland",
+      "1 0:num:Which 2:t:river",
+      "1 1:q:longest 2:t:river",
+      "1 2:t:river 3:r:in 4:n:Scotland"
+    ],
+    "code": [
+      "3",
+      ",",
+      ",",
+      "q",
+      "t",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Scotland",
+        6,
+        7
+      ]
+    ],
+    "place type": [
+      [
+        "river",
+        4,
+        5
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        5,
+        6
+      ]
+    ],
+    "digit": [],
+    "quality": [
+      [
+        "longest",
+        3,
+        4
+      ]
+    ],
+    "object": []
+  },
+  {
+    "sentence": "Which city in Scotland has the largest population ?",
+    "triples": [
+      "0 1:t:city",
+      "0 3:n:Scotland",
+      "0 4:s:has",
+      "1 0:num:Which 1:t:city",
+      "1 1:t:city 2:r:in 3:n:Scotland",
+      "1 6:o:population 1:t:city",
+      "2 5:q:largest 6:o:population"
+    ],
+    "code": [
+      "3",
+      "t",
+      "r",
+      "n",
+      "s",
+      ",",
+      "q",
+      "o",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Scotland",
+        3,
+        4
+      ]
+    ],
+    "place type": [
+      [
+        "city",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        2,
+        3
+      ]
+    ],
+    "digit": [],
+    "quality": [
+      [
+        "largest",
+        6,
+        7
+      ]
+    ],
+    "object": [
+      [
+        "population",
+        7,
+        8
+      ]
+    ]
+  },
+  {
+    "sentence": "Which is the largest lake by area in Great Britain ?",
+    "triples": [
+      "0 2:t:lake",
+      "0 5:n:Great Britain",
+      "1 0:num:Which 2:t:lake",
+      "1 3:o:area 2:t:lake",
+      "1 2:t:lake 4:r:in 5:n:Great Britain",
+      "2 1:q:largest 3:o:area"
+    ],
+    "code": [
+      "3",
+      ",",
+      ",",
+      "q",
+      "t",
+      ".",
+      "o",
+      "r",
+      "n",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Great Britain",
+        8,
+        10
+      ]
+    ],
+    "place type": [
+      [
+        "lake",
+        4,
+        5
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        7,
+        8
+      ]
+    ],
+    "digit": [],
+    "quality": [
+      [
+        "largest",
+        3,
+        4
+      ]
+    ],
+    "object": [
+      [
+        "area",
+        6,
+        7
+      ]
+    ]
+  },
+  {
+    "sentence": "Is England part of the United Kingdom ?",
+    "triples": [
+      "0 0:num:Is",
+      "0 1:n:England",
+      "0 3:n:United Kingdom",
+      "1 1:n:England 2:r:part of 3:n:United Kingdom"
+    ],
+    "code": [
+      "8",
+      "n",
+      "r",
+      "-",
+      ",",
+      "n",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Is",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "England",
+        1,
+        2
+      ],
+      [
+        "United Kingdom",
+        5,
+        7
+      ]
+    ],
+    "place type": [],
+    "spatial relation": [
+      [
+        "part of",
+        2,
+        4
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which cities or towns of the United Kingdom have a university ?",
+    "triples": [
+      "0 1:t:cities",
+      "0 2:t:towns",
+      "0 4:n:United Kingdom",
+      "0 6:t:university",
+      "1 0:num:Which 1:t:cities",
+      "1 1:t:cities 3:r:of 4:n:United Kingdom",
+      "1 1:t:cities 5:s:have 6:t:university"
+    ],
+    "code": [
+      "3",
+      "t",
+      ".",
+      "t",
+      "r",
+      ",",
+      "n",
+      "-",
+      "s",
+      ",",
+      "t",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "United Kingdom",
+        6,
+        8
+      ]
+    ],
+    "place type": [
+      [
+        "cities",
+        1,
+        2
+      ],
+      [
+        "towns",
+        3,
+        4
+      ],
+      [
+        "university",
+        10,
+        11
+      ]
+    ],
+    "spatial relation": [
+      [
+        "of",
+        4,
+        5
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Does Everton FC plays in Liverpool ?",
+    "triples": [
+      "0 0:num:Does",
+      "0 1:o:Everton FC",
+      "0 2:a:plays",
+      "0 3:n:Liverpool"
+    ],
+    "code": [
+      "8",
+      "o",
+      "-",
+      "a",
+      ".",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Does",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Liverpool",
+        5,
+        6
+      ]
+    ],
+    "place type": [],
+    "spatial relation": [],
+    "digit": [],
+    "quality": [],
+    "object": [
+      [
+        "Everton FC",
+        1,
+        3
+      ]
+    ]
+  },
+  {
+    "sentence": "Which towns of England have at least two hospitals ?",
+    "triples": [
+      "0 1:t:towns",
+      "0 3:n:England",
+      "0 6:d:two",
+      "0 7:t:hospitals",
+      "1 0:num:Which 1:t:towns",
+      "1 1:t:towns 2:r:of 3:n:England",
+      "1 1:t:towns 4:s:have 7:t:hospitals",
+      "2 4:s:have 5:q:at least 6:d:two"
+    ],
+    "code": [
+      "3",
+      "t",
+      "r",
+      "n",
+      "s",
+      "q",
+      "-",
+      "d",
+      "t",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "England",
+        3,
+        4
+      ]
+    ],
+    "place type": [
+      [
+        "towns",
+        1,
+        2
+      ],
+      [
+        "hospitals",
+        8,
+        9
+      ]
+    ],
+    "spatial relation": [
+      [
+        "of",
+        2,
+        3
+      ]
+    ],
+    "digit": [
+      [
+        "two",
+        7,
+        8
+      ]
+    ],
+    "quality": [
+      [
+        "at least",
+        5,
+        7
+      ]
+    ],
+    "object": []
+  },
+  {
+    "sentence": "Is Alnwick Castle in Scotland ?",
+    "triples": [
+      "0 0:num:Is",
+      "0 1:n:Alnwick Castle",
+      "0 3:n:Scotland",
+      "1 1:n:Alnwick Castle 2:r:in 3:n:Scotland"
+    ],
+    "code": [
+      "8",
+      "n",
+      "-",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Is",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Alnwick Castle",
+        1,
+        3
+      ],
+      [
+        "Scotland",
+        4,
+        5
+      ]
+    ],
+    "place type": [],
+    "spatial relation": [
+      [
+        "in",
+        3,
+        4
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which is the largest city of Ireland ?",
+    "triples": [
+      "0 2:t:city",
+      "0 4:n:Ireland",
+      "1 0:num:Which 2:t:city",
+      "1 1:q:largest 2:t:city",
+      "1 2:t:city 3:r:of 4:n:Ireland"
+    ],
+    "code": [
+      "3",
+      ",",
+      ",",
+      "q",
+      "t",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Ireland",
+        6,
+        7
+      ]
+    ],
+    "place type": [
+      [
+        "city",
+        4,
+        5
+      ]
+    ],
+    "spatial relation": [
+      [
+        "of",
+        5,
+        6
+      ]
+    ],
+    "digit": [],
+    "quality": [
+      [
+        "largest",
+        3,
+        4
+      ]
+    ],
+    "object": []
+  },
+  {
+    "sentence": "How many country councils are there in Ireland ?",
+    "triples": [
+      "0 1:t:country councils",
+      "0 3:n:Ireland",
+      "1 0:num:How many 1:t:country councils",
+      "1 1:t:country councils 2:r:in 3:n:Ireland"
+    ],
+    "code": [
+      "5",
+      "-",
+      "t",
+      "-",
+      ",",
+      ".",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "How many",
+        0,
+        2
+      ]
+    ],
+    "place name": [
+      [
+        "Ireland",
+        7,
+        8
+      ]
+    ],
+    "place type": [
+      [
+        "country councils",
+        2,
+        4
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        6,
+        7
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which colleges are in London ?",
+    "triples": [
+      "0 1:t:colleges",
+      "0 3:n:London",
+      "1 0:num:Which 1:t:colleges",
+      "1 1:t:colleges 2:r:in 3:n:London"
+    ],
+    "code": [
+      "3",
+      "t",
+      ",",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "London",
+        4,
+        5
+      ]
+    ],
+    "place type": [
+      [
+        "colleges",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        3,
+        4
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which city council includes Dublin ?",
+    "triples": [
+      "0 1:t:city council",
+      "0 3:n:Dublin",
+      "1 0:num:Which 1:t:city council",
+      "1 1:t:city council 2:s:includes 3:n:Dublin"
+    ],
+    "code": [
+      "3",
+      "t",
+      "-",
+      "s",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Dublin",
+        4,
+        5
+      ]
+    ],
+    "place type": [
+      [
+        "city council",
+        1,
+        3
+      ]
+    ],
+    "spatial relation": [],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which restaurants are near Stonehenge ?",
+    "triples": [
+      "0 1:t:restaurants",
+      "0 3:n:Stonehenge",
+      "1 0:num:Which 1:t:restaurants",
+      "1 1:t:restaurants 2:r:near 3:n:Stonehenge"
+    ],
+    "code": [
+      "3",
+      "t",
+      ",",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Stonehenge",
+        4,
+        5
+      ]
+    ],
+    "place type": [
+      [
+        "restaurants",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "near",
+        3,
+        4
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "How many districts does Northern Ireland have ?",
+    "triples": [
+      "0 1:t:districts",
+      "0 2:n:Northern Ireland",
+      "1 0:num:How many 1:t:districts",
+      "1 2:n:Northern Ireland 3:s:have 1:t:districts"
+    ],
+    "code": [
+      "5",
+      "-",
+      "t",
+      ",",
+      "n",
+      "-",
+      "s",
+      "."
+    ],
+    "question word": [
+      [
+        "How many",
+        0,
+        2
+      ]
+    ],
+    "place name": [
+      [
+        "Northern Ireland",
+        4,
+        6
+      ]
+    ],
+    "place type": [
+      [
+        "districts",
+        2,
+        3
+      ]
+    ],
+    "spatial relation": [],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which are the non - metropolitan counties of England ?",
+    "triples": [
+      "0 2:q:metropolitan",
+      "0 3:t:counties",
+      "0 5:n:England",
+      "1 0:num:Which 3:t:counties",
+      "1 3:t:counties 1:no:non 2:q:metropolitan",
+      "1 3:t:counties 4:r:of 5:n:England"
+    ],
+    "code": [
+      "3",
+      ",",
+      ",",
+      ".",
+      ".",
+      "q",
+      "t",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "England",
+        8,
+        9
+      ]
+    ],
+    "place type": [
+      [
+        "counties",
+        6,
+        7
+      ]
+    ],
+    "spatial relation": [
+      [
+        "of",
+        7,
+        8
+      ]
+    ],
+    "digit": [],
+    "quality": [
+      [
+        "metropolitan",
+        5,
+        6
+      ]
+    ],
+    "object": []
+  },
+  {
+    "sentence": "What tourist attractions are there in Belfast , Northern Ireland ?",
+    "triples": [
+      "0 1:t:tourist attractions",
+      "0 3:n:Belfast, Northern Ireland",
+      "1 0:num:What 1:t:tourist attractions",
+      "1 1:t:tourist attractions 2:r:in 3:n:Belfast, Northern Ireland"
+    ],
+    "code": [
+      "2",
+      "t",
+      "-",
+      ",",
+      ".",
+      "r",
+      "n",
+      "-",
+      "-",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "What",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Belfast , Northern Ireland",
+        6,
+        10
+      ]
+    ],
+    "place type": [
+      [
+        "tourist attractions",
+        1,
+        3
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        5,
+        6
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which pubs are near Mercure Hotel in Glasgow , Scotland ?",
+    "triples": [
+      "0 1:t:pubs",
+      "0 3:n:Mercure Hotel",
+      "0 5:n:Glasgow , Scotland",
+      "1 0:num:Which 1:t:pubs",
+      "1 1:t:pubs 2:r:near 3:n:Mercure Hotel",
+      "1 1:t:pubs 4:r:in 5:n:Glasgow , Scotland"
+    ],
+    "code": [
+      "3",
+      "t",
+      ",",
+      "r",
+      "n",
+      "-",
+      "r",
+      "n",
+      "-",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Mercure Hotel",
+        4,
+        6
+      ],
+      [
+        "Glasgow , Scotland",
+        7,
+        10
+      ]
+    ],
+    "place type": [
+      [
+        "pubs",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "near",
+        3,
+        4
+      ],
+      [
+        "in",
+        6,
+        7
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which are the main railway stations in Glasgow , Scotland ?",
+    "triples": [
+      "0 2:t:railway stations",
+      "0 4:n:Glasgow , Scotland",
+      "1 0:num:Which 2:t:railway stations",
+      "1 1:q:main 2:t:railway stations",
+      "1 2:t:railway stations 3:r:in 4:n:Glasgow , Scotland"
+    ],
+    "code": [
+      "3",
+      ",",
+      ",",
+      "q",
+      "t",
+      "-",
+      "r",
+      "n",
+      "-",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Glasgow , Scotland",
+        7,
+        10
+      ]
+    ],
+    "place type": [
+      [
+        "railway stations",
+        4,
+        6
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        6,
+        7
+      ]
+    ],
+    "digit": [],
+    "quality": [
+      [
+        "main",
+        3,
+        4
+      ]
+    ],
+    "object": []
+  },
+  {
+    "sentence": "Are there more than 10 districts in Hampshire , England ?",
+    "triples": [
+      "0 0:num:Are there",
+      "0 2:d:10",
+      "0 3:t:districts",
+      "0 5:n:Hampshire , England",
+      "1 3:t:districts 1:q:more than 2:d:10",
+      "1 3:t:districts 4:r:in 5:n:Hampshire , England"
+    ],
+    "code": [
+      "8",
+      ".",
+      "q",
+      "-",
+      "d",
+      "t",
+      "r",
+      "n",
+      "-",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Are",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Hampshire , England",
+        7,
+        10
+      ]
+    ],
+    "place type": [
+      [
+        "districts",
+        5,
+        6
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        6,
+        7
+      ]
+    ],
+    "digit": [
+      [
+        "10",
+        4,
+        5
+      ]
+    ],
+    "quality": [
+      [
+        "more than",
+        2,
+        4
+      ]
+    ],
+    "object": []
+  },
+  {
+    "sentence": "Is there a mountain within 20 km of Cheshire ?",
+    "triples": [
+      "0 0:num:Is there",
+      "0 1:t:mountain",
+      "0 3:d:20 km",
+      "0 5:n:Cheshire",
+      "1 1:t:mountain 4:r:of 5:n:Cheshire",
+      "2 4:r:of 2:r:within 3:d:20 km"
+    ],
+    "code": [
+      "8",
+      ".",
+      ",",
+      "t",
+      "r",
+      "d",
+      "-",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Is",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Cheshire",
+        8,
+        9
+      ]
+    ],
+    "place type": [
+      [
+        "mountain",
+        3,
+        4
+      ]
+    ],
+    "spatial relation": [
+      [
+        "within",
+        4,
+        5
+      ],
+      [
+        "of",
+        7,
+        8
+      ]
+    ],
+    "digit": [
+      [
+        "20 km",
+        5,
+        7
+      ]
+    ],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "What historical monuments are there in London ?",
+    "triples": [
+      "0 2:t:monuments",
+      "0 4:n:London",
+      "1 0:num:What 2:t:monuments",
+      "1 1:q:historical 2:t:monuments",
+      "1 2:t:monuments 3:r:in 4:n:London"
+    ],
+    "code": [
+      "2",
+      "q",
+      "t",
+      ",",
+      ".",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "What",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "London",
+        6,
+        7
+      ]
+    ],
+    "place type": [
+      [
+        "monuments",
+        2,
+        3
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        5,
+        6
+      ]
+    ],
+    "digit": [],
+    "quality": [
+      [
+        "historical",
+        1,
+        2
+      ]
+    ],
+    "object": []
+  },
+  {
+    "sentence": "Which rivers in Scotland have more than 100 km length ?",
+    "triples": [
+      "0 1:t:rivers",
+      "0 3:n:Scotland",
+      "0 4:s:have",
+      "0 6:d:100 km",
+      "1 0:num:Which 1:t:rivers",
+      "1 1:t:rivers 2:r:in 3:n:Scotland",
+      "1 7:o:length 1:t:rivers",
+      "2 7:o:length 5:q:more than 6:d:100 km"
+    ],
+    "code": [
+      "3",
+      "t",
+      "r",
+      "n",
+      "s",
+      "q",
+      "-",
+      "d",
+      "-",
+      "o",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Scotland",
+        3,
+        4
+      ]
+    ],
+    "place type": [
+      [
+        "rivers",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        2,
+        3
+      ]
+    ],
+    "digit": [
+      [
+        "100 km",
+        7,
+        9
+      ]
+    ],
+    "quality": [
+      [
+        "more than",
+        5,
+        7
+      ]
+    ],
+    "object": [
+      [
+        "length",
+        9,
+        10
+      ]
+    ]
+  },
+  {
+    "sentence": "What is the elevation of the most elevated spot in county Down ?",
+    "triples": [
+      "0 3:t:spot",
+      "0 5:n:county Down",
+      "1 1:o:elevation 3:t:spot",
+      "1 2:q:most elevated 3:t:spot",
+      "1 3:t:spot 4:r:in 5:n:county Down",
+      "2 0:num:What 1:o:elevation"
+    ],
+    "code": [
+      "2",
+      ",",
+      ",",
+      "o",
+      ".",
+      ",",
+      "q",
+      "-",
+      "t",
+      "r",
+      "n",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "What",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "county Down",
+        10,
+        12
+      ]
+    ],
+    "place type": [
+      [
+        "spot",
+        8,
+        9
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        9,
+        10
+      ]
+    ],
+    "digit": [],
+    "quality": [
+      [
+        "most elevated",
+        6,
+        8
+      ]
+    ],
+    "object": [
+      [
+        "elevation",
+        3,
+        4
+      ]
+    ]
+  },
+  {
+    "sentence": "What is the area of county Chesire ?",
+    "triples": [
+      "0 2:n:county Chesire",
+      "1 1:o:area 2:n:county Chesire",
+      "2 0:num:What 1:o:area"
+    ],
+    "code": [
+      "2",
+      ",",
+      ",",
+      "o",
+      ".",
+      "n",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "What",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "county Chesire",
+        5,
+        7
+      ]
+    ],
+    "place type": [],
+    "spatial relation": [],
+    "digit": [],
+    "quality": [],
+    "object": [
+      [
+        "area",
+        3,
+        4
+      ]
+    ]
+  },
+  {
+    "sentence": "Which are the districts of county Chesire ?",
+    "triples": [
+      "0 1:t:districts",
+      "0 3:n:county Chesire",
+      "1 0:num:Which 1:t:districts",
+      "1 1:t:districts 2:r:of 3:n:county Chesire"
+    ],
+    "code": [
+      "3",
+      ",",
+      ",",
+      "t",
+      "r",
+      "n",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "county Chesire",
+        5,
+        7
+      ]
+    ],
+    "place type": [
+      [
+        "districts",
+        3,
+        4
+      ]
+    ],
+    "spatial relation": [
+      [
+        "of",
+        4,
+        5
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which is the largest county of England ?",
+    "triples": [
+      "0 2:t:county",
+      "0 4:n:England",
+      "1 0:num:Which 2:t:county",
+      "1 1:q:largest 2:t:county",
+      "1 2:t:county 3:r:of 4:n:England"
+    ],
+    "code": [
+      "3",
+      ",",
+      ",",
+      "q",
+      "t",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "England",
+        6,
+        7
+      ]
+    ],
+    "place type": [
+      [
+        "county",
+        4,
+        5
+      ]
+    ],
+    "spatial relation": [
+      [
+        "of",
+        5,
+        6
+      ]
+    ],
+    "digit": [],
+    "quality": [
+      [
+        "largest",
+        3,
+        4
+      ]
+    ],
+    "object": []
+  },
+  {
+    "sentence": "What is the length of river Thames ?",
+    "triples": [
+      "0 2:n:river Thames",
+      "1 1:o:length 2:n:river Thames",
+      "2 0:num:What 1:o:length"
+    ],
+    "code": [
+      "2",
+      ",",
+      ",",
+      "o",
+      ".",
+      "n",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "What",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "river Thames",
+        5,
+        7
+      ]
+    ],
+    "place type": [],
+    "spatial relation": [],
+    "digit": [],
+    "quality": [],
+    "object": [
+      [
+        "length",
+        3,
+        4
+      ]
+    ]
+  },
+  {
+    "sentence": "Where is Tower Bridge located ?",
+    "triples": [
+      "0 1:n:Tower Bridge",
+      "0 2:s:located",
+      "1 0:num:Where 1:n:Tower Bridge"
+    ],
+    "code": [
+      "1",
+      ",",
+      "n",
+      "-",
+      "s",
+      "."
+    ],
+    "question word": [
+      [
+        "Where",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Tower Bridge",
+        2,
+        4
+      ]
+    ],
+    "place type": [],
+    "spatial relation": [],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Does London have a mountain ?",
+    "triples": [
+      "0 0:num:Does",
+      "0 1:n:London",
+      "0 3:t:mountain",
+      "1 1:n:London 2:s:have 3:t:mountain"
+    ],
+    "code": [
+      "8",
+      "n",
+      "s",
+      ",",
+      "t",
+      "."
+    ],
+    "question word": [
+      [
+        "Does",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "London",
+        1,
+        2
+      ]
+    ],
+    "place type": [
+      [
+        "mountain",
+        4,
+        5
+      ]
+    ],
+    "spatial relation": [],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "How many rivers cross England 's cities ?",
+    "triples": [
+      "0 1:t:rivers",
+      "0 3:n:England",
+      "0 5:t:cities",
+      "1 0:num:How many 1:t:rivers",
+      "1 1:t:rivers 2:r:cross 5:t:cities",
+      "1 3:n:England 4:r:'s 5:t:cities"
+    ],
+    "code": [
+      "5",
+      "-",
+      "t",
+      "r",
+      "n",
+      "r",
+      "t",
+      "."
+    ],
+    "question word": [
+      [
+        "How many",
+        0,
+        2
+      ]
+    ],
+    "place name": [
+      [
+        "England",
+        4,
+        5
+      ]
+    ],
+    "place type": [
+      [
+        "rivers",
+        2,
+        3
+      ],
+      [
+        "cities",
+        6,
+        7
+      ]
+    ],
+    "spatial relation": [
+      [
+        "cross",
+        3,
+        4
+      ],
+      [
+        "'s",
+        5,
+        6
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Is London south of Manchester ?",
+    "triples": [
+      "0 0:num:Is",
+      "0 1:n:London",
+      "0 3:n:Manchester",
+      "1 1:n:London 2:r:south of 3:n:Manchester"
+    ],
+    "code": [
+      "8",
+      "n",
+      "r",
+      "-",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Is",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "London",
+        1,
+        2
+      ],
+      [
+        "Manchester",
+        4,
+        5
+      ]
+    ],
+    "place type": [],
+    "spatial relation": [
+      [
+        "south of",
+        2,
+        4
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Is Islington near Angel ?",
+    "triples": [
+      "0 0:num:Is",
+      "0 1:n:Islington",
+      "0 3:n:Angel",
+      "1 1:n:Islington 2:r:near 3:n:Angel"
+    ],
+    "code": [
+      "8",
+      "n",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Is",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Islington",
+        1,
+        2
+      ],
+      [
+        "Angel",
+        3,
+        4
+      ]
+    ],
+    "place type": [],
+    "spatial relation": [
+      [
+        "near",
+        2,
+        3
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Is the City of London north of the Thames river ?",
+    "triples": [
+      "0 0:num:Is",
+      "0 1:n:City of London",
+      "0 3:t:Thames river",
+      "1 1:n:City of London 2:r:north of 3:t:Thames river"
+    ],
+    "code": [
+      "8",
+      ",",
+      "n",
+      "-",
+      "-",
+      "r",
+      "-",
+      ",",
+      "n",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Is",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "City of London",
+        2,
+        5
+      ],
+      [
+        "Thames river",
+        8,
+        10
+      ]
+    ],
+    "place type": [],
+    "spatial relation": [
+      [
+        "north of",
+        5,
+        7
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Are there any lakes in Scotland ?",
+    "triples": [
+      "0 0:num:Are there",
+      "0 1:t:lakes",
+      "0 3:n:Scotland",
+      "1 1:t:lakes 2:r:in 3:n:Scotland"
+    ],
+    "code": [
+      "8",
+      ".",
+      ".",
+      "t",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Are",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Scotland",
+        5,
+        6
+      ]
+    ],
+    "place type": [
+      [
+        "lakes",
+        3,
+        4
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        4,
+        5
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Is there a car park near a bridge on river Exe ?",
+    "triples": [
+      "0 0:num:Is there",
+      "0 1:t:car park",
+      "0 3:t:bridge",
+      "0 5:n:river Exe",
+      "1 1:t:car park 2:r:near 3:t:bridge",
+      "1 3:t:bridge 4:r:on 5:n:river Exe"
+    ],
+    "code": [
+      "8",
+      ".",
+      ",",
+      "t",
+      "-",
+      "r",
+      ",",
+      "t",
+      "r",
+      "n",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Is",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "river Exe",
+        9,
+        11
+      ]
+    ],
+    "place type": [
+      [
+        "car park",
+        3,
+        5
+      ],
+      [
+        "bridge",
+        7,
+        8
+      ]
+    ],
+    "spatial relation": [
+      [
+        "near",
+        5,
+        6
+      ],
+      [
+        "on",
+        8,
+        9
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which car park is closest to a bridge on river Exe ?",
+    "triples": [
+      "0 1:t:car park",
+      "0 4:t:bridge",
+      "0 6:n:river Exe",
+      "1 0:num:Which 1:t:car park",
+      "1 1:t:car park 3:r:to 4:t:bridge",
+      "1 4:t:bridge 5:r:on 6:n:river Exe",
+      "2 2:q:closest 3:r:to"
+    ],
+    "code": [
+      "3",
+      "t",
+      "-",
+      ",",
+      "q",
+      "r",
+      ",",
+      "t",
+      "r",
+      "n",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "river Exe",
+        9,
+        11
+      ]
+    ],
+    "place type": [
+      [
+        "car park",
+        1,
+        3
+      ],
+      [
+        "bridge",
+        7,
+        8
+      ]
+    ],
+    "spatial relation": [
+      [
+        "to",
+        5,
+        6
+      ],
+      [
+        "on",
+        8,
+        9
+      ]
+    ],
+    "digit": [],
+    "quality": [
+      [
+        "closest",
+        4,
+        5
+      ]
+    ],
+    "object": []
+  },
+  {
+    "sentence": "Which counties border county Donegal to the south ?",
+    "triples": [
+      "0 1:t:counties",
+      "0 3:n:county Donegal",
+      "1 0:num:Which 1:t:counties",
+      "1 1:t:counties 2:r:border 3:n:county Donegal",
+      "1 1:t:counties 4:r:to the south 3:n:county Donegal"
+    ],
+    "code": [
+      "3",
+      "t",
+      "r",
+      "n",
+      "-",
+      "r",
+      "-",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "county Donegal",
+        3,
+        5
+      ]
+    ],
+    "place type": [
+      [
+        "counties",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "border",
+        2,
+        3
+      ],
+      [
+        "to the south",
+        5,
+        8
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "What is the longest river in England and Wales ?",
+    "triples": [
+      "0 2:t:river",
+      "0 4:n:England",
+      "0 5:n:Wales",
+      "1 0:num:What 2:t:river",
+      "1 1:q:longest 2:t:river",
+      "1 2:t:river 3:r:in 4:n:England"
+    ],
+    "code": [
+      "2",
+      ",",
+      ",",
+      "q",
+      "t",
+      "r",
+      "n",
+      ",",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "What",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "England",
+        6,
+        7
+      ],
+      [
+        "Wales",
+        8,
+        9
+      ]
+    ],
+    "place type": [
+      [
+        "river",
+        4,
+        5
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        5,
+        6
+      ]
+    ],
+    "digit": [],
+    "quality": [
+      [
+        "longest",
+        3,
+        4
+      ]
+    ],
+    "object": []
+  },
+  {
+    "sentence": "Which restaurants in London are near Kensington Palace ?",
+    "triples": [
+      "0 1:t:restaurants",
+      "0 3:n:London",
+      "0 5:n:Kensington Palace",
+      "1 0:num:Which 1:t:restaurants",
+      "1 1:t:restaurants 2:r:in 3:n:London",
+      "1 1:t:restaurants 4:r:near 5:n:Kensington Palace"
+    ],
+    "code": [
+      "3",
+      "t",
+      "r",
+      "n",
+      ",",
+      "r",
+      "n",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "London",
+        3,
+        4
+      ],
+      [
+        "Kensington Palace",
+        6,
+        8
+      ]
+    ],
+    "place type": [
+      [
+        "restaurants",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        2,
+        3
+      ],
+      [
+        "near",
+        5,
+        6
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Is there a forest near Manchester ?",
+    "triples": [
+      "0 0:num:Is there",
+      "0 1:t:forest",
+      "0 3:n:Manchester",
+      "1 1:t:forest 2:r:near 3:n:Manchester"
+    ],
+    "code": [
+      "8",
+      ".",
+      ",",
+      "t",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Is",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Manchester",
+        5,
+        6
+      ]
+    ],
+    "place type": [
+      [
+        "forest",
+        3,
+        4
+      ]
+    ],
+    "spatial relation": [
+      [
+        "near",
+        4,
+        5
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which medieval castles are in Scotland ?",
+    "triples": [
+      "0 2:t:castles",
+      "0 4:n:Scotland",
+      "1 0:num:Which 2:t:castles",
+      "1 1:q:medieval 2:t:castles",
+      "1 2:t:castles 3:r:in 4:n:Scotland"
+    ],
+    "code": [
+      "3",
+      "q",
+      "t",
+      ",",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Scotland",
+        5,
+        6
+      ]
+    ],
+    "place type": [
+      [
+        "castles",
+        2,
+        3
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        4,
+        5
+      ]
+    ],
+    "digit": [],
+    "quality": [
+      [
+        "medieval",
+        1,
+        2
+      ]
+    ],
+    "object": []
+  },
+  {
+    "sentence": "Which provinces of Ireland have population over 2 million ?",
+    "triples": [
+      "0 1:t:provinces",
+      "0 3:n:Ireland",
+      "0 4:s:have",
+      "0 7:d:2 million",
+      "1 0:num:Which 1:t:provinces",
+      "1 1:t:provinces 2:r:of 3:n:Ireland",
+      "1 5:o:population 1:t:provinces",
+      "2 5:o:population 6:q:over 7:d:2 million"
+    ],
+    "code": [
+      "3",
+      "t",
+      "r",
+      "n",
+      "s",
+      "o",
+      "q",
+      "d",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Ireland",
+        3,
+        4
+      ]
+    ],
+    "place type": [
+      [
+        "provinces",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "of",
+        2,
+        3
+      ]
+    ],
+    "digit": [
+      [
+        "2 million",
+        7,
+        9
+      ]
+    ],
+    "quality": [
+      [
+        "over",
+        6,
+        7
+      ]
+    ],
+    "object": [
+      [
+        "population",
+        5,
+        6
+      ]
+    ]
+  },
+  {
+    "sentence": "What London underground stations are closest to the British Museum ?",
+    "triples": [
+      "0 1:n:London",
+      "0 5:n:British Museum",
+      "1 2:t:underground stations 1:n:London",
+      "2 2:t:underground stations 4:r:to 5:n:British Museum",
+      "2 0:num:What 2:t:underground stations",
+      "3 3:q:closest 4:r:to"
+    ],
+    "code": [
+      "2",
+      "n",
+      "t",
+      "-",
+      ",",
+      "q",
+      "r",
+      ",",
+      "n",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "What",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "London",
+        1,
+        2
+      ],
+      [
+        "British Museum",
+        8,
+        10
+      ]
+    ],
+    "place type": [
+      [
+        "underground stations",
+        2,
+        4
+      ]
+    ],
+    "spatial relation": [
+      [
+        "to",
+        6,
+        7
+      ]
+    ],
+    "digit": [],
+    "quality": [
+      [
+        "closest",
+        5,
+        6
+      ]
+    ],
+    "object": []
+  },
+  {
+    "sentence": "What is the most populated city in the United Kingdom except London ?",
+    "triples": [
+      "0 2:t:city",
+      "0 4:n:United Kingdom",
+      "0 6:n:London",
+      "1 0:num:What 2:t:city",
+      "1 1:q:most populated 2:t:city",
+      "1 2:t:city 3:r:in 4:n:United Kingdom",
+      "1 2:t:city 5:no:except 6:n:London"
+    ],
+    "code": [
+      "2",
+      ",",
+      ",",
+      "q",
+      "-",
+      "t",
+      "r",
+      ",",
+      "n",
+      "-",
+      ".",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "What",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "United Kingdom",
+        8,
+        10
+      ],
+      [
+        "London",
+        11,
+        12
+      ]
+    ],
+    "place type": [
+      [
+        "city",
+        5,
+        6
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        6,
+        7
+      ]
+    ],
+    "digit": [],
+    "quality": [
+      [
+        "most populated",
+        3,
+        5
+      ]
+    ],
+    "object": []
+  },
+  {
+    "sentence": "Is the monument of the Great Fire of London east of King WIlliam Street ?",
+    "triples": [
+      "0 0:num:Is",
+      "0 2:o:Great Fire of London",
+      "0 4:n:King WIlliam Street",
+      "1 1:t:monument 2:o:Great Fire of London",
+      "2 1:t:monument 3:r:east of 4:n:King WIlliam Street"
+    ],
+    "code": [
+      "8",
+      ",",
+      "t",
+      ".",
+      ",",
+      "o",
+      "-",
+      "-",
+      "-",
+      "r",
+      "-",
+      "n",
+      "-",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Is",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "King WIlliam Street",
+        11,
+        14
+      ]
+    ],
+    "place type": [
+      [
+        "monument",
+        2,
+        3
+      ]
+    ],
+    "spatial relation": [
+      [
+        "east of",
+        9,
+        11
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": [
+      [
+        "Great Fire of London",
+        5,
+        9
+      ]
+    ]
+  },
+  {
+    "sentence": "Is the Tower of London near river Thames ?",
+    "triples": [
+      "0 0:num:Is",
+      "0 1:n:Tower of London",
+      "0 3:n:river Thames",
+      "1 1:n:Tower of London 2:r:near 3:n:river Thames"
+    ],
+    "code": [
+      "8",
+      ",",
+      "n",
+      "-",
+      "-",
+      "r",
+      "n",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Is",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Tower of London",
+        2,
+        5
+      ],
+      [
+        "river Thames",
+        6,
+        8
+      ]
+    ],
+    "place type": [],
+    "spatial relation": [
+      [
+        "near",
+        5,
+        6
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which bars are near Prince 's street in Edinburgh ?",
+    "triples": [
+      "0 1:t:bars",
+      "0 3:t:Prince 's street",
+      "0 5:n:Edinburgh",
+      "1 0:num:Which 1:t:bars",
+      "1 1:t:bars 2:r:near 3:t:Prince 's street",
+      "1 1:t:bars 4:r:in 5:n:Edinburgh"
+    ],
+    "code": [
+      "3",
+      "t",
+      ",",
+      "r",
+      "t",
+      "-",
+      "-",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Edinburgh",
+        8,
+        9
+      ]
+    ],
+    "place type": [
+      [
+        "bars",
+        1,
+        2
+      ],
+      [
+        "Prince 's street",
+        4,
+        7
+      ]
+    ],
+    "spatial relation": [
+      [
+        "near",
+        3,
+        4
+      ],
+      [
+        "in",
+        7,
+        8
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "What is the most densely populated city in Ireland ?",
+    "triples": [
+      "0 3:t:city",
+      "0 5:n:Ireland",
+      "1 0:num:What 3:t:city",
+      "1 1:q:most densely 3:t:city",
+      "1 2:q:populated 3:t:city",
+      "1 3:t:city 4:r:in 5:n:Ireland"
+    ],
+    "code": [
+      "2",
+      ",",
+      ",",
+      "q",
+      "-",
+      "q",
+      "t",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "What",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Ireland",
+        8,
+        9
+      ]
+    ],
+    "place type": [
+      [
+        "city",
+        6,
+        7
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        7,
+        8
+      ]
+    ],
+    "digit": [],
+    "quality": [
+      [
+        "most densely",
+        3,
+        5
+      ],
+      [
+        "populated",
+        5,
+        6
+      ]
+    ],
+    "object": []
+  },
+  {
+    "sentence": "Does Hammersmith Bridge connect Hammersmith with Barnes ?",
+    "triples": [
+      "0 0:num:Does",
+      "0 1:n:Hammersmith Bridge",
+      "0 3:n:Hammersmith",
+      "0 4:n:Barnes",
+      "1 1:n:Hammersmith Bridge 2:a:connect 3:n:Hammersmith"
+    ],
+    "code": [
+      "8",
+      "n",
+      "-",
+      "a",
+      "n",
+      ".",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Does",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Hammersmith Bridge",
+        1,
+        3
+      ],
+      [
+        "Hammersmith",
+        4,
+        5
+      ],
+      [
+        "Barnes",
+        6,
+        7
+      ]
+    ],
+    "place type": [],
+    "spatial relation": [],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which hotels are near Loch Ness ?",
+    "triples": [
+      "0 1:t:hotels",
+      "0 3:n:Loch Ness",
+      "1 0:num:Which 1:t:hotels",
+      "1 1:t:hotels 2:r:near 3:n:Loch Ness"
+    ],
+    "code": [
+      "3",
+      "t",
+      ",",
+      "r",
+      "n",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Loch Ness",
+        4,
+        6
+      ]
+    ],
+    "place type": [
+      [
+        "hotels",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "near",
+        3,
+        4
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Is there a museum at most 1 km from Liverpool ?",
+    "triples": [
+      "0 0:num:Is there",
+      "0 1:t:museum",
+      "0 3:d:1 km",
+      "0 5:n:Liverpool",
+      "1 5:n:Liverpool 4:r:from 1:t:museum",
+      "2 4:r:from 2:q:at most 3:d:1 km"
+    ],
+    "code": [
+      "8",
+      ".",
+      ",",
+      "t",
+      "q",
+      "-",
+      "d",
+      "-",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Is",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Liverpool",
+        9,
+        10
+      ]
+    ],
+    "place type": [
+      [
+        "museum",
+        3,
+        4
+      ]
+    ],
+    "spatial relation": [
+      [
+        "from",
+        8,
+        9
+      ]
+    ],
+    "digit": [
+      [
+        "1 km",
+        6,
+        8
+      ]
+    ],
+    "quality": [
+      [
+        "at most",
+        4,
+        6
+      ]
+    ],
+    "object": []
+  },
+  {
+    "sentence": "In which part of England is Liverpool located ?",
+    "triples": [
+      "0 2:t:part",
+      "0 4:n:England",
+      "0 5:n:Liverpool",
+      "0 6:s:located",
+      "1 5:n:Liverpool 0:r:In 2:t:part",
+      "1 1:num:which 2:t:part",
+      "1 2:t:part 3:r:of 4:n:England"
+    ],
+    "code": [
+      "r",
+      "3",
+      "t",
+      "r",
+      "n",
+      ",",
+      "n",
+      "s",
+      "."
+    ],
+    "question word": [
+      [
+        "which",
+        1,
+        2
+      ]
+    ],
+    "place name": [
+      [
+        "England",
+        4,
+        5
+      ],
+      [
+        "Liverpool",
+        6,
+        7
+      ]
+    ],
+    "place type": [
+      [
+        "part",
+        2,
+        3
+      ]
+    ],
+    "spatial relation": [
+      [
+        "In",
+        0,
+        1
+      ],
+      [
+        "of",
+        3,
+        4
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which city in Scotland has the largest population ?",
+    "triples": [
+      "0 1:t:city",
+      "0 3:n:Scotland",
+      "0 4:s:has",
+      "1 0:num:Which 1:t:city",
+      "1 1:t:city 2:r:in 3:n:Scotland",
+      "1 6:o:population 1:t:city",
+      "2 5:q:largest 6:o:population"
+    ],
+    "code": [
+      "3",
+      "t",
+      "r",
+      "n",
+      "s",
+      ",",
+      "q",
+      "o",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Scotland",
+        3,
+        4
+      ]
+    ],
+    "place type": [
+      [
+        "city",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        2,
+        3
+      ]
+    ],
+    "digit": [],
+    "quality": [
+      [
+        "largest",
+        6,
+        7
+      ]
+    ],
+    "object": [
+      [
+        "population",
+        7,
+        8
+      ]
+    ]
+  },
+  {
+    "sentence": "Is Glasgow the largest city of Scotland in terms of population ?",
+    "triples": [
+      "0 0:num:Is",
+      "0 1:n:Glasgow",
+      "0 5:n:Scotland",
+      "1 3:t:city 1:n:Glasgow",
+      "1 6:o:population 1:n:Glasgow",
+      "2 3:t:city 4:r:of 5:n:Scotland",
+      "2 2:q:largest 6:o:population"
+    ],
+    "code": [
+      "8",
+      "n",
+      ",",
+      "q",
+      "t",
+      "r",
+      "n",
+      ".",
+      ".",
+      ".",
+      "o",
+      "."
+    ],
+    "question word": [
+      [
+        "Is",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Glasgow",
+        1,
+        2
+      ],
+      [
+        "Scotland",
+        6,
+        7
+      ]
+    ],
+    "place type": [
+      [
+        "city",
+        4,
+        5
+      ]
+    ],
+    "spatial relation": [
+      [
+        "of",
+        5,
+        6
+      ]
+    ],
+    "digit": [],
+    "quality": [
+      [
+        "largest",
+        3,
+        4
+      ]
+    ],
+    "object": [
+      [
+        "population",
+        10,
+        11
+      ]
+    ]
+  },
+  {
+    "sentence": "What is the distance between Liverpool and Glasgow ?",
+    "triples": [
+      "0 3:n:Liverpool",
+      "0 4:n:Glasgow",
+      "1 3:n:Liverpool 2:r:between 4:n:Glasgow",
+      "2 1:o:distance 2:r:between",
+      "3 0:num:What 1:o:distance"
+    ],
+    "code": [
+      "2",
+      ",",
+      ",",
+      "o",
+      "r",
+      "n",
+      ",",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "What",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Liverpool",
+        5,
+        6
+      ],
+      [
+        "Glasgow",
+        7,
+        8
+      ]
+    ],
+    "place type": [],
+    "spatial relation": [
+      [
+        "between",
+        4,
+        5
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": [
+      [
+        "distance",
+        3,
+        4
+      ]
+    ]
+  },
+  {
+    "sentence": "Is Liverpool part of Scotland ?",
+    "triples": [
+      "0 0:num:Is",
+      "0 1:n:Liverpool",
+      "0 3:n:Scotland",
+      "1 1:n:Liverpool 2:r:part of 3:n:Scotland"
+    ],
+    "code": [
+      "8",
+      "n",
+      "r",
+      "-",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Is",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Liverpool",
+        1,
+        2
+      ],
+      [
+        "Scotland",
+        4,
+        5
+      ]
+    ],
+    "place type": [],
+    "spatial relation": [
+      [
+        "part of",
+        2,
+        4
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "In what county is Stonehenge located ?",
+    "triples": [
+      "0 2:t:county",
+      "0 3:n:Stonehenge",
+      "0 4:s:located",
+      "1 3:n:Stonehenge 0:r:In 2:t:county",
+      "1 1:num:what 2:t:county"
+    ],
+    "code": [
+      "r",
+      "2",
+      "t",
+      ",",
+      "n",
+      "s",
+      "."
+    ],
+    "question word": [
+      [
+        "what",
+        1,
+        2
+      ]
+    ],
+    "place name": [
+      [
+        "Stonehenge",
+        4,
+        5
+      ]
+    ],
+    "place type": [
+      [
+        "county",
+        2,
+        3
+      ]
+    ],
+    "spatial relation": [
+      [
+        "In",
+        0,
+        1
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which rivers discharge into the Solway Firth ?",
+    "triples": [
+      "0 1:t:rivers",
+      "0 3:n:Solway Firth",
+      "1 0:num:Which 1:t:rivers",
+      "1 1:t:rivers 2:a:discharge into 3:n:Solway Firth"
+    ],
+    "code": [
+      "3",
+      "t",
+      "a",
+      "-",
+      ",",
+      "n",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Solway Firth",
+        5,
+        7
+      ]
+    ],
+    "place type": [
+      [
+        "rivers",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which museums are within 3 km of Saint George 's hotel in London ?",
+    "triples": [
+      "0 1:t:museums",
+      "0 3:d:3 km",
+      "0 5:n:Saint George 's hotel",
+      "0 7:n:London",
+      "1 0:num:Which 1:t:museums",
+      "1 5:n:Saint George 's hotel 4:r:of 1:t:museums",
+      "1 1:t:museums 6:r:in 7:n:London",
+      "2 4:r:of 2:r:within 3:d:3 km"
+    ],
+    "code": [
+      "3",
+      "t",
+      ",",
+      "r",
+      "d",
+      "-",
+      "r",
+      "n",
+      "-",
+      "-",
+      "-",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Saint George 's hotel",
+        7,
+        11
+      ],
+      [
+        "London",
+        12,
+        13
+      ]
+    ],
+    "place type": [
+      [
+        "museums",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "within",
+        3,
+        4
+      ],
+      [
+        "of",
+        6,
+        7
+      ],
+      [
+        "in",
+        11,
+        12
+      ]
+    ],
+    "digit": [
+      [
+        "3 km",
+        4,
+        6
+      ]
+    ],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Is there a forest in county Cheshire ?",
+    "triples": [
+      "0 0:num:Is there",
+      "0 1:t:forest",
+      "0 3:n:county Cheshire",
+      "1 1:t:forest 2:r:in 3:n:county Cheshire"
+    ],
+    "code": [
+      "8",
+      ".",
+      ",",
+      "t",
+      "r",
+      "n",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Is",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "county Cheshire",
+        5,
+        7
+      ]
+    ],
+    "place type": [
+      [
+        "forest",
+        3,
+        4
+      ]
+    ],
+    "spatial relation": [
+      [
+        "in",
+        4,
+        5
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which art museums are at most 1 km from Charlotte Square in Edinburgh ?",
+    "triples": [
+      "0 1:t:art museums",
+      "0 3:d:1 km",
+      "0 5:n:Charlotte Square",
+      "0 7:n:Edinburgh",
+      "1 0:num:Which 1:t:art museums",
+      "1 5:n:Charlotte Square 4:r:from 1:t:art museums",
+      "1 1:t:art museums 6:r:in 7:n:Edinburgh",
+      "2 4:r:from 2:q:at most 3:d:1 km"
+    ],
+    "code": [
+      "3",
+      "t",
+      "-",
+      ",",
+      "q",
+      "-",
+      "d",
+      "-",
+      "r",
+      "n",
+      "-",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "Charlotte Square",
+        9,
+        11
+      ],
+      [
+        "Edinburgh",
+        12,
+        13
+      ]
+    ],
+    "place type": [
+      [
+        "art museums",
+        1,
+        3
+      ]
+    ],
+    "spatial relation": [
+      [
+        "from",
+        8,
+        9
+      ],
+      [
+        "in",
+        11,
+        12
+      ]
+    ],
+    "digit": [
+      [
+        "1 km",
+        6,
+        8
+      ]
+    ],
+    "quality": [
+      [
+        "at most",
+        4,
+        6
+      ]
+    ],
+    "object": []
+  },
+  {
+    "sentence": "How many rivers cross Edinburgh ?",
+    "triples": [
+      "0 1:t:rivers",
+      "0 3:n:Edinburgh",
+      "1 0:num:How many 1:t:rivers",
+      "1 1:t:rivers 2:r:cross 3:n:Edinburgh"
+    ],
+    "code": [
+      "5",
+      "-",
+      "t",
+      "r",
+      "n",
+      "."
+    ],
+    "question word": [
+      [
+        "How many",
+        0,
+        2
+      ]
+    ],
+    "place name": [
+      [
+        "Edinburgh",
+        4,
+        5
+      ]
+    ],
+    "place type": [
+      [
+        "rivers",
+        2,
+        3
+      ]
+    ],
+    "spatial relation": [
+      [
+        "cross",
+        3,
+        4
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "How many counties does the river Thames cross ?",
+    "triples": [
+      "0 1:t:counties",
+      "0 2:n:river Thames",
+      "1 0:num:How many 1:t:counties",
+      "1 2:n:river Thames 3:r:cross 1:t:counties"
+    ],
+    "code": [
+      "5",
+      "-",
+      "t",
+      ",",
+      ",",
+      "n",
+      "-",
+      "r",
+      "."
+    ],
+    "question word": [
+      [
+        "How many",
+        0,
+        2
+      ]
+    ],
+    "place name": [
+      [
+        "river Thames",
+        5,
+        7
+      ]
+    ],
+    "place type": [
+      [
+        "counties",
+        2,
+        3
+      ]
+    ],
+    "spatial relation": [
+      [
+        "cross",
+        7,
+        8
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which rivers cross county Cheshire ?",
+    "triples": [
+      "0 1:t:rivers",
+      "0 3:n:county Cheshire",
+      "1 0:num:Which 1:t:rivers",
+      "1 1:t:rivers 2:r:cross 3:n:county Cheshire"
+    ],
+    "code": [
+      "3",
+      "t",
+      "r",
+      "n",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "county Cheshire",
+        3,
+        5
+      ]
+    ],
+    "place type": [
+      [
+        "rivers",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "cross",
+        2,
+        3
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Which county is east of county Dorset ?",
+    "triples": [
+      "0 1:t:county",
+      "0 3:n:county Dorset",
+      "1 0:num:Which 1:t:county",
+      "1 1:t:county 2:r:east of 3:n:county Dorset"
+    ],
+    "code": [
+      "3",
+      "t",
+      ",",
+      "r",
+      "-",
+      "n",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Which",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "county Dorset",
+        5,
+        7
+      ]
+    ],
+    "place type": [
+      [
+        "county",
+        1,
+        2
+      ]
+    ],
+    "spatial relation": [
+      [
+        "east of",
+        3,
+        5
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  },
+  {
+    "sentence": "Is there a river that crosses county Greater Manchester ?",
+    "triples": [
+      "0 0:num:Is there",
+      "0 1:t:river",
+      "0 3:n:county Greater Manchester",
+      "1 1:t:river 2:r:crosses 3:n:county Greater Manchester"
+    ],
+    "code": [
+      "8",
+      ".",
+      ",",
+      "t",
+      ".",
+      "r",
+      "n",
+      "-",
+      "-",
+      "."
+    ],
+    "question word": [
+      [
+        "Is",
+        0,
+        1
+      ]
+    ],
+    "place name": [
+      [
+        "county Greater Manchester",
+        6,
+        9
+      ]
+    ],
+    "place type": [
+      [
+        "river",
+        3,
+        4
+      ]
+    ],
+    "spatial relation": [
+      [
+        "crosses",
+        5,
+        6
+      ]
+    ],
+    "digit": [],
+    "quality": [],
+    "object": []
+  }
+]

@@ -1,0 +1,200 @@
+1	1	How many hospitals are there in Oxford?
+3	2	How many pharmacies are in 200 meter radius of High Street in Oxford?
+13	3	Which is the closest airport to London?
+15	4	How many underground lines does London have?
+16	5	Which restaurants are near Edinburgh Castle?
+17	6	Which hotels are near Big Ben?
+18	7	How many counties does England have?
+19	8	Does England have more counties than Ireland?
+22	9	Which airports are in Ireland?
+24	10	Which restaurants are close to London Bridge?
+25	11	Is the Castle of Edinburgh less than 2km away from Calton Hill?
+26	12	Which hospitals are close to Stirling Castle?
+27	13	Is there any hospital in a range of 1 km from Jubilee Gardens in London?
+28	14	Where is the closest market to Elephant and Castle underground station?
+31	15	Which is the highest point in Cheshire?
+36	16	Which counties border county Lincolnshire?
+38	17	Which is the largest lake in England?
+39	18	Which is the highest building in London?
+42	19	Where is Loch Goil located?
+43	20	Which theaters are near Trafalgar Square?
+44	21	Which airports are in London?
+45	22	Which bridges cross River Thames?
+46	23	Through which cities does River Thames flow?
+48	24	Which universities are in England?
+49	25	Which is the highest mountain in Ireland?
+50	26	Which rivers are in Great Britain?
+51	27	Which mountains are in Scotland?
+52	28	What is the name of Britain's longest river?
+56	29	Which airports are in the city of Salford?
+57	30	Where is Elizabeth Tower located?
+59	31	What is the number of universities in London?
+60	32	Where is a car park near Big Ben?
+61	33	Which pubs in Manchester are near the Old Trafford stadium?
+64	34	Which rivers are in Wales?
+65	35	Is there a river that crosses Manchester?
+66	36	Which rivers cross Derry?
+67	37	Which counties of Scotland border England?
+68	38	Which Scottish counties border England?
+69	39	Which is the total area of Northern Ireland?
+70	40	Where is Nelson's Column located?
+71	41	Is there a car park at most 1km from Waterloo Bridge?
+72	42	Is the county of Antrim bigger than the county of Armagh?
+73	43	Does the county of Durham border Essex?
+76	44	Where is Trafalgar square located?
+78	45	Where is Emirates Stadium located?
+79	46	Which cities in England have at least 2 castles?
+80	47	Are the cities that River Thames crosses more than 10?
+92	48	Which castles are in the Highland council area of Scotland?
+98	49	Which restaurants are at most 1km away from Big Ben?
+100	50	Are there any rivers that cross both England and Wales?
+101	51	How many are the counties of England?
+102	52	Which is the biggest county council in the Republic of Ireland?
+171	53	Which county of England occupies the largest area?
+172	54	Which is the smallest lake in Scotland?
+106	55	Is county Oxfordshire east of the county Essex?
+107	56	What is the longest bridge in Scotland?
+109	57	Is there a national park near York?
+112	58	Which pubs in Dublin are near Guinness Brewery?
+113	59	Which hospital is nearest to Calton Hill in Edinburgh?
+114	60	Which cafes in Manchester are near Piccadilly Gardens?
+115	61	Which hospitals in Liverpool are near Abercromby Square?
+116	62	Which pubs in Liverpool are at most 2km from Anfield stadium?
+117	63	Which hotels in Manchester are near Wharfside Way?
+118	64	Which cafes in London are at most 3 km from St. Anthony the Great and St. John the Baptist church?
+119	65	Which pubs in Liverpool are near Anfield stadium?
+120	66	Which county is west of South Yorkshire?
+205	67	Which department stores are  at most 2km from Central Park hotel in London?
+287	68	Which hotels are in England's capital?
+123	69	Where can I find a car park in Bristol?
+124	70	Which football stadium has the biggest capacity in Ireland?
+125	71	Which city of England is nearest to London?
+126	72	Which hotel is the nearest to Old Trafford Stadium in Manchester?
+209	73	Which universities are in county Essex?
+129	74	Is there a forest in Lancashire north of Burnley?
+130	75	Which villages are in Herefordshire?
+211	76	Is there a church at most 2km from the University of Westminster?
+212	77	Is there a county of England that borders the Isle of Wight?
+214	78	How many mountains are there in Scotland?
+137	79	Which site of Manchester is the most popular?
+138	80	Is there a church in the county of Greater Manchester dedicated to St. Patrick?
+140	81	Which city is southeast of Salford?
+141	82	Is there a mountain in the county of Greater Manchester taller than 1300 meters above sea level?
+143	83	Is there a river in Ireland that crosses more than 3 cities?
+145	84	Which university colleges are in Scotland?
+146	85	Which mountains in Scotland have height more than 1000 meters?
+147	86	Which villages in Scotland have a population of less than 500 people?
+148	87	In which city is Big Ben located?
+149	88	What's the name of the river that runs through London?
+150	89	Is there a Modern Art Museum in London?
+153	90	Which county of England has the biggest population?
+155	91	How many cities does Thames river crosses?
+158	92	Through which cities does River Thames flow?
+160	93	Does the distric of Coleraine border Belfast?
+161	94	Which districts border London?
+162	95	Is there a train station in Dublin?
+163	96	Which forests are in Northern Ireland?
+166	97	Which are the metropolitan counties of England?
+167	98	Which is the largest royal borough of London?
+168	99	Which Welsh district has the most adjacent Welsh districts?
+170	100	What is the name of the river that flows under the Queensway Bridge in Liverpool?
+177	101	Is there a castle in London near Trafalgar Square?
+179	102	Is there a park in Dublin near Grafton Street?
+175	103	Is Hampshire north of Berkshire?
+178	104	Which counties of England border country Scotland?
+180	105	Is Trafalgar square located in London?
+181	106	Which is the oldest bridge of London?
+182	107	Is there any airfield in Wellesbourne village in England?
+184	108	How many parks are there in Northampton?
+185	109	Is there any stadium in Cardiff?
+187	110	Is there an aerodrome in Essex?
+188	111	Which aerodrome is in Essex?
+190	112	Which aerodromes are at most 50km from London?
+191	113	Is Somerset west of Westmorland?
+192	114	Is Edinburgh west of Glasgow?
+193	115	How many rivers cross the county West Yorkshire?
+194	116	How many cities does Merseyside have?
+195	117	Is there an airport in Dublin?
+197	118	Which are the counties of Northern Ireland?
+199	119	What historic buildings are in Buckinghamshire?
+200	120	Which Greek restaurants in London are near Wembley stadium?
+201	121	Is there a National Park in England?
+202	122	Is there a mountain in Merseyside?
+203	123	Which town has the biggest population in Scotland?
+239	124	Where is the nearest gas station to St. Peter's Square in Manchester?
+240	125	Does county Suffolk border county Durham?
+241	126	Which counties of Ireland does River Shannon cross?
+242	127	Is Cavan a county of Ireland?
+244	128	Which restaurants are at most 500m from the University of Liverpool?
+245	129	Which restaurants are near Baker Street in London?
+246	130	Which lakes are in Ireland?
+247	131	Which parks are near Trafalgar Square?
+248	132	Which countries border Wales?
+249	133	Are there cities that are at most 2km away from St. David's in Wales?
+250	134	Which river crosses the most cities in England?
+252	135	Which is the longest river in Scotland?
+253	136	Which city in Scotland has the largest population?
+254	137	Which is the largest lake by area in Great Britain?
+255	138	Is England part of the United Kingdom ?
+256	139	Which cities or towns of the United Kingdom have a university?
+257	140	Does Everton FC plays in Liverpool?
+258	141	Which towns of England have at least two hospitals?
+262	142	Is Alnwick Castle in Scotland?
+264	143	Which is the largest city of Ireland?
+265	144	How many country councils are there in Ireland?
+266	145	Which colleges are in London?
+268	146	Which city council includes Dublin?
+269	147	Which restaurants are near Stonehenge?
+270	148	How many districts does Northern Ireland have?
+271	149	Which are the non-metropolitan counties of England?
+272	150	What tourist attractions are there in Belfast, Northern Ireland?
+273	151	Which pubs are near Mercure Hotel in Glasgow, Scotland?
+274	152	Which are the main railway stations in Glasgow, Scotland?
+275	153	Are there more than 10 districts in Hampshire, England?
+276	154	Is there a mountain within 20km of Cheshire?
+277	155	What historical monuments are there in London?
+278	156	Which rivers in Scotland have more than 100 km length?
+281	157	What is the elevation of the most elevated spot in county Down?
+282	158	What is the area of county Chesire?
+283	159	Which are the districts of county Chesire?
+284	160	Which is the largest county of England?
+285	161	What is the length of river Thames?
+286	162	Where is Tower Bridge located?
+290	163	Does London have a mountain?
+291	164	How many rivers cross England's cities?
+299	165	Is London south of Manchester?
+302	167	Is Islington near Angel?
+304	168	Is the City of London north of the Thames river?
+216	169	Are there any lakes in Scotland?
+308	170	Is there a car park near a bridge on river Exe?
+309	171	Which car park is closest to a bridge on river Exe?
+310	172	Which counties border county Donegal to the south?
+215	173	What is the longest river in England and Wales?
+312	174	Which restaurants in London are near Kensington Palace?
+218	175	Is there a forest near Manchester?
+315	176	Which medieval castles are in Scotland?
+316	177	Which provinces of Ireland have population over 2 million?
+317	178	What London underground stations are closest to the British Museum?
+219	179	What is the most populated city in the United Kingdom except London?
+319	180	Is the monument of the Great Fire of London east of King WIlliam Street?
+320	181	Is the Tower of London near river Thames?
+220	182	Which bars are near Prince's street in Edinburgh?
+221	183	What is the most densely populated city in Ireland?
+323	184	Does Hammersmith Bridge connect Hammersmith with Barnes?
+222	185	Which hotels are near Loch Ness?
+325	186	Is there a museum at most 1km from Liverpool?
+326	187	In which part of England is Liverpool located?
+327	188	Which city in Scotland has the largest population?
+328	189	Is Glasgow the largest city of Scotland in terms of population?
+329	190	What is the distance between Liverpool and Glasgow?
+330	191	Is Liverpool part of Scotland?
+225	192	In what county is Stonehenge located?
+332	193	Which rivers discharge into the Solway Firth?
+333	194	Which museums are within 3km of Saint George's hotel in London?
+234	195	Is there a forest in county Cheshire?
+335	196	Which art museums are at most 1km from Charlotte Square in Edinburgh?
+337	197	How many rivers cross Edinburgh?
+232	198	How many counties does the river Thames cross?
+237	199	Which rivers cross county Cheshire?
+235	200	Which county is east of county Dorset?
+236	201	Is there a river that crosses county Greater Manchester?
